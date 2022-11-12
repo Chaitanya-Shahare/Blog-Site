@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web development on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/web-development/</link>
+    <description>Recent content in web development on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Mon, 24 Oct 2022 23:07:10 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add social media preview (WhatsApp card) to your website</title>
+      <link>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</link>
+      <pubDate>Mon, 24 Oct 2022 23:07:10 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</guid>
+      <description>You might have come across some websites that when shared on social media platforms like Twitter &amp;amp; WhatsApp shows a preview card of the website which typically includes an image and a short description of the page. This is accomplished with the use of OpenGraph protocol. This is used to add meta data to your websites.
+How to add social media previewThis is done by adding OpenGraph meta tags to the &amp;lt;head&amp;gt; tag of the HTML file.</description>
+    </item>
+    
+  </channel>
+</rss>
