@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 24 Oct 2022 23:07:10 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 12:40:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Vim Is Just Better</title>
+      <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
+      <pubDate>Sun, 13 Nov 2022 12:40:47 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</guid>
+      <description>Why I think Vim is just better What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.
+Vim features Its memory footprint is very low and is a terminal app. It is command centric.</description>
+    </item>
+    
     <item>
       <title>How to add social media preview (WhatsApp card) to your website</title>
       <link>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</link>

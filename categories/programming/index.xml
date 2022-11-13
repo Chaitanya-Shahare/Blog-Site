@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/categories/programming/</link>
+    <description>Recent content in programming on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Sun, 13 Nov 2022 12:40:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Vim Is Just Better</title>
+      <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
+      <pubDate>Sun, 13 Nov 2022 12:40:47 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</guid>
+      <description>Why I think Vim is just better What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.
+Vim features Its memory footprint is very low and is a terminal app. It is command centric.</description>
+    </item>
+    
+  </channel>
+</rss>
