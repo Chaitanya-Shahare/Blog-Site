@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 13 Nov 2022 12:40:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Nov 2022 10:38:55 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vscode Like Live Server for Terminal</title>
+      <link>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</link>
+      <pubDate>Tue, 15 Nov 2022 10:38:55 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</guid>
+      <description>What is Live Server?Live Server lets the user to see the real time changes done in .html files in a browser.
+Live Server in VS CodeIn Visual Studio Code, there&amp;rsquo;s a plugin &amp;lsquo;Live Server&amp;rsquo; which let&amp;rsquo;s the user host a local live server to see the changes in there html project.
+live-serverlive-server is an npm package which basically sets up a live server.
+RequirementsMust have node &amp;amp; npm installed.
+InstallationRun the following command in the terminal.</description>
+    </item>
+    
     <item>
       <title>Why Vim Is Just Better</title>
       <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
