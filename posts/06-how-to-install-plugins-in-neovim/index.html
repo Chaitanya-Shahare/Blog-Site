@@ -11,24 +11,24 @@
     
   
 
-  <title>Vscode Like Live Server for Terminal | Chaitanya&#39;s blog</title>
+  <title>How to Install Plugins in Neovim | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="How to install and use live server for neovim/vim or other code editor for website develoment.">
+  <meta name="description" content="Using &#39;vim-plug&#39; to install plugins in Neovim">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Vscode Like Live Server for Terminal"/>
-<meta name="twitter:description" content="How to install and use live server for neovim/vim or other code editor for website develoment."/>
+<meta name="twitter:title" content="How to Install Plugins in Neovim"/>
+<meta name="twitter:description" content="Using &#39;vim-plug&#39; to install plugins in Neovim"/>
 
-  <meta property="og:title" content="Vscode Like Live Server for Terminal" />
-<meta property="og:description" content="How to install and use live server for neovim/vim or other code editor for website develoment." />
+  <meta property="og:title" content="How to Install Plugins in Neovim" />
+<meta property="og:description" content="Using &#39;vim-plug&#39; to install plugins in Neovim" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-15T10:38:55+05:30" />
-<meta property="article:modified_time" content="2022-11-15T10:38:55+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-20T10:52:27+05:30" />
+<meta property="article:modified_time" content="2022-11-20T10:52:27+05:30" />
 
 
 
@@ -186,7 +186,7 @@
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/04-vscode-like-live-server-for-terminal/header-img.gif');
+    background-image: url('/images/posts/06-how-to-install-plugins-in-neovim/neovim.png');
   }
 </style>
 
@@ -199,18 +199,14 @@
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/vim/" title="vim">vim</a>
-            
             <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
             
-            <a class="tag" href="/tags/web-development/" title="web development">web development</a>
-            
           </div>
-          <h1>Vscode Like Live Server for Terminal</h1>
+          <h1>How to Install Plugins in Neovim</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Tue, Nov 15, 2022
+            on Sun, Nov 20, 2022
           </span>
         </div>
       </div>
@@ -231,38 +227,80 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <h2 id="what-is-live-server">What is Live Server?<a class="anchorjs-link" href="#what-is-live-server"></a></h2><p>Live Server lets the user to see the real time changes done in .html files in a browser.</p>
-<h2 id="live-server-in-vs-code">Live Server in VS Code<a class="anchorjs-link" href="#live-server-in-vs-code"></a></h2><p>In Visual Studio Code, there&rsquo;s a plugin &lsquo;Live Server&rsquo; which let&rsquo;s the user host a local live server
-to see the changes in there html project.</p>
-<h2 id="live-server">live-server<a class="anchorjs-link" href="#live-server"></a></h2><p>live-server is an <code>npm</code> package which basically sets up a live server.</p>
-<h2 id="requirements">Requirements<a class="anchorjs-link" href="#requirements"></a></h2><p>Must have <code>node</code> &amp; <code>npm</code> installed.</p>
-<h2 id="installation">Installation<a class="anchorjs-link" href="#installation"></a></h2><p>Run the following command in the terminal.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ npm i -g live-server;
-</span></span></code></pre></div><h2 id="usage">Usage<a class="anchorjs-link" href="#usage"></a></h2><p>You can use live-server for a specific html file like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ live-server file.html
-</span></span></code></pre></div><p>or on an entire directory</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ live-server directory/
-</span></span></code></pre></div><p>or cd into the directory and use</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ live-server . 
-</span></span></code></pre></div>
+        <p>We are going to use a plugin manager <strong>&lsquo;vim-plug&rsquo;</strong>
+for installing &amp; managing plugins in neovim.</p>
+<p>The following tutorial is for <strong>Neovim</strong> &amp; not for <strong>Vim</strong>.</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/06-how-to-install-plugins-in-neovim/installer.gif" data-action="zoom" alt="Vim-Plug plugin installation gif preview"  class="lazyload">
+  </a>
+  
+</figure></p>
+<h2 id="create-config">Create Config<a class="anchorjs-link" href="#create-config"></a></h2><p>Create a directory for Neovim config if not already</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>mkdir ~/.config/nvim
+</span></span></code></pre></div><p>Create an <code>init.vim</code> file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>touch ~/.config/nvim/init.vim
+</span></span></code></pre></div><h2 id="vim-plug-installation">Vim-plug installation<a class="anchorjs-link" href="#vim-plug-installation"></a></h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</span></span></code></pre></div><h2 id="create-a-file-for-plugins">Create a file for plugins<a class="anchorjs-link" href="#create-a-file-for-plugins"></a></h2><p>Create a new file <code>plugins.vim</code> for organisation.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>mkdir ~/.config/nvim/vim-plug
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>touch ~/.config/nvim/vim-plug/plugins.vim
+</span></span></code></pre></div><h2 id="adding-plugins">Adding plugins<a class="anchorjs-link" href="#adding-plugins"></a></h2><p>Add the following to <code>~/.config/nvim/vim-plug/plugins.vim</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&#34; auto-install vim-plug
+</span></span><span style="display:flex;"><span>if empty(glob(&#39;~/.config/nvim/autoload/plug.vim&#39;))
+</span></span><span style="display:flex;"><span>  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+</span></span><span style="display:flex;"><span>    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</span></span><span style="display:flex;"><span>  &#34;autocmd VimEnter * PlugInstall
+</span></span><span style="display:flex;"><span>  &#34;autocmd VimEnter * PlugInstall | source $MYVIMRC
+</span></span><span style="display:flex;"><span>endif
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>call plug#begin(&#39;~/.config/nvim/autoload/plugged&#39;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    &#34; Better Syntax Support
+</span></span><span style="display:flex;"><span>    Plug &#39;sheerun/vim-polyglot&#39;
+</span></span><span style="display:flex;"><span>    &#34; File Explorer
+</span></span><span style="display:flex;"><span>    Plug &#39;scrooloose/NERDTree&#39;
+</span></span><span style="display:flex;"><span>    &#34; Auto pairs for &#39;(&#39; &#39;[&#39; &#39;{&#39;
+</span></span><span style="display:flex;"><span>    Plug &#39;jiangmiao/auto-pairs&#39;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>call plug#end()
+</span></span></code></pre></div><p>We are adding 3 plugins they are optional but copy the rest of the snippet.</p>
+<p>To add a new plugin add between <code>call plug#begin()</code> &amp; <code>call plug#end()</code> in the following Syntax</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>	&#34; Comment for the plugin
+</span></span><span style="display:flex;"><span>	Plug &#39;author/plugin-name&#39;
+</span></span></code></pre></div><h2 id="source-pluginsvim">Source plugins.vim<a class="anchorjs-link" href="#source-pluginsvim"></a></h2><p>To source plugins.vim to init.vim
+add the following to <code>init.vim</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>source $HOME/.config/nvim/vim-plug/plugins.vim
+</span></span></code></pre></div><h2 id="vim-plug-commands">Vim-plug commands<a class="anchorjs-link" href="#vim-plug-commands"></a></h2><p>Open <code>nvim</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nvim
+</span></span></code></pre></div><h3 id="plugin-status">Plugin Status<a class="anchorjs-link" href="#plugin-status"></a></h3><p>Check the status of your plugins</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>:PlugStatus
+</span></span></code></pre></div><h3 id="installing-plugins">Installing Plugins<a class="anchorjs-link" href="#installing-plugins"></a></h3><p>Install all plugins</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>:PlugInstall
+</span></span></code></pre></div><h3 id="updating-plugins">Updating Plugins<a class="anchorjs-link" href="#updating-plugins"></a></h3><p>To update your plugins</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>:PlugUpdate
+</span></span></code></pre></div><h3 id="removing-plugins">Removing Plugins<a class="anchorjs-link" href="#removing-plugins"></a></h3><p>To remove plugins</p>
+<ol>
+<li>Remove the plugin from plugins.Vim</li>
+<li>Use the following commands</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>:PlugClean
+</span></span></code></pre></div><h2 id="references">References<a class="anchorjs-link" href="#references"></a></h2><ul>
+<li><a href="https://github.com/junegunn/vim-plug" target="_blank">vim-plug GitHub README</a></li>
+<li><a href="https://youtu.be/QB9V__3VO2s" target="_blank">Neovim - Installing Plugins with Vim-Plug</a></li>
+</ul>
+
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/03-why-vim-is-just-better/" data-toggle="tooltip" data-placement="top" title="Why Vim Is Just Better">
+            <a href="/posts/04-vscode-like-live-server-for-terminal/" data-toggle="tooltip" data-placement="top" title="Vscode Like Live Server for Terminal">
               Previous<br>
-              <span>Why Vim Is Just Better</span>
+              <span>Vscode Like Live Server for Terminal</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/06-how-to-install-plugins-in-neovim/" data-toggle="tooltip" data-placement="top" title="How to Install Plugins in Neovim">
-              Next<br>
-              <span>How to Install Plugins in Neovim</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

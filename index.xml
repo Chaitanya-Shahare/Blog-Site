@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 15 Nov 2022 10:38:55 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 10:52:27 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Plugins in Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</link>
+      <pubDate>Sun, 20 Nov 2022 10:52:27 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</guid>
+      <description>We are going to use a plugin manager &amp;lsquo;vim-plug&amp;rsquo; for installing &amp;amp; managing plugins in neovim.
+The following tutorial is for Neovim &amp;amp; not for Vim.
+Create ConfigCreate a directory for Neovim config if not already
+mkdir ~/.config/nvim Create an init.vim file
+touch ~/.config/nvim/init.vim Vim-plug installationcurl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Create a file for pluginsCreate a new file plugins.vim for organisation.
+mkdir ~/.config/nvim/vim-plug touch ~/.config/nvim/vim-plug/plugins.vim Adding pluginsAdd the following to ~/.</description>
+    </item>
+    
     <item>
       <title>Vscode Like Live Server for Terminal</title>
       <link>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</link>
