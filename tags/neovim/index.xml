@@ -35,5 +35,15 @@ RequirementsMust have node &amp;amp; npm installed.
 InstallationRun the following command in the terminal.</description>
     </item>
     
+    <item>
+      <title>Why Vim Is Just Better</title>
+      <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
+      <pubDate>Sun, 13 Nov 2022 12:40:47 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</guid>
+      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.
+Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
+    </item>
+    
   </channel>
 </rss>
