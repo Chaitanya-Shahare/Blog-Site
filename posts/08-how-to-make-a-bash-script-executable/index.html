@@ -11,29 +11,35 @@
     
   
 
-  <title>Why Vim Is Just Better | Chaitanya&#39;s blog</title>
+  <title>How to Make a Bash Script Executable | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="What is Vim?According to the Vim&rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.">
+  <meta name="description" content="Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
+To run a bash script you need to use the following command syntax in the command line:
+sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
+1. Add approriate shebangFor bash add the following shebang at the top of the script">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/08-how-to-make-a-bash-script-executable/08-bash-banner-3.png"/>
 
-<meta name="twitter:title" content="Why Vim Is Just Better"/>
-<meta name="twitter:description" content="What is Vim?According to the Vim&rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands."/>
+<meta name="twitter:title" content="How to Make a Bash Script Executable"/>
+<meta name="twitter:description" content="Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
+To run a bash script you need to use the following command syntax in the command line:
+sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
+1. Add approriate shebangFor bash add the following shebang at the top of the script"/>
 
-  <meta property="og:title" content="Why Vim Is Just Better" />
-<meta property="og:description" content="What is Vim?According to the Vim&rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands." />
+  <meta property="og:title" content="How to Make a Bash Script Executable" />
+<meta property="og:description" content="Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
+To run a bash script you need to use the following command syntax in the command line:
+sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
+1. Add approriate shebangFor bash add the following shebang at the top of the script" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/" /><meta property="og:image" content="https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-13T12:40:47+05:30" />
-<meta property="article:modified_time" content="2022-11-13T12:40:47+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/08-how-to-make-a-bash-script-executable/08-bash-banner-3.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-22T12:31:37+05:30" />
+<meta property="article:modified_time" content="2022-11-22T12:31:37+05:30" />
 
 
 
@@ -191,7 +197,7 @@ Vim features Its memory footprint is very low and is a terminal app. It is comma
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('/images/posts/08-how-to-make-a-bash-script-executable/08-bash-banner-3.png');
   }
 </style>
 
@@ -204,18 +210,14 @@ Vim features Its memory footprint is very low and is a terminal app. It is comma
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/vim/" title="vim">vim</a>
-            
-            <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
-            
-            <a class="tag" href="/tags/text-editor/" title="text-editor">text-editor</a>
+            <a class="tag" href="/tags/bash/" title="bash">bash</a>
             
           </div>
-          <h1>Why Vim Is Just Better</h1>
+          <h1>How to Make a Bash Script Executable</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Sun, Nov 13, 2022
+            on Tue, Nov 22, 2022
           </span>
         </div>
       </div>
@@ -236,65 +238,32 @@ Vim features Its memory footprint is very low and is a terminal app. It is comma
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p><figure>
-  <a class="paragraph-image">
-    <img data-src="https://download.logo.wine/logo/Vim_%28text_editor%29/Vim_%28text_editor%29-Logo.wine.png" data-action="zoom" alt="Vim logo"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="what-is-vim">What is Vim?<a class="anchorjs-link" href="#what-is-vim"></a></h2><p>According to the Vim&rsquo;s <a href="https://www.vim.org" target="_blank">official website</a>,
-Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X.
-Also it is free &amp; opensource.</p>
-<h2 id="vim-features">Vim features<a class="anchorjs-link" href="#vim-features"></a></h2><ul>
-<li>Its memory footprint is very low and is a terminal app.</li>
-<li>It is command centric. You can perform complex text related task with few commands.</li>
-<li>It is highly configurable and uses simple text file to store its configuration.</li>
-<li>There are many plug-in available for Vim. Its functionality can be extended in great manner using these plug-in.</li>
-<li>It supports multiple windows. Using this feature screen can be split into multiple windows.</li>
-<li>Same as multiple windows, it also supports multiple buffers.</li>
-<li>It supports multiple tabs which allows to work on multiple files.</li>
-<li>It supports recording features which allows to record and play Vim commands in repeated manner.</li>
-</ul>
-<h2 id="advantages-over-other-textcode-editors">Advantages over other text/code editors<a class="anchorjs-link" href="#advantages-over-other-textcode-editors"></a></h2><ul>
-<li>It uses a mode based workflow - normal mode, insert mode, etc.</li>
-<li>It can do everything with just the keyboard so you don&rsquo;t have to reach for the mouse.</li>
-<li>It can be customised to the users needs, can even be configured to be used as a fully loaded IDE.</li>
-</ul>
-<h2 id="vim-as-ide">Vim as IDE<a class="anchorjs-link" href="#vim-as-ide"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="https://user-images.githubusercontent.com/13142418/176910121-8e7ca78f-8434-4ac7-9b02-08c4d15f8ad9.png" data-action="zoom" alt="SpacVim home page"  class="lazyload">
-  </a>
-  
-</figure></p>
-<p>If configuring Vim seems like a daunting task, you can try some prebuilt forks of Vim based on Neovim like <a href="https://spacevim.org" target="_blank">SpaceVim</a> or <a href="https://www.lunarvim.org" target="_blank">LunarVim</a>.</p>
-<h2 id="how-i-use-it">How I use it<a class="anchorjs-link" href="#how-i-use-it"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/03-why-vim-is-just-better/desktop_setup.png" data-action="zoom" alt="desktop setup screenshot"  class="lazyload">
-  </a>
-  
-</figure></p>
-<p>I use &lsquo;iTerm2&rsquo; instead of default terminal app on MacOS, and Neovim which is a community supported version of Vim.
-You can checkout configuration files for my setup <a href="https://github.com/Chaitanya-Shahare/.config" target="_blank">here</a>.</p>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>So to conclude Vim is overall a faster and a better text/code editor. I use it because of its efficiency &amp; it makes me look like an hacker. I think you should give it a shot.</p>
-
+        <p>Bash scripts can be used to automate bash shell commands, they have the extention <code>.sh</code>.
+I personally use these to do some repetitive tasks like deploying a new post to this site.</p>
+<p>To run a bash script you need to use the following command syntax in the command line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sh ./address/scriptName.sh
+</span></span></code></pre></div><p>But the script is not executable by itself,
+to make it executable follow the following steps</p>
+<h2 id="1-add-approriate-shebang">1. Add approriate shebang<a class="anchorjs-link" href="#1-add-approriate-shebang"></a></h2><p>For bash add the following shebang at the top of the script</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ff79c6">#!/bin/bash
+</span></span></span></code></pre></div><h2 id="2-run-the-chmod-command-for-the-file">2. Run the chmod command for the file<a class="anchorjs-link" href="#2-run-the-chmod-command-for-the-file"></a></h2><p>Go to the directory containing the script and use the following command</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod u+x scriptName.sh
+</span></span></code></pre></div><h2 id="3-run-the-script">3. Run the script<a class="anchorjs-link" href="#3-run-the-script"></a></h2><p>To run the script in the same directory</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./scriptName.sh
+</span></span></code></pre></div><p>For any other directory</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/address/scriptName.sh
+</span></span></code></pre></div>
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/02-how-to-add-social-media-preview/" data-toggle="tooltip" data-placement="top" title="How to add social media preview (WhatsApp card) to your website">
+            <a href="/posts/06-how-to-install-plugins-in-neovim/" data-toggle="tooltip" data-placement="top" title="How to Install Plugins in Neovim">
               Previous<br>
-              <span>How to add social media preview (WhatsApp card) to your website</span>
+              <span>How to Install Plugins in Neovim</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/04-vscode-like-live-server-for-terminal/" data-toggle="tooltip" data-placement="top" title="Vscode Like Live Server for Terminal">
-              Next<br>
-              <span>Vscode Like Live Server for Terminal</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

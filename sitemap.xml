@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.chaitanyashahare.com/tags/bash/</loc>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
+  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2022-11-20T10:52:27+05:30</lastmod>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2022-11-20T10:52:27+05:30</lastmod>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/coding/</loc>
-    <lastmod>2022-11-20T10:52:27+05:30</lastmod>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</loc>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</loc>
     <lastmod>2022-11-20T10:52:27+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
-    <lastmod>2022-11-20T10:52:27+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2022-11-20T10:52:27+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2022-11-20T10:52:27+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
