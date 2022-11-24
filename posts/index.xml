@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 22 Nov 2022 12:31:37 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 18:36:29 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add an Alias in Macos Terminal</title>
+      <link>https://blog.chaitanyashahare.com/posts/09-how-to-add-an-alias-in-macos-terminal/</link>
+      <pubDate>Thu, 24 Nov 2022 18:36:29 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/09-how-to-add-an-alias-in-macos-terminal/</guid>
+      <description>Zsh is the default MacOS Shell. So to add an alias, we need to make changes to the zsh config file that is .zshrc.
+Open .zshrc.zshrc is typically present in the home folder ~/.zshrc
+Adding aliasAdd the alias to the .zshrc in the following syntax
+alias aliasName=&amp;#34;command&amp;#34; Source .zshrcAfter saving, source .zshrc using the following command in the Terminal
+$ source ~/.zshrc </description>
+    </item>
+    
     <item>
       <title>How to Make a Bash Script Executable</title>
       <link>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</link>
