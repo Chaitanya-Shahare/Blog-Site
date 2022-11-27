@@ -11,29 +11,47 @@
     
   
 
-  <title>Why Vim Is Just Better | Chaitanya&#39;s blog</title>
+  <title>How to Install Apps Using Terminal in Ubuntu 22.10 | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="What is Vim?According to the Vim&rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.">
+  <meta name="description" content="Using terminal is the easiest way to install apps in linux
+Installing appsTo install apps use the following command:
+$ sudo apt install packageName Replace packageName with the name of the package
+Uninstalling appsUsing removeTo uninstall apps use the following command:
+$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
+or
+Using purge$ sudo apt purge packageName Replace packageName with the name of the package
+Difference between remove &amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/10-ubuntu-opengraph.png"/>
 
-<meta name="twitter:title" content="Why Vim Is Just Better"/>
-<meta name="twitter:description" content="What is Vim?According to the Vim&rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands."/>
+<meta name="twitter:title" content="How to Install Apps Using Terminal in Ubuntu 22.10"/>
+<meta name="twitter:description" content="Using terminal is the easiest way to install apps in linux
+Installing appsTo install apps use the following command:
+$ sudo apt install packageName Replace packageName with the name of the package
+Uninstalling appsUsing removeTo uninstall apps use the following command:
+$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
+or
+Using purge$ sudo apt purge packageName Replace packageName with the name of the package
+Difference between remove &amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched."/>
 
-  <meta property="og:title" content="Why Vim Is Just Better" />
-<meta property="og:description" content="What is Vim?According to the Vim&rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands." />
+  <meta property="og:title" content="How to Install Apps Using Terminal in Ubuntu 22.10" />
+<meta property="og:description" content="Using terminal is the easiest way to install apps in linux
+Installing appsTo install apps use the following command:
+$ sudo apt install packageName Replace packageName with the name of the package
+Uninstalling appsUsing removeTo uninstall apps use the following command:
+$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
+or
+Using purge$ sudo apt purge packageName Replace packageName with the name of the package
+Difference between remove &amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/" /><meta property="og:image" content="https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-13T12:40:47+05:30" />
-<meta property="article:modified_time" content="2022-11-13T12:40:47+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/10-ubuntu-opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-28T04:38:36+05:30" />
+<meta property="article:modified_time" content="2022-11-28T04:38:36+05:30" />
 
 
 
@@ -191,7 +209,7 @@ Vim features Its memory footprint is very low and is a terminal app. It is comma
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('/images/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/10-ubuntu-cover.png');
   }
 </style>
 
@@ -204,18 +222,16 @@ Vim features Its memory footprint is very low and is a terminal app. It is comma
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/vim/" title="vim">vim</a>
+            <a class="tag" href="/tags/linux/" title="linux">linux</a>
             
-            <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
-            
-            <a class="tag" href="/tags/text-editor/" title="text-editor">text-editor</a>
+            <a class="tag" href="/tags/ubuntu/" title="ubuntu">ubuntu</a>
             
           </div>
-          <h1>Why Vim Is Just Better</h1>
+          <h1>How to Install Apps Using Terminal in Ubuntu 22.10</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Sun, Nov 13, 2022
+            on Mon, Nov 28, 2022
           </span>
         </div>
       </div>
@@ -236,65 +252,29 @@ Vim features Its memory footprint is very low and is a terminal app. It is comma
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p><figure>
-  <a class="paragraph-image">
-    <img data-src="https://download.logo.wine/logo/Vim_%28text_editor%29/Vim_%28text_editor%29-Logo.wine.png" data-action="zoom" alt="Vim logo"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="what-is-vim">What is Vim?<a class="anchorjs-link" href="#what-is-vim"></a></h2><p>According to the Vim&rsquo;s <a href="https://www.vim.org" target="_blank">official website</a>,
-Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X.
-Also it is free &amp; opensource.</p>
-<h2 id="vim-features">Vim features<a class="anchorjs-link" href="#vim-features"></a></h2><ul>
-<li>Its memory footprint is very low and is a terminal app.</li>
-<li>It is command centric. You can perform complex text related task with few commands.</li>
-<li>It is highly configurable and uses simple text file to store its configuration.</li>
-<li>There are many plug-in available for Vim. Its functionality can be extended in great manner using these plug-in.</li>
-<li>It supports multiple windows. Using this feature screen can be split into multiple windows.</li>
-<li>Same as multiple windows, it also supports multiple buffers.</li>
-<li>It supports multiple tabs which allows to work on multiple files.</li>
-<li>It supports recording features which allows to record and play Vim commands in repeated manner.</li>
-</ul>
-<h2 id="advantages-over-other-textcode-editors">Advantages over other text/code editors<a class="anchorjs-link" href="#advantages-over-other-textcode-editors"></a></h2><ul>
-<li>It uses a mode based workflow - normal mode, insert mode, etc.</li>
-<li>It can do everything with just the keyboard so you don&rsquo;t have to reach for the mouse.</li>
-<li>It can be customised to the users needs, can even be configured to be used as a fully loaded IDE.</li>
-</ul>
-<h2 id="vim-as-ide">Vim as IDE<a class="anchorjs-link" href="#vim-as-ide"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="https://user-images.githubusercontent.com/13142418/176910121-8e7ca78f-8434-4ac7-9b02-08c4d15f8ad9.png" data-action="zoom" alt="SpacVim home page"  class="lazyload">
-  </a>
-  
-</figure></p>
-<p>If configuring Vim seems like a daunting task, you can try some prebuilt forks of Vim based on Neovim like <a href="https://spacevim.org" target="_blank">SpaceVim</a> or <a href="https://www.lunarvim.org" target="_blank">LunarVim</a>.</p>
-<h2 id="how-i-use-it">How I use it<a class="anchorjs-link" href="#how-i-use-it"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/03-why-vim-is-just-better/desktop_setup.png" data-action="zoom" alt="desktop setup screenshot"  class="lazyload">
-  </a>
-  
-</figure></p>
-<p>I use &lsquo;iTerm2&rsquo; instead of default terminal app on MacOS, and Neovim which is a community supported version of Vim.
-You can checkout configuration files for my setup <a href="https://github.com/Chaitanya-Shahare/.config" target="_blank">here</a>.</p>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>So to conclude Vim is overall a faster and a better text/code editor. I use it because of its efficiency &amp; it makes me look like an hacker. I think you should give it a shot.</p>
+        <p>Using terminal is the easiest way to install apps in linux</p>
+<h2 id="installing-apps">Installing apps<a class="anchorjs-link" href="#installing-apps"></a></h2><p>To install apps use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ sudo apt install packageName
+</span></span></code></pre></div><p><em>Replace packageName with the name of the package</em></p>
+<h2 id="uninstalling-apps">Uninstalling apps<a class="anchorjs-link" href="#uninstalling-apps"></a></h2><h3 id="using-remove">Using remove<a class="anchorjs-link" href="#using-remove"></a></h3><p>To uninstall apps use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ sudo apt remove packageNamudo/
+</span></span></code></pre></div><p><em>Replace packageName with the name of the package</em></p>
+<p><strong>or</strong></p>
+<h3 id="using-purge">Using purge<a class="anchorjs-link" href="#using-purge"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ sudo apt purge packageName
+</span></span></code></pre></div><p><em>Replace packageName with the name of the package</em></p>
+<h3 id="difference-between-remove--purge">Difference between <em>remove</em> &amp; <em>purge</em><a class="anchorjs-link" href="#difference-between-remove--purge"></a></h3><p>The primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched. Whereas ‘purge‘ not only removes the package but also removes all configuration files OUTSIDE THE HOME DIRECTORY.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/02-how-to-add-social-media-preview/" data-toggle="tooltip" data-placement="top" title="How to add social media preview (WhatsApp card) to your website">
+            <a href="/posts/09-how-to-add-an-alias-in-macos-terminal/" data-toggle="tooltip" data-placement="top" title="How to Add an Alias in Macos Terminal">
               Previous<br>
-              <span>How to add social media preview (WhatsApp card) to your website</span>
+              <span>How to Add an Alias in Macos Terminal</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/04-vscode-like-live-server-for-terminal/" data-toggle="tooltip" data-placement="top" title="Vscode Like Live Server for Terminal">
-              Next<br>
-              <span>Vscode Like Live Server for Terminal</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
