@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 27 Nov 2022 04:38:36 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 15:34:54 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Alacritty on MacOS Ventura</title>
+      <link>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</link>
+      <pubDate>Wed, 30 Nov 2022 15:34:54 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</guid>
+      <description>Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration.
+Unlike iterm2 for MacOS, Alacritty doesn&amp;rsquo;t have any kind of GUI for it&amp;rsquo;s configuration. Everything can be done using a conf file.
+Installing using HomebrewUse the following brew command in terminal:
+$ brew install --cask alacritty Launching Alacritty When launching alacritty for the first time, there might be a pop up similar to - To fix this you can use the following command:</description>
+    </item>
+    
     <item>
       <title>How to Install Apps Using Terminal in Ubuntu 22.10</title>
       <link>https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/</link>
