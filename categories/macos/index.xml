@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 15:34:54 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Dec 2022 17:50:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Merge PDFs in MacOS</title>
+      <link>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</link>
+      <pubDate>Tue, 06 Dec 2022 17:50:48 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</guid>
+      <description>You can merge PDFs right in the MacOS finder
+Have all PDFs in a folderMake sure you have all the PDFs you want to merge in the same directory
+Select the filesYou can select multiple files by CMD + Click
+Merge files Right Click and hover on Quick Actions Click on Create PDF New merged PDF is now created.</description>
+    </item>
+    
     <item>
       <title>How to Install Alacritty on MacOS Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</link>
