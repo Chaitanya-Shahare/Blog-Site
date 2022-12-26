@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iterm2 on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/iterm2/</link>
+    <description>Recent content in iterm2 on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Mon, 26 Dec 2022 23:53:07 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/iterm2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to hide split pane title bars in Iterm2 MacOS</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</link>
+      <pubDate>Mon, 26 Dec 2022 23:53:07 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</guid>
+      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar
+Before After </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 06 Dec 2022 17:50:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Dec 2022 23:53:07 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to hide split pane title bars in Iterm2 MacOS</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</link>
+      <pubDate>Mon, 26 Dec 2022 23:53:07 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</guid>
+      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar
+Before After </description>
+    </item>
+    
     <item>
       <title>How to Merge PDFs in MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</link>
