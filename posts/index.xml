@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 26 Dec 2022 23:53:07 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 22:42:24 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Make MacOS Terminal Beautiful With Background Image</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</link>
+      <pubDate>Thu, 29 Dec 2022 22:42:24 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</guid>
+      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
+It&amp;rsquo;s just some text on a solid background.
+The easiest way to customise your terminal is to add a background.
+Following are the steps for the same:
+Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
+https://iterm2.com
+TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency
+Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
+    </item>
+    
     <item>
       <title>How to hide split pane title bars in Iterm2 MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</link>
