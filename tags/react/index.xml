@@ -15,7 +15,8 @@
       
       <guid>https://blog.chaitanyashahare.com/posts/new-react-project/</guid>
       <description>Prerequisitesnodejs &amp;amp; npm must be installed
-create-react-appnpx create-react-app dirName; This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
+create-react-appUse the following command in the terminal
+$ npx create-react-app dirName; This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
     </item>
     
   </channel>
