@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 29 Dec 2022 22:42:24 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 22:42:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coding</title>
+      <link>https://blog.chaitanyashahare.com/categories/coding/</link>
+      <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/categories/coding/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>macos</title>
       <link>https://blog.chaitanyashahare.com/categories/macos/</link>
@@ -23,15 +32,6 @@
       <pubDate>Sun, 27 Nov 2022 04:38:36 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coding</title>
-      <link>https://blog.chaitanyashahare.com/categories/coding/</link>
-      <pubDate>Thu, 24 Nov 2022 18:36:29 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/categories/coding/</guid>
       <description></description>
     </item>
     

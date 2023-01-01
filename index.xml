@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 29 Dec 2022 22:42:24 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 22:42:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make a new React Project</title>
+      <link>https://blog.chaitanyashahare.com/posts/new-react-project/</link>
+      <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/new-react-project/</guid>
+      <description>Prerequisitesnodejs &amp;amp; npm must be installed
+create-react-appnpx create-react-app dirName; This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
+    </item>
+    
     <item>
       <title>How to Make MacOS Terminal Beautiful With Background Image</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</link>

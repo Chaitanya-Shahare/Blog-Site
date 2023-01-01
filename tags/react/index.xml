@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/react/</link>
+    <description>Recent content in react on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Sun, 01 Jan 2023 22:42:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make a new React Project</title>
+      <link>https://blog.chaitanyashahare.com/posts/new-react-project/</link>
+      <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/new-react-project/</guid>
+      <description>Prerequisitesnodejs &amp;amp; npm must be installed
+create-react-appnpx create-react-app dirName; This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -11,47 +11,29 @@
     
   
 
-  <title>How to Make MacOS Terminal Beautiful With Background Image | Chaitanya&#39;s blog</title>
+  <title>How to make a new React Project | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="IntroductionMacOS&rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
-It&rsquo;s just some text on a solid background.
-The easiest way to customise your terminal is to add a background.
-Following are the steps for the same:
-Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
-https://iterm2.com
-TransparencyIterm -&gt; Preferences -&gt; Profiles -&gt; Window -&gt; Transparency
-Full screenIterm Preferences -&gt; General -&gt; Window -&gt; Native full screen windows">
+  <meta name="description" content="Prerequisitesnodejs &amp; npm must be installed
+create-react-appnpx create-react-app dirName; This creates a directory with the name &lsquo;dirName&rsquo;, which has all the necessary files for a react project.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/15/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png"/>
 
-<meta name="twitter:title" content="How to Make MacOS Terminal Beautiful With Background Image"/>
-<meta name="twitter:description" content="IntroductionMacOS&rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
-It&rsquo;s just some text on a solid background.
-The easiest way to customise your terminal is to add a background.
-Following are the steps for the same:
-Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
-https://iterm2.com
-TransparencyIterm -&gt; Preferences -&gt; Profiles -&gt; Window -&gt; Transparency
-Full screenIterm Preferences -&gt; General -&gt; Window -&gt; Native full screen windows"/>
+<meta name="twitter:title" content="How to make a new React Project"/>
+<meta name="twitter:description" content="Prerequisitesnodejs &amp; npm must be installed
+create-react-appnpx create-react-app dirName; This creates a directory with the name &lsquo;dirName&rsquo;, which has all the necessary files for a react project."/>
 
-  <meta property="og:title" content="How to Make MacOS Terminal Beautiful With Background Image" />
-<meta property="og:description" content="IntroductionMacOS&rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
-It&rsquo;s just some text on a solid background.
-The easiest way to customise your terminal is to add a background.
-Following are the steps for the same:
-Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
-https://iterm2.com
-TransparencyIterm -&gt; Preferences -&gt; Profiles -&gt; Window -&gt; Transparency
-Full screenIterm Preferences -&gt; General -&gt; Window -&gt; Native full screen windows" />
+  <meta property="og:title" content="How to make a new React Project" />
+<meta property="og:description" content="Prerequisitesnodejs &amp; npm must be installed
+create-react-appnpx create-react-app dirName; This creates a directory with the name &lsquo;dirName&rsquo;, which has all the necessary files for a react project." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/15/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-12-29T22:42:24+05:30" />
-<meta property="article:modified_time" content="2022-12-29T22:42:24+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/new-react-project/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-01T22:42:47+05:30" />
+<meta property="article:modified_time" content="2023-01-01T22:42:47+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -208,7 +190,7 @@ Full screenIterm Preferences -&gt; General -&gt; Window -&gt; Native full screen
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/15/banner.png');
+    background-image: url('/black-background.jpg');
   }
 </style>
 
@@ -221,14 +203,14 @@ Full screenIterm Preferences -&gt; General -&gt; Window -&gt; Native full screen
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/iterm2/" title="iterm2">iterm2</a>
+            <a class="tag" href="/tags/react/" title="react">react</a>
             
           </div>
-          <h1>How to Make MacOS Terminal Beautiful With Background Image</h1>
+          <h1>How to make a new React Project</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Thu, Dec 29, 2022
+            on Sun, Jan 1, 2023
           </span>
         </div>
       </div>
@@ -249,78 +231,21 @@ Full screenIterm Preferences -&gt; General -&gt; Window -&gt; Native full screen
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>MacOS&rsquo;s default Terminal as of it is,
-is pretty boring and not very good to look at.</p>
-<p>It&rsquo;s just some text on a solid background.</p>
-<p>The easiest way to customise your terminal is to add a background.</p>
-<p>Following are the steps for the same:</p>
-<h2 id="install-iterm2">Install Iterm2<a class="anchorjs-link" href="#install-iterm2"></a></h2><p>Iterm2 is a terminal emulator, does everything the default Terminal does
-and more.</p>
-<p><a href="https://iterm2.com" target="_blank">https://iterm2.com</a></p>
-<h2 id="transparency">Transparency<a class="anchorjs-link" href="#transparency"></a></h2><p><strong>Iterm -&gt; Preferences -&gt; Profiles -&gt; Window -&gt; Transparency</strong></p>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/15/transparency.png" data-action="zoom" alt="Transparency Preferences screenshot"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="full-screen">Full screen<a class="anchorjs-link" href="#full-screen"></a></h2><p><strong>Iterm Preferences -&gt; General -&gt; Window -&gt; Native full screen windows</strong></p>
-<p>Uncheck it.</p>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/15/fullscreen.png" data-action="zoom" alt="Full screen Preferences screenshot"  class="lazyload">
-  </a>
-  
-</figure></p>
-<p>Use <code>Cmd + Return/Enter</code> to get in the fullscreen mode.</p>
-<h2 id="desktop-picture">Desktop Picture<a class="anchorjs-link" href="#desktop-picture"></a></h2><p>Now just add a nice desktop picture and done.</p>
-<p>You have a nice background for your terminal.</p>
-<h2 id="other-tips">Other tips<a class="anchorjs-link" href="#other-tips"></a></h2><ul>
-<li>Don&rsquo;t open other apps on the desktop with Iterm for best look and feel.</li>
-<li>Bind Iterm2 to a desktop &amp; turn on desktop shortcuts in <strong>Keyboard -&gt; Keyboard shortcuts -&gt; Mission Control -&gt; Switch to Desktop #</strong></li>
-</ul>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/15/binding.png" data-action="zoom" alt="Binding app to desktop screenshot"  class="lazyload">
-  </a>
-  
-</figure>
-Binding an app to a desktop</p>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/15/shortcut.png" data-action="zoom" alt="Desktop Keyboard Shortuts screenshot"  class="lazyload">
-  </a>
-  
-</figure>
-Desktop Keyboard Shortuts</p>
-<ul>
-<li>Refer my blog post on split panes <a href="/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/" target="_blank">here</a>.</li>
-</ul>
-<h2 id="final-result">Final result<a class="anchorjs-link" href="#final-result"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/15/final.png" data-action="zoom" alt="Final result screenshot"  class="lazyload">
-  </a>
-  
-</figure></p>
+        <h2 id="prerequisites">Prerequisites<a class="anchorjs-link" href="#prerequisites"></a></h2><p>nodejs &amp; npm must be installed</p>
+<h2 id="create-react-app">create-react-app<a class="anchorjs-link" href="#create-react-app"></a></h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx create-react-app dirName;
+</span></span></code></pre></div><p>This creates a directory with the name &lsquo;dirName&rsquo;, which has all the necessary files for a react project.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/" data-toggle="tooltip" data-placement="top" title="How to hide split pane title bars in Iterm2 MacOS">
+            <a href="/posts/how-to-make-macos-terminal-beautiful-with-background-image/" data-toggle="tooltip" data-placement="top" title="How to Make MacOS Terminal Beautiful With Background Image">
               Previous<br>
-              <span>How to hide split pane title bars in Iterm2 MacOS</span>
+              <span>How to Make MacOS Terminal Beautiful With Background Image</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/new-react-project/" data-toggle="tooltip" data-placement="top" title="How to make a new React Project">
-              Next<br>
-              <span>How to make a new React Project</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
