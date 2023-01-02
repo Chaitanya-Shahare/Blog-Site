@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 01 Jan 2023 22:42:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 07:22:11 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install MongoDB 6.0 on MacOS </title>
+      <link>https://blog.chaitanyashahare.com/posts/mongodb-installation/</link>
+      <pubDate>Mon, 02 Jan 2023 07:22:11 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/mongodb-installation/</guid>
+      <description>These instructions are for MongoDB 6.0 Community Edition
+PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:
+brew tap mongodb/brew To update Homebrew and all existing formulae:
+brew update To install MongoDB, run the following command:</description>
+    </item>
+    
     <item>
       <title>How to make a new React Project</title>
       <link>https://blog.chaitanyashahare.com/posts/new-react-project/</link>

@@ -11,47 +11,35 @@
     
   
 
-  <title>How to Install Apps Using Terminal in Ubuntu 22.10 | Chaitanya&#39;s blog</title>
+  <title>How to Install MongoDB 6.0 on MacOS  | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Using terminal is the easiest way to install apps in linux
-Installing appsTo install apps use the following command:
-$ sudo apt install packageName Replace packageName with the name of the package
-Uninstalling appsUsing removeTo uninstall apps use the following command:
-$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
-or
-Using purge$ sudo apt purge packageName Replace packageName with the name of the package
-Difference between remove &amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched.">
+  <meta name="description" content="These instructions are for MongoDB 6.0 Community Edition
+PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:
+brew tap mongodb/brew To update Homebrew and all existing formulae:
+brew update To install MongoDB, run the following command:">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/10-ubuntu-opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/17/cover.png"/>
 
-<meta name="twitter:title" content="How to Install Apps Using Terminal in Ubuntu 22.10"/>
-<meta name="twitter:description" content="Using terminal is the easiest way to install apps in linux
-Installing appsTo install apps use the following command:
-$ sudo apt install packageName Replace packageName with the name of the package
-Uninstalling appsUsing removeTo uninstall apps use the following command:
-$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
-or
-Using purge$ sudo apt purge packageName Replace packageName with the name of the package
-Difference between remove &amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched."/>
+<meta name="twitter:title" content="How to Install MongoDB 6.0 on MacOS "/>
+<meta name="twitter:description" content="These instructions are for MongoDB 6.0 Community Edition
+PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:
+brew tap mongodb/brew To update Homebrew and all existing formulae:
+brew update To install MongoDB, run the following command:"/>
 
-  <meta property="og:title" content="How to Install Apps Using Terminal in Ubuntu 22.10" />
-<meta property="og:description" content="Using terminal is the easiest way to install apps in linux
-Installing appsTo install apps use the following command:
-$ sudo apt install packageName Replace packageName with the name of the package
-Uninstalling appsUsing removeTo uninstall apps use the following command:
-$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
-or
-Using purge$ sudo apt purge packageName Replace packageName with the name of the package
-Difference between remove &amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched." />
+  <meta property="og:title" content="How to Install MongoDB 6.0 on MacOS " />
+<meta property="og:description" content="These instructions are for MongoDB 6.0 Community Edition
+PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:
+brew tap mongodb/brew To update Homebrew and all existing formulae:
+brew update To install MongoDB, run the following command:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/10-ubuntu-opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-27T04:38:36+05:30" />
-<meta property="article:modified_time" content="2022-11-27T04:38:36+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/mongodb-installation/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/17/cover.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-02T07:22:11+05:30" />
+<meta property="article:modified_time" content="2023-01-02T07:22:11+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -208,7 +196,7 @@ Difference between remove &amp; purgeThe primary difference being ‘remove‘ a
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/10-ubuntu-cover.png');
+    background-image: url('/images/posts/17/cover.png');
   }
 </style>
 
@@ -221,16 +209,14 @@ Difference between remove &amp; purgeThe primary difference being ‘remove‘ a
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/linux/" title="linux">linux</a>
-            
-            <a class="tag" href="/tags/ubuntu/" title="ubuntu">ubuntu</a>
+            <a class="tag" href="/tags/mongodb/" title="mongodb">mongodb</a>
             
           </div>
-          <h1>How to Install Apps Using Terminal in Ubuntu 22.10</h1>
+          <h1>How to Install MongoDB 6.0 on MacOS </h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Sun, Nov 27, 2022
+            on Mon, Jan 2, 2023
           </span>
         </div>
       </div>
@@ -251,36 +237,51 @@ Difference between remove &amp; purgeThe primary difference being ‘remove‘ a
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Using terminal is the easiest way to install apps in linux</p>
-<h2 id="installing-apps">Installing apps<a class="anchorjs-link" href="#installing-apps"></a></h2><p>To install apps use the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ sudo apt install packageName
-</span></span></code></pre></div><p><em>Replace packageName with the name of the package</em></p>
-<h2 id="uninstalling-apps">Uninstalling apps<a class="anchorjs-link" href="#uninstalling-apps"></a></h2><h3 id="using-remove">Using remove<a class="anchorjs-link" href="#using-remove"></a></h3><p>To uninstall apps use the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ sudo apt remove packageNamudo/
-</span></span></code></pre></div><p><em>Replace packageName with the name of the package</em></p>
-<p><strong>or</strong></p>
-<h3 id="using-purge">Using purge<a class="anchorjs-link" href="#using-purge"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ sudo apt purge packageName
-</span></span></code></pre></div><p><em>Replace packageName with the name of the package</em></p>
-<h3 id="difference-between-remove--purge">Difference between <em>remove</em> &amp; <em>purge</em><a class="anchorjs-link" href="#difference-between-remove--purge"></a></h3><p>The primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched. Whereas ‘purge‘ not only removes the package but also removes all configuration files OUTSIDE THE HOME DIRECTORY.</p>
+        <p>These instructions are for MongoDB 6.0 Community Edition</p>
+<h2 id="prerequisites">Prerequisites<a class="anchorjs-link" href="#prerequisites"></a></h2><h3 id="homebrew">HomeBrew<a class="anchorjs-link" href="#homebrew"></a></h3><ul>
+<li>Install brew using the official <a href="https://brew.sh/#install" target="_blank">HomeBrew Installation instructions</a></li>
+<li>Go ahead if already installed</li>
+</ul>
+<h2 id="installing-mongodb-60-community-edition">Installing MongoDB 6.0 Community Edition<a class="anchorjs-link" href="#installing-mongodb-60-community-edition"></a></h2><ol>
+<li>
+<p>Tap the MongoDB Homebrew Tap
+to download the official Homebrew formula for MongoDB and the Database Tools,
+by running the following command in your macOS Terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew tap mongodb/brew
+</span></span></code></pre></div></li>
+<li>
+<p>To update Homebrew and all existing formulae:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew update
+</span></span></code></pre></div></li>
+<li>
+<p>To install MongoDB, run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew install mongodb-community@6.0
+</span></span></code></pre></div></li>
+</ol>
+<p>Installation is done.</p>
+<h2 id="running-mongodb">Running MongoDB<a class="anchorjs-link" href="#running-mongodb"></a></h2><h3 id="start">Start<a class="anchorjs-link" href="#start"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew services start mongodb-community@6.0
+</span></span></code></pre></div><h3 id="stop">Stop<a class="anchorjs-link" href="#stop"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew services stop mongodb-community@6.0
+</span></span></code></pre></div><h2 id="verify">Verify<a class="anchorjs-link" href="#verify"></a></h2><p>To verify if MongoDB is running, use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew services list
+</span></span></code></pre></div><h2 id="mongosh">Mongosh<a class="anchorjs-link" href="#mongosh"></a></h2><p>To begin using MongoDB, connect <code>mongosh</code> to the running instance. From a new terminal, issue the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>mongosh
+</span></span></code></pre></div><h2 id="resources">Resources<a class="anchorjs-link" href="#resources"></a></h2><ul>
+<li><a href="https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/" target="_blank">Official MongoDB Installation manual</a></li>
+<li><a href="https://brew.sh/#install" target="_blank">HomeBrew Installation instructions</a></li>
+</ul>
+<p>MongoDB is installed and running.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/09-how-to-add-an-alias-in-macos-terminal/" data-toggle="tooltip" data-placement="top" title="How to Add an Alias in Macos Terminal">
+            <a href="/posts/new-react-project/" data-toggle="tooltip" data-placement="top" title="How to make a new React Project">
               Previous<br>
-              <span>How to Add an Alias in Macos Terminal</span>
+              <span>How to make a new React Project</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/11-how-to-install-alacritty-on-macos-ventura/" data-toggle="tooltip" data-placement="top" title="How to Install Alacritty on MacOS Ventura">
-              Next<br>
-              <span>How to Install Alacritty on MacOS Ventura</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

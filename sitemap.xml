@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-01-01T22:42:47+05:30</lastmod>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-01-01T22:42:47+05:30</lastmod>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/mongodb-installation/</loc>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/mongodb/</loc>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2023-01-02T07:22:11+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/coding/</loc>
     <lastmod>2023-01-01T22:42:47+05:30</lastmod>
@@ -14,22 +29,13 @@
     <loc>https://blog.chaitanyashahare.com/posts/new-react-project/</loc>
     <lastmod>2023-01-01T22:42:47+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2023-01-01T22:42:47+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/react/</loc>
-    <lastmod>2023-01-01T22:42:47+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2023-01-01T22:42:47+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</loc>
     <lastmod>2022-12-29T22:42:24+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/iterm2/</loc>
-    <lastmod>2022-12-29T22:42:24+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
     <lastmod>2022-12-29T22:42:24+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</loc>

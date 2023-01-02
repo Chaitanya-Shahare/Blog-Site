@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 01 Jan 2023 22:42:47 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 07:22:11 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mongodb</title>
+      <link>https://blog.chaitanyashahare.com/tags/mongodb/</link>
+      <pubDate>Mon, 02 Jan 2023 07:22:11 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>react</title>
       <link>https://blog.chaitanyashahare.com/tags/react/</link>
