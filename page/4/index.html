@@ -2,38 +2,32 @@
 <html lang="en">
 
 <head>
+	<meta name="generator" content="Hugo 0.108.0">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   
   
-    
-  
 
-  <title>How to hide split pane title bars in Iterm2 MacOS | Chaitanya&#39;s blog</title>
+  <title>Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="StepsIterm2 preferences -&gt; Appearance -&gt; Panes -&gt; toggle off show per-pane title bar
-Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window vertically Cmd &#43; Shift &#43; d - for splitting window horizontally References Iterm2 Documentation ">
+  <meta name="description" content="Coding  |  Productivity  |  Life">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/img/home-bg.jpg"/>
 
-<meta name="twitter:title" content="How to hide split pane title bars in Iterm2 MacOS"/>
-<meta name="twitter:description" content="StepsIterm2 preferences -&gt; Appearance -&gt; Panes -&gt; toggle off show per-pane title bar
-Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window vertically Cmd &#43; Shift &#43; d - for splitting window horizontally References Iterm2 Documentation "/>
+<meta name="twitter:title" content="Chaitanya&#39;s blog"/>
+<meta name="twitter:description" content="Coding  |  Productivity  |  Life"/>
 
-  <meta property="og:title" content="How to hide split pane title bars in Iterm2 MacOS" />
-<meta property="og:description" content="StepsIterm2 preferences -&gt; Appearance -&gt; Panes -&gt; toggle off show per-pane title bar
-Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window vertically Cmd &#43; Shift &#43; d - for splitting window horizontally References Iterm2 Documentation " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-12-26T23:53:07+05:30" />
-<meta property="article:modified_time" content="2022-12-26T23:53:07+05:30" />
+  <meta property="og:title" content="Chaitanya&#39;s blog" />
+<meta property="og:description" content="Coding  |  Productivity  |  Life" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/img/home-bg.jpg"/>
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -55,6 +49,8 @@ Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window 
   
   
 
+  <link rel="alternate" type="application/json" href="/index.json" title="Chaitanya's blog" />
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Chaitanya's blog" />
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -73,9 +69,9 @@ Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window 
   
   
   
+  
+  
 
-  
-  
   
 
   
@@ -187,31 +183,21 @@ Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window 
   
 
 
-<style type="text/css">
-  header.intro-header {
-    position: relative;
-    background-image: url('/black-background.jpg');
-  }
-</style>
 
-<header class="intro-header ">
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
 
-  <div class="header-mask"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-heading">
-          <div class="tags">
-            
-            <a class="tag" href="/tags/iterm2/" title="iterm2">iterm2</a>
-            
-          </div>
-          <h1>How to hide split pane title bars in Iterm2 MacOS</h1>
-          <h2 class="subheading"></h2>
-          <span class="meta">
-            Posted by  Chaitanya Shahare 
-            on Mon, Dec 26, 2022
-          </span>
+        
+        <div class="site-heading">
+        
+          <h1>Chaitanya&#39;s blog</h1>
+          
+          
+          
+          
+          <span class="subheading">Coding  |  Productivity  |  Life</span>
         </div>
       </div>
     </div>
@@ -221,125 +207,52 @@ Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window 
 
   
 
-
-<article>
+  
   <div class="container">
     <div class="row">
-
       
-      <div class="
-              col-lg-8 col-lg-offset-2
-              col-md-10 col-md-offset-1
-              post-container">
-        <h2 id="steps">Steps<a class="anchorjs-link" href="#steps"></a></h2><p><strong>Iterm2 preferences -&gt; Appearance -&gt; Panes -&gt; toggle off show per-pane title bar</strong></p>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/14/preferences.png" data-action="zoom" alt="Screenshot of the preferences window"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="before">Before<a class="anchorjs-link" href="#before"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/14/withTitle.png" data-action="zoom" alt="Screenshot of the iTerm2 window with pane titles"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="after">After<a class="anchorjs-link" href="#after"></a></h2><p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/14/withoutTitle.png" data-action="zoom" alt="Screenshot of the iTerm2 window without pane titles"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="other-tips">Other tips<a class="anchorjs-link" href="#other-tips"></a></h2><ul>
-<li>Split pane shortcuts
-<ul>
-<li><code>Cmd + d</code> - for splitting window vertically</li>
-<li><code>Cmd + Shift + d</code> - for splitting window horizontally</li>
-</ul>
-</li>
-</ul>
-<h2 id="references">References<a class="anchorjs-link" href="#references"></a></h2><ul>
-<li><a href="https://iterm2.com/documentation.html" target="_blank">Iterm2 Documentation</a></li>
-</ul>
-
-
-        <hr style="visibility: hidden;" />
-        <ul class="pager">
-          
-          <li class="previous">
-            <a href="/posts/13-how-i-learnt-to-touchtype/" data-toggle="tooltip" data-placement="top" title="How to learn Touchtyping">
-              Previous<br>
-              <span>How to learn Touchtyping</span>
-            </a>
-          </li>
-          
-          
-          <li class="next">
-            <a href="/posts/how-to-make-macos-terminal-beautiful-with-background-image/" data-toggle="tooltip" data-placement="top" title="How to Make MacOS Terminal Beautiful With Background Image">
-              Next<br>
-              <span>How to Make MacOS Terminal Beautiful With Background Image</span>
-            </a>
-          </li>
-          
-        </ul>
-        <hr style="visibility: hidden;" />
-
-        
+      
+      
+      <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
+      col-xs-12 postlist-container">
         
 
 
-
-<div class="giscus" id="comments"></div>
-<script src="https://giscus.app/client.js" 
-  data-repo="Chaitanya-Shahare/blog-site-comments" 
-  data-repo-id="R_kgDOIa6SGg"
-  data-category="Announcements"
-  data-category-id="DIC_kwDOIa6SGs4CSgt4"
-  data-mapping="pathname"
-  data-strict="0" 
-  data-reactions-enabled="1" 
-  data-emit-metadata="0" 
-  data-input-position="top"
-  data-theme="light_tritanopia"
-  data-lang="en"
-  crossorigin="anonymous"
-  async>
-  </script>
+   <div class="post-preview">
+  <a href="/posts/01-my-first-blog/">
+      <h2 class="post-title">My First Blog</h2>
+      
+      <div class="post-content-preview">
+         
+         
+      </div>
+  </a>
+  <p class="post-meta">
+      Posted by  Chaitanya Shahare  on Mon, Oct 10, 2022
+  </p>
+</div>
+<hr>
 
 
+
+<ul class="pager">
+  
+  <li class="previous">
+      <a href="/page/3/">&larr; Newer Posts</a>
+  </li>
+  
+  
+</ul>
 
 
       </div>
+      
+      <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
+      col-xs-12 sidebar-container">
 
-      
-      
-      
-      <div class="
-              col-lg-2 col-lg-offset-0
-              visible-lg-block
-              sidebar-container
-              catalog-container">
-        <div class="side-catalog">
-          <hr class="hidden-sm hidden-xs">
-          <h5>
-            <a class="catalog-toggle" href="#">CATALOG</a>
-          </h5>
-          <ul class="catalog-body"></ul>
-        </div>
-      </div>
-      
-      
-      <div class="
-              col-lg-8 col-lg-offset-2
-              col-md-10 col-md-offset-1
-              sidebar-container">
-
-        
         
         <section>
   
-  
-  <hr class="hidden-sm hidden-xs">
   
   <h5>FEATURED TAGS</h5>
   <div class="tags">
@@ -380,16 +293,116 @@ Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window 
     
   </div>
 </section>
+        
+<section class="visible-md visible-lg">
+  <hr>
+  
+  <h5><a href=/about/>ABOUT ME</a></h5>
+  
+
+  
+  <div class="short-about">
+    
+    <img src="/img/memoji.jpeg" />
+    
+    
+    <p>a personal blog website</p>
+    
+    
+    
+
+
+	<ul class="list-inline">
+		
+
+		
+		<li>
+			<a target="_blank" href="https://github.com/Chaitanya-Shahare">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a target="_blank" href="https://www.linkedin.com/in/cs03/">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://twitter.com/ChaiitanyaS">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://instagram.com/chaitanya_shahare_">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="mailto:shaharechaitanya3@gmail.com">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+
+		
+
+		
+
+		
+		<li>
+			<a href=/index.xml>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+	</ul>
+
+  </div>
+</section>
 
         
         
+
 
       </div>
+      
+
     </div>
   </div>
-</article>
 
-
+  
 
   
 <footer>
@@ -503,56 +516,6 @@ Before After Other tips Split pane shortcuts Cmd &#43; d - for splitting window 
 
 
 
-
-
-<script type="text/javascript">
-	function generateCatalog(selector) {
-		_containerSelector = 'div.post-container'
-		
-		var P = $(_containerSelector), a, n, t, l, i, c;
-		a = P.find('h1,h2,h3,h4');
-		
-		$(selector).html('')
-		
-		a.each(function () {
-			n = $(this).prop('tagName').toLowerCase();
-			i = "#" + $(this).prop('id');
-			t = $(this).text();
-			c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-			l = $('<li class="' + n + '_nav"></li>').append(c);
-			$(selector).append(l);
-		});
-		return true;
-	}
-
-	generateCatalog(".catalog-body");
-
-	
-	$(".catalog-toggle").click((function (e) {
-		e.preventDefault();
-		$('.side-catalog').toggleClass("fold")
-	}))
-</script>
-
-
-<script type="text/javascript" src='/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js'></script>
-<script>
-	$(document).ready(function () {
-		$('.catalog-body').onePageNav({
-			currentClass: "active",
-			changeHash: !1,
-			easing: "swing",
-			filter: "",
-			scrollSpeed: 700,
-			scrollOffset: 0,
-			scrollThreshold: .2,
-			begin: null,
-			end: null,
-			scrollChange: null,
-			padding: 80
-		});
-	});
-</script>
 
 
 

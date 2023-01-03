@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/mysql/</link>
+    <description>Recent content in mysql on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Tue, 03 Jan 2023 22:46:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Intall MySQL on MacOS using HomeBrew </title>
+      <link>https://blog.chaitanyashahare.com/posts/mysql-installation/</link>
+      <pubDate>Tue, 03 Jan 2023 22:46:35 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/mysql-installation/</guid>
+      <description>PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MySQLTo install MySQL, run the following command in your MacOS terminal:
+brew install mysql Running MySQLTo start MySQL server, run the following command:
+brew services start mysql VerifyingTo check whether MySQL server is running, run the following command:
+brew services list Usagemysql -u root PasswordFor setting Password and other configuration, run the following command after MySQL server has started</description>
+    </item>
+    
+  </channel>
+</rss>

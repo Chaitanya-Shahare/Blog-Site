@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 02 Jan 2023 07:22:11 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 22:46:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Intall MySQL on MacOS using HomeBrew </title>
+      <link>https://blog.chaitanyashahare.com/posts/mysql-installation/</link>
+      <pubDate>Tue, 03 Jan 2023 22:46:35 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/mysql-installation/</guid>
+      <description>PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MySQLTo install MySQL, run the following command in your MacOS terminal:
+brew install mysql Running MySQLTo start MySQL server, run the following command:
+brew services start mysql VerifyingTo check whether MySQL server is running, run the following command:
+brew services list Usagemysql -u root PasswordFor setting Password and other configuration, run the following command after MySQL server has started</description>
+    </item>
+    
     <item>
       <title>How to Install MongoDB 6.0 on MacOS </title>
       <link>https://blog.chaitanyashahare.com/posts/mongodb-installation/</link>
