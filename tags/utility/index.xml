@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 06 Dec 2022 17:50:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/utility/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 12:03:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/utility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download YouTube videos from terminal using youtube-dl on MacOS</title>
+      <link>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</link>
+      <pubDate>Mon, 09 Jan 2023 12:03:35 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</guid>
+      <description>Youtube-dl is a terminal application which lets you download youtube videos easily without ads and other bloat, unlike other youtube video downloaders online.
+PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing youtube-dlTo install youtube-dl using brew, run the following command in the MacOS terminal:
+brew install youtube-dl Downloading videosTo download youtube videos using youtube-dl, use the following command:
+youtube-dl &amp;#39;youtube-url&amp;#39; Resources $ man youtube-dl youtube-dl Official Site </description>
+    </item>
+    
     <item>
       <title>How to Merge PDFs in MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</link>
