@@ -14,10 +14,10 @@
       <pubDate>Mon, 09 Jan 2023 12:03:35 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</guid>
-      <description>Youtube-dl is a terminal application which lets you download youtube videos easily without ads and other bloat, unlike other youtube video downloaders online.
+      <description>youtube-dl is a terminal application which lets you download YouTube videos easily without ads and other bloat, unlike other YouTube video downloaders online.
 PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing youtube-dlTo install youtube-dl using brew, run the following command in the MacOS terminal:
-brew install youtube-dl Downloading videosTo download youtube videos using youtube-dl, use the following command:
-youtube-dl &amp;#39;youtube-url&amp;#39; Resources $ man youtube-dl youtube-dl Official Site </description>
+brew install youtube-dl Downloading videosTo download YouTube videos using youtube-dl, use the following command:
+youtube-dl &amp;#39;youtube-url&amp;#39; Make sure to use quotes around the URL.</description>
     </item>
     
     <item>
