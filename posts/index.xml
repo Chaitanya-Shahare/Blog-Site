@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 09 Jan 2023 12:03:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 23:45:09 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Site Tutorial</title>
+      <link>https://blog.chaitanyashahare.com/posts/hugo-site-tutorial/</link>
+      <pubDate>Sun, 22 Jan 2023 23:45:09 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/hugo-site-tutorial/</guid>
+      <description>Create Hugo SiteIn a directory, run the following command
+hugo new site porfolio This will create a new folder named portfolio, which will be our site&amp;rsquo;s directory.
+Get themecd porfolio git clone https://github.com/charlola/hugo-theme-charlolamode.git themes/charlolamode Config.tomlnow paste the following in porfolio/config.toml
+baseURL = &amp;#39;http://example.org/&amp;#39; languageCode = &amp;#39;en-us&amp;#39; title = &amp;#39;Chaitanya Shahare&amp;#39; # title = &amp;#34;charlola.mode&amp;#34; paginate = 5 theme = &amp;#34;charlolamode&amp;#34; enableInlineShortcodes = true enableRobotsTXT = true enableEmoji = true pygmentsUseClasses = true [[menu.</description>
+    </item>
+    
     <item>
       <title>Download YouTube videos from terminal using youtube-dl on MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</link>
