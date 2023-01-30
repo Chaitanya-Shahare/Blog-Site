@@ -9,11 +9,11 @@
     <copyright>2022 | Chaitanya Shahare</copyright>
     <lastBuildDate>Mon, 30 Jan 2023 10:33:15 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>nvim</title>
-      <link>https://blog.chaitanyashahare.com/tags/nvim/</link>
+      <title>neovim</title>
+      <link>https://blog.chaitanyashahare.com/tags/neovim/</link>
       <pubDate>Mon, 30 Jan 2023 10:33:15 +0530</pubDate>
       
-      <guid>https://blog.chaitanyashahare.com/tags/nvim/</guid>
+      <guid>https://blog.chaitanyashahare.com/tags/neovim/</guid>
       <description></description>
     </item>
     
@@ -122,15 +122,6 @@
       <pubDate>Tue, 22 Nov 2022 12:31:37 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neovim</title>
-      <link>https://blog.chaitanyashahare.com/tags/neovim/</link>
-      <pubDate>Sun, 20 Nov 2022 10:52:27 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/neovim/</guid>
       <description></description>
     </item>
     
