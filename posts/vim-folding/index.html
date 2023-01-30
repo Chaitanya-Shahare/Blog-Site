@@ -11,35 +11,26 @@
     
   
 
-  <title>How to Make a Bash Script Executable | Chaitanya&#39;s blog</title>
+  <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
-To run a bash script you need to use the following command syntax in the command line:
-sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
-1. Add approriate shebangFor bash add the following shebang at the top of the script">
+  <meta name="description" content="Vim is a highly efficient and versatile text editor that has been around for decades. One of its key features is folding, which allows users to collapse and expand sections of text. Folding makes it easier to navigate and edit large files, and can greatly improve your productivity. In this blog post, we&rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/08-how-to-make-a-bash-script-executable/08-bash-banner-3.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/20/opengraph.png"/>
 
-<meta name="twitter:title" content="How to Make a Bash Script Executable"/>
-<meta name="twitter:description" content="Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
-To run a bash script you need to use the following command syntax in the command line:
-sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
-1. Add approriate shebangFor bash add the following shebang at the top of the script"/>
+<meta name="twitter:title" content="Vim Folding: An Essential Feature for Streamlining Your Text Editing"/>
+<meta name="twitter:description" content="Vim is a highly efficient and versatile text editor that has been around for decades. One of its key features is folding, which allows users to collapse and expand sections of text. Folding makes it easier to navigate and edit large files, and can greatly improve your productivity. In this blog post, we&rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process."/>
 
-  <meta property="og:title" content="How to Make a Bash Script Executable" />
-<meta property="og:description" content="Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
-To run a bash script you need to use the following command syntax in the command line:
-sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
-1. Add approriate shebangFor bash add the following shebang at the top of the script" />
+  <meta property="og:title" content="Vim Folding: An Essential Feature for Streamlining Your Text Editing" />
+<meta property="og:description" content="Vim is a highly efficient and versatile text editor that has been around for decades. One of its key features is folding, which allows users to collapse and expand sections of text. Folding makes it easier to navigate and edit large files, and can greatly improve your productivity. In this blog post, we&rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/08-how-to-make-a-bash-script-executable/08-bash-banner-3.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-22T12:31:37+05:30" />
-<meta property="article:modified_time" content="2022-11-22T12:31:37+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/vim-folding/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/20/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-30T10:33:15+05:30" />
+<meta property="article:modified_time" content="2023-01-30T10:33:15+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -196,7 +187,7 @@ sh ./address/scriptName.sh But the script is not executable by itself, to make i
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/08-how-to-make-a-bash-script-executable/08-bash-banner-3.png');
+    background-image: url('/images/posts/20/cover.png');
   }
 </style>
 
@@ -209,14 +200,16 @@ sh ./address/scriptName.sh But the script is not executable by itself, to make i
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/bash/" title="bash">bash</a>
+            <a class="tag" href="/tags/vim/" title="vim">vim</a>
+            
+            <a class="tag" href="/tags/nvim/" title="nvim">nvim</a>
             
           </div>
-          <h1>How to Make a Bash Script Executable</h1>
+          <h1>Vim Folding: An Essential Feature for Streamlining Your Text Editing</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Tue, Nov 22, 2022
+            on Mon, Jan 30, 2023
           </span>
         </div>
       </div>
@@ -237,39 +230,60 @@ sh ./address/scriptName.sh But the script is not executable by itself, to make i
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Bash scripts can be used to automate bash shell commands, they have the extention <code>.sh</code>.
-I personally use these to do some repetitive tasks like deploying a new post to this site.</p>
-<p>To run a bash script you need to use the following command syntax in the command line:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sh ./address/scriptName.sh
-</span></span></code></pre></div><p>But the script is not executable by itself,
-to make it executable follow the following steps</p>
-<h2 id="1-add-approriate-shebang">1. Add approriate shebang<a class="anchorjs-link" href="#1-add-approriate-shebang"></a></h2><p>For bash add the following shebang at the top of the script</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ff79c6">#!/bin/bash
-</span></span></span></code></pre></div><h2 id="2-run-the-chmod-command-for-the-file">2. Run the chmod command for the file<a class="anchorjs-link" href="#2-run-the-chmod-command-for-the-file"></a></h2><p>Go to the directory containing the script and use the following command</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod u+x scriptName.sh
-</span></span></code></pre></div><h2 id="3-run-the-script">3. Run the script<a class="anchorjs-link" href="#3-run-the-script"></a></h2><p>To run the script in the same directory</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./scriptName.sh
-</span></span></code></pre></div><p>For any other directory</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/address/scriptName.sh
-</span></span></code></pre></div>
+        <p>Vim is a highly efficient and versatile text editor that has been around for decades.
+One of its key features is folding, which allows users to collapse and expand sections of text.
+Folding makes it easier to navigate and edit large files, and can greatly improve your productivity.
+In this blog post, we&rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process.</p>
+<h2 id="how-to-use-vim-folding">How to Use Vim Folding<a class="anchorjs-link" href="#how-to-use-vim-folding"></a></h2><p>Vim folding works by grouping lines of text together into a single fold.
+The fold can be collapsed so that only the first line of the group is visible, making it easier to navigate through a large file.</p>
+<ul>
+<li>To create a fold, you can use the <code>zf</code> command followed by a motion.
+<ul>
+<li>For example, <code>zfap</code> creates a fold around the current paragraph.</li>
+</ul>
+</li>
+<li>You can also fold a range of lines using the syntax <code>zf[range]</code>.
+<ul>
+<li>For example, <code>zf10,20</code> creates a fold around lines 10 to 20.</li>
+</ul>
+</li>
+<li>Expanding and collapsing folds is done using the <code>zo</code> and <code>zc</code> commands, respectively.</li>
+<li>The <code>zO</code> command expands all folds recursively, while <code>zC</code> collapses all folds recursively.</li>
+<li>You can also toggle folds using the <code>zt</code> command.</li>
+</ul>
+<h2 id="folding-techniques">Folding Techniques<a class="anchorjs-link" href="#folding-techniques"></a></h2><p>There are several folding techniques you can use in Vim to help you navigate and manage your text more effectively.
+Here are a few of the most useful:</p>
+<ul>
+<li>
+<p><strong>Folding code blocks</strong>: If you&rsquo;re working on a code file, folding can be a great way to hide blocks of code that you&rsquo;re not currently working on.
+This makes it easier to focus on the code that you need to work on.</p>
+</li>
+<li>
+<p><strong>Folding sections</strong>: If you have a long file with multiple sections, you can create folds around each section to make it easier to navigate.</p>
+</li>
+<li>
+<p><strong>Folding comments</strong>: If your file is heavily commented, you can fold all the comments to reduce clutter and make it easier to focus on the code.</p>
+</li>
+<li>
+<p><strong>Folding to a specific level</strong>: You can control the level of folding by using the <code>zR</code> command to expand all folds, <code>zM</code> to collapse all folds,
+and <code>zr</code> and <code>zm</code> to expand or collapse the current fold, respectively.</p>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>Vim folding is a powerful and flexible feature that can greatly improve your text editing efficiency.
+Whether you&rsquo;re working on a code file, a document, or any other type of text file, folding can help you navigate and manage your content more effectively.
+By using the techniques outlined in this post, you&rsquo;ll be able to take full advantage of this feature and streamline your text editing process.</p>
+
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/06-how-to-install-plugins-in-neovim/" data-toggle="tooltip" data-placement="top" title="How to Install Plugins in Neovim">
+            <a href="/posts/youtube-dl-getting-started/" data-toggle="tooltip" data-placement="top" title="Download YouTube videos from terminal using youtube-dl on MacOS">
               Previous<br>
-              <span>How to Install Plugins in Neovim</span>
+              <span>Download YouTube videos from terminal using youtube-dl on MacOS</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/09-how-to-add-an-alias-in-macos-terminal/" data-toggle="tooltip" data-placement="top" title="How to Add an Alias in Macos Terminal">
-              Next<br>
-              <span>How to Add an Alias in Macos Terminal</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
