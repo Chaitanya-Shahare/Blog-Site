@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 30 Jan 2023 10:33:15 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 22:50:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Nerd Font in Termux: A Step-by-Step Guide</title>
+      <link>https://blog.chaitanyashahare.com/posts/nerd-font-termux/</link>
+      <pubDate>Mon, 06 Feb 2023 22:50:14 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/nerd-font-termux/</guid>
+      <description>Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.
+Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.</description>
+    </item>
+    
     <item>
       <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing</title>
       <link>https://blog.chaitanyashahare.com/posts/vim-folding/</link>
