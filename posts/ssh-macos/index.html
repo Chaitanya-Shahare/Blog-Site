@@ -11,29 +11,29 @@
     
   
 
-  <title>Installing Nerd Font in Termux: A Step-by-Step Guide | Chaitanya&#39;s blog</title>
+  <title>How to SSH into MacOS from another device | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.
-Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.">
+  <meta name="description" content="SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, we will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.
+Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png"/>
 
-<meta name="twitter:title" content="Installing Nerd Font in Termux: A Step-by-Step Guide"/>
-<meta name="twitter:description" content="Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.
-Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use."/>
+<meta name="twitter:title" content="How to SSH into MacOS from another device"/>
+<meta name="twitter:description" content="SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, we will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.
+Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device."/>
 
-  <meta property="og:title" content="Installing Nerd Font in Termux: A Step-by-Step Guide" />
-<meta property="og:description" content="Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.
-Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use." />
+  <meta property="og:title" content="How to SSH into MacOS from another device" />
+<meta property="og:description" content="SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, we will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.
+Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/nerd-font-termux/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-06T22:50:14+05:30" />
-<meta property="article:modified_time" content="2023-02-06T22:50:14+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/ssh-macos/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-06T23:09:52+05:30" />
+<meta property="article:modified_time" content="2023-02-06T23:09:52+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -204,7 +204,7 @@ Enter Nerd Fonts, a collection of specially designed fonts that adds extra chara
           <div class="tags">
             
           </div>
-          <h1>Installing Nerd Font in Termux: A Step-by-Step Guide</h1>
+          <h1>How to SSH into MacOS from another device</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
@@ -229,48 +229,40 @@ Enter Nerd Fonts, a collection of specially designed fonts that adds extra chara
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices.
-However, by default, Termux uses a plain font, which can be less visually appealing.</p>
-<p>Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font.
-Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.</p>
-<p>In this blog post, we will guide you through the process of installing a Nerd Font in Termux.
-Let’s get started!</p>
-<h2 id="install-wget">Install <code>wget</code><a class="anchorjs-link" href="#install-wget"></a></h2><p>Run the following command in Termux:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ pkg install wget
-</span></span></code></pre></div><h2 id="wget-nerd-font">Wget nerd font<a class="anchorjs-link" href="#wget-nerd-font"></a></h2><p>For simplicity we will be using <em>Source Code Pro</em> nerd font.
-Run the following commands:</p>
-<p>First go to <code>.termux</code> directory</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ cd ~/.termux
-</span></span></code></pre></div><p>Now wget the font</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ wget &#39;https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/SourceCodePro/Regular/complete/Sauce%20Code%20Pro%20Nerd%20Font%20Complete.ttf&#39;
-</span></span></code></pre></div><h2 id="rename-font">Rename font<a class="anchorjs-link" href="#rename-font"></a></h2><p>Now rename to <code>font.ttf</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ mv Sauce\ Code\ Pro\ Nerd\ Font\ Complete.ttf font.ttf
-</span></span></code></pre></div><h2 id="reload-settings">Reload settings<a class="anchorjs-link" href="#reload-settings"></a></h2><p>To reload termux settings,</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ termux-reload-settings
-</span></span></code></pre></div><h2 id="restart-termux">Restart termux<a class="anchorjs-link" href="#restart-termux"></a></h2><p>Finally, restart Termux for the changes to take effect.
-You should now see the Nerd Font in use in your Termux terminal.</p>
-<p>Congratulations! You have successfully installed a Nerd Font in Termux.
-This will make your terminal experience more visually appealing and easier to use.
-If you have any questions or issues with the process, feel free to leave a comment below.</p>
+        <p>SSH (Secure Shell) is a protocol used for secure communication between two devices over a network.
+It is commonly used to connect to remote servers or to control other devices.
+In this article, we will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.</p>
+<h2 id="step-1-enable-ssh-on-the-target-macos-device">Step 1: Enable SSH on the Target macOS Device<a class="anchorjs-link" href="#step-1-enable-ssh-on-the-target-macos-device"></a></h2><p>First, you need to enable SSH on the target macOS device.
+To do this, go to &ldquo;System Preferences&rdquo; &gt; &ldquo;Sharing&rdquo; and check the &ldquo;Remote Login&rdquo; option.
+By default, SSH listens on port 22, but you can specify a different port if desired.</p>
+<h2 id="step-2-find-the-ip-address-of-the-target-macos-device">Step 2: Find the IP Address of the Target macOS Device<a class="anchorjs-link" href="#step-2-find-the-ip-address-of-the-target-macos-device"></a></h2><p>The next step is to find the IP address of the target macOS device.
+You can find this by going to the &ldquo;Apple&rdquo; menu and selecting &ldquo;System Preferences.
+&quot; Then, click on &ldquo;Network&rdquo; and find the IP address under the &ldquo;Status&rdquo; section.
+Alternatively, you can open the Terminal on the target macOS device and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ipconfig getifaddr en0
+</span></span></code></pre></div><p>Note: The interface name (en0 in this example) may be different on your device.</p>
+<h2 id="step-3-connect-to-the-target-macos-device-using-ssh">Step 3: Connect to the Target macOS Device Using SSH<a class="anchorjs-link" href="#step-3-connect-to-the-target-macos-device-using-ssh"></a></h2><p>Now that you have the IP address of the target macOS device, you can connect to it using SSH.
+If you are using a Windows PC, you can use an SSH client like PuTTY.
+If you are using a Linux machine or another macOS device, you can use the built-in Terminal app.</p>
+<p>To connect to the target macOS device using Terminal, open the Terminal app and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ssh [username]@[IP address]
+</span></span></code></pre></div><p>Replace [username] with the username on the target macOS device and [IP address] with the IP address you found in step 2.</p>
+<p>If all goes well, you should be prompted for the password for the specified user.
+Enter the password, and you should now be connected to the target macOS device via SSH.</p>
+<p>In conclusion, SSH is a powerful tool that allows you to securely connect to other devices over a network.
+By following these steps, you can easily SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/vim-folding/" data-toggle="tooltip" data-placement="top" title="Vim Folding: An Essential Feature for Streamlining Your Text Editing">
+            <a href="/posts/nerd-font-termux/" data-toggle="tooltip" data-placement="top" title="Installing Nerd Font in Termux: A Step-by-Step Guide">
               Previous<br>
-              <span>Vim Folding: An Essential Feature for Streamlining Your Text Editing</span>
+              <span>Installing Nerd Font in Termux: A Step-by-Step Guide</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/ssh-macos/" data-toggle="tooltip" data-placement="top" title="How to SSH into MacOS from another device">
-              Next<br>
-              <span>How to SSH into MacOS from another device</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
