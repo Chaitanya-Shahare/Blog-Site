@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/ssh/</link>
+    <description>Recent content in ssh on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Mon, 06 Feb 2023 23:09:52 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to SSH into MacOS from another device</title>
+      <link>https://blog.chaitanyashahare.com/posts/ssh-macos/</link>
+      <pubDate>Mon, 06 Feb 2023 23:09:52 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/ssh-macos/</guid>
+      <description>SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, I will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.
+Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device.</description>
+    </item>
+    
+  </channel>
+</rss>

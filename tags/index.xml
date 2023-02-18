@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 06 Feb 2023 22:50:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 23:09:52 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ssh</title>
+      <link>https://blog.chaitanyashahare.com/tags/ssh/</link>
+      <pubDate>Mon, 06 Feb 2023 23:09:52 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>termux</title>
       <link>https://blog.chaitanyashahare.com/tags/termux/</link>
