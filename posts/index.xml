@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 06 Feb 2023 23:09:52 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 15:40:21 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Make Neovim Backround Transparent</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</link>
+      <pubDate>Sat, 18 Feb 2023 15:40:21 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</guid>
+      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim
+highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.</description>
+    </item>
+    
     <item>
       <title>How to SSH into MacOS from another device</title>
       <link>https://blog.chaitanyashahare.com/posts/ssh-macos/</link>
