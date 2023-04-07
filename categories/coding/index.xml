@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 30 Jan 2023 10:33:15 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Apr 2023 12:01:33 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mongodb Commands for Beginners</title>
+      <link>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</link>
+      <pubDate>Fri, 07 Apr 2023 12:01:33 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</guid>
+      <description>reference CodeWithHarry video -&amp;gt; https://youtu.be/oSIv-E60NiU Official Documentation -&amp;gt; https://www.mongodb.com/docs/ what is MongoDb? production ready database
+document based database
+difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&amp;gt; limiting the number of documents</description>
+    </item>
+    
     <item>
       <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing</title>
       <link>https://blog.chaitanyashahare.com/posts/vim-folding/</link>

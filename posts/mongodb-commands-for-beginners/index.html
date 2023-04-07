@@ -11,29 +11,32 @@
     
   
 
-  <title>How to Make Neovim Backround Transparent | Chaitanya&#39;s blog</title>
+  <title>Mongodb Commands for Beginners | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Add the following lines to your .vimrc for Vim and init.vim for Neovim
-highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.">
+  <meta name="description" content="reference CodeWithHarry video -&gt; https://youtu.be/oSIv-E60NiU Official Documentation -&gt; https://www.mongodb.com/docs/ what is MongoDb? production ready database
+document based database
+difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&gt; limiting the number of documents">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/20/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png"/>
 
-<meta name="twitter:title" content="How to Make Neovim Backround Transparent"/>
-<meta name="twitter:description" content="Add the following lines to your .vimrc for Vim and init.vim for Neovim
-highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent."/>
+<meta name="twitter:title" content="Mongodb Commands for Beginners"/>
+<meta name="twitter:description" content="reference CodeWithHarry video -&gt; https://youtu.be/oSIv-E60NiU Official Documentation -&gt; https://www.mongodb.com/docs/ what is MongoDb? production ready database
+document based database
+difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&gt; limiting the number of documents"/>
 
-  <meta property="og:title" content="How to Make Neovim Backround Transparent" />
-<meta property="og:description" content="Add the following lines to your .vimrc for Vim and init.vim for Neovim
-highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent." />
+  <meta property="og:title" content="Mongodb Commands for Beginners" />
+<meta property="og:description" content="reference CodeWithHarry video -&gt; https://youtu.be/oSIv-E60NiU Official Documentation -&gt; https://www.mongodb.com/docs/ what is MongoDb? production ready database
+document based database
+difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&gt; limiting the number of documents" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/20/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-18T15:40:21+05:30" />
-<meta property="article:modified_time" content="2023-02-18T15:40:21+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-07T12:01:33+05:30" />
+<meta property="article:modified_time" content="2023-04-07T12:01:33+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -190,7 +193,7 @@ highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermb
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/20/cover.png');
+    background-image: url('/black-background.jpg');
   }
 </style>
 
@@ -203,16 +206,14 @@ highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermb
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
-            
-            <a class="tag" href="/tags/vim/" title="vim">vim</a>
+            <a class="tag" href="/tags/mongodb/" title="mongodb">mongodb</a>
             
           </div>
-          <h1>How to Make Neovim Backround Transparent</h1>
+          <h1>Mongodb Commands for Beginners</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Sat, Feb 18, 2023
+            on Fri, Apr 7, 2023
           </span>
         </div>
       </div>
@@ -233,31 +234,181 @@ highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermb
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Add the following lines to your <code>.vimrc</code> for <strong>Vim</strong> and <code>init.vim</code> for <strong>Neovim</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>highlight Normal guibg=none
-</span></span><span style="display:flex;"><span>highlight NonText guibg=none
-</span></span><span style="display:flex;"><span>highlight Normal ctermbg=none
-</span></span><span style="display:flex;"><span>highlight NonText ctermbg=none
-</span></span></code></pre></div><p>This should make your Vim / Neovim background transparent.</p>
+        <h2 id="reference">reference<a class="anchorjs-link" href="#reference"></a></h2><ul>
+<li>CodeWithHarry video -&gt; <a href="https://youtu.be/oSIv-E60NiU" target="_blank">https://youtu.be/oSIv-E60NiU</a></li>
+<li>Official Documentation -&gt; <a href="https://www.mongodb.com/docs/" target="_blank">https://www.mongodb.com/docs/</a></li>
+</ul>
+<h2 id="what-is-mongodb">what is MongoDb?<a class="anchorjs-link" href="#what-is-mongodb"></a></h2><ul>
+<li>
+<p>production ready database</p>
+</li>
+<li>
+<p>document based database</p>
+</li>
+</ul>
+<h2 id="difference-between-mongo-and-mongod">difference between mongo and mongod<a class="anchorjs-link" href="#difference-between-mongo-and-mongod"></a></h2><ul>
+<li>mongo : command line shell</li>
+<li>mongod : mongo daemon, hosts the process</li>
+</ul>
+<h2 id="comparison-of-mongodb-with-mysql">comparison of mongodb with mysql<a class="anchorjs-link" href="#comparison-of-mongodb-with-mysql"></a></h2><ul>
+<li>sql equivalent to tables in excel</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>sql</th>
+<th>mongodb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>database</td>
+<td>database</td>
+</tr>
+<tr>
+<td>tables</td>
+<td>collections</td>
+</tr>
+<tr>
+<td>rows</td>
+<td>documents (BSON)</td>
+</tr>
+<tr>
+<td>columns</td>
+<td>fields</td>
+</tr>
+</tbody>
+</table>
+<h2 id="install-mongodb">install mongodb<a class="anchorjs-link" href="#install-mongodb"></a></h2><ul>
+<li>mongodb community server</li>
+<li>mongodb compass</li>
+</ul>
+<blockquote>
+<p>capped collection -&gt; limiting the number of documents</p>
+</blockquote>
+<ul>
+<li>bson has more types than json</li>
+</ul>
+<h2 id="basic-commands">basic commands<a class="anchorjs-link" href="#basic-commands"></a></h2><h3 id="database-commands">Database commands<a class="anchorjs-link" href="#database-commands"></a></h3><ul>
+<li>View all databases
+<code>show dbs;</code></li>
+<li>Make a new database or switch to a database
+<code>use comments</code></li>
+<li>Show which database
+<code>db</code></li>
+<li>Delete database
+<code>db.dropDatabase()</code></li>
+</ul>
+<h3 id="collection-commands">Collection commands<a class="anchorjs-link" href="#collection-commands"></a></h3><ul>
+<li>Show all collections
+<code>show collections</code></li>
+<li>Make a new collection named comments
+<code>db.createCollection('myComments')</code></li>
+<li>Delete a collection
+<code>db.&lt;name_of_collection&gt;.drop()</code></li>
+</ul>
+<h3 id="rows-columns">Rows columns<a class="anchorjs-link" href="#rows-columns"></a></h3><ul>
+<li>
+<p>Show all rows in the collection
+<code>db.&lt;name_of_collection&gt;.find()</code></p>
+</li>
+<li>
+<p>Find first row matching the object
+<code>db.&lt;name_of_collection&gt;.find({name: &quot;Chaitanya&quot;})</code></p>
+</li>
+<li>
+<p>Show all rows in the collection (prettified)
+<code>db.&lt;name_of_collection&gt;.find().pretty()</code></p>
+</li>
+<li>
+<p>Search for rows
+<code>db.&lt;name_of_collection&gt;.find({lang: 'Python'})</code></p>
+</li>
+<li>
+<p>Limit find results
+<code>db.&lt;name_of_collection&gt;.find().limit(2)</code></p>
+</li>
+<li>
+<p>Insert one Row
+<code>db.&lt;name_of_collection&gt;.insert({ 'name': 'Chaitanya', 'lang': 'JavaScript', 'member_since': 2018 })</code></p>
+</li>
+<li>
+<p>Insert many Rows
+`db.&lt;name_of_collection&gt;.insertMany([
+{
+&rsquo;name&rsquo;: &lsquo;Chaitanya&rsquo;,
+&rsquo;lang&rsquo;: &lsquo;JavaScript&rsquo;,
+&lsquo;member_since&rsquo;: 2018
+},
+{
+&rsquo;name&rsquo;: &lsquo;Shahare&rsquo;,
+&rsquo;lang&rsquo;: &lsquo;Python&rsquo;,
+&lsquo;member_since&rsquo;: 2018
+},
+{
+&rsquo;name&rsquo;: &lsquo;Chaitanya&rsquo;,
+&rsquo;lang&rsquo;: &lsquo;JavaScript&rsquo;,
+&lsquo;member_since&rsquo;: 2018
+},</p>
+<p>])`</p>
+</li>
+<li>
+<p>Delete Row
+<code>db.&lt;name_of_collection&gt;.remove({name: &quot;shahare&quot;})</code></p>
+</li>
+<li>
+<p>Count the number of rows in the output
+<code>db.&lt;name_of_collection&gt;.find().count()</code></p>
+</li>
+<li>
+<p>Sorting
+<code>db.&lt;name_of_collection&gt;.find().sort({member_since: -1}).pretty()</code></p>
+</li>
+<li>
+<p>Update a rows
+<code>db.&lt;name_of_collection&gt;.update({name: 'Chaitanya'}, { 'name': 'Chaitanya', 'lang': 'C++', 'member_since': 2009 })</code></p>
+</li>
+<li>
+<p>If you want to make a new object, if no matches are found, add a option
+<code>db.&lt;name_of_collection&gt;.update({name: 'Chaitanya'}, { 'name': 'Chaitanya', 'lang': 'C++', 'member_since': 2009 }, {upsert: true})</code></p>
+</li>
+</ul>
+<h3 id="update-operators">Update operators<a class="anchorjs-link" href="#update-operators"></a></h3><ul>
+<li>Increment update operator <code>$inc</code>
+<code>db.&lt;name_of_collection&gt;.update({name: 'shahare'}, {$inc: { member_since: 2 }})</code></li>
+<li>Rename update operator <code>$rename</code>
+<code>db.&lt;name_of_collection&gt;.update({name: 'shahare'}, {$rename: { member_since: 2 }})</code></li>
+</ul>
+<h3 id="filters">Filters<a class="anchorjs-link" href="#filters"></a></h3><ul>
+<li>Less than <code>$lt</code>
+<code>db.&lt;name_of_collection&gt;.find({ member_since: {$lt: 90} })</code></li>
+<li>Less than equal to <code>$lte</code>
+<code>db.&lt;name_of_collection&gt;.find({ member_since: {$lte: 90} })</code></li>
+<li>Greater than <code>$gt</code>
+<code>db.&lt;name_of_collection&gt;.find({ member_since: {$gt: 90} })</code></li>
+<li>Greater than equal to <code>$gte</code>
+<code>db.&lt;name_of_collection&gt;.find({ member_since: {$gte: 90} })</code></li>
+</ul>
+<h2 id="mongodb-atlas">MongoDb atlas<a class="anchorjs-link" href="#mongodb-atlas"></a></h2><ul>
+<li>MongoDb on cloud</li>
+<li>Organisation &gt; Project &gt; Cluster</li>
+<li>Database user</li>
+<li>Connect via react/compass</li>
+<li>Add a connection IP</li>
+<li>Connection string</li>
+</ul>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/ssh-macos/" data-toggle="tooltip" data-placement="top" title="How to SSH into MacOS from another device">
+            <a href="/posts/how-to-make-nvim-backround-transparent/" data-toggle="tooltip" data-placement="top" title="How to Make Neovim Backround Transparent">
               Previous<br>
-              <span>How to SSH into MacOS from another device</span>
+              <span>How to Make Neovim Backround Transparent</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/mongodb-commands-for-beginners/" data-toggle="tooltip" data-placement="top" title="Mongodb Commands for Beginners">
-              Next<br>
-              <span>Mongodb Commands for Beginners</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
