@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 18 Feb 2023 15:40:21 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2023 13:44:25 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to write Lua Script in Neovim init.vim</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</link>
+      <pubDate>Mon, 24 Apr 2023 13:44:25 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</guid>
+      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF
+For example;
+lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
+    </item>
+    
     <item>
       <title>How to Make Neovim Backround Transparent</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</link>

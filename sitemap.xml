@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-04-07T12:01:33+05:30</lastmod>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-04-07T12:01:33+05:30</lastmod>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</loc>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/utility/</loc>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
+    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/coding/</loc>
     <lastmod>2023-04-07T12:01:33+05:30</lastmod>
@@ -17,19 +32,10 @@
     <loc>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</loc>
     <lastmod>2023-04-07T12:01:33+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2023-04-07T12:01:33+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
-    <lastmod>2023-04-07T12:01:33+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</loc>
     <lastmod>2023-02-18T15:40:21+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
-    <lastmod>2023-02-18T15:40:21+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
     <lastmod>2023-02-18T15:40:21+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/ssh-macos/</loc>
