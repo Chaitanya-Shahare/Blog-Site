@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2023-05-08T20:09:33+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-scroll-smoothly-on-macos-with-any-mouse/</loc>
+    <lastmod>2023-05-08T20:09:33+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-05-08T20:09:33+05:30</lastmod>
+  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
     <lastmod>2023-04-24T13:44:25+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</loc>
-    <lastmod>2023-04-24T13:44:25+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
     <lastmod>2023-04-24T13:44:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/</loc>
