@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 09 May 2023 15:00:16 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04</title>
+      <link>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</guid>
+      <description>Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.
+Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&amp;rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl + Alt + T or by searching for the terminal in the applications menu.</description>
+    </item>
+    
     <item>
       <title>Maximize Your Productivity: Create a Schedule with ChatGPT and Sync it with Google Calendar</title>
       <link>https://blog.chaitanyashahare.com/posts/maximise-your-productivity-create-a-schedule-with-chatgpt-and-sync-it-with-google-calendar/</link>
