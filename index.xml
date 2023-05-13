@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 May 2023 10:12:56 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/</link>
+      <pubDate>Sat, 13 May 2023 10:12:56 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/</guid>
+      <description>ProblemWhen you clone a repo to your local machine, it doesn&amp;rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
+SolutionTo pull all the branches from the remote, run the following command
+git branch -r | grep -v &amp;#39;\-&amp;gt;&amp;#39; | sed &amp;#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&amp;#34; | while read remote; do git branch --track &amp;#34;${remote#origin/}&amp;#34; &amp;#34;$remote&amp;#34;; done git fetch --all git pull --all Done!
+Resources Stackoverflow solution: https://stackoverflow.</description>
+    </item>
+    
     <item>
       <title>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04</title>
       <link>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</link>

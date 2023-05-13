@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2023-05-13T10:12:56+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/</loc>
+    <lastmod>2023-05-13T10:12:56+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-05-13T10:12:56+05:30</lastmod>
+  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/linux/</loc>
-    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</loc>

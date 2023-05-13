@@ -11,29 +11,35 @@
     
   
 
-  <title>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04 | Chaitanya&#39;s blog</title>
+  <title>No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.
-Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl &#43; Alt &#43; T or by searching for the terminal in the applications menu.">
+  <meta name="description" content="ProblemWhen you clone a repo to your local machine, it doesn&rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
+SolutionTo pull all the branches from the remote, run the following command
+git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34; | while read remote; do git branch --track &#34;${remote#origin/}&#34; &#34;$remote&#34;; done git fetch --all git pull --all Done!
+Resources Stackoverflow solution: https://stackoverflow.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/jellyfin-installation/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/git/banner.png"/>
 
-<meta name="twitter:title" content="Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04"/>
-<meta name="twitter:description" content="Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.
-Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl &#43; Alt &#43; T or by searching for the terminal in the applications menu."/>
+<meta name="twitter:title" content="No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local"/>
+<meta name="twitter:description" content="ProblemWhen you clone a repo to your local machine, it doesn&rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
+SolutionTo pull all the branches from the remote, run the following command
+git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34; | while read remote; do git branch --track &#34;${remote#origin/}&#34; &#34;$remote&#34;; done git fetch --all git pull --all Done!
+Resources Stackoverflow solution: https://stackoverflow."/>
 
-  <meta property="og:title" content="Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04" />
-<meta property="og:description" content="Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.
-Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl &#43; Alt &#43; T or by searching for the terminal in the applications menu." />
+  <meta property="og:title" content="No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local" />
+<meta property="og:description" content="ProblemWhen you clone a repo to your local machine, it doesn&rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
+SolutionTo pull all the branches from the remote, run the following command
+git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34; | while read remote; do git branch --track &#34;${remote#origin/}&#34; &#34;$remote&#34;; done git fetch --all git pull --all Done!
+Resources Stackoverflow solution: https://stackoverflow." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/jellyfin-installation/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/jellyfin-installation/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-05-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-05-10T00:00:00+00:00" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/git/banner.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-13T10:12:56+05:30" />
+<meta property="article:modified_time" content="2023-05-13T10:12:56+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -190,7 +196,7 @@ Step 1: Update the SystemBefore installing any new software on your Ubuntu syste
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/jellyfin-installation/banner.png');
+    background-image: url('/images/posts/git/banner.png');
   }
 </style>
 
@@ -203,14 +209,12 @@ Step 1: Update the SystemBefore installing any new software on your Ubuntu syste
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/utility/" title="utility">utility</a>
-            
           </div>
-          <h1>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04</h1>
+          <h1>No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, May 10, 2023
+            on Sat, May 13, 2023
           </span>
         </div>
       </div>
@@ -231,67 +235,28 @@ Step 1: Update the SystemBefore installing any new software on your Ubuntu syste
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Jellyfin is a free and open-source media server that allows you to stream your
-media content like music, videos, and images to various devices. It supports
-multiple operating systems, including Ubuntu 22.04. In this guide, we will walk
-you through the process of installing Jellyfin on Ubuntu 22.04.</p>
-<h2 id="step-1-update-the-system">Step 1: Update the System<a class="anchorjs-link" href="#step-1-update-the-system"></a></h2><p>Before installing any new software on your Ubuntu system, it&rsquo;s essential to
-ensure that your system is up-to-date. To update your Ubuntu system, open the
-terminal by pressing Ctrl + Alt + T or by searching for the terminal in the
-applications menu. Once you have the terminal open, type the following command
-to update your system:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#ff79c6">&amp;&amp;</span> sudo apt upgrade 
-</span></span></code></pre></div><p>This command will update the package list and upgrade any outdated packages.</p>
-<h2 id="step-2-add-jellyfin-repository">Step 2: Add Jellyfin Repository<a class="anchorjs-link" href="#step-2-add-jellyfin-repository"></a></h2><p>Jellyfin provides a repository for Ubuntu that makes it easy to install and
-update the software. To add the Jellyfin repository, open the terminal and
-enter the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install apt-transport-https
-</span></span><span style="display:flex;"><span>sudo wget -O /usr/share/keyrings/jellyfin-archive-keyring.gpg https://repo.jellyfin.org/ubuntu/jellyfin-archive-keyring.gpg
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;deb [signed-by=/usr/share/keyrings/jellyfin-archive-keyring.gpg] https://repo.jellyfin.org/ubuntu </span><span style="color:#ff79c6">$(</span>lsb_release -cs<span style="color:#ff79c6">)</span><span style="color:#f1fa8c"> main&#34;</span> | sudo tee /etc/apt/sources.list.d/jellyfin.list
-</span></span></code></pre></div><h2 id="step-3-install-jellyfin">Step 3: Install Jellyfin<a class="anchorjs-link" href="#step-3-install-jellyfin"></a></h2><p>Once you have added the Jellyfin repository, update the package list again to
-include the Jellyfin packages:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update 
-</span></span></code></pre></div><p>After updating the package list, you can install the Jellyfin media server by
-typing the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install jellyfin 
-</span></span></code></pre></div><p>During the installation, you will be prompted to accept the installation of
-additional packages required for Jellyfin to run.</p>
-<h2 id="step-4-configure-jellyfin">Step 4: Configure Jellyfin<a class="anchorjs-link" href="#step-4-configure-jellyfin"></a></h2><p>Once the installation is complete, you can access the Jellyfin web interface by
-opening a web browser and navigating to http://localhost:8096. If you&rsquo;re
-installing Jellyfin on a remote server, replace &ldquo;localhost&rdquo; with the server&rsquo;s
-IP address.</p>
-<p>The first time you access the Jellyfin web interface, you&rsquo;ll be prompted to
-create an administrator account and set up your media libraries. Follow the
-on-screen instructions to configure Jellyfin to your liking.</p>
-<h2 id="step-5-start-and-stop-jellyfin">Step 5: Start and Stop Jellyfin<a class="anchorjs-link" href="#step-5-start-and-stop-jellyfin"></a></h2><p>To start the Jellyfin service, use the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start jellyfin 
-</span></span></code></pre></div><p>To stop the service, use:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl stop jellyfin 
-</span></span></code></pre></div><p>You can also use the restart command to restart the service:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl restart jellyfin 
-</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>Jellyfin is an excellent media server that can help you stream your media
-content to multiple devices. Installing it on Ubuntu 22.04 is a straightforward
-process that can be completed in just a few minutes. Once installed, you can
-configure Jellyfin to your liking and start streaming your media content.</p>
+        <h2 id="problem">Problem<a class="anchorjs-link" href="#problem"></a></h2><p>When you clone a repo to your local machine, it doesn&rsquo;t pull all the branches to your local.
+Then you have to manually pull the branches you want.</p>
+<h2 id="solution">Solution<a class="anchorjs-link" href="#solution"></a></h2><p>To pull all the branches from the remote, run the following command</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -r | grep -v <span style="color:#f1fa8c">&#39;\-&gt;&#39;</span> | sed <span style="color:#f1fa8c">&#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34;</span> | <span style="color:#ff79c6">while</span> <span style="color:#8be9fd;font-style:italic">read</span> remote; <span style="color:#ff79c6">do</span> git branch --track <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">remote</span>#origin/<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$remote</span><span style="color:#f1fa8c">&#34;</span>; <span style="color:#ff79c6">done</span>
+</span></span><span style="display:flex;"><span>git fetch --all
+</span></span><span style="display:flex;"><span>git pull --all
+</span></span></code></pre></div><p>Done!</p>
+<h2 id="resources">Resources<a class="anchorjs-link" href="#resources"></a></h2><ul>
+<li>Stackoverflow solution: <a href="https://stackoverflow.com/questions/10312521/how-do-i-fetch-all-git-branches" target="_blank">https://stackoverflow.com/questions/10312521/how-do-i-fetch-all-git-branches</a></li>
+</ul>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/maximise-your-productivity-create-a-schedule-with-chatgpt-and-sync-it-with-google-calendar/" data-toggle="tooltip" data-placement="top" title="Maximize Your Productivity: Create a Schedule with ChatGPT and Sync it with Google Calendar">
+            <a href="/posts/jellyfin-installation/" data-toggle="tooltip" data-placement="top" title="Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04">
               Previous<br>
-              <span>Maximize Your Productivity: Create a Schedule with ChatGPT and Sync it with Google Calendar</span>
+              <span>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/how-to-pull-all-git-branches-from-remote-to-local/" data-toggle="tooltip" data-placement="top" title="No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local">
-              Next<br>
-              <span>No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
