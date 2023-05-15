@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 14 May 2023 19:34:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 May 2023 12:34:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/editor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Neovim vs Vscode Conundrum Why I Switched Back to Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</link>
-      <pubDate>Sun, 14 May 2023 19:34:35 +0530</pubDate>
+      <pubDate>Mon, 15 May 2023 12:34:35 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</guid>
       <description>I&amp;rsquo;ve been always obsessed with efficiency and getting things done faster. Right about when I was getting started with coding in my 2nd semester I discovered Vim. Ever since then, I knew, in spite of the steep learning curve, I had to learn it to make my coding experience more efficient. I&amp;rsquo;ve been a loyal Vim user for about 8 months, in which I switched to Neovim and customized it with plugins and scripts to my liking and I was pretty satisfied with my editor.</description>
