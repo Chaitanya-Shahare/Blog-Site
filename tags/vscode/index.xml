@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vscode on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/vscode/</link>
+    <description>Recent content in vscode on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Sun, 14 May 2023 19:34:35 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Neovim vs Vscode Conundrum Why I Switched Back to Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</link>
+      <pubDate>Sun, 14 May 2023 19:34:35 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</guid>
+      <description>IntroductionI&amp;rsquo;ve been always obsessed with efficiency and getting things done faster. Right about when I was getting started with coding in my 2nd semester I discovered Vim. Ever since then, I knew, in spite of the steep learning curve, I had to learn it to make my coding experience more efficient. I&amp;rsquo;ve been a loyal Vim user for about 8 months, in which I switched to Neovim and customized it with plugins and scripts to my liking and I was pretty satisfied with my editor.</description>
+    </item>
+    
+  </channel>
+</rss>
