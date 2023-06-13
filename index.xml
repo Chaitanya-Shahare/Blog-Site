@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 13 Jun 2023 08:55:58 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jun 2023 23:07:45 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Implement a Simple Code Runner in Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/implement-a-code-runner-in-neovim/</link>
+      <pubDate>Tue, 13 Jun 2023 23:07:45 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/implement-a-code-runner-in-neovim/</guid>
+      <description>To implement a code runner in neovim you&amp;rsquo;ll have to write a script, you can just copy the following script, written in VimScript into you init.vim:
+map &amp;lt;F5&amp;gt; :call CompileRunGcc()&amp;lt;CR&amp;gt; func! CompileRunGcc() exec &amp;#34;w&amp;#34; if &amp;amp;filetype == &amp;#39;c&amp;#39; exec &amp;#34;!gcc % -o %&amp;lt;&amp;#34; exec &amp;#34;!time ./%&amp;lt;&amp;#34; elseif &amp;amp;filetype == &amp;#39;cpp&amp;#39; exec &amp;#34;!g++ % -o %&amp;lt;&amp;#34; exec &amp;#34;!time ./%&amp;lt;&amp;#34; elseif &amp;amp;filetype == &amp;#39;java&amp;#39; exec &amp;#34;!javac %&amp;#34; elseif &amp;amp;filetype == &amp;#39;js&amp;#39; exec &amp;#34;!</description>
+    </item>
+    
     <item>
       <title>Unlocking the Power of Multiple GitHub Accounts: Mastering Terminal Configuration</title>
       <link>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</link>
