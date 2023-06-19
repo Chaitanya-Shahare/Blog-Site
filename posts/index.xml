@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 21:34:01 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2023 21:59:49 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Where to Find or Make init.vim in Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</link>
+      <pubDate>Mon, 19 Jun 2023 21:59:49 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</guid>
+      <description>In MacOS and Linux, you can usually find init.vim in the following folder
+~/.config/nvim/ If you cannot find any such folder you can just create it with the following command
+$ touch ~/.config/nvim/init.vim You can edit the init.vim to customise your neovim to your liking.</description>
+    </item>
+    
     <item>
       <title>How to Install Colorschemes in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</link>
