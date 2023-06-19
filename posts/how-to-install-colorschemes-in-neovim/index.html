@@ -11,26 +11,26 @@
     
   
 
-  <title>How to Implement a Simple Code Runner in Neovim | Chaitanya&#39;s blog</title>
+  <title>How to Install Colorschemes in Neovim | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="VS code like code runner in Neovim with a simple script.">
+  <meta name="description" content="Install and apply colorschemes or themes in neovim">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/neovim-vs-vscode/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png"/>
 
-<meta name="twitter:title" content="How to Implement a Simple Code Runner in Neovim"/>
-<meta name="twitter:description" content="VS code like code runner in Neovim with a simple script."/>
+<meta name="twitter:title" content="How to Install Colorschemes in Neovim"/>
+<meta name="twitter:description" content="Install and apply colorschemes or themes in neovim"/>
 
-  <meta property="og:title" content="How to Implement a Simple Code Runner in Neovim" />
-<meta property="og:description" content="VS code like code runner in Neovim with a simple script." />
+  <meta property="og:title" content="How to Install Colorschemes in Neovim" />
+<meta property="og:description" content="Install and apply colorschemes or themes in neovim" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/implement-a-code-runner-in-neovim/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/neovim-vs-vscode/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-06-13T23:07:45+05:30" />
-<meta property="article:modified_time" content="2023-06-13T23:07:45+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-19T21:34:01+05:30" />
+<meta property="article:modified_time" content="2023-06-19T21:34:01+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -187,7 +187,7 @@
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/neovim-vs-vscode/banner.png');
+    background-image: url('/images/posts/neovim/banner.png');
   }
 </style>
 
@@ -200,12 +200,16 @@
         <div class="post-heading">
           <div class="tags">
             
+            <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
+            
+            <a class="tag" href="/tags/vim/" title="vim">vim</a>
+            
           </div>
-          <h1>How to Implement a Simple Code Runner in Neovim</h1>
+          <h1>How to Install Colorschemes in Neovim</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Tue, Jun 13, 2023
+            on Mon, Jun 19, 2023
           </span>
         </div>
       </div>
@@ -226,50 +230,30 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>To implement a code runner in neovim you&rsquo;ll have to write a script, you can just copy the following script,
-written in VimScript into you <code>init.vim</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>map &lt;F5&gt; :call CompileRunGcc()&lt;CR&gt;
-</span></span><span style="display:flex;"><span>func! CompileRunGcc()
-</span></span><span style="display:flex;"><span>exec &#34;w&#34;
-</span></span><span style="display:flex;"><span>if &amp;filetype == &#39;c&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!gcc % -o %&lt;&#34;
-</span></span><span style="display:flex;"><span> exec &#34;!time ./%&lt;&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;cpp&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!g++ % -o %&lt;&#34;
-</span></span><span style="display:flex;"><span> exec &#34;!time ./%&lt;&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;java&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!javac %&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;js&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!node %&#34;
-</span></span><span style="display:flex;"><span> exec &#34;!time java -cp %:p:h %:t:r&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;sh&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!time bash %&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;python&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!time python3 %&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;html&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!firefox % &amp;&#34;
-</span></span><span style="display:flex;"><span>elseif &amp;filetype == &#39;go&#39;
-</span></span><span style="display:flex;"><span> exec &#34;!go build %&lt;&#34;
-</span></span></code></pre></div><p>This script is mapped to <code>F5</code> you can change the mapping as per your workflow.</p>
+        <h2 id="installation">Installation<a class="anchorjs-link" href="#installation"></a></h2><p>Colorschemes / themes in Neovim / Vim need to be installed like any other plugin.</p>
+<p>You can find them by doing just a google search or on <a href="https://vimcolorschemes.com" target="_blank">vimcolorschemes.com</a>.</p>
+<p>You can use a plugin manager like <em>VimPlug</em> or <em>Packer</em> to install these colorschemes.</p>
+<p>If you don&rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug <a href="/posts/06-how-to-install-plugins-in-neovim/" target="_blank">here</a>.</p>
+<h2 id="setting-colorscheme">Setting Colorscheme<a class="anchorjs-link" href="#setting-colorscheme"></a></h2><p>After installation, you can use the colorscheme by using the following command in the command mode in neovim</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>:colo &lt;name-of-colorscheme&gt;
+</span></span></code></pre></div><h2 id="making-colorscheme-persistent">Making colorscheme persistent<a class="anchorjs-link" href="#making-colorscheme-persistent"></a></h2><p>To make it persistent even after you close and reopen neovim you can add the following line to the <code>init.vim</code> file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>colo &lt;name-of-colorscheme&gt;
+</span></span></code></pre></div><p><strong>OR</strong></p>
+<p>by adding the following line in <code>init.lua</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>vim.cmd(&#39;colo gruvbox&#39;)
+</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>Now you have successfully installed and changed your colorscheme in Neovim.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/manage-multiple-github-accounts-in-terminal/" data-toggle="tooltip" data-placement="top" title="Unlocking the Power of Multiple GitHub Accounts: Mastering Terminal Configuration">
+            <a href="/posts/implement-a-code-runner-in-neovim/" data-toggle="tooltip" data-placement="top" title="How to Implement a Simple Code Runner in Neovim">
               Previous<br>
-              <span>Unlocking the Power of Multiple GitHub Accounts: Mastering Terminal Configuration</span>
+              <span>How to Implement a Simple Code Runner in Neovim</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/how-to-install-colorschemes-in-neovim/" data-toggle="tooltip" data-placement="top" title="How to Install Colorschemes in Neovim">
-              Next<br>
-              <span>How to Install Colorschemes in Neovim</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
