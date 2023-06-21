@@ -14,7 +14,7 @@
       <pubDate>Tue, 20 Jun 2023 01:15:14 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/posts/easiest-way-to-add-date-in-a-file-in-vim-neovim/</guid>
-      <description>To add current date and time to a file in Vim / Neovim use the following command in command mode
+      <description>To add the current date and time to a file in Vim / Neovim use the following command in command mode
 :.!date </description>
     </item>
     
