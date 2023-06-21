@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 21:59:49 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 01:15:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easiest Way to Add Date in a File in Vim/Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/easiest-way-to-add-date-in-a-file-in-vim-neovim/</link>
+      <pubDate>Tue, 20 Jun 2023 01:15:14 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/easiest-way-to-add-date-in-a-file-in-vim-neovim/</guid>
+      <description>To add current date and time to a file in Vim / Neovim use the following command in command mode
+:.!date </description>
+    </item>
+    
     <item>
       <title>Where to Find or Create init.vim in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</link>
