@@ -15,7 +15,7 @@
       
       <guid>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</guid>
       <description>https://youtu.be/4EP8YzcN0hQ
-Instroduction extention .java compiler -&amp;gt; converts code file to byte code (in java) (.class file) java is platform independent - this means that java code complied on one machine can run on any other machine without recompiling JVM is platform dependent JVM runs the .class file More about platform independence Java Virtual Machine (JVM) converts this bytecode to machine code jvm is machine dependent JDK vs JRE vs JVM vs JIT JDK (Java Development Kit) JDK is the software that you install on your computer to work with java JRE (Java Runtime Environment) Flow chart JRE vs JVMFor example</description>
+Introduction extention .java compiler -&amp;gt; converts code file to byte code (in java) (.class file) java is platform independent - this means that java code complied on one machine can run on any other machine without recompiling JVM is platform dependent JVM runs the .class file More about platform independence Java Virtual Machine (JVM) converts this bytecode to machine code jvm is machine dependent JDK vs JRE vs JVM vs JIT JDK (Java Development Kit) JDK is the software that you install on your computer to work with java JRE (Java Runtime Environment) Flow chart JRE vs JVMFor example</description>
     </item>
     
     <item>
