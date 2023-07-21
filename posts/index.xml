@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 20 Jun 2023 01:15:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 12:18:57 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Java Architecture and Installation</title>
+      <link>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</link>
+      <pubDate>Fri, 21 Jul 2023 12:18:57 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</guid>
+      <description>https://youtu.be/4EP8YzcN0hQ
+extention .java compiler -&amp;gt; converts code file to byte code (in java) (.class file) java is platform independent - this means that java code complied on one machine can run on any other machine without recompiling JVM is platform dependent JVM runs the .class file More about platform independence Java Virtual Machine (JVM) converts this bytecode to machine code jvm is machine dependent JDK vs JRE vs JVM vs JIT JDK (Java Development Kit) JDK is the software that you install on your computer to work with java JRE (Java Runtime Environment) Flow chart JRE vs JVMFor example</description>
+    </item>
+    
     <item>
       <title>Easiest Way to Add Date in a File in Vim/Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/easiest-way-to-add-date-in-a-file-in-vim-neovim/</link>
