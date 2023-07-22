@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Fri, 21 Jul 2023 12:18:57 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 13:29:32 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Built My First Vscode Extension: Lazygit for VS Code</title>
+      <link>https://blog.chaitanyashahare.com/post/how-i-built-my-first-vscode-plugin/</link>
+      <pubDate>Sat, 22 Jul 2023 13:29:32 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/post/how-i-built-my-first-vscode-plugin/</guid>
+      <description>Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
+My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.
+But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&amp;rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me.</description>
+    </item>
+    
     <item>
       <title>Introduction to Java Architecture and Installation</title>
       <link>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</link>
