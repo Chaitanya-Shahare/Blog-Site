@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 22 Jul 2023 13:29:32 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 02:03:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Map Capslock to Escape Key in MacOS Ventura</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</link>
+      <pubDate>Mon, 24 Jul 2023 02:03:14 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</guid>
+      <description>IntroductionIn my opinion, Caps Lock is the most useless key on the keyboard I&amp;rsquo;ve never used it.
+But the Escape key is the most useful key especially for Vim users.
+How to Map Caps Lock to Escape Key in MacOS Open System Preferences Go to Keyboard Click on Modifier Keys Select Caps Lock Key and change it to Escape And its done. Now you can use Caps Lock as Escape key.</description>
+    </item>
+    
     <item>
       <title>How I Built My First Vscode Extension: Lazygit for VS Code</title>
       <link>https://blog.chaitanyashahare.com/post/how-i-built-my-first-vscode-plugin/</link>
