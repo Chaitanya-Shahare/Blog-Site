@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 24 Jul 2023 02:03:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 08:55:06 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add Text Replacements in Macos Ventura</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-add-text-replacements-in-macos-ventura/</link>
+      <pubDate>Mon, 24 Jul 2023 08:55:06 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-add-text-replacements-in-macos-ventura/</guid>
+      <description>IntroductionText Replacement comes in very handy when you have to write the same thing over and over again, saves you some time if done right and makes you more productive.
+How to Add Text Replacement in Macos Ventura Open System Preferences Click on Keyboard In the Text Input section click on the Text Replacements... button Click on + button to add new text replacement Enter the text you want to replace in the Replace field Enter the text you want to replace with, in the With field Click on the Add button and the Done button How to Use Text Replacement in Macos Ventura Open any text editor or any messaging app Type the text you want to replace Press the Space or Enter key and the text will be replaced with the text you entered in the With field Done!</description>
+    </item>
+    
     <item>
       <title>How to Map Capslock to Escape Key in MacOS Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</link>
