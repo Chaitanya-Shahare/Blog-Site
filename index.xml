@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 24 Jul 2023 08:55:06 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 09:10:59 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add ASCII Art in any Text File in Vim/Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/</link>
+      <pubDate>Mon, 24 Jul 2023 09:10:59 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/</guid>
+      <description>IntroductionASCII Art is very cool to look at in your config files for separating sections and making it look more readable.
+Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the following command npm install -g figlet How to Add ASCII Art in Any Text File in Vim Neovim Open the file in Vim or Neovim Press Esc key to enter the normal mode Press : key to enter the command mode Type .</description>
+    </item>
+    
     <item>
       <title>How to Add Text Replacements in Macos Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-text-replacements-in-macos-ventura/</link>
