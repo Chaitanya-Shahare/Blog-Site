@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 24 Jul 2023 02:03:14 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 06:31:00 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>keyboard-shortcuts</title>
+      <link>https://blog.chaitanyashahare.com/tags/keyboard-shortcuts/</link>
+      <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/keyboard-shortcuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macos</title>
+      <link>https://blog.chaitanyashahare.com/tags/macos/</link>
+      <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://blog.chaitanyashahare.com/tags/productivity/</link>
+      <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>https://blog.chaitanyashahare.com/tags/workflow/</link>
+      <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>utility</title>
       <link>https://blog.chaitanyashahare.com/tags/utility/</link>
@@ -63,24 +99,6 @@
     </item>
     
     <item>
-      <title>productivity</title>
-      <link>https://blog.chaitanyashahare.com/tags/productivity/</link>
-      <pubDate>Sun, 14 May 2023 19:29:26 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workflow</title>
-      <link>https://blog.chaitanyashahare.com/tags/workflow/</link>
-      <pubDate>Tue, 09 May 2023 15:00:16 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/workflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mongodb</title>
       <link>https://blog.chaitanyashahare.com/tags/mongodb/</link>
       <pubDate>Fri, 07 Apr 2023 12:01:33 +0530</pubDate>
@@ -131,15 +149,6 @@
       <pubDate>Thu, 29 Dec 2022 22:42:24 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/iterm2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macos</title>
-      <link>https://blog.chaitanyashahare.com/tags/macos/</link>
-      <pubDate>Tue, 06 Dec 2022 17:50:48 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/macos/</guid>
       <description></description>
     </item>
     

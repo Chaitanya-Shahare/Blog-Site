@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-07-24T09:10:59+05:30</lastmod>
+    <loc>https://blog.chaitanyashahare.com/categories/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/</loc>
-    <lastmod>2023-07-24T09:10:59+05:30</lastmod>
+    <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/keyboard-shortcuts/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/macos/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/productivity/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/workflow/</loc>
+    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/</loc>
     <lastmod>2023-07-24T09:10:59+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-add-text-replacements-in-macos-ventura/</loc>
     <lastmod>2023-07-24T08:55:06+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-07-24T02:03:14+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</loc>
-    <lastmod>2023-07-24T02:03:14+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
-    <lastmod>2023-07-24T02:03:14+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2023-07-24T02:03:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/utility/</loc>
@@ -80,9 +95,6 @@
     <loc>https://blog.chaitanyashahare.com/posts/hostel-room-budget-desk-setup/</loc>
     <lastmod>2023-05-14T19:29:26+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/productivity/</loc>
-    <lastmod>2023-05-14T19:29:26+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/productivity/</loc>
     <lastmod>2023-05-14T19:29:26+05:30</lastmod>
   </url><url>
@@ -96,9 +108,6 @@
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/maximise-your-productivity-create-a-schedule-with-chatgpt-and-sync-it-with-google-calendar/</loc>
-    <lastmod>2023-05-09T15:00:16+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/workflow/</loc>
     <lastmod>2023-05-09T15:00:16+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-scroll-smoothly-on-macos-with-any-mouse/</loc>
@@ -165,9 +174,6 @@
     <lastmod>2022-12-08T19:15:21+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</loc>
-    <lastmod>2022-12-06T17:50:48+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/macos/</loc>
     <lastmod>2022-12-06T17:50:48+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</loc>

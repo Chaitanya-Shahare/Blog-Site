@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+    
+  
+
+  <title>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow | Chaitanya&#39;s blog</title>
+
+  
+  <meta name="author" content="Chaitanya Shahare">
+  
+  <meta name="description" content="How to navigate MacOS desktops with keyboard shortcuts and get to where you want to with the least number of steps possible and make the process just a muscle memory">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/desktop-navigation/opengraph.png"/>
+
+<meta name="twitter:title" content="Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow"/>
+<meta name="twitter:description" content="How to navigate MacOS desktops with keyboard shortcuts and get to where you want to with the least number of steps possible and make the process just a muscle memory"/>
+
+  <meta property="og:title" content="Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow" />
+<meta property="og:description" content="How to navigate MacOS desktops with keyboard shortcuts and get to where you want to with the least number of steps possible and make the process just a muscle memory" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/desktop-navigation/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-28T06:31:00+05:30" />
+<meta property="article:modified_time" content="2023-07-28T06:31:00+05:30" />
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://blog.chaitanyashahare.com/">Chaitanya&#39;s blog</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('/images/posts/desktop-navigation/banner.png');
+  }
+</style>
+
+<header class="intro-header ">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+            <a class="tag" href="/tags/macos/" title="macos">macos</a>
+            
+            <a class="tag" href="/tags/productivity/" title="productivity">productivity</a>
+            
+            <a class="tag" href="/tags/workflow/" title="workflow">workflow</a>
+            
+            <a class="tag" href="/tags/keyboard-shortcuts/" title="keyboard-shortcuts">keyboard-shortcuts</a>
+            
+          </div>
+          <h1>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  Chaitanya Shahare 
+            on Fri, Jul 28, 2023
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>Any one who has used a mac knows that the whole MacOS experience revolves
+around the concept of desktops.
+Desktops are a way to organize your workflow, and keep your work organized.</p>
+<p>The problem is that most people don&rsquo;t use desktops to their full potential.
+Most of us rely on multiple 3-finger swipes on the trackpad to navigate to the desktop we want.</p>
+<p>In this blog post, I will show you some shortcuts that you can enable to make this process effortless.</p>
+<h2 id="desktop-shortcuts">Desktop Shortcuts<a class="anchorjs-link" href="#desktop-shortcuts"></a></h2><h3 id="enable-desktop-shortcuts">Enable Desktop Shortcuts<a class="anchorjs-link" href="#enable-desktop-shortcuts"></a></h3><p>First, we need to enable the desktop shortcuts, before that make sure you have 9 desktops added, like shown below,</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/desktop-navigation/desktops.png" data-action="zoom" alt="desktops"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>If you don&rsquo;t know how to add a desktop, swipe up with 3 fingers on your trackpad, and click the <code>+</code> icon on the top right corner.</p>
+<p>Now, to enable the shortcuts, follow the steps below,</p>
+<ul>
+<li>Open System Preferences</li>
+<li>Go to Keyboard</li>
+<li>Click on <code>Keyboard Shortcuts...</code> button</li>
+<li>Go to Mission Control</li>
+<li>Enable the following shortcuts
+<ul>
+<li>Move left a space</li>
+<li>Move right a space</li>
+<li>Switch to Desktop 1</li>
+<li>Switch to Desktop 2</li>
+<li>Switch to Desktop 3</li>
+<li>Switch to Desktop 4</li>
+<li>Switch to Desktop 5</li>
+<li>Switch to Desktop 6</li>
+<li>Switch to Desktop 7</li>
+<li>Switch to Desktop 8</li>
+<li>Switch to Desktop 9
+<figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/desktop-navigation/desktop-shortcuts.png" data-action="zoom" alt="desktop-shortcuts"  class="lazyload">
+  </a>
+  
+</figure></li>
+</ul>
+</li>
+</ul>
+<h2 id="how-to-use-the-shortcuts">How to use the shortcuts<a class="anchorjs-link" href="#how-to-use-the-shortcuts"></a></h2><p>Now that you have enabled the shortcuts, you can use them to navigate to the desktop you want.</p>
+<p>You can use <code>crtl + 1</code> to always go back to desktop-1 no matter where you are.</p>
+<p>You can leverage this to make workflows around it, for example, I have my terminal always open on desktop 1, a browser on desktop 2, work related stuff on desktop 3, and so on.</p>
+<p>I can always go back to my terminal by pressing <code>ctrl + 1</code>, and go back to my browser by pressing <code>ctrl + 2</code>.</p>
+<ul>
+<li><code>ctrl + left arrow</code> - Go to the desktop on the left</li>
+<li><code>ctrl + right arrow</code> - Go to the desktop on the right</li>
+<li><code>ctrl + up arrow</code> - Go open mission control</li>
+<li><code>ctrl + 1</code> - Go to desktop 1</li>
+<li><code>ctrl + 2</code> - Go to desktop 2</li>
+<li><code>ctrl + 3</code> - Go to desktop 3</li>
+<li><code>ctrl + 4</code> - Go to desktop 4</li>
+<li><code>ctrl + 5</code> - Go to desktop 5</li>
+<li><code>ctrl + 6</code> - Go to desktop 6</li>
+<li><code>ctrl + 7</code> - Go to desktop 7</li>
+<li><code>ctrl + 8</code> - Go to desktop 8</li>
+<li><code>ctrl + 9</code> - Go to desktop 9</li>
+</ul>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>I hope you found this blog post useful, and you can use this to boost your productivity and master your workflow.</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/" data-toggle="tooltip" data-placement="top" title="How to Add ASCII Art in any Text File in Vim/Neovim">
+              Previous<br>
+              <span>How to Add ASCII Art in any Text File in Vim/Neovim</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+<div class="giscus" id="comments"></div>
+<script src="https://giscus.app/client.js" 
+  data-repo="Chaitanya-Shahare/blog-site-comments" 
+  data-repo-id="R_kgDOIa6SGg"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOIa6SGs4CSgt4"
+  data-mapping="pathname"
+  data-strict="0" 
+  data-reactions-enabled="1" 
+  data-emit-metadata="0" 
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+  </script>
+
+
+
+
+      </div>
+
+      
+      
+      
+      <div class="
+              col-lg-2 col-lg-offset-0
+              visible-lg-block
+              sidebar-container
+              catalog-container">
+        <div class="side-catalog">
+          <hr class="hidden-sm hidden-xs">
+          <h5>
+            <a class="catalog-toggle" href="#">CATALOG</a>
+          </h5>
+          <ul class="catalog-body"></ul>
+        </div>
+      </div>
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/bash/">bash</a>
+    
+    <a href="/tags/editor/">editor</a>
+    
+    <a href="/tags/front-end/">front end</a>
+    
+    <a href="/tags/git/">git</a>
+    
+    <a href="/tags/html/">html</a>
+    
+    <a href="/tags/iterm2/">iterm2</a>
+    
+    <a href="/tags/keyboard-shortcuts/">keyboard-shortcuts</a>
+    
+    <a href="/tags/linux/">linux</a>
+    
+    <a href="/tags/macos/">macos</a>
+    
+    <a href="/tags/mongodb/">mongodb</a>
+    
+    <a href="/tags/mysql/">mysql</a>
+    
+    <a href="/tags/neovim/">neovim</a>
+    
+    <a href="/tags/productivity/">productivity</a>
+    
+    <a href="/tags/react/">react</a>
+    
+    <a href="/tags/ssh/">ssh</a>
+    
+    <a href="/tags/terminal/">terminal</a>
+    
+    <a href="/tags/termux/">termux</a>
+    
+    <a href="/tags/text-editor/">text-editor</a>
+    
+    <a href="/tags/ubuntu/">ubuntu</a>
+    
+    <a href="/tags/utility/">utility</a>
+    
+    <a href="/tags/vim/">vim</a>
+    
+    <a href="/tags/vscode/">vscode</a>
+    
+    <a href="/tags/web-development/">web development</a>
+    
+    <a href="/tags/workflow/">workflow</a>
+    
+    <a href="/tags/zsh/">zsh</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				
+				
+
+
+<ul class="list-inline text-center">
+	
+
+		
+		<li>
+			<a target="_blank" href="https://github.com/Chaitanya-Shahare">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a target="_blank" href="https://www.linkedin.com/in/cs03/">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://twitter.com/ChaiitanyaS">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://instagram.com/chaitanya_shahare_">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="mailto:shaharechaitanya3@gmail.com">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+
+		
+
+		
+
+		
+		<li>
+			<a href=/index.xml>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+	</ul>
+
+				<p class="copyright text-muted">
+					2022 | Chaitanya Shahare
+					<br>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+	function generateCatalog(selector) {
+		_containerSelector = 'div.post-container'
+		
+		var P = $(_containerSelector), a, n, t, l, i, c;
+		a = P.find('h1,h2,h3,h4');
+		
+		$(selector).html('')
+		
+		a.each(function () {
+			n = $(this).prop('tagName').toLowerCase();
+			i = "#" + $(this).prop('id');
+			t = $(this).text();
+			c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+			l = $('<li class="' + n + '_nav"></li>').append(c);
+			$(selector).append(l);
+		});
+		return true;
+	}
+
+	generateCatalog(".catalog-body");
+
+	
+	$(".catalog-toggle").click((function (e) {
+		e.preventDefault();
+		$('.side-catalog').toggleClass("fold")
+	}))
+</script>
+
+
+<script type="text/javascript" src='/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js'></script>
+<script>
+	$(document).ready(function () {
+		$('.catalog-body').onePageNav({
+			currentClass: "active",
+			changeHash: !1,
+			easing: "swing",
+			filter: "",
+			scrollSpeed: 700,
+			scrollOffset: 0,
+			scrollThreshold: .2,
+			begin: null,
+			end: null,
+			scrollChange: null,
+			padding: 80
+		});
+	});
+</script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERBHSP8QM4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ERBHSP8QM4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>
