@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Fri, 28 Jul 2023 06:31:00 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 20:48:58 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Copy and Paste From System Clipboard in Vim and Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</link>
+      <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</guid>
+      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:
+set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.
+set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
+    </item>
+    
+    <item>
+      <title>Change VS Code Terminal Position to Right Side for a Neat Workspace</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</link>
+      <pubDate>Thu, 03 Aug 2023 16:43:54 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</guid>
+      <description>IntroductionVisual Studio Code is a great editor for developers. It has a lot of features and extensions that make it a great choice for developers. One of the features that I like the most is the integrated terminal. It is very useful for running commands and scripts without leaving the editor.
+But the default position of the terminal is at the bottom of the editor. This is not a good position for the terminal as it takes up a lot of space and makes the editor look cluttered.</description>
+    </item>
+    
     <item>
       <title>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</link>
@@ -48,6 +69,17 @@ How to Add Text Replacement in Macos Ventura Open System Preferences Click on Ke
       <description>IntroductionIn my opinion, Caps Lock is the most useless key on the keyboard I&amp;rsquo;ve never used it.
 But the Escape key is the most useful key especially for Vim users.
 How to Map Caps Lock to Escape Key in MacOS Open System Preferences Go to Keyboard Click on Modifier Keys Select Caps Lock Key and change it to Escape And its done. Now you can use Caps Lock as Escape key.</description>
+    </item>
+    
+    <item>
+      <title>How I Built My First Vscode Extension: Lazygit for VS Code</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/</link>
+      <pubDate>Sat, 22 Jul 2023 13:29:32 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/</guid>
+      <description>Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
+My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.
+But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&amp;rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me.</description>
     </item>
     
     <item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neovim on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/categories/neovim/</link>
+    <description>Recent content in neovim on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Thu, 03 Aug 2023 20:48:58 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/neovim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Copy and Paste From System Clipboard in Vim and Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</link>
+      <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</guid>
+      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:
+set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.
+set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
+    </item>
+    
+  </channel>
+</rss>

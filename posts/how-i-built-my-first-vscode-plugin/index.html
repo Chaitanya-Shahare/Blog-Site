@@ -11,26 +11,32 @@
     
   
 
-  <title>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow | Chaitanya&#39;s blog</title>
+  <title>How I Built My First Vscode Extension: Lazygit for VS Code | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="How to navigate MacOS desktops with keyboard shortcuts and get to where you want to with the least number of steps possible and make the process just a muscle memory">
+  <meta name="description" content="Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
+My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.
+But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/desktop-navigation/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/vscode-extension/opengraph.png"/>
 
-<meta name="twitter:title" content="Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow"/>
-<meta name="twitter:description" content="How to navigate MacOS desktops with keyboard shortcuts and get to where you want to with the least number of steps possible and make the process just a muscle memory"/>
+<meta name="twitter:title" content="How I Built My First Vscode Extension: Lazygit for VS Code"/>
+<meta name="twitter:description" content="Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
+My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.
+But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me."/>
 
-  <meta property="og:title" content="Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow" />
-<meta property="og:description" content="How to navigate MacOS desktops with keyboard shortcuts and get to where you want to with the least number of steps possible and make the process just a muscle memory" />
+  <meta property="og:title" content="How I Built My First Vscode Extension: Lazygit for VS Code" />
+<meta property="og:description" content="Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
+My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.
+But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/desktop-navigation/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-07-28T06:31:00+05:30" />
-<meta property="article:modified_time" content="2023-07-28T06:31:00+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/vscode-extension/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-22T13:29:32+05:30" />
+<meta property="article:modified_time" content="2023-07-22T13:29:32+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -187,7 +193,7 @@
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/desktop-navigation/banner.png');
+    background-image: url('/images/posts/vscode-extension/banner.png');
   }
 </style>
 
@@ -200,20 +206,12 @@
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/macos/" title="macos">macos</a>
-            
-            <a class="tag" href="/tags/productivity/" title="productivity">productivity</a>
-            
-            <a class="tag" href="/tags/workflow/" title="workflow">workflow</a>
-            
-            <a class="tag" href="/tags/keyboard-shortcuts/" title="keyboard-shortcuts">keyboard-shortcuts</a>
-            
           </div>
-          <h1>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</h1>
+          <h1>How I Built My First Vscode Extension: Lazygit for VS Code</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Fri, Jul 28, 2023
+            on Sat, Jul 22, 2023
           </span>
         </div>
       </div>
@@ -234,84 +232,68 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>Any one who has used a mac knows that the whole MacOS experience revolves
-around the concept of desktops.
-Desktops are a way to organize your workflow, and keep your work organized.</p>
-<p>The problem is that most people don&rsquo;t use desktops to their full potential.
-Most of us rely on multiple 3-finger swipes on the trackpad to navigate to the desktop we want.</p>
-<p>In this blog post, I will show you some shortcuts that you can enable to make this process effortless.</p>
-<h2 id="desktop-shortcuts">Desktop Shortcuts<a class="anchorjs-link" href="#desktop-shortcuts"></a></h2><h3 id="enable-desktop-shortcuts">Enable Desktop Shortcuts<a class="anchorjs-link" href="#enable-desktop-shortcuts"></a></h3><p>First, we need to enable the desktop shortcuts, before that make sure you have 9 desktops added, like shown below,</p>
+        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><blockquote>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit" target="_blank">https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit</a></p>
+</blockquote>
+<p>My journey with Visual Studio Code (VS Code) has been on and off ever since I
+started to code, you can read more about that
+<a href="/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/" target="_blank">here</a>.</p>
+<p>But for some or the other reason I keep coming back to it.
+I feel that the only reason I think that I&rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do.
+Not getting adapted to the workflows but creating them as they are suited to me.</p>
+<p>VS Code is all great but doesn&rsquo;t have the same flexibility.</p>
+<p>Regardless, I just wanted a custom keybind for VS Code that opens up lazygit in a terminal to emulate my workflow in Neovim.</p>
 <p><figure>
   <a class="paragraph-image">
-    <img data-src="/images/posts/desktop-navigation/desktops.png" data-action="zoom" alt="desktops"  class="lazyload">
+    <img data-src="/images/posts/vscode-extension/neovim-lazygit.gif" data-action="zoom" alt="Neovim Lazygit Implementation"  class="lazyload">
   </a>
   
 </figure></p>
-<p>If you don&rsquo;t know how to add a desktop, swipe up with 3 fingers on your trackpad, and click the <code>+</code> icon on the top right corner.</p>
-<p>Now, to enable the shortcuts, follow the steps below,</p>
-<ul>
-<li>Open System Preferences</li>
-<li>Go to Keyboard</li>
-<li>Click on <code>Keyboard Shortcuts...</code> button</li>
-<li>Go to Mission Control</li>
-<li>Enable the following shortcuts
-<ul>
-<li>Move left a space</li>
-<li>Move right a space</li>
-<li>Switch to Desktop 1</li>
-<li>Switch to Desktop 2</li>
-<li>Switch to Desktop 3</li>
-<li>Switch to Desktop 4</li>
-<li>Switch to Desktop 5</li>
-<li>Switch to Desktop 6</li>
-<li>Switch to Desktop 7</li>
-<li>Switch to Desktop 8</li>
-<li>Switch to Desktop 9
-<figure>
+<h2 id="motivation">Motivation<a class="anchorjs-link" href="#motivation"></a></h2><p>I searched for extension if there were any, I found a couple but one of them didn&rsquo;t work,
+and the other was mid at best didn&rsquo;t like the implementation.
+So I decided to create my own extension and help others too.</p>
+<h2 id="creating-my-first-extension">Creating my First Extension<a class="anchorjs-link" href="#creating-my-first-extension"></a></h2><p>I thought this was going to be long process.
+But to my surprise VS Code is an Electron based app, that means I had to write the extension in <em>JavaScript</em> or <em>TypeScript</em>.</p>
+<p>I&rsquo;m comfortable with coding in TypeScript, so, I got to work and after much trial and error I managed to create something that worked.</p>
+<p>I know there might be many unknown bugs, the cool thing was that I had created my very own VS Code Extension.</p>
+<p><figure>
   <a class="paragraph-image">
-    <img data-src="/images/posts/desktop-navigation/desktop-shortcuts.png" data-action="zoom" alt="desktop-shortcuts"  class="lazyload">
+    <img data-src="/images/posts/vscode-extension/vscode-lazygit.gif" data-action="zoom" alt="VSCode Lazygit Implementation"  class="lazyload">
   </a>
   
-</figure></li>
-</ul>
-</li>
-</ul>
-<h2 id="how-to-use-the-shortcuts">How to use the shortcuts<a class="anchorjs-link" href="#how-to-use-the-shortcuts"></a></h2><p>Now that you have enabled the shortcuts, you can use them to navigate to the desktop you want.</p>
-<p>You can use <code>crtl + 1</code> to always go back to desktop-1 no matter where you are.</p>
-<p>You can leverage this to make workflows around it, for example, I have my terminal always open on desktop 1, a browser on desktop 2, work related stuff on desktop 3, and so on.</p>
-<p>I can always go back to my terminal by pressing <code>ctrl + 1</code>, and go back to my browser by pressing <code>ctrl + 2</code>.</p>
+</figure></p>
+<h2 id="resources">Resources<a class="anchorjs-link" href="#resources"></a></h2><p>The VS Code documentation is pretty good for getting started with creating and publishing its extensions.</p>
+<p>The following are the documentation pages that helped me:</p>
 <ul>
-<li><code>ctrl + left arrow</code> - Go to the desktop on the left</li>
-<li><code>ctrl + right arrow</code> - Go to the desktop on the right</li>
-<li><code>ctrl + up arrow</code> - Go open mission control</li>
-<li><code>ctrl + 1</code> - Go to desktop 1</li>
-<li><code>ctrl + 2</code> - Go to desktop 2</li>
-<li><code>ctrl + 3</code> - Go to desktop 3</li>
-<li><code>ctrl + 4</code> - Go to desktop 4</li>
-<li><code>ctrl + 5</code> - Go to desktop 5</li>
-<li><code>ctrl + 6</code> - Go to desktop 6</li>
-<li><code>ctrl + 7</code> - Go to desktop 7</li>
-<li><code>ctrl + 8</code> - Go to desktop 8</li>
-<li><code>ctrl + 9</code> - Go to desktop 9</li>
+<li><a href="https://code.visualstudio.com/api/get-started/your-first-extension" target="_blank">https://code.visualstudio.com/api/get-started/your-first-extension</a></li>
+<li><a href="https://code.visualstudio.com/api/working-with-extensions/publishing-extension" target="_blank">https://code.visualstudio.com/api/working-with-extensions/publishing-extension</a></li>
 </ul>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>I hope you found this blog post useful, and you can use this to boost your productivity and master your workflow.</p>
+<p>Below are the links of the videos that also helped:</p>
+<ul>
+<li>Web Dev Simplified -&gt; <a href="https://youtu.be/q5V4T3o3CXE" target="_blank">https://youtu.be/q5V4T3o3CXE</a></li>
+<li>Code With Tomi -&gt; <a href="https://youtu.be/Nf4BNuRvWO8" target="_blank">https://youtu.be/Nf4BNuRvWO8</a></li>
+</ul>
+<h2 id="links">Links<a class="anchorjs-link" href="#links"></a></h2><ul>
+<li>Link to my extension: Lazygit for VSCode
+<a href="https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit" target="_blank">https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit</a></li>
+</ul>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/" data-toggle="tooltip" data-placement="top" title="How to Add ASCII Art in any Text File in Vim/Neovim">
+            <a href="/posts/introduction-to-java-architecture-and-installation/" data-toggle="tooltip" data-placement="top" title="Introduction to Java Architecture and Installation">
               Previous<br>
-              <span>How to Add ASCII Art in any Text File in Vim/Neovim</span>
+              <span>Introduction to Java Architecture and Installation</span>
             </a>
           </li>
           
           
           <li class="next">
-            <a href="/posts/how-to-change-vscode-terminal-position-to-right-pane/" data-toggle="tooltip" data-placement="top" title="Change VS Code Terminal Position to Right Side for a Neat Workspace">
+            <a href="/posts/how-to-map-capslock-to-escape-key/" data-toggle="tooltip" data-placement="top" title="How to Map Capslock to Escape Key in MacOS Ventura">
               Next<br>
-              <span>Change VS Code Terminal Position to Right Side for a Neat Workspace</span>
+              <span>How to Map Capslock to Escape Key in MacOS Ventura</span>
             </a>
           </li>
           

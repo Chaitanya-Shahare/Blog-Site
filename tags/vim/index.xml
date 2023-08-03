@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 21:34:01 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 20:48:58 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Copy and Paste From System Clipboard in Vim and Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</link>
+      <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</guid>
+      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:
+set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.
+set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
+    </item>
+    
     <item>
       <title>How to Install Colorschemes in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</link>

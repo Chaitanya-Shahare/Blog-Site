@@ -2,17 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-08-03T16:43:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/post/how-to-change-vscode-terminal-position-to-right-pane/</loc>
-    <lastmod>2023-08-03T16:43:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/post/</loc>
-    <lastmod>2023-08-03T16:43:54+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/neovim/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/vim/</loc>
+    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</loc>
+    <lastmod>2023-08-03T16:43:54+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/vscode/</loc>
+    <lastmod>2023-08-03T16:43:54+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/vscode/</loc>
+    <lastmod>2023-08-03T16:43:54+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</loc>
     <lastmod>2023-07-28T06:31:00+05:30</lastmod>
@@ -26,13 +50,7 @@
     <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
     <lastmod>2023-07-28T06:31:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/productivity/</loc>
-    <lastmod>2023-07-28T06:31:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2023-07-28T06:31:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/workflow/</loc>
@@ -50,7 +68,7 @@
     <loc>https://blog.chaitanyashahare.com/tags/utility/</loc>
     <lastmod>2023-07-24T02:03:14+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/post/how-i-built-my-first-vscode-plugin/</loc>
+    <loc>https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/</loc>
     <lastmod>2023-07-22T13:29:32+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</loc>
@@ -62,16 +80,10 @@
     <loc>https://blog.chaitanyashahare.com/categories/coding/</loc>
     <lastmod>2023-06-19T21:59:49+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
-    <lastmod>2023-06-19T21:59:49+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</loc>
     <lastmod>2023-06-19T21:59:49+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</loc>
-    <lastmod>2023-06-19T21:34:01+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
     <lastmod>2023-06-19T21:34:01+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/implement-a-code-runner-in-neovim/</loc>
@@ -90,9 +102,6 @@
     <lastmod>2023-05-15T12:34:35+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</loc>
-    <lastmod>2023-05-15T12:34:35+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/vscode/</loc>
     <lastmod>2023-05-15T12:34:35+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/hostel-room-budget-desk-setup/</loc>
