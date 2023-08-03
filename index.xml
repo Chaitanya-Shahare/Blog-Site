@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Fri, 28 Jul 2023 06:31:00 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 16:43:54 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change VS Code Terminal Position to Right Side for a Neat Workspace</title>
+      <link>https://blog.chaitanyashahare.com/post/how-to-change-vscode-terminal-position-to-right-pane/</link>
+      <pubDate>Thu, 03 Aug 2023 16:43:54 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/post/how-to-change-vscode-terminal-position-to-right-pane/</guid>
+      <description>IntroductionVisual Studio Code is a great editor for developers. It has a lot of features and extensions that make it a great choice for developers. One of the features that I like the most is the integrated terminal. It is very useful for running commands and scripts without leaving the editor.
+But the default position of the terminal is at the bottom of the editor. This is not a good position for the terminal as it takes up a lot of space and makes the editor look cluttered.</description>
+    </item>
+    
     <item>
       <title>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</link>
