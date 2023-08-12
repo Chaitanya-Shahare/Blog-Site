@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 03 Aug 2023 20:48:58 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2023 10:45:17 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macos</title>
+      <link>https://blog.chaitanyashahare.com/categories/macos/</link>
+      <pubDate>Sat, 12 Aug 2023 10:45:17 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/categories/macos/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>neovim</title>
       <link>https://blog.chaitanyashahare.com/categories/neovim/</link>
@@ -32,15 +41,6 @@
       <pubDate>Thu, 03 Aug 2023 16:43:54 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/categories/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macos</title>
-      <link>https://blog.chaitanyashahare.com/categories/macos/</link>
-      <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/categories/macos/</guid>
       <description></description>
     </item>
     
