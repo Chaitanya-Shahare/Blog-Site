@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>html on Chaitanya&#39;s blog</title>
-    <link>https://blog.chaitanyashahare.com/tags/html/</link>
-    <description>Recent content in html on Chaitanya&#39;s blog</description>
+    <title>how-to on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/categories/how-to/</link>
+    <description>Recent content in how-to on Chaitanya&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 20 Aug 2023 09:32:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 09:32:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Automatically Change the Matching Closing Tag in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</link>
@@ -17,16 +17,6 @@
       <description>IntroductionWhen you are writing HTML code in VSCode, you might have noticed that the closing tag is not changed automatically when you change the starting tag. This is because VSCode does not have this feature turned on by default. But you can enable this feature by installing an extension.
 But if you don&amp;rsquo;t want to install any extension you can do in it one of the following ways.
 1. User Settings Open user settings by pressing Cmd + , on Mac or Ctrl + , on Windows and Linux.</description>
-    </item>
-    
-    <item>
-      <title>How to add social media preview (WhatsApp card) to your website</title>
-      <link>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</link>
-      <pubDate>Mon, 24 Oct 2022 23:07:10 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</guid>
-      <description>You might have come across some websites that when shared on social media platforms like Twitter &amp;amp; WhatsApp shows a preview card of the website which typically includes an image and a short description of the page. This is accomplished with the use of OpenGraph protocol. This is used to add meta data to your websites.
-How to add social media previewThis is done by adding OpenGraph meta tags to the &amp;lt;head&amp;gt; tag of the HTML file.</description>
     </item>
     
   </channel>

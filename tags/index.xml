@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 12 Aug 2023 10:45:17 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 09:32:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>html</title>
+      <link>https://blog.chaitanyashahare.com/tags/html/</link>
+      <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode</title>
+      <link>https://blog.chaitanyashahare.com/tags/vscode/</link>
+      <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>macos</title>
       <link>https://blog.chaitanyashahare.com/tags/macos/</link>
@@ -41,15 +59,6 @@
       <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vscode</title>
-      <link>https://blog.chaitanyashahare.com/tags/vscode/</link>
-      <pubDate>Thu, 03 Aug 2023 16:43:54 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/vscode/</guid>
       <description></description>
     </item>
     
@@ -230,15 +239,6 @@
       <pubDate>Mon, 24 Oct 2022 23:07:10 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/front-end/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://blog.chaitanyashahare.com/tags/html/</link>
-      <pubDate>Mon, 24 Oct 2022 23:07:10 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/html/</guid>
       <description></description>
     </item>
     

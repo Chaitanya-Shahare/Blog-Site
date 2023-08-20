@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 12 Aug 2023 10:45:17 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 09:32:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Automatically Change the Matching Closing Tag in Vscode</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</link>
+      <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</guid>
+      <description>IntroductionWhen you are writing HTML code in VSCode, you might have noticed that the closing tag is not changed automatically when you change the starting tag. This is because VSCode does not have this feature turned on by default. But you can enable this feature by installing an extension.
+But if you don&amp;rsquo;t want to install any extension you can do in it one of the following ways.
+1. User Settings Open user settings by pressing Cmd + , on Mac or Ctrl + , on Windows and Linux.</description>
+    </item>
+    
     <item>
       <title>How to Toggle Reading Mode in Safari MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-toggle-reading-mode-in-safari-macos/</link>
