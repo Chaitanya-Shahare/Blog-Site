@@ -11,26 +11,26 @@
     
   
 
-  <title>How to Automatically Change the Matching Closing Tag in Vscode | Chaitanya&#39;s blog</title>
+  <title>How to Add Relative Line Numbers in Vscode | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Change HTML closing tags automatically as you change the starting tag in VSCode without any extension.">
+  <meta name="description" content="Relative line numbers for vim users in vscode">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/vscode-closing-tag/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/vscode-extension/opengraph.png"/>
 
-<meta name="twitter:title" content="How to Automatically Change the Matching Closing Tag in Vscode"/>
-<meta name="twitter:description" content="Change HTML closing tags automatically as you change the starting tag in VSCode without any extension."/>
+<meta name="twitter:title" content="How to Add Relative Line Numbers in Vscode"/>
+<meta name="twitter:description" content="Relative line numbers for vim users in vscode"/>
 
-  <meta property="og:title" content="How to Automatically Change the Matching Closing Tag in Vscode" />
-<meta property="og:description" content="Change HTML closing tags automatically as you change the starting tag in VSCode without any extension." />
+  <meta property="og:title" content="How to Add Relative Line Numbers in Vscode" />
+<meta property="og:description" content="Relative line numbers for vim users in vscode" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/vscode-closing-tag/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-08-20T09:32:48+05:30" />
-<meta property="article:modified_time" content="2023-08-20T09:32:48+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/vscode-extension/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-20T10:05:02+05:30" />
+<meta property="article:modified_time" content="2023-08-20T10:05:02+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -187,7 +187,7 @@
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/vscode-closing-tag/banner.png');
+    background-image: url('/images/posts/vscode-extension/banner.png');
   }
 </style>
 
@@ -200,12 +200,8 @@
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/vscode/" title="vscode">vscode</a>
-            
-            <a class="tag" href="/tags/html/" title="html">html</a>
-            
           </div>
-          <h1>How to Automatically Change the Matching Closing Tag in Vscode</h1>
+          <h1>How to Add Relative Line Numbers in Vscode</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
@@ -230,50 +226,30 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>When you are writing <strong>HTML</strong> code in <strong>VSCode</strong>, you might have noticed that the
-closing tag is not changed automatically when you change the starting tag.
-This is because <em>VSCode</em> does not have this feature turned on by default.
-But you can enable this feature by installing an extension.</p>
-<p>But if you don&rsquo;t want to install any extension you can do in it one of the following ways.</p>
-<h2 id="1-user-settings">1. User Settings<a class="anchorjs-link" href="#1-user-settings"></a></h2><ol>
-<li>Open user settings by pressing <code>Cmd + ,</code> on Mac or <code>Ctrl + ,</code> on Windows and Linux.</li>
-<li>Search for <code>Editor: Linked Editing</code> and enable it.</li>
+        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>If you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.</p>
+<h2 id="steps">Steps<a class="anchorjs-link" href="#steps"></a></h2><ol>
+<li>Open the command palette by pressing <code>Ctrl+Shift+P</code> or <code>Cmd+Shift+P</code> on Mac.</li>
+<li>Type <code>settings.json</code> and select <code>Preferences: Open Settings (JSON)</code>.</li>
+<li>Add the following line to the file:</li>
 </ol>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/vscode-closing-tag/1.png" data-action="zoom" alt="Linked Editing in user settings"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="2-editing-settingsjson">2. Editing Settings.json<a class="anchorjs-link" href="#2-editing-settingsjson"></a></h2><p>You can enable this feature by adding a few lines of code in the <code>settings.json</code> file.</p>
-<ol>
-<li>Open the <code>settings.json</code> file by pressing <code>Ctrl + Shift + P</code> and typing
-<code>settings.json</code> and pressing <code>Enter</code>.</li>
-<li>Add the following lines of code in the
-<code>settings.json</code> file.</li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#f1fa8c">&#34;editor.lineNumbers&#34;</span>: <span style="color:#f1fa8c">&#34;relative&#34;</span>
+</span></span></code></pre></div><ol start="4">
+<li>Save the file and you are done.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>  <span style="color:#f1fa8c">&#34;editor.linkedEditing&#34;</span>: <span style="color:#ff79c6">true</span>
-</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>It&rsquo;s done, now you can change the closing tag automatically as you change the starting tag.
-Writing HTML is a chore and this feature will help you to write &amp; edit HTML faster.</p>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>This is a simple guide to add relative line numbers in vscode. If you have any
+questions or suggestions feel free to reach out to me.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/how-to-toggle-reading-mode-in-safari-macos/" data-toggle="tooltip" data-placement="top" title="How to Toggle Reading Mode in Safari MacOS">
+            <a href="/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/" data-toggle="tooltip" data-placement="top" title="How to Automatically Change the Matching Closing Tag in Vscode">
               Previous<br>
-              <span>How to Toggle Reading Mode in Safari MacOS</span>
+              <span>How to Automatically Change the Matching Closing Tag in Vscode</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/how-to-add-relative-line-numbers-in-vscode/" data-toggle="tooltip" data-placement="top" title="How to Add Relative Line Numbers in Vscode">
-              Next<br>
-              <span>How to Add Relative Line Numbers in Vscode</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
