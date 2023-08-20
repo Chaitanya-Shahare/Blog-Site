@@ -7,22 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 20 Aug 2023 09:32:48 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 10:05:02 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>html</title>
-      <link>https://blog.chaitanyashahare.com/tags/html/</link>
-      <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
+      <title>vim</title>
+      <link>https://blog.chaitanyashahare.com/tags/vim/</link>
+      <pubDate>Sun, 20 Aug 2023 10:05:02 +0530</pubDate>
       
-      <guid>https://blog.chaitanyashahare.com/tags/html/</guid>
+      <guid>https://blog.chaitanyashahare.com/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
       <link>https://blog.chaitanyashahare.com/tags/vscode/</link>
-      <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
+      <pubDate>Sun, 20 Aug 2023 10:05:02 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://blog.chaitanyashahare.com/tags/html/</link>
+      <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/html/</guid>
       <description></description>
     </item>
     
@@ -50,15 +59,6 @@
       <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/neovim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://blog.chaitanyashahare.com/tags/vim/</link>
-      <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/vim/</guid>
       <description></description>
     </item>
     

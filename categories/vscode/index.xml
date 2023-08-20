@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 03 Aug 2023 16:43:54 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 10:05:02 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add Relative Line Numbers in Vscode</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</link>
+      <pubDate>Sun, 20 Aug 2023 10:05:02 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</guid>
+      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.
+Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
+    </item>
+    
     <item>
       <title>Change VS Code Terminal Position to Right Side for a Neat Workspace</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</link>
