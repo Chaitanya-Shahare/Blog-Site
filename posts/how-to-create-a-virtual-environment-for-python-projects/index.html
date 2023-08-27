@@ -11,29 +11,32 @@
     
   
 
-  <title>How to Add ASCII Art in any Text File in Vim/Neovim | Chaitanya&#39;s blog</title>
+  <title>How to Create a Virtual Environment for Python Projects | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="IntroductionASCII Art is very cool to look at in your config files for separating sections and making it look more readable.
-Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the following command npm install -g figlet How to Add ASCII Art in Any Text File in Vim Neovim Open the file in Vim or Neovim Press Esc key to enter the normal mode Press : key to enter the command mode Type .">
+  <meta name="description" content="Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package. Here&rsquo;s how you can create a virtual environment:
+Using virtualenv: Install virtualenv (if not already installed): Open your terminal or command prompt and run: pip install virtualenv
+Navigate to your project directory: Open the terminal and navigate to the directory where you want to create your virtual environment.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/ascii-art/opengraph.png"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/python-virtual-environment/opengraph.png"/>
 
-<meta name="twitter:title" content="How to Add ASCII Art in any Text File in Vim/Neovim"/>
-<meta name="twitter:description" content="IntroductionASCII Art is very cool to look at in your config files for separating sections and making it look more readable.
-Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the following command npm install -g figlet How to Add ASCII Art in Any Text File in Vim Neovim Open the file in Vim or Neovim Press Esc key to enter the normal mode Press : key to enter the command mode Type ."/>
+<meta name="twitter:title" content="How to Create a Virtual Environment for Python Projects"/>
+<meta name="twitter:description" content="Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package. Here&rsquo;s how you can create a virtual environment:
+Using virtualenv: Install virtualenv (if not already installed): Open your terminal or command prompt and run: pip install virtualenv
+Navigate to your project directory: Open the terminal and navigate to the directory where you want to create your virtual environment."/>
 
-  <meta property="og:title" content="How to Add ASCII Art in any Text File in Vim/Neovim" />
-<meta property="og:description" content="IntroductionASCII Art is very cool to look at in your config files for separating sections and making it look more readable.
-Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the following command npm install -g figlet How to Add ASCII Art in Any Text File in Vim Neovim Open the file in Vim or Neovim Press Esc key to enter the normal mode Press : key to enter the command mode Type ." />
+  <meta property="og:title" content="How to Create a Virtual Environment for Python Projects" />
+<meta property="og:description" content="Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package. Here&rsquo;s how you can create a virtual environment:
+Using virtualenv: Install virtualenv (if not already installed): Open your terminal or command prompt and run: pip install virtualenv
+Navigate to your project directory: Open the terminal and navigate to the directory where you want to create your virtual environment." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/ascii-art/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-07-24T09:10:59+05:30" />
-<meta property="article:modified_time" content="2023-07-24T09:10:59+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-create-a-virtual-environment-for-python-projects/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/python-virtual-environment/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-27T11:00:33+05:30" />
+<meta property="article:modified_time" content="2023-08-27T11:00:33+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -190,7 +193,7 @@ Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the followin
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/ascii-art/banner.png');
+    background-image: url('/images/posts/python-virtual-environment/banner.png');
   }
 </style>
 
@@ -203,12 +206,16 @@ Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the followin
         <div class="post-heading">
           <div class="tags">
             
+            <a class="tag" href="/tags/python/" title="python">python</a>
+            
+            <a class="tag" href="/tags/virtualenv/" title="virtualenv">virtualenv</a>
+            
           </div>
-          <h1>How to Add ASCII Art in any Text File in Vim/Neovim</h1>
+          <h1>How to Create a Virtual Environment for Python Projects</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Mon, Jul 24, 2023
+            on Sun, Aug 27, 2023
           </span>
         </div>
       </div>
@@ -229,47 +236,83 @@ Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the followin
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>ASCII Art is very cool to look at in your config files for separating sections and making it look more readable.</p>
-<h2 id="pre-requisites">Pre-requisites<a class="anchorjs-link" href="#pre-requisites"></a></h2><ul>
-<li>Vim or Neovim</li>
-<li>nodejs</li>
-<li><a href="http://www.figlet.org/" target="_blank">Figlet</a>, you can install it with the following command
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> npm install -g figlet
-</span></span></code></pre></div></li>
+        <p>Creating a virtual environment for your Python projects is a best practice to
+manage project dependencies and isolate them from the system-wide Python
+installation. This helps to avoid conflicts between different projects that
+might require different versions of the same package. Here&rsquo;s how you can create
+a virtual environment:</p>
+<h2 id="using-virtualenv">Using virtualenv:<a class="anchorjs-link" href="#using-virtualenv"></a></h2><ol>
+<li>
+<p><strong>Install virtualenv (if not already installed):</strong> Open your terminal or
+command prompt and run: <code>pip install virtualenv</code></p>
+</li>
+<li>
+<p><strong>Navigate to your project directory:</strong> Open the terminal and navigate to the
+directory where you want to create your virtual environment.</p>
+</li>
+<li>
+<p><strong>Create a virtual environment:</strong> Run the following command to create a
+virtual environment named &ldquo;venv&rdquo; (you can replace &ldquo;venv&rdquo; with your preferred
+name): <code>virtualenv venv</code></p>
+</li>
+<li>
+<p><strong>Activate the virtual environment:</strong></p>
+<ul>
+<li>On Windows: <code>venv\Scripts\activate</code></li>
+<li>On macOS and Linux: <code>source venv/bin/activate</code></li>
 </ul>
-<h2 id="how-to-add-ascii-art-in-any-text-file-in-vim-neovim">How to Add ASCII Art in Any Text File in Vim Neovim<a class="anchorjs-link" href="#how-to-add-ascii-art-in-any-text-file-in-vim-neovim"></a></h2><ol>
-<li>Open the file in Vim or Neovim</li>
-<li>Press <code>Esc</code> key to enter the normal mode</li>
-<li>Press <code>:</code> key to enter the command mode</li>
-<li>Type <code>.!figlet &quot;Your Text Here&quot;</code> and press <code>Enter</code> key</li>
-<li>Done!! You have successfully added ASCII Art in your text file</li>
+</li>
+<li>
+<p><strong>Install project dependencies:</strong> Once the virtual environment is activated,
+you can install the required packages using <code>pip</code> without affecting the global
+Python environment. For example: <code>pip install package_name</code></p>
+</li>
+<li>
+<p><strong>Deactivate the virtual environment:</strong> When you&rsquo;re done working on your
+project, you can deactivate the virtual environment: <code>deactivate</code></p>
+</li>
 </ol>
-<p><figure>
-  <a class="paragraph-image">
-    <img data-src="/images/posts/ascii-art/screenshot.png" data-action="zoom" alt="adding ascii art in vim neovim"  class="lazyload">
-  </a>
-  
-</figure></p>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>You can use this trick to add ASCII Art in any text file, it will make your config files look more readable and cool.</p>
+<h2 id="using-venv-built-in-in-python-33">Using venv (built-in in Python 3.3+):<a class="anchorjs-link" href="#using-venv-built-in-in-python-33"></a></h2><ol>
+<li>
+<p><strong>Navigate to your project directory:</strong> Open the terminal and navigate to the
+directory where you want to create your virtual environment.</p>
+</li>
+<li>
+<p><strong>Create a virtual environment:</strong> Run the following command to create a
+virtual environment named &ldquo;venv&rdquo; (you can replace &ldquo;venv&rdquo; with your preferred
+name): <code>python -m venv venv</code></p>
+</li>
+<li>
+<p><strong>Activate the virtual environment:</strong> - On Windows: <code>venv\Scripts\activate</code> - On macOS and Linux: <code>source venv/bin/activate</code></p>
+</li>
+<li>
+<p><strong>Install project dependencies:</strong> Once the virtual environment is activated,
+you can install the required packages using <code>pip</code> without affecting the global
+Python environment.</p>
+</li>
+<li>
+<p><strong>Deactivate the virtual environment:</strong> When you&rsquo;re done working on your
+project, you can deactivate the virtual environment: <code>deactivate</code></p>
+</li>
+</ol>
+<p>Remember, whenever you work on your project, you should activate the virtual
+environment first. This ensures that your project uses the isolated environment
+you&rsquo;ve created.</p>
+<p>Choose the method that suits your needs best. The <code>virtualenv</code> package offers
+some additional features and flexibility, while the built-in <code>venv</code> module is
+available with Python 3.3 and later.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/how-to-add-text-replacements-in-macos-ventura/" data-toggle="tooltip" data-placement="top" title="How to Add Text Replacements in Macos Ventura">
+            <a href="/posts/how-to-make-the-most-of-your-small-screen-on-macbook/" data-toggle="tooltip" data-placement="top" title="How to Make the Most of Your Small Screen on Macbook">
               Previous<br>
-              <span>How to Add Text Replacements in Macos Ventura</span>
+              <span>How to Make the Most of Your Small Screen on Macbook</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/how-to-navigate-macos-desktops-like-a-pro/" data-toggle="tooltip" data-placement="top" title="Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow">
-              Next<br>
-              <span>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
