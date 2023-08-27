@@ -14,7 +14,8 @@
       <pubDate>Sun, 27 Aug 2023 11:00:33 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/posts/how-to-create-a-virtual-environment-for-python-projects/</guid>
-      <description>Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package. Here&amp;rsquo;s how you can create a virtual environment:
+      <description>Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package.
+Here&amp;rsquo;s how you can create a virtual environment:
 Using virtualenv: Install virtualenv (if not already installed): Open your terminal or command prompt and run: pip install virtualenv
 Navigate to your project directory: Open the terminal and navigate to the directory where you want to create your virtual environment.</description>
     </item>
