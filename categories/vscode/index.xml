@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 20 Aug 2023 10:05:02 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 16:47:03 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>15 Most used Vscode Jupyter Notebooks Keyboard Shortcuts</title>
+      <link>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</link>
+      <pubDate>Wed, 30 Aug 2023 16:47:03 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</guid>
+      <description>In the realm of data science, Jupyter Notebooks have long been a staple for interactive coding and analysis. Their seamless integration with Visual Studio Code (VS Code) has only added to their allure, providing a potent combination of code development, visualization, and documentation.
+To further enhance your productivity, mastering keyboard shortcuts is essential.
+In this guide, we&amp;rsquo;ll delve into some of the most valuable keyboard shortcuts for working with Jupyter Notebooks in VS Code (.</description>
+    </item>
+    
     <item>
       <title>How to Add Relative Line Numbers in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</link>
