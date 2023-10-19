@@ -3,10 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-09-13T20:32:25+05:30</lastmod>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-09-13T20:32:25+05:30</lastmod>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/neovim/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/searching/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/vim/</loc>
+    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</loc>
     <lastmod>2023-09-13T20:32:25+05:30</lastmod>
@@ -18,12 +42,6 @@
     <lastmod>2023-09-13T20:32:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
-    <lastmod>2023-09-13T20:32:25+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2023-09-13T20:32:25+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2023-09-13T20:32:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</loc>
@@ -59,9 +77,6 @@
     <loc>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</loc>
     <lastmod>2023-08-20T10:05:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
-    <lastmod>2023-08-20T10:05:02+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</loc>
     <lastmod>2023-08-20T09:32:48+05:30</lastmod>
   </url><url>
@@ -78,15 +93,6 @@
     <lastmod>2023-08-12T10:45:17+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</loc>
-    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
-    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/categories/neovim/</loc>
-    <lastmod>2023-08-03T20:48:58+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/categories/vim/</loc>
     <lastmod>2023-08-03T20:48:58+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</loc>

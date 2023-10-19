@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 20 Aug 2023 10:05:02 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2023 21:41:45 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effortless Case-Insensitive Searching in Vim and Neovim</title>
+      <link>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</link>
+      <pubDate>Thu, 19 Oct 2023 21:41:45 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</guid>
+      <description>IntroductionVim and Neovim are powerful text editors, and efficient searching is a crucial skill for every user. In this blog post, we&amp;rsquo;ll dive straight into the valuable world of case-insensitive searching, allowing you to find text without worrying about letter case. Whether you use Vim or Neovim, this tip is for you.
+Enabling Case-Insensitive Search1. Ignoring CaseTo enable case-insensitive searching in Vim or Neovim, type the following command:
+:set ignorecase Now Vim or Neovim will search without considering letter case.</description>
+    </item>
+    
     <item>
       <title>How to Add Relative Line Numbers in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</link>
