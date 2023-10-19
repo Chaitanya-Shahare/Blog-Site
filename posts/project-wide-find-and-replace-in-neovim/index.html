@@ -11,26 +11,26 @@
     
   
 
-  <title>Effortless Case-Insensitive Searching in Vim and Neovim | Chaitanya&#39;s blog</title>
+  <title>Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Simplify Your Editing Workflow with Case-Insensitive Searching">
+  <meta name="description" content="Simplify Global Code Changes with Neovim&#39;s Powerful Tools">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png"/>
 
-<meta name="twitter:title" content="Effortless Case-Insensitive Searching in Vim and Neovim"/>
-<meta name="twitter:description" content="Simplify Your Editing Workflow with Case-Insensitive Searching"/>
+<meta name="twitter:title" content="Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List"/>
+<meta name="twitter:description" content="Simplify Global Code Changes with Neovim&#39;s Powerful Tools"/>
 
-  <meta property="og:title" content="Effortless Case-Insensitive Searching in Vim and Neovim" />
-<meta property="og:description" content="Simplify Your Editing Workflow with Case-Insensitive Searching" />
+  <meta property="og:title" content="Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List" />
+<meta property="og:description" content="Simplify Global Code Changes with Neovim&#39;s Powerful Tools" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-10-19T21:41:45+05:30" />
-<meta property="article:modified_time" content="2023-10-19T21:41:45+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-19T22:07:26+05:30" />
+<meta property="article:modified_time" content="2023-10-19T22:07:26+05:30" />
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
@@ -200,14 +200,8 @@
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
-            
-            <a class="tag" href="/tags/vim/" title="vim">vim</a>
-            
-            <a class="tag" href="/tags/searching/" title="searching">searching</a>
-            
           </div>
-          <h1>Effortless Case-Insensitive Searching in Vim and Neovim</h1>
+          <h1>Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
@@ -232,38 +226,42 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>Vim and Neovim are powerful text editors, and efficient searching is a crucial skill for every user. In this blog post, we&rsquo;ll dive straight into the valuable world of case-insensitive searching, allowing you to find text without worrying about letter case. Whether you use Vim or Neovim, this tip is for you.</p>
-<h2 id="enabling-case-insensitive-search">Enabling Case-Insensitive Search<a class="anchorjs-link" href="#enabling-case-insensitive-search"></a></h2><h3 id="1-ignoring-case">1. Ignoring Case<a class="anchorjs-link" href="#1-ignoring-case"></a></h3><p>To enable case-insensitive searching in Vim or Neovim, type the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>:set ignorecase
-</span></span></code></pre></div><p>Now Vim or Neovim will search without considering letter case.</p>
-<h2 id="performing-case-insensitive-searches">Performing Case-Insensitive Searches<a class="anchorjs-link" href="#performing-case-insensitive-searches"></a></h2><h3 id="2-start-searching">2. Start Searching<a class="anchorjs-link" href="#2-start-searching"></a></h3><p>To search for text, press <code>/</code> in Normal mode, and type your search term. Vim or Neovim will highlight all instances, regardless of case.</p>
-<p>For example, if you&rsquo;re searching for &ldquo;example,&rdquo; you can simply type:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>/example
-</span></span></code></pre></div><h2 id="turning-off-case-insensitive-search">Turning Off Case-Insensitive Search<a class="anchorjs-link" href="#turning-off-case-insensitive-search"></a></h2><h3 id="3-reverting-to-case-sensitive-search">3. Reverting to Case-Sensitive Search<a class="anchorjs-link" href="#3-reverting-to-case-sensitive-search"></a></h3><p>To return to case-sensitive searching, use:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>:set noignorecase
-</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>With case-insensitive searching in, you can streamline your
-editing tasks. No more frustration over letter case.
-Incorporate this simple trick into your workflow for a more
-efficient editing experience.</p>
+        <h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>Maintaining an organized and efficient codebase is essential for every developer. Neovim, a powerful text editor, offers a range of tools that can help you make global changes throughout your project with ease.</p>
+<p>In this blog post, we&rsquo;ll explore how to perform a project-wide find and replace using Neovim, Telescope, the Quickfix List, and the <code>:cdo</code> command. No complicated jargon, just straightforward guidance to enhance your coding experience.</p>
+<h2 id="prerequisites">Prerequisites<a class="anchorjs-link" href="#prerequisites"></a></h2><p>Before you start, ensure you have the following prerequisites in place:</p>
+<ol>
+<li>Neovim installed.</li>
+<li>The Telescope plugin installed.</li>
+<li>A project directory opened in Neovim.</li>
+</ol>
+<h2 id="using-telescope-for-live-grep">Using Telescope for Live Grep<a class="anchorjs-link" href="#using-telescope-for-live-grep"></a></h2><h3 id="1-initiate-telescope">1. Initiate Telescope<a class="anchorjs-link" href="#1-initiate-telescope"></a></h3><p>In Neovim&rsquo;s Normal mode, execute the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>:Telescope live_grep
+</span></span></code></pre></div><p>This opens the Telescope live grep prompt, ready for your query.</p>
+<h3 id="2-enter-your-search-query">2. Enter Your Search Query<a class="anchorjs-link" href="#2-enter-your-search-query"></a></h3><p>Type your search query. Telescope will display a list of search results throughout your project.</p>
+<h3 id="3-open-results-in-quickfix-list">3. Open Results in Quickfix List<a class="anchorjs-link" href="#3-open-results-in-quickfix-list"></a></h3><p>After searching for your query, press <code>Ctrl + q</code> to open the search results in the Quickfix List.</p>
+<h2 id="utilizing-cdo-for-find-and-replace">Utilizing <code>:cdo</code> for Find and Replace<a class="anchorjs-link" href="#utilizing-cdo-for-find-and-replace"></a></h2><h3 id="4-run-the-cdo-command">4. Run the <code>:cdo</code> Command<a class="anchorjs-link" href="#4-run-the-cdo-command"></a></h3><p>With the Quickfix List open, you can now perform the find and replace operation. Execute the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>:cdo s/query_string/replacement_string/gc
+</span></span></code></pre></div><ul>
+<li><code>:cdo</code> applies a command to each entry in the Quickfix List.</li>
+<li><code>s/query_string/replacement_string/gc</code> is the find and replace command, with <code>g</code> for global replacement.</li>
+<li>The <code>/c</code> flag provides confirmation before each replacement.</li>
+</ul>
+<p>Press Enter to initiate the find and replace with confirmation.</p>
+<h3 id="5-save-changes">5. Save Changes<a class="anchorjs-link" href="#5-save-changes"></a></h3><p>If you&rsquo;re satisfied with the changes and want to save them across all files in your project, you can use the <code>:wa</code> command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>:wa
+</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>Performing a project-wide find and replace in Neovim using Telescope, the Quickfix List, and the <code>:cdo</code> command is a potent approach that simplifies codebase maintenance. It allows you to make comprehensive changes while retaining full control over the replacement process, with the added <code>/c</code> flag providing a confirmation step for each replacement. By incorporating these techniques into your Neovim workflow, you&rsquo;ll significantly improve your coding experience and efficiency. Use <code>:wa</code> to save your changes across all files and ensure your project is up to date.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/how-to-remove-title-bar-in-iterm2/" data-toggle="tooltip" data-placement="top" title="How to Remove Title Bar in Iterm2">
+            <a href="/posts/case-insensitive-searching-in-vim-neovim/" data-toggle="tooltip" data-placement="top" title="Effortless Case-Insensitive Searching in Vim and Neovim">
               Previous<br>
-              <span>How to Remove Title Bar in Iterm2</span>
+              <span>Effortless Case-Insensitive Searching in Vim and Neovim</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/project-wide-find-and-replace-in-neovim/" data-toggle="tooltip" data-placement="top" title="Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List">
-              Next<br>
-              <span>Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

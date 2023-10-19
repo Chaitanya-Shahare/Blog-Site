@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 19 Oct 2023 21:41:45 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2023 22:07:26 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List</title>
+      <link>https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/</link>
+      <pubDate>Thu, 19 Oct 2023 22:07:26 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/</guid>
+      <description>IntroductionMaintaining an organized and efficient codebase is essential for every developer. Neovim, a powerful text editor, offers a range of tools that can help you make global changes throughout your project with ease.
+In this blog post, we&amp;rsquo;ll explore how to perform a project-wide find and replace using Neovim, Telescope, the Quickfix List, and the :cdo command. No complicated jargon, just straightforward guidance to enhance your coding experience.
+PrerequisitesBefore you start, ensure you have the following prerequisites in place:</description>
+    </item>
+    
     <item>
       <title>Effortless Case-Insensitive Searching in Vim and Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</link>

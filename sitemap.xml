@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2023-10-19T22:07:26+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2023-10-19T22:07:26+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/</loc>
+    <lastmod>2023-10-19T22:07:26+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/</loc>
     <lastmod>2023-10-19T21:41:45+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</loc>
@@ -15,9 +21,6 @@
     <lastmod>2023-10-19T21:41:45+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/neovim/</loc>
-    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
     <lastmod>2023-10-19T21:41:45+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/searching/</loc>
