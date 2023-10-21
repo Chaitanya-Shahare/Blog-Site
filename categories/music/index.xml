@@ -15,8 +15,8 @@
       
       <guid>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</guid>
       <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!
-Vim-Like Keybindings for YouTube Music Navigation Shortcuts
-j and k: Scroll up and down through your playlist or library. h and l: Navigate backward and forward between sections and songs.</description>
+Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:
+Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
     </item>
     
   </channel>
