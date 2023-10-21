@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/youtube/</link>
+    <description>Recent content in youtube on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elevate Your Youtube Music Experience: Navigating YouTube Music with Vim-Like Keybindings</title>
+      <link>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</link>
+      <pubDate>Sat, 21 Oct 2023 11:00:08 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</guid>
+      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!
+Vim-Like Keybindings for YouTube Music Navigation Shortcuts
+j and k: Scroll up and down through your playlist or library. h and l: Navigate backward and forward between sections and songs.</description>
+    </item>
+    
+  </channel>
+</rss>
