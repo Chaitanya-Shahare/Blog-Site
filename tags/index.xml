@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>node_modules</title>
+      <link>https://blog.chaitanyashahare.com/tags/node_modules/</link>
+      <pubDate>Tue, 16 Jan 2024 20:48:09 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/node_modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>https://blog.chaitanyashahare.com/tags/nodejs/</link>
+      <pubDate>Tue, 16 Jan 2024 20:48:09 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utility</title>
+      <link>https://blog.chaitanyashahare.com/tags/utility/</link>
+      <pubDate>Tue, 16 Jan 2024 20:48:09 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/tags/utility/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>keybindings</title>
       <link>https://blog.chaitanyashahare.com/tags/keybindings/</link>
@@ -185,15 +212,6 @@
       <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
       
       <guid>https://blog.chaitanyashahare.com/tags/workflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>utility</title>
-      <link>https://blog.chaitanyashahare.com/tags/utility/</link>
-      <pubDate>Mon, 24 Jul 2023 02:03:14 +0530</pubDate>
-      
-      <guid>https://blog.chaitanyashahare.com/tags/utility/</guid>
       <description></description>
     </item>
     

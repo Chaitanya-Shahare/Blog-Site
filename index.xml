@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delete All Node Modules on Your System</title>
+      <link>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</link>
+      <pubDate>Tue, 16 Jan 2024 20:48:09 +0530</pubDate>
+      
+      <guid>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</guid>
+      <description>Use the following command to get the list of all node_modules folders on your system.
+$ npx npkill You can also use the following command to delete all node_modules folders on your system.
+$ npx npkill -D </description>
+    </item>
+    
     <item>
       <title>Elevate Your Youtube Music Experience: Navigating YouTube Music with Vim-Like Keybindings</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</link>

@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
-    <lastmod>2023-10-21T11:00:08+05:30</lastmod>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2023-10-21T11:00:08+05:30</lastmod>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/node_modules/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/nodejs/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/utility/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/categories/utility/</loc>
+    <lastmod>2024-01-16T20:48:09+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</loc>
     <lastmod>2023-10-21T11:00:08+05:30</lastmod>
@@ -26,13 +47,7 @@
     <loc>https://blog.chaitanyashahare.com/categories/music/</loc>
     <lastmod>2023-10-21T11:00:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2023-10-21T11:00:08+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/shortcuts/</loc>
-    <lastmod>2023-10-21T11:00:08+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2023-10-21T11:00:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
@@ -54,9 +69,6 @@
     <lastmod>2023-10-21T10:50:52+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/open-control-center-with-a-keyboard-shortcut/</loc>
-    <lastmod>2023-10-21T10:50:52+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/categories/utility/</loc>
     <lastmod>2023-10-21T10:50:52+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/</loc>
@@ -162,9 +174,6 @@
     <lastmod>2023-07-24T08:55:06+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</loc>
-    <lastmod>2023-07-24T02:03:14+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/utility/</loc>
     <lastmod>2023-07-24T02:03:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/</loc>
