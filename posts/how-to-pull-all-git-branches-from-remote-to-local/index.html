@@ -22,14 +22,13 @@ git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#
 Resources Stackoverflow solution: https://stackoverflow.">
   <meta name="keywords" content="blog,developer,personal">
 
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/git/opengraph.png"/>
-
-<meta name="twitter:title" content="No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local"/>
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/git/opengraph.png" /><meta name="twitter:title" content="No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local"/>
 <meta name="twitter:description" content="ProblemWhen you clone a repo to your local machine, it doesn&rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
 SolutionTo pull all the branches from the remote, run the following command
 git branch -r | grep -v &#39;\-&gt;&#39; | sed &#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&#34; | while read remote; do git branch --track &#34;${remote#origin/}&#34; &#34;$remote&#34;; done git fetch --all git pull --all Done!
 Resources Stackoverflow solution: https://stackoverflow."/>
+<meta name="twitter:site" content="@ChaiitanyaS"/>
 
   <meta property="og:title" content="No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local" />
 <meta property="og:description" content="ProblemWhen you clone a repo to your local machine, it doesn&rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
@@ -40,6 +39,7 @@ Resources Stackoverflow solution: https://stackoverflow." />
 <meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/git/opengraph.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-05-13T10:12:56+05:30" />
 <meta property="article:modified_time" content="2023-05-13T10:12:56+05:30" />
+
 
 
   <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">

@@ -7,153 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 13 Sep 2023 20:32:25 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2023 20:32:25 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Remove Title Bar in Iterm2</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</link>
       <pubDate>Wed, 13 Sep 2023 20:32:25 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</guid>
       <description>Preview Steps Open Iterm2 Preferences Go to Profiles tab Select your profile Go to Window tab Select No Title Bar from Style dropdown Done! </description>
     </item>
-    
     <item>
       <title>How to Make the Most of Your Small Screen on Macbook</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-the-most-of-your-small-screen-on-macbook/</link>
       <pubDate>Sun, 20 Aug 2023 10:13:38 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-the-most-of-your-small-screen-on-macbook/</guid>
-      <description>IntroductionI have been using a 13&amp;quot; M1 Macbook Air 2020 for a year and a half now, while I&amp;rsquo;ve been pretty satisfied with the performance, I find myself constantly frustrated by the lack of screen real estate. Sometimes you just need more space to work with.
-I&amp;rsquo;ve been trying to make the most of the small 13&amp;quot; screen and I think I&amp;rsquo;ve found a few ways to do that and make it a bit more bearable.</description>
+      <description>IntroductionI have been using a 13&amp;quot; M1 Macbook Air 2020 for a year and a half now, while I&amp;rsquo;ve been pretty satisfied with the performance, I find myself constantly frustrated by the lack of screen real estate. Sometimes you just need more space to work with.&#xA;I&amp;rsquo;ve been trying to make the most of the small 13&amp;quot; screen and I think I&amp;rsquo;ve found a few ways to do that and make it a bit more bearable.</description>
     </item>
-    
     <item>
       <title>How to Toggle Reading Mode in Safari MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-toggle-reading-mode-in-safari-macos/</link>
       <pubDate>Sat, 12 Aug 2023 10:45:17 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-toggle-reading-mode-in-safari-macos/</guid>
-      <description>What is reading mode?Reading mode is a feature in Safari that allows you to read articles without any distractions. It removes all the ads, sidebars, and other clutter from the page so you can focus on what&amp;rsquo;s important: reading.
-Before enabling reading mode After enabling reading mode How to enable reading mode in Safari? To enable reading mode in Safari, click on the &amp;ldquo;Reader&amp;rdquo; button at the top of the browser window.</description>
+      <description>What is reading mode?Reading mode is a feature in Safari that allows you to read articles without any distractions. It removes all the ads, sidebars, and other clutter from the page so you can focus on what&amp;rsquo;s important: reading.&#xA;Before enabling reading mode After enabling reading mode How to enable reading mode in Safari? To enable reading mode in Safari, click on the &amp;ldquo;Reader&amp;rdquo; button at the top of the browser window.</description>
     </item>
-    
     <item>
       <title>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</link>
       <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</guid>
-      <description>IntroductionAny one who has used a mac knows that the whole MacOS experience revolves around the concept of desktops. Desktops are a way to organize your workflow, and keep your work organized.
-The problem is that most people don&amp;rsquo;t use desktops to their full potential. Most of us rely on multiple 3-finger swipes on the trackpad to navigate to the desktop we want.
-In this blog post, I will show you some shortcuts that you can enable to make this process effortless.</description>
+      <description>IntroductionAny one who has used a mac knows that the whole MacOS experience revolves around the concept of desktops. Desktops are a way to organize your workflow, and keep your work organized.&#xA;The problem is that most people don&amp;rsquo;t use desktops to their full potential. Most of us rely on multiple 3-finger swipes on the trackpad to navigate to the desktop we want.&#xA;In this blog post, I will show you some shortcuts that you can enable to make this process effortless.</description>
     </item>
-    
     <item>
       <title>How to Map Capslock to Escape Key in MacOS Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</link>
       <pubDate>Mon, 24 Jul 2023 02:03:14 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</guid>
-      <description>IntroductionIn my opinion, Caps Lock is the most useless key on the keyboard I&amp;rsquo;ve never used it.
-But the Escape key is the most useful key especially for Vim users.
-How to Map Caps Lock to Escape Key in MacOS Open System Preferences Go to Keyboard Click on Modifier Keys Select Caps Lock Key and change it to Escape And its done. Now you can use Caps Lock as Escape key.</description>
+      <description>IntroductionIn my opinion, Caps Lock is the most useless key on the keyboard I&amp;rsquo;ve never used it.&#xA;But the Escape key is the most useful key especially for Vim users.&#xA;How to Map Caps Lock to Escape Key in MacOS Open System Preferences Go to Keyboard Click on Modifier Keys Select Caps Lock Key and change it to Escape And its done. Now you can use Caps Lock as Escape key.</description>
     </item>
-    
     <item>
       <title>How to SSH into MacOS from another device</title>
       <link>https://blog.chaitanyashahare.com/posts/ssh-macos/</link>
       <pubDate>Mon, 06 Feb 2023 23:09:52 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/ssh-macos/</guid>
-      <description>SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, I will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.
-Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device.</description>
+      <description>SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, I will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.&#xA;Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device.</description>
     </item>
-    
     <item>
       <title>Download YouTube videos from terminal using youtube-dl on MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</link>
       <pubDate>Mon, 09 Jan 2023 12:03:35 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</guid>
-      <description>youtube-dl is a terminal application which lets you download YouTube videos easily without ads and other bloat, unlike other YouTube video downloaders online.
-PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing youtube-dlTo install youtube-dl using brew, run the following command in the MacOS terminal:
-brew install youtube-dl Downloading videosTo download YouTube videos using youtube-dl, use the following command:
-youtube-dl &amp;#39;youtube-url&amp;#39; Make sure to use quotes around the URL.</description>
+      <description>youtube-dl is a terminal application which lets you download YouTube videos easily without ads and other bloat, unlike other YouTube video downloaders online.&#xA;PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing youtube-dlTo install youtube-dl using brew, run the following command in the MacOS terminal:&#xA;brew install youtube-dl Downloading videosTo download YouTube videos using youtube-dl, use the following command:&#xA;youtube-dl &amp;#39;youtube-url&amp;#39; Make sure to use quotes around the URL.</description>
     </item>
-    
     <item>
       <title>How to Intall MySQL on MacOS using HomeBrew </title>
       <link>https://blog.chaitanyashahare.com/posts/mysql-installation/</link>
       <pubDate>Tue, 03 Jan 2023 22:46:35 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/mysql-installation/</guid>
-      <description>PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MySQLTo install MySQL, run the following command in your MacOS terminal:
-brew install mysql Running MySQLTo start MySQL server, run the following command:
-brew services start mysql VerifyingTo check whether MySQL server is running, run the following command:
-brew services list Usagemysql -u root PasswordFor setting Password and other configuration, run the following command after MySQL server has started</description>
+      <description>PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MySQLTo install MySQL, run the following command in your MacOS terminal:&#xA;brew install mysql Running MySQLTo start MySQL server, run the following command:&#xA;brew services start mysql VerifyingTo check whether MySQL server is running, run the following command:&#xA;brew services list Usagemysql -u root PasswordFor setting Password and other configuration, run the following command after MySQL server has started</description>
     </item>
-    
     <item>
       <title>How to Install MongoDB 6.0 on MacOS </title>
       <link>https://blog.chaitanyashahare.com/posts/mongodb-installation/</link>
       <pubDate>Mon, 02 Jan 2023 07:22:11 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/mongodb-installation/</guid>
-      <description>These instructions are for MongoDB 6.0 Community Edition
-PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:
-brew tap mongodb/brew To update Homebrew and all existing formulae:
-brew update To install MongoDB, run the following command:</description>
+      <description>These instructions are for MongoDB 6.0 Community Edition&#xA;PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:&#xA;brew tap mongodb/brew To update Homebrew and all existing formulae:&#xA;brew update To install MongoDB, run the following command:</description>
     </item>
-    
     <item>
       <title>How to Make MacOS Terminal Beautiful With Background Image</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</link>
       <pubDate>Thu, 29 Dec 2022 22:42:24 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</guid>
-      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
-It&amp;rsquo;s just some text on a solid background.
-The easiest way to customise your terminal is to add a background.
-Following are the steps for the same:
-Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
-https://iterm2.com
-TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency
-Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
+      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.&#xA;It&amp;rsquo;s just some text on a solid background.&#xA;The easiest way to customise your terminal is to add a background.&#xA;Following are the steps for the same:&#xA;Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.&#xA;https://iterm2.com&#xA;TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency&#xA;Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
     </item>
-    
     <item>
       <title>How to hide split pane title bars in Iterm2 MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</link>
       <pubDate>Mon, 26 Dec 2022 23:53:07 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</guid>
-      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar
-Before After Other tips Split pane shortcuts Cmd + d - for splitting window vertically Cmd + Shift + d - for splitting window horizontally References Iterm2 Documentation </description>
+      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar&#xA;Before After Other tips Split pane shortcuts Cmd + d - for splitting window vertically Cmd + Shift + d - for splitting window horizontally References Iterm2 Documentation </description>
     </item>
-    
     <item>
       <title>How to Merge PDFs in MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</link>
       <pubDate>Tue, 06 Dec 2022 17:50:48 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</guid>
-      <description>You can merge PDFs right in the MacOS finder
-Have all PDFs in a folderMake sure you have all the PDFs you want to merge in the same directory
-Select the filesYou can select multiple files by CMD + Click
-Merge files Right Click and hover on Quick Actions Click on Create PDF New merged PDF is now created.</description>
+      <description>You can merge PDFs right in the MacOS finder&#xA;Have all PDFs in a folderMake sure you have all the PDFs you want to merge in the same directory&#xA;Select the filesYou can select multiple files by CMD + Click&#xA;Merge files Right Click and hover on Quick Actions Click on Create PDF New merged PDF is now created.</description>
     </item>
-    
     <item>
       <title>How to Install Alacritty on MacOS Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</link>
       <pubDate>Tue, 29 Nov 2022 15:34:54 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</guid>
-      <description>Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration.
-Unlike iterm2 for MacOS, Alacritty doesn&amp;rsquo;t have any kind of GUI for it&amp;rsquo;s configuration. Everything can be done using a conf file.
-Installing using HomebrewUse the following brew command in terminal:
-$ brew install --cask alacritty Launching Alacritty When launching alacritty for the first time, there might be a pop up similar to - To fix this you can use the following command:</description>
+      <description>Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration.&#xA;Unlike iterm2 for MacOS, Alacritty doesn&amp;rsquo;t have any kind of GUI for it&amp;rsquo;s configuration. Everything can be done using a conf file.&#xA;Installing using HomebrewUse the following brew command in terminal:&#xA;$ brew install --cask alacritty Launching Alacritty When launching alacritty for the first time, there might be a pop up similar to - To fix this you can use the following command:</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,41 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 13 Sep 2023 20:32:25 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/iterm2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2023 20:32:25 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/tags/iterm2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Remove Title Bar in Iterm2</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</link>
       <pubDate>Wed, 13 Sep 2023 20:32:25 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</guid>
       <description>Preview Steps Open Iterm2 Preferences Go to Profiles tab Select your profile Go to Window tab Select No Title Bar from Style dropdown Done! </description>
     </item>
-    
     <item>
       <title>How to Make MacOS Terminal Beautiful With Background Image</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</link>
       <pubDate>Thu, 29 Dec 2022 22:42:24 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</guid>
-      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
-It&amp;rsquo;s just some text on a solid background.
-The easiest way to customise your terminal is to add a background.
-Following are the steps for the same:
-Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
-https://iterm2.com
-TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency
-Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
+      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.&#xA;It&amp;rsquo;s just some text on a solid background.&#xA;The easiest way to customise your terminal is to add a background.&#xA;Following are the steps for the same:&#xA;Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.&#xA;https://iterm2.com&#xA;TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency&#xA;Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
     </item>
-    
     <item>
       <title>How to hide split pane title bars in Iterm2 MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</link>
       <pubDate>Mon, 26 Dec 2022 23:53:07 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</guid>
-      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar
-Before After Other tips Split pane shortcuts Cmd + d - for splitting window vertically Cmd + Shift + d - for splitting window horizontally References Iterm2 Documentation </description>
+      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar&#xA;Before After Other tips Split pane shortcuts Cmd + d - for splitting window vertically Cmd + Shift + d - for splitting window horizontally References Iterm2 Documentation </description>
     </item>
-    
   </channel>
 </rss>

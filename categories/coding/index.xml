@@ -7,129 +7,84 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 21:59:49 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2023 21:59:49 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where to Find or Create init.vim in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</link>
       <pubDate>Mon, 19 Jun 2023 21:59:49 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</guid>
-      <description>In MacOS and Linux, you can usually find init.vim in the following folder
-~/.config/nvim/ If you cannot find any such folder you can just create it with the following command
-$ touch ~/.config/nvim/init.vim You can edit the init.vim to customise your neovim to your liking.</description>
+      <description>In MacOS and Linux, you can usually find init.vim in the following folder&#xA;~/.config/nvim/ If you cannot find any such folder you can just create it with the following command&#xA;$ touch ~/.config/nvim/init.vim You can edit the init.vim to customise your neovim to your liking.</description>
     </item>
-    
     <item>
       <title>How to Install Colorschemes in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</link>
       <pubDate>Mon, 19 Jun 2023 21:34:01 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</guid>
-      <description>InstallationColorschemes / themes in Neovim / Vim need to be installed like any other plugin.
-You can find them by doing just a google search or on vimcolorschemes.com.
-You can use a plugin manager like VimPlug or Packer to install these colorschemes.
-If you don&amp;rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug here.
-Setting ColorschemeAfter installation, you can use the colorscheme by using the following command in the command mode in neovim</description>
+      <description>InstallationColorschemes / themes in Neovim / Vim need to be installed like any other plugin.&#xA;You can find them by doing just a google search or on vimcolorschemes.com.&#xA;You can use a plugin manager like VimPlug or Packer to install these colorschemes.&#xA;If you don&amp;rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug here.&#xA;Setting ColorschemeAfter installation, you can use the colorscheme by using the following command in the command mode in neovim</description>
     </item>
-    
     <item>
       <title>Unlocking the Power of Multiple GitHub Accounts: Mastering Terminal Configuration</title>
       <link>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</link>
       <pubDate>Tue, 13 Jun 2023 08:55:58 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</guid>
       <description>Introduction:Using multiple GitHub accounts is a common scenario for developers who work on personal and professional projects simultaneously. However, managing these accounts within your terminal can be a bit tricky. In this guide, I will walk you through the process of adding multiple GitHub accounts to your terminal and configuring them correctly, ensuring a seamless experience when working on different projects. So let&amp;rsquo;s dive in and learn how to manage multiple GitHub accounts effortlessly.</description>
     </item>
-    
     <item>
       <title>Mongodb Commands for Beginners</title>
       <link>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</link>
       <pubDate>Fri, 07 Apr 2023 12:01:33 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</guid>
-      <description>reference CodeWithHarry video -&amp;gt; https://youtu.be/oSIv-E60NiU Official Documentation -&amp;gt; https://www.mongodb.com/docs/ freeCodeCamp getting started -&amp;gt; https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/ what is MongoDb? production ready database
-document based database
-difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&amp;gt; limiting the number of documents</description>
+      <description>reference CodeWithHarry video -&amp;gt; https://youtu.be/oSIv-E60NiU Official Documentation -&amp;gt; https://www.mongodb.com/docs/ freeCodeCamp getting started -&amp;gt; https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/ what is MongoDb? production ready database&#xA;document based database&#xA;difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&amp;gt; limiting the number of documents</description>
     </item>
-    
     <item>
       <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing</title>
       <link>https://blog.chaitanyashahare.com/posts/vim-folding/</link>
       <pubDate>Mon, 30 Jan 2023 10:33:15 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/vim-folding/</guid>
       <description>Vim is a highly efficient and versatile text editor that has been around for decades. One of its key features is folding, which allows users to collapse and expand sections of text. Folding makes it easier to navigate and edit large files, and can greatly improve your productivity. In this blog post, we&amp;rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process.</description>
     </item>
-    
     <item>
       <title>How to make a new React Project</title>
       <link>https://blog.chaitanyashahare.com/posts/new-react-project/</link>
       <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/new-react-project/</guid>
-      <description>Prerequisitesnodejs &amp;amp; npm must be installed
-create-react-appUse the following command in the terminal
-$ npx create-react-app dirName This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
+      <description>Prerequisitesnodejs &amp;amp; npm must be installed&#xA;create-react-appUse the following command in the terminal&#xA;$ npx create-react-app dirName This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
     </item>
-    
     <item>
       <title>How to Add an Alias in Macos Terminal</title>
       <link>https://blog.chaitanyashahare.com/posts/09-how-to-add-an-alias-in-macos-terminal/</link>
       <pubDate>Thu, 24 Nov 2022 18:36:29 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/09-how-to-add-an-alias-in-macos-terminal/</guid>
-      <description>Zsh is the default MacOS Shell. So to add an alias, we need to make changes to the zsh config file that is .zshrc.
-Open .zshrc.zshrc is typically present in the home folder ~/.zshrc
-Adding aliasAdd the alias to the .zshrc in the following syntax
-alias aliasName=&amp;#34;command&amp;#34; Source .zshrcAfter saving, source .zshrc using the following command in the Terminal
-$ source ~/.zshrc </description>
+      <description>Zsh is the default MacOS Shell. So to add an alias, we need to make changes to the zsh config file that is .zshrc.&#xA;Open .zshrc.zshrc is typically present in the home folder ~/.zshrc&#xA;Adding aliasAdd the alias to the .zshrc in the following syntax&#xA;alias aliasName=&amp;#34;command&amp;#34; Source .zshrcAfter saving, source .zshrc using the following command in the Terminal&#xA;$ source ~/.zshrc </description>
     </item>
-    
     <item>
       <title>How to Make a Bash Script Executable</title>
       <link>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</link>
       <pubDate>Tue, 22 Nov 2022 12:31:37 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</guid>
-      <description>Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
-To run a bash script you need to use the following command syntax in the command line:
-sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
-1. Add approriate shebangFor bash add the following shebang at the top of the script</description>
+      <description>Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.&#xA;To run a bash script you need to use the following command syntax in the command line:&#xA;sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps&#xA;1. Add approriate shebangFor bash add the following shebang at the top of the script</description>
     </item>
-    
     <item>
       <title>How to Install Plugins in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</link>
       <pubDate>Sun, 20 Nov 2022 10:52:27 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</guid>
-      <description>We are going to use a plugin manager &amp;lsquo;vim-plug&amp;rsquo; for installing &amp;amp; managing plugins in neovim.
-The following tutorial is for Neovim &amp;amp; not for Vim.
-Create ConfigCreate a directory for Neovim config if not already
-mkdir ~/.config/nvim Create an init.vim file
-touch ~/.config/nvim/init.vim Vim-plug installationcurl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Create a file for pluginsCreate a new file plugins.vim for organisation.
-mkdir ~/.config/nvim/vim-plug touch ~/.config/nvim/vim-plug/plugins.vim Adding pluginsAdd the following to ~/.</description>
+      <description>We are going to use a plugin manager &amp;lsquo;vim-plug&amp;rsquo; for installing &amp;amp; managing plugins in neovim.&#xA;The following tutorial is for Neovim &amp;amp; not for Vim.&#xA;Create ConfigCreate a directory for Neovim config if not already&#xA;mkdir ~/.config/nvim Create an init.vim file&#xA;touch ~/.config/nvim/init.vim Vim-plug installationcurl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Create a file for pluginsCreate a new file plugins.vim for organisation.&#xA;mkdir ~/.config/nvim/vim-plug touch ~/.config/nvim/vim-plug/plugins.vim Adding pluginsAdd the following to ~/.</description>
     </item>
-    
     <item>
       <title>Why Vim Is Just Better</title>
       <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
       <pubDate>Sun, 13 Nov 2022 12:40:47 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</guid>
-      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
+      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.&#xA;Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
     </item>
-    
     <item>
       <title>How to add social media preview (WhatsApp card) to your website</title>
       <link>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</link>
       <pubDate>Mon, 24 Oct 2022 23:07:10 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</guid>
-      <description>You might have come across some websites that when shared on social media platforms like Twitter &amp;amp; WhatsApp shows a preview card of the website which typically includes an image and a short description of the page. This is accomplished with the use of OpenGraph protocol. This is used to add meta data to your websites.
-How to add social media previewThis is done by adding OpenGraph meta tags to the &amp;lt;head&amp;gt; tag of the HTML file.</description>
+      <description>You might have come across some websites that when shared on social media platforms like Twitter &amp;amp; WhatsApp shows a preview card of the website which typically includes an image and a short description of the page. This is accomplished with the use of OpenGraph protocol. This is used to add meta data to your websites.&#xA;How to add social media previewThis is done by adding OpenGraph meta tags to the &amp;lt;head&amp;gt; tag of the HTML file.</description>
     </item>
-    
   </channel>
 </rss>

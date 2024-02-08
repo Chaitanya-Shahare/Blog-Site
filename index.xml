@@ -7,599 +7,385 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delete All Node Modules on Your System</title>
       <link>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</link>
       <pubDate>Tue, 16 Jan 2024 20:48:09 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</guid>
-      <description>Use the following command to get the list of all node_modules folders on your system.
-$ npx npkill You can also use the following command to delete all node_modules folders on your system.
-$ npx npkill -D </description>
+      <description>Use the following command to get the list of all node_modules folders on your system.&#xA;$ npx npkill You can also use the following command to delete all node_modules folders on your system.&#xA;$ npx npkill -D </description>
     </item>
-    
     <item>
       <title>Elevate Your Youtube Music Experience: Navigating YouTube Music with Vim-Like Keybindings</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</link>
       <pubDate>Sat, 21 Oct 2023 11:00:08 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</guid>
-      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!
-Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:
-Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
+      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!&#xA;Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:&#xA;Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
     </item>
-    
     <item>
       <title>Open Control Center on Mac With a Keyboard Shortcut</title>
       <link>https://blog.chaitanyashahare.com/posts/open-control-center-with-a-keyboard-shortcut/</link>
       <pubDate>Sat, 21 Oct 2023 10:50:52 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/open-control-center-with-a-keyboard-shortcut/</guid>
-      <description>Looking to boost your Mac&amp;rsquo;s functionality with a quick shortcut? I&amp;rsquo;ve got you covered! Learn how to open Control Center in macOS effortlessly by using Fn + C. It&amp;rsquo;s a time-saving trick that grants you instant access to key settings and features. Here&amp;rsquo;s how:
-Locate the &amp;lsquo;Fn&amp;rsquo; Key: Find the &amp;lsquo;Fn&amp;rsquo; key on your Mac&amp;rsquo;s keyboard. It&amp;rsquo;s usually in the lower-left corner.
-Press &amp;lsquo;Fn + C&amp;rsquo;: With your &amp;lsquo;Fn&amp;rsquo; key identified, simply press it simultaneously with the &amp;lsquo;C&amp;rsquo; key.</description>
+      <description>Looking to boost your Mac&amp;rsquo;s functionality with a quick shortcut? I&amp;rsquo;ve got you covered! Learn how to open Control Center in macOS effortlessly by using Fn + C. It&amp;rsquo;s a time-saving trick that grants you instant access to key settings and features. Here&amp;rsquo;s how:&#xA;Locate the &amp;lsquo;Fn&amp;rsquo; Key: Find the &amp;lsquo;Fn&amp;rsquo; key on your Mac&amp;rsquo;s keyboard. It&amp;rsquo;s usually in the lower-left corner.&#xA;Press &amp;lsquo;Fn + C&amp;rsquo;: With your &amp;lsquo;Fn&amp;rsquo; key identified, simply press it simultaneously with the &amp;lsquo;C&amp;rsquo; key.</description>
     </item>
-    
     <item>
       <title>Streamline Codebase Maintenance: Project-Wide Find and Replace in Neovim with Telescope and Quickfix List</title>
       <link>https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/</link>
       <pubDate>Thu, 19 Oct 2023 22:07:26 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/project-wide-find-and-replace-in-neovim/</guid>
-      <description>IntroductionMaintaining an organized and efficient codebase is essential for every developer. Neovim, a powerful text editor, offers a range of tools that can help you make global changes throughout your project with ease.
-In this blog post, we&amp;rsquo;ll explore how to perform a project-wide find and replace using Neovim, Telescope, the Quickfix List, and the :cdo command. No complicated jargon, just straightforward guidance to enhance your coding experience.
-PrerequisitesBefore you start, ensure you have the following prerequisites in place:</description>
+      <description>IntroductionMaintaining an organized and efficient codebase is essential for every developer. Neovim, a powerful text editor, offers a range of tools that can help you make global changes throughout your project with ease.&#xA;In this blog post, we&amp;rsquo;ll explore how to perform a project-wide find and replace using Neovim, Telescope, the Quickfix List, and the :cdo command. No complicated jargon, just straightforward guidance to enhance your coding experience.&#xA;PrerequisitesBefore you start, ensure you have the following prerequisites in place:</description>
     </item>
-    
     <item>
       <title>Effortless Case-Insensitive Searching in Vim and Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</link>
       <pubDate>Thu, 19 Oct 2023 21:41:45 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</guid>
-      <description>IntroductionVim and Neovim are powerful text editors, and efficient searching is a crucial skill for every user. In this blog post, we&amp;rsquo;ll dive straight into the valuable world of case-insensitive searching, allowing you to find text without worrying about letter case. Whether you use Vim or Neovim, this tip is for you.
-Enabling Case-Insensitive Search1. Ignoring CaseTo enable case-insensitive searching in Vim or Neovim, type the following command:
-:set ignorecase Now Vim or Neovim will search without considering letter case.</description>
+      <description>IntroductionVim and Neovim are powerful text editors, and efficient searching is a crucial skill for every user. In this blog post, we&amp;rsquo;ll dive straight into the valuable world of case-insensitive searching, allowing you to find text without worrying about letter case. Whether you use Vim or Neovim, this tip is for you.&#xA;Enabling Case-Insensitive Search1. Ignoring CaseTo enable case-insensitive searching in Vim or Neovim, type the following command:&#xA;:set ignorecase Now Vim or Neovim will search without considering letter case.</description>
     </item>
-    
     <item>
       <title>How to Remove Title Bar in Iterm2</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</link>
       <pubDate>Wed, 13 Sep 2023 20:32:25 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</guid>
       <description>Preview Steps Open Iterm2 Preferences Go to Profiles tab Select your profile Go to Window tab Select No Title Bar from Style dropdown Done! </description>
     </item>
-    
     <item>
       <title>15 Most used Vscode Jupyter Notebooks Keyboard Shortcuts</title>
       <link>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</link>
       <pubDate>Wed, 30 Aug 2023 16:47:03 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</guid>
-      <description>In the realm of data science, Jupyter Notebooks have long been a staple for interactive coding and analysis. Their seamless integration with Visual Studio Code (VS Code) has only added to their allure, providing a potent combination of code development, visualization, and documentation.
-To further enhance your productivity, mastering keyboard shortcuts is essential.
-In this guide, we&amp;rsquo;ll delve into some of the most valuable keyboard shortcuts for working with Jupyter Notebooks in VS Code (.</description>
+      <description>In the realm of data science, Jupyter Notebooks have long been a staple for interactive coding and analysis. Their seamless integration with Visual Studio Code (VS Code) has only added to their allure, providing a potent combination of code development, visualization, and documentation.&#xA;To further enhance your productivity, mastering keyboard shortcuts is essential.&#xA;In this guide, we&amp;rsquo;ll delve into some of the most valuable keyboard shortcuts for working with Jupyter Notebooks in VS Code (.</description>
     </item>
-    
     <item>
       <title>How to Create a Virtual Environment for Python Projects</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-create-a-virtual-environment-for-python-projects/</link>
       <pubDate>Sun, 27 Aug 2023 11:00:33 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-create-a-virtual-environment-for-python-projects/</guid>
-      <description>Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package.
-Here&amp;rsquo;s how you can create a virtual environment:
-Using virtualenv: Install virtualenv (if not already installed): Open your terminal or command prompt and run: pip install virtualenv
-Navigate to your project directory: Open the terminal and navigate to the directory where you want to create your virtual environment.</description>
+      <description>Creating a virtual environment for your Python projects is a best practice to manage project dependencies and isolate them from the system-wide Python installation. This helps to avoid conflicts between different projects that might require different versions of the same package.&#xA;Here&amp;rsquo;s how you can create a virtual environment:&#xA;Using virtualenv: Install virtualenv (if not already installed): Open your terminal or command prompt and run: pip install virtualenv&#xA;Navigate to your project directory: Open the terminal and navigate to the directory where you want to create your virtual environment.</description>
     </item>
-    
     <item>
       <title>How to Make the Most of Your Small Screen on Macbook</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-the-most-of-your-small-screen-on-macbook/</link>
       <pubDate>Sun, 20 Aug 2023 10:13:38 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-the-most-of-your-small-screen-on-macbook/</guid>
-      <description>IntroductionI have been using a 13&amp;quot; M1 Macbook Air 2020 for a year and a half now, while I&amp;rsquo;ve been pretty satisfied with the performance, I find myself constantly frustrated by the lack of screen real estate. Sometimes you just need more space to work with.
-I&amp;rsquo;ve been trying to make the most of the small 13&amp;quot; screen and I think I&amp;rsquo;ve found a few ways to do that and make it a bit more bearable.</description>
+      <description>IntroductionI have been using a 13&amp;quot; M1 Macbook Air 2020 for a year and a half now, while I&amp;rsquo;ve been pretty satisfied with the performance, I find myself constantly frustrated by the lack of screen real estate. Sometimes you just need more space to work with.&#xA;I&amp;rsquo;ve been trying to make the most of the small 13&amp;quot; screen and I think I&amp;rsquo;ve found a few ways to do that and make it a bit more bearable.</description>
     </item>
-    
     <item>
       <title>How to Add Relative Line Numbers in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</link>
       <pubDate>Sun, 20 Aug 2023 10:05:02 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</guid>
-      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.
-Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
+      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.&#xA;Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
     </item>
-    
     <item>
       <title>How to Automatically Change the Matching Closing Tag in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</link>
       <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</guid>
-      <description>IntroductionWhen you are writing HTML code in VSCode, you might have noticed that the closing tag is not changed automatically when you change the starting tag. This is because VSCode does not have this feature turned on by default. But you can enable this feature by installing an extension.
-But if you don&amp;rsquo;t want to install any extension you can do in it one of the following ways.
-1. User Settings Open user settings by pressing Cmd + , on Mac or Ctrl + , on Windows and Linux.</description>
+      <description>IntroductionWhen you are writing HTML code in VSCode, you might have noticed that the closing tag is not changed automatically when you change the starting tag. This is because VSCode does not have this feature turned on by default. But you can enable this feature by installing an extension.&#xA;But if you don&amp;rsquo;t want to install any extension you can do in it one of the following ways.&#xA;1. User Settings Open user settings by pressing Cmd + , on Mac or Ctrl + , on Windows and Linux.</description>
     </item>
-    
     <item>
       <title>How to Toggle Reading Mode in Safari MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-toggle-reading-mode-in-safari-macos/</link>
       <pubDate>Sat, 12 Aug 2023 10:45:17 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-toggle-reading-mode-in-safari-macos/</guid>
-      <description>What is reading mode?Reading mode is a feature in Safari that allows you to read articles without any distractions. It removes all the ads, sidebars, and other clutter from the page so you can focus on what&amp;rsquo;s important: reading.
-Before enabling reading mode After enabling reading mode How to enable reading mode in Safari? To enable reading mode in Safari, click on the &amp;ldquo;Reader&amp;rdquo; button at the top of the browser window.</description>
+      <description>What is reading mode?Reading mode is a feature in Safari that allows you to read articles without any distractions. It removes all the ads, sidebars, and other clutter from the page so you can focus on what&amp;rsquo;s important: reading.&#xA;Before enabling reading mode After enabling reading mode How to enable reading mode in Safari? To enable reading mode in Safari, click on the &amp;ldquo;Reader&amp;rdquo; button at the top of the browser window.</description>
     </item>
-    
     <item>
       <title>How to Copy and Paste From System Clipboard in Vim and Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</link>
       <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</guid>
-      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:
-set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.
-set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
+      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:&#xA;set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.&#xA;set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
     </item>
-    
     <item>
       <title>Change VS Code Terminal Position to Right Side for a Neat Workspace</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</link>
       <pubDate>Thu, 03 Aug 2023 16:43:54 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</guid>
-      <description>IntroductionVisual Studio Code is a great editor for developers. It has a lot of features and extensions that make it a great choice for developers. One of the features that I like the most is the integrated terminal. It is very useful for running commands and scripts without leaving the editor.
-But the default position of the terminal is at the bottom of the editor. This is not a good position for the terminal as it takes up a lot of space and makes the editor look cluttered.</description>
+      <description>IntroductionVisual Studio Code is a great editor for developers. It has a lot of features and extensions that make it a great choice for developers. One of the features that I like the most is the integrated terminal. It is very useful for running commands and scripts without leaving the editor.&#xA;But the default position of the terminal is at the bottom of the editor. This is not a good position for the terminal as it takes up a lot of space and makes the editor look cluttered.</description>
     </item>
-    
     <item>
       <title>Effortless MacOS Desktop Navigation: Boost Your Productivity and Master Your Workflow</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</link>
       <pubDate>Fri, 28 Jul 2023 06:31:00 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-navigate-macos-desktops-like-a-pro/</guid>
-      <description>IntroductionAny one who has used a mac knows that the whole MacOS experience revolves around the concept of desktops. Desktops are a way to organize your workflow, and keep your work organized.
-The problem is that most people don&amp;rsquo;t use desktops to their full potential. Most of us rely on multiple 3-finger swipes on the trackpad to navigate to the desktop we want.
-In this blog post, I will show you some shortcuts that you can enable to make this process effortless.</description>
+      <description>IntroductionAny one who has used a mac knows that the whole MacOS experience revolves around the concept of desktops. Desktops are a way to organize your workflow, and keep your work organized.&#xA;The problem is that most people don&amp;rsquo;t use desktops to their full potential. Most of us rely on multiple 3-finger swipes on the trackpad to navigate to the desktop we want.&#xA;In this blog post, I will show you some shortcuts that you can enable to make this process effortless.</description>
     </item>
-    
     <item>
       <title>How to Add ASCII Art in any Text File in Vim/Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/</link>
       <pubDate>Mon, 24 Jul 2023 09:10:59 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-add-ascii-art-in-any-text-file-in-vim-neovim/</guid>
-      <description>IntroductionASCII Art is very cool to look at in your config files for separating sections and making it look more readable.
-Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the following command npm install -g figlet How to Add ASCII Art in Any Text File in Vim Neovim Open the file in Vim or Neovim Press Esc key to enter the normal mode Press : key to enter the command mode Type .</description>
+      <description>IntroductionASCII Art is very cool to look at in your config files for separating sections and making it look more readable.&#xA;Pre-requisites Vim or Neovim nodejs Figlet, you can install it with the following command npm install -g figlet How to Add ASCII Art in Any Text File in Vim Neovim Open the file in Vim or Neovim Press Esc key to enter the normal mode Press : key to enter the command mode Type .</description>
     </item>
-    
     <item>
       <title>How to Add Text Replacements in Macos Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-text-replacements-in-macos-ventura/</link>
       <pubDate>Mon, 24 Jul 2023 08:55:06 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-add-text-replacements-in-macos-ventura/</guid>
-      <description>IntroductionText Replacement comes in very handy when you have to write the same thing over and over again, saves you some time if done right and makes you more productive.
-How to Add Text Replacement in Macos Ventura Open System Preferences Click on Keyboard In the Text Input section click on the Text Replacements... button Click on + button to add new text replacement Enter the text you want to replace in the Replace field Enter the text you want to replace with, in the With field Click on the Add button and the Done button How to Use Text Replacement in Macos Ventura Open any text editor or any messaging app Type the text you want to replace Press the Space or Enter key and the text will be replaced with the text you entered in the With field Done!</description>
+      <description>IntroductionText Replacement comes in very handy when you have to write the same thing over and over again, saves you some time if done right and makes you more productive.&#xA;How to Add Text Replacement in Macos Ventura Open System Preferences Click on Keyboard In the Text Input section click on the Text Replacements... button Click on + button to add new text replacement Enter the text you want to replace in the Replace field Enter the text you want to replace with, in the With field Click on the Add button and the Done button How to Use Text Replacement in Macos Ventura Open any text editor or any messaging app Type the text you want to replace Press the Space or Enter key and the text will be replaced with the text you entered in the With field Done!</description>
     </item>
-    
     <item>
       <title>How to Map Capslock to Escape Key in MacOS Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</link>
       <pubDate>Mon, 24 Jul 2023 02:03:14 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-map-capslock-to-escape-key/</guid>
-      <description>IntroductionIn my opinion, Caps Lock is the most useless key on the keyboard I&amp;rsquo;ve never used it.
-But the Escape key is the most useful key especially for Vim users.
-How to Map Caps Lock to Escape Key in MacOS Open System Preferences Go to Keyboard Click on Modifier Keys Select Caps Lock Key and change it to Escape And its done. Now you can use Caps Lock as Escape key.</description>
+      <description>IntroductionIn my opinion, Caps Lock is the most useless key on the keyboard I&amp;rsquo;ve never used it.&#xA;But the Escape key is the most useful key especially for Vim users.&#xA;How to Map Caps Lock to Escape Key in MacOS Open System Preferences Go to Keyboard Click on Modifier Keys Select Caps Lock Key and change it to Escape And its done. Now you can use Caps Lock as Escape key.</description>
     </item>
-    
     <item>
       <title>How I Built My First Vscode Extension: Lazygit for VS Code</title>
       <link>https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/</link>
       <pubDate>Sat, 22 Jul 2023 13:29:32 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-i-built-my-first-vscode-plugin/</guid>
-      <description>Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
-My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.
-But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&amp;rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me.</description>
+      <description>Introduction https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit&#xA;My journey with Visual Studio Code (VS Code) has been on and off ever since I started to code, you can read more about that here.&#xA;But for some or the other reason I keep coming back to it. I feel that the only reason I think that I&amp;rsquo;m faster in neovim is the customisability of it, the ability to do anything as I like to do. Not getting adapted to the workflows but creating them as they are suited to me.</description>
     </item>
-    
     <item>
       <title>Introduction to Java Architecture and Installation</title>
       <link>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</link>
       <pubDate>Fri, 21 Jul 2023 12:18:57 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/introduction-to-java-architecture-and-installation/</guid>
-      <description>https://youtu.be/4EP8YzcN0hQ
-Introduction extention .java compiler -&amp;gt; converts code file to byte code (in java) (.class file) java is platform independent - this means that java code complied on one machine can run on any other machine without recompiling JVM is platform dependent JVM runs the .class file More about platform independence Java Virtual Machine (JVM) converts this bytecode to machine code jvm is machine dependent JDK vs JRE vs JVM vs JIT JDK (Java Development Kit) JDK is the software that you install on your computer to work with java JRE (Java Runtime Environment) Flow chart JRE vs JVMFor example</description>
+      <description>https://youtu.be/4EP8YzcN0hQ&#xA;Introduction extention .java compiler -&amp;gt; converts code file to byte code (in java) (.class file) java is platform independent - this means that java code complied on one machine can run on any other machine without recompiling JVM is platform dependent JVM runs the .class file More about platform independence Java Virtual Machine (JVM) converts this bytecode to machine code jvm is machine dependent JDK vs JRE vs JVM vs JIT JDK (Java Development Kit) JDK is the software that you install on your computer to work with java JRE (Java Runtime Environment) Flow chart JRE vs JVMFor example</description>
     </item>
-    
     <item>
       <title>Easiest Way to Add Date in a File in Vim/Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/easiest-way-to-add-date-in-a-file-in-vim-neovim/</link>
       <pubDate>Tue, 20 Jun 2023 01:15:14 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/easiest-way-to-add-date-in-a-file-in-vim-neovim/</guid>
-      <description>To add the current date and time to a file in Vim / Neovim use the following command in command mode
-:.!date </description>
+      <description>To add the current date and time to a file in Vim / Neovim use the following command in command mode&#xA;:.!date </description>
     </item>
-    
     <item>
       <title>Where to Find or Create init.vim in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</link>
       <pubDate>Mon, 19 Jun 2023 21:59:49 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/where-to-find-or-make-init-vim-in-neovim/</guid>
-      <description>In MacOS and Linux, you can usually find init.vim in the following folder
-~/.config/nvim/ If you cannot find any such folder you can just create it with the following command
-$ touch ~/.config/nvim/init.vim You can edit the init.vim to customise your neovim to your liking.</description>
+      <description>In MacOS and Linux, you can usually find init.vim in the following folder&#xA;~/.config/nvim/ If you cannot find any such folder you can just create it with the following command&#xA;$ touch ~/.config/nvim/init.vim You can edit the init.vim to customise your neovim to your liking.</description>
     </item>
-    
     <item>
       <title>How to Install Colorschemes in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</link>
       <pubDate>Mon, 19 Jun 2023 21:34:01 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</guid>
-      <description>InstallationColorschemes / themes in Neovim / Vim need to be installed like any other plugin.
-You can find them by doing just a google search or on vimcolorschemes.com.
-You can use a plugin manager like VimPlug or Packer to install these colorschemes.
-If you don&amp;rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug here.
-Setting ColorschemeAfter installation, you can use the colorscheme by using the following command in the command mode in neovim</description>
+      <description>InstallationColorschemes / themes in Neovim / Vim need to be installed like any other plugin.&#xA;You can find them by doing just a google search or on vimcolorschemes.com.&#xA;You can use a plugin manager like VimPlug or Packer to install these colorschemes.&#xA;If you don&amp;rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug here.&#xA;Setting ColorschemeAfter installation, you can use the colorscheme by using the following command in the command mode in neovim</description>
     </item>
-    
     <item>
       <title>How to Implement a Simple Code Runner in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/implement-a-code-runner-in-neovim/</link>
       <pubDate>Tue, 13 Jun 2023 23:07:45 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/implement-a-code-runner-in-neovim/</guid>
-      <description>To implement a code runner in neovim you&amp;rsquo;ll have to write a script, you can just copy the following script, written in VimScript into you init.vim:
-map &amp;lt;F5&amp;gt; :call CompileRunGcc()&amp;lt;CR&amp;gt; func! CompileRunGcc() exec &amp;#34;w&amp;#34; if &amp;amp;filetype == &amp;#39;c&amp;#39; exec &amp;#34;!gcc % -o %&amp;lt;&amp;#34; exec &amp;#34;!time ./%&amp;lt;&amp;#34; elseif &amp;amp;filetype == &amp;#39;cpp&amp;#39; exec &amp;#34;!g++ % -o %&amp;lt;&amp;#34; exec &amp;#34;!time ./%&amp;lt;&amp;#34; elseif &amp;amp;filetype == &amp;#39;java&amp;#39; exec &amp;#34;!javac %&amp;#34; elseif &amp;amp;filetype == &amp;#39;js&amp;#39; exec &amp;#34;!</description>
+      <description>To implement a code runner in neovim you&amp;rsquo;ll have to write a script, you can just copy the following script, written in VimScript into you init.vim:&#xA;map &amp;lt;F5&amp;gt; :call CompileRunGcc()&amp;lt;CR&amp;gt; func! CompileRunGcc() exec &amp;#34;w&amp;#34; if &amp;amp;filetype == &amp;#39;c&amp;#39; exec &amp;#34;!gcc % -o %&amp;lt;&amp;#34; exec &amp;#34;!time ./%&amp;lt;&amp;#34; elseif &amp;amp;filetype == &amp;#39;cpp&amp;#39; exec &amp;#34;!g++ % -o %&amp;lt;&amp;#34; exec &amp;#34;!time ./%&amp;lt;&amp;#34; elseif &amp;amp;filetype == &amp;#39;java&amp;#39; exec &amp;#34;!javac %&amp;#34; elseif &amp;amp;filetype == &amp;#39;js&amp;#39; exec &amp;#34;!</description>
     </item>
-    
     <item>
       <title>Unlocking the Power of Multiple GitHub Accounts: Mastering Terminal Configuration</title>
       <link>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</link>
       <pubDate>Tue, 13 Jun 2023 08:55:58 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</guid>
       <description>Introduction:Using multiple GitHub accounts is a common scenario for developers who work on personal and professional projects simultaneously. However, managing these accounts within your terminal can be a bit tricky. In this guide, I will walk you through the process of adding multiple GitHub accounts to your terminal and configuring them correctly, ensuring a seamless experience when working on different projects. So let&amp;rsquo;s dive in and learn how to manage multiple GitHub accounts effortlessly.</description>
     </item>
-    
     <item>
       <title>The Neovim vs Vscode Conundrum Why I Switched Back to Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</link>
       <pubDate>Mon, 15 May 2023 12:34:35 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</guid>
       <description>I&amp;rsquo;ve been always obsessed with efficiency and getting things done faster. Right about when I was getting started with coding in my 2nd semester I discovered Vim. Ever since then, I knew, in spite of the steep learning curve, I had to learn it to make my coding experience more efficient. I&amp;rsquo;ve been a loyal Vim user for about 8 months, in which I switched to Neovim and customized it with plugins and scripts to my liking and I was pretty satisfied with my editor.</description>
     </item>
-    
     <item>
       <title>From Cramped to Comfy: My College Hostel Room Budget Desk Setup that Changed the Game</title>
       <link>https://blog.chaitanyashahare.com/posts/hostel-room-budget-desk-setup/</link>
       <pubDate>Sun, 14 May 2023 19:29:26 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/hostel-room-budget-desk-setup/</guid>
-      <description>Desk setups are pretty important when you have to spend hours in front of a computer. This is especially true for a college student.
-So, I&amp;rsquo;ll be sharing my Budget, Minimal Desk setup in my hostel room at the National Institute of Technology Srinagar (NITSRI).
-Things to keep in mind As this is a hostel room setup can&amp;rsquo;t have anything expensive as it can be damaged and budget of course. It shouldn&amp;rsquo;t occupy much space as hostel rooms are pretty small and you have to share them with others.</description>
+      <description>Desk setups are pretty important when you have to spend hours in front of a computer. This is especially true for a college student.&#xA;So, I&amp;rsquo;ll be sharing my Budget, Minimal Desk setup in my hostel room at the National Institute of Technology Srinagar (NITSRI).&#xA;Things to keep in mind As this is a hostel room setup can&amp;rsquo;t have anything expensive as it can be damaged and budget of course. It shouldn&amp;rsquo;t occupy much space as hostel rooms are pretty small and you have to share them with others.</description>
     </item>
-    
     <item>
       <title>No More Manual Pulling: How to Automatically Pull All Git Branches from Remote to Local</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/</link>
       <pubDate>Sat, 13 May 2023 10:12:56 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-pull-all-git-branches-from-remote-to-local/</guid>
-      <description>ProblemWhen you clone a repo to your local machine, it doesn&amp;rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.
-SolutionTo pull all the branches from the remote, run the following command
-git branch -r | grep -v &amp;#39;\-&amp;gt;&amp;#39; | sed &amp;#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&amp;#34; | while read remote; do git branch --track &amp;#34;${remote#origin/}&amp;#34; &amp;#34;$remote&amp;#34;; done git fetch --all git pull --all Done!
-Resources Stackoverflow solution: https://stackoverflow.</description>
+      <description>ProblemWhen you clone a repo to your local machine, it doesn&amp;rsquo;t pull all the branches to your local. Then you have to manually pull the branches you want.&#xA;SolutionTo pull all the branches from the remote, run the following command&#xA;git branch -r | grep -v &amp;#39;\-&amp;gt;&amp;#39; | sed &amp;#34;s,\x1B\[[0-9;]*[a-zA-Z],,g&amp;#34; | while read remote; do git branch --track &amp;#34;${remote#origin/}&amp;#34; &amp;#34;$remote&amp;#34;; done git fetch --all git pull --all Done!&#xA;Resources Stackoverflow solution: https://stackoverflow.</description>
     </item>
-    
     <item>
       <title>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04</title>
       <link>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</guid>
-      <description>Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.
-Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&amp;rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl + Alt + T or by searching for the terminal in the applications menu.</description>
+      <description>Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.&#xA;Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&amp;rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl + Alt + T or by searching for the terminal in the applications menu.</description>
     </item>
-    
     <item>
       <title>Maximize Your Productivity: Create a Schedule with ChatGPT and Sync it with Google Calendar</title>
       <link>https://blog.chaitanyashahare.com/posts/maximise-your-productivity-create-a-schedule-with-chatgpt-and-sync-it-with-google-calendar/</link>
       <pubDate>Tue, 09 May 2023 15:00:16 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/maximise-your-productivity-create-a-schedule-with-chatgpt-and-sync-it-with-google-calendar/</guid>
-      <description>IntroductionPlanning ahead is arguably the most important skill for being more productive. Nothing notable can be accomplished without a plan. A daily schedule can help you achieve your goals and remove the stress of wondering what to do next.
-With a good plan and schedule, you can sit back and relax when it&amp;rsquo;s time to relax and get things done when you&amp;rsquo;ve planned it. You can be assured that you have adequate time for all your commitments.</description>
+      <description>IntroductionPlanning ahead is arguably the most important skill for being more productive. Nothing notable can be accomplished without a plan. A daily schedule can help you achieve your goals and remove the stress of wondering what to do next.&#xA;With a good plan and schedule, you can sit back and relax when it&amp;rsquo;s time to relax and get things done when you&amp;rsquo;ve planned it. You can be assured that you have adequate time for all your commitments.</description>
     </item>
-    
     <item>
       <title>How to Scroll Smoothly on MacOS With Any Mouse</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-scroll-smoothly-on-macos-with-any-mouse/</link>
       <pubDate>Mon, 08 May 2023 20:09:33 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-scroll-smoothly-on-macos-with-any-mouse/</guid>
-      <description>ProblemIn MacOS, when connected to an external non-Apple mouse the scrolling seems to be jittery and laggy, instead of the smooth scrolling experience the macbook trackpad or Apple Mouse provides
-Solution Download an utility called Mos from here. Install it and add it to start at login. Open the app and turn on smooth scrolling. ConclusionIt&amp;rsquo;s done, you can now scroll smoothly on MacOS with external mouse.</description>
+      <description>ProblemIn MacOS, when connected to an external non-Apple mouse the scrolling seems to be jittery and laggy, instead of the smooth scrolling experience the macbook trackpad or Apple Mouse provides&#xA;Solution Download an utility called Mos from here. Install it and add it to start at login. Open the app and turn on smooth scrolling. ConclusionIt&amp;rsquo;s done, you can now scroll smoothly on MacOS with external mouse.</description>
     </item>
-    
     <item>
       <title>How to write Lua Script in Neovim init.vim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</link>
       <pubDate>Mon, 24 Apr 2023 13:44:25 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</guid>
-      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF
-For example;
-lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
+      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF&#xA;For example;&#xA;lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
     </item>
-    
     <item>
       <title>Mongodb Commands for Beginners</title>
       <link>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</link>
       <pubDate>Fri, 07 Apr 2023 12:01:33 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/mongodb-commands-for-beginners/</guid>
-      <description>reference CodeWithHarry video -&amp;gt; https://youtu.be/oSIv-E60NiU Official Documentation -&amp;gt; https://www.mongodb.com/docs/ freeCodeCamp getting started -&amp;gt; https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/ what is MongoDb? production ready database
-document based database
-difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&amp;gt; limiting the number of documents</description>
+      <description>reference CodeWithHarry video -&amp;gt; https://youtu.be/oSIv-E60NiU Official Documentation -&amp;gt; https://www.mongodb.com/docs/ freeCodeCamp getting started -&amp;gt; https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/ what is MongoDb? production ready database&#xA;document based database&#xA;difference between mongo and mongod mongo : command line shell mongod : mongo daemon, hosts the process comparison of mongodb with mysql sql equivalent to tables in excel sql mongodb database database tables collections rows documents (BSON) columns fields install mongodb mongodb community server mongodb compass capped collection -&amp;gt; limiting the number of documents</description>
     </item>
-    
     <item>
       <title>How to Make Neovim Backround Transparent</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</link>
       <pubDate>Sat, 18 Feb 2023 15:40:21 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</guid>
-      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim
-highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.</description>
+      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim&#xA;highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.</description>
     </item>
-    
     <item>
       <title>How to SSH into MacOS from another device</title>
       <link>https://blog.chaitanyashahare.com/posts/ssh-macos/</link>
       <pubDate>Mon, 06 Feb 2023 23:09:52 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/ssh-macos/</guid>
-      <description>SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, I will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.
-Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device.</description>
+      <description>SSH (Secure Shell) is a protocol used for secure communication between two devices over a network. It is commonly used to connect to remote servers or to control other devices. In this article, I will show you how to SSH into a macOS device from another device, such as a Windows PC, Linux machine, or another macOS device.&#xA;Step 1: Enable SSH on the Target macOS DeviceFirst, you need to enable SSH on the target macOS device.</description>
     </item>
-    
     <item>
       <title>Installing Nerd Font in Termux: A Step-by-Step Guide</title>
       <link>https://blog.chaitanyashahare.com/posts/nerd-font-termux/</link>
       <pubDate>Mon, 06 Feb 2023 22:50:14 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/nerd-font-termux/</guid>
-      <description>Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.
-Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.</description>
+      <description>Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.&#xA;Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.</description>
     </item>
-    
     <item>
       <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing</title>
       <link>https://blog.chaitanyashahare.com/posts/vim-folding/</link>
       <pubDate>Mon, 30 Jan 2023 10:33:15 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/vim-folding/</guid>
       <description>Vim is a highly efficient and versatile text editor that has been around for decades. One of its key features is folding, which allows users to collapse and expand sections of text. Folding makes it easier to navigate and edit large files, and can greatly improve your productivity. In this blog post, we&amp;rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process.</description>
     </item>
-    
     <item>
       <title>Download YouTube videos from terminal using youtube-dl on MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</link>
       <pubDate>Mon, 09 Jan 2023 12:03:35 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/youtube-dl-getting-started/</guid>
-      <description>youtube-dl is a terminal application which lets you download YouTube videos easily without ads and other bloat, unlike other YouTube video downloaders online.
-PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing youtube-dlTo install youtube-dl using brew, run the following command in the MacOS terminal:
-brew install youtube-dl Downloading videosTo download YouTube videos using youtube-dl, use the following command:
-youtube-dl &amp;#39;youtube-url&amp;#39; Make sure to use quotes around the URL.</description>
+      <description>youtube-dl is a terminal application which lets you download YouTube videos easily without ads and other bloat, unlike other YouTube video downloaders online.&#xA;PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing youtube-dlTo install youtube-dl using brew, run the following command in the MacOS terminal:&#xA;brew install youtube-dl Downloading videosTo download YouTube videos using youtube-dl, use the following command:&#xA;youtube-dl &amp;#39;youtube-url&amp;#39; Make sure to use quotes around the URL.</description>
     </item>
-    
     <item>
       <title>How to Intall MySQL on MacOS using HomeBrew </title>
       <link>https://blog.chaitanyashahare.com/posts/mysql-installation/</link>
       <pubDate>Tue, 03 Jan 2023 22:46:35 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/mysql-installation/</guid>
-      <description>PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MySQLTo install MySQL, run the following command in your MacOS terminal:
-brew install mysql Running MySQLTo start MySQL server, run the following command:
-brew services start mysql VerifyingTo check whether MySQL server is running, run the following command:
-brew services list Usagemysql -u root PasswordFor setting Password and other configuration, run the following command after MySQL server has started</description>
+      <description>PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MySQLTo install MySQL, run the following command in your MacOS terminal:&#xA;brew install mysql Running MySQLTo start MySQL server, run the following command:&#xA;brew services start mysql VerifyingTo check whether MySQL server is running, run the following command:&#xA;brew services list Usagemysql -u root PasswordFor setting Password and other configuration, run the following command after MySQL server has started</description>
     </item>
-    
     <item>
       <title>How to Install MongoDB 6.0 on MacOS </title>
       <link>https://blog.chaitanyashahare.com/posts/mongodb-installation/</link>
       <pubDate>Mon, 02 Jan 2023 07:22:11 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/mongodb-installation/</guid>
-      <description>These instructions are for MongoDB 6.0 Community Edition
-PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:
-brew tap mongodb/brew To update Homebrew and all existing formulae:
-brew update To install MongoDB, run the following command:</description>
+      <description>These instructions are for MongoDB 6.0 Community Edition&#xA;PrerequisitesHomeBrew Install brew using the official HomeBrew Installation instructions Go ahead if already installed Installing MongoDB 6.0 Community Edition Tap the MongoDB Homebrew Tap to download the official Homebrew formula for MongoDB and the Database Tools, by running the following command in your macOS Terminal:&#xA;brew tap mongodb/brew To update Homebrew and all existing formulae:&#xA;brew update To install MongoDB, run the following command:</description>
     </item>
-    
     <item>
       <title>How to make a new React Project</title>
       <link>https://blog.chaitanyashahare.com/posts/new-react-project/</link>
       <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/new-react-project/</guid>
-      <description>Prerequisitesnodejs &amp;amp; npm must be installed
-create-react-appUse the following command in the terminal
-$ npx create-react-app dirName This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
+      <description>Prerequisitesnodejs &amp;amp; npm must be installed&#xA;create-react-appUse the following command in the terminal&#xA;$ npx create-react-app dirName This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
     </item>
-    
     <item>
       <title>How to Make MacOS Terminal Beautiful With Background Image</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</link>
       <pubDate>Thu, 29 Dec 2022 22:42:24 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</guid>
-      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.
-It&amp;rsquo;s just some text on a solid background.
-The easiest way to customise your terminal is to add a background.
-Following are the steps for the same:
-Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.
-https://iterm2.com
-TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency
-Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
+      <description>IntroductionMacOS&amp;rsquo;s default Terminal as of it is, is pretty boring and not very good to look at.&#xA;It&amp;rsquo;s just some text on a solid background.&#xA;The easiest way to customise your terminal is to add a background.&#xA;Following are the steps for the same:&#xA;Install Iterm2Iterm2 is a terminal emulator, does everything the default Terminal does and more.&#xA;https://iterm2.com&#xA;TransparencyIterm -&amp;gt; Preferences -&amp;gt; Profiles -&amp;gt; Window -&amp;gt; Transparency&#xA;Full screenIterm Preferences -&amp;gt; General -&amp;gt; Window -&amp;gt; Native full screen windows</description>
     </item>
-    
     <item>
       <title>How to hide split pane title bars in Iterm2 MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</link>
       <pubDate>Mon, 26 Dec 2022 23:53:07 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-hide-split-pane-title-bars-in-iterm2-macos/</guid>
-      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar
-Before After Other tips Split pane shortcuts Cmd + d - for splitting window vertically Cmd + Shift + d - for splitting window horizontally References Iterm2 Documentation </description>
+      <description>StepsIterm2 preferences -&amp;gt; Appearance -&amp;gt; Panes -&amp;gt; toggle off show per-pane title bar&#xA;Before After Other tips Split pane shortcuts Cmd + d - for splitting window vertically Cmd + Shift + d - for splitting window horizontally References Iterm2 Documentation </description>
     </item>
-    
     <item>
       <title>How to learn Touchtyping</title>
       <link>https://blog.chaitanyashahare.com/posts/13-how-i-learnt-to-touchtype/</link>
       <pubDate>Thu, 08 Dec 2022 19:15:21 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/13-how-i-learnt-to-touchtype/</guid>
-      <description>What is Touchtyping?Touchtyping is a method of typing which requires you to use all 10 fingers and makes typing on a keyboard more than just finding &amp;amp; pressing buttons. It makes you blazing fast &amp;amp; efficient.
-Touchtyping is a great skill, it can literally save you a lot of time looking for different keys when you need it.
-But it can be a little intimidating and frustrating to start learning a new way of typing just like anyting new.</description>
+      <description>What is Touchtyping?Touchtyping is a method of typing which requires you to use all 10 fingers and makes typing on a keyboard more than just finding &amp;amp; pressing buttons. It makes you blazing fast &amp;amp; efficient.&#xA;Touchtyping is a great skill, it can literally save you a lot of time looking for different keys when you need it.&#xA;But it can be a little intimidating and frustrating to start learning a new way of typing just like anyting new.</description>
     </item>
-    
     <item>
       <title>How to Merge PDFs in MacOS</title>
       <link>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</link>
       <pubDate>Tue, 06 Dec 2022 17:50:48 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/12-how-to-merge-pdfs-in-macos/</guid>
-      <description>You can merge PDFs right in the MacOS finder
-Have all PDFs in a folderMake sure you have all the PDFs you want to merge in the same directory
-Select the filesYou can select multiple files by CMD + Click
-Merge files Right Click and hover on Quick Actions Click on Create PDF New merged PDF is now created.</description>
+      <description>You can merge PDFs right in the MacOS finder&#xA;Have all PDFs in a folderMake sure you have all the PDFs you want to merge in the same directory&#xA;Select the filesYou can select multiple files by CMD + Click&#xA;Merge files Right Click and hover on Quick Actions Click on Create PDF New merged PDF is now created.</description>
     </item>
-    
     <item>
       <title>How to Install Alacritty on MacOS Ventura</title>
       <link>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</link>
       <pubDate>Tue, 29 Nov 2022 15:34:54 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/11-how-to-install-alacritty-on-macos-ventura/</guid>
-      <description>Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration.
-Unlike iterm2 for MacOS, Alacritty doesn&amp;rsquo;t have any kind of GUI for it&amp;rsquo;s configuration. Everything can be done using a conf file.
-Installing using HomebrewUse the following brew command in terminal:
-$ brew install --cask alacritty Launching Alacritty When launching alacritty for the first time, there might be a pop up similar to - To fix this you can use the following command:</description>
+      <description>Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration.&#xA;Unlike iterm2 for MacOS, Alacritty doesn&amp;rsquo;t have any kind of GUI for it&amp;rsquo;s configuration. Everything can be done using a conf file.&#xA;Installing using HomebrewUse the following brew command in terminal:&#xA;$ brew install --cask alacritty Launching Alacritty When launching alacritty for the first time, there might be a pop up similar to - To fix this you can use the following command:</description>
     </item>
-    
     <item>
       <title>How to Install Apps Using Terminal in Ubuntu 22.10</title>
       <link>https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/</link>
       <pubDate>Sun, 27 Nov 2022 04:38:36 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/</guid>
-      <description>Using terminal is the easiest way to install apps in linux
-Installing appsTo install apps use the following command:
-$ sudo apt install packageName Replace packageName with the name of the package
-Uninstalling appsUsing removeTo uninstall apps use the following command:
-$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
-or
-Using purge$ sudo apt purge packageName Replace packageName with the name of the package
-Difference between remove &amp;amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched.</description>
+      <description>Using terminal is the easiest way to install apps in linux&#xA;Installing appsTo install apps use the following command:&#xA;$ sudo apt install packageName Replace packageName with the name of the package&#xA;Uninstalling appsUsing removeTo uninstall apps use the following command:&#xA;$ sudo apt remove packageNamudo/ Replace packageName with the name of the package&#xA;or&#xA;Using purge$ sudo apt purge packageName Replace packageName with the name of the package&#xA;Difference between remove &amp;amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched.</description>
     </item>
-    
     <item>
       <title>How to Add an Alias in Macos Terminal</title>
       <link>https://blog.chaitanyashahare.com/posts/09-how-to-add-an-alias-in-macos-terminal/</link>
       <pubDate>Thu, 24 Nov 2022 18:36:29 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/09-how-to-add-an-alias-in-macos-terminal/</guid>
-      <description>Zsh is the default MacOS Shell. So to add an alias, we need to make changes to the zsh config file that is .zshrc.
-Open .zshrc.zshrc is typically present in the home folder ~/.zshrc
-Adding aliasAdd the alias to the .zshrc in the following syntax
-alias aliasName=&amp;#34;command&amp;#34; Source .zshrcAfter saving, source .zshrc using the following command in the Terminal
-$ source ~/.zshrc </description>
+      <description>Zsh is the default MacOS Shell. So to add an alias, we need to make changes to the zsh config file that is .zshrc.&#xA;Open .zshrc.zshrc is typically present in the home folder ~/.zshrc&#xA;Adding aliasAdd the alias to the .zshrc in the following syntax&#xA;alias aliasName=&amp;#34;command&amp;#34; Source .zshrcAfter saving, source .zshrc using the following command in the Terminal&#xA;$ source ~/.zshrc </description>
     </item>
-    
     <item>
       <title>How to Make a Bash Script Executable</title>
       <link>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</link>
       <pubDate>Tue, 22 Nov 2022 12:31:37 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</guid>
-      <description>Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.
-To run a bash script you need to use the following command syntax in the command line:
-sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps
-1. Add approriate shebangFor bash add the following shebang at the top of the script</description>
+      <description>Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.&#xA;To run a bash script you need to use the following command syntax in the command line:&#xA;sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps&#xA;1. Add approriate shebangFor bash add the following shebang at the top of the script</description>
     </item>
-    
     <item>
       <title>How to Install Plugins in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</link>
       <pubDate>Sun, 20 Nov 2022 10:52:27 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/06-how-to-install-plugins-in-neovim/</guid>
-      <description>We are going to use a plugin manager &amp;lsquo;vim-plug&amp;rsquo; for installing &amp;amp; managing plugins in neovim.
-The following tutorial is for Neovim &amp;amp; not for Vim.
-Create ConfigCreate a directory for Neovim config if not already
-mkdir ~/.config/nvim Create an init.vim file
-touch ~/.config/nvim/init.vim Vim-plug installationcurl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Create a file for pluginsCreate a new file plugins.vim for organisation.
-mkdir ~/.config/nvim/vim-plug touch ~/.config/nvim/vim-plug/plugins.vim Adding pluginsAdd the following to ~/.</description>
+      <description>We are going to use a plugin manager &amp;lsquo;vim-plug&amp;rsquo; for installing &amp;amp; managing plugins in neovim.&#xA;The following tutorial is for Neovim &amp;amp; not for Vim.&#xA;Create ConfigCreate a directory for Neovim config if not already&#xA;mkdir ~/.config/nvim Create an init.vim file&#xA;touch ~/.config/nvim/init.vim Vim-plug installationcurl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Create a file for pluginsCreate a new file plugins.vim for organisation.&#xA;mkdir ~/.config/nvim/vim-plug touch ~/.config/nvim/vim-plug/plugins.vim Adding pluginsAdd the following to ~/.</description>
     </item>
-    
     <item>
       <title>Vscode Like Live Server for Terminal</title>
       <link>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</link>
       <pubDate>Tue, 15 Nov 2022 10:38:55 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</guid>
-      <description>What is Live Server?Live Server lets the user to see the real time changes done in .html files in a browser.
-Live Server in VS CodeIn Visual Studio Code, there&amp;rsquo;s a plugin &amp;lsquo;Live Server&amp;rsquo; which let&amp;rsquo;s the user host a local live server to see the changes in there html project.
-live-serverlive-server is an npm package which basically sets up a live server.
-RequirementsMust have node &amp;amp; npm installed.
-InstallationRun the following command in the terminal.</description>
+      <description>What is Live Server?Live Server lets the user to see the real time changes done in .html files in a browser.&#xA;Live Server in VS CodeIn Visual Studio Code, there&amp;rsquo;s a plugin &amp;lsquo;Live Server&amp;rsquo; which let&amp;rsquo;s the user host a local live server to see the changes in there html project.&#xA;live-serverlive-server is an npm package which basically sets up a live server.&#xA;RequirementsMust have node &amp;amp; npm installed.&#xA;InstallationRun the following command in the terminal.</description>
     </item>
-    
     <item>
       <title>Why Vim Is Just Better</title>
       <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
       <pubDate>Sun, 13 Nov 2022 12:40:47 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</guid>
-      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
+      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.&#xA;Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
     </item>
-    
     <item>
       <title>How to add social media preview (WhatsApp card) to your website</title>
       <link>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</link>
       <pubDate>Mon, 24 Oct 2022 23:07:10 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/02-how-to-add-social-media-preview/</guid>
-      <description>You might have come across some websites that when shared on social media platforms like Twitter &amp;amp; WhatsApp shows a preview card of the website which typically includes an image and a short description of the page. This is accomplished with the use of OpenGraph protocol. This is used to add meta data to your websites.
-How to add social media previewThis is done by adding OpenGraph meta tags to the &amp;lt;head&amp;gt; tag of the HTML file.</description>
+      <description>You might have come across some websites that when shared on social media platforms like Twitter &amp;amp; WhatsApp shows a preview card of the website which typically includes an image and a short description of the page. This is accomplished with the use of OpenGraph protocol. This is used to add meta data to your websites.&#xA;How to add social media previewThis is done by adding OpenGraph meta tags to the &amp;lt;head&amp;gt; tag of the HTML file.</description>
     </item>
-    
     <item>
       <title>My First Blog</title>
       <link>https://blog.chaitanyashahare.com/posts/01-my-first-blog/</link>
       <pubDate>Mon, 10 Oct 2022 11:51:28 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/01-my-first-blog/</guid>
       <description>The title of this page, as cliché as it may sound is true and with a lot of self persuasion I&amp;rsquo;m continuing to write. As this is the beginning of a new journey I would like to make this one about who I am, what are my expections and goals with this particular blog and what structure or kind of content would I be writing so let&amp;rsquo;s start with my basic introduction:</description>
     </item>
-    
   </channel>
 </rss>

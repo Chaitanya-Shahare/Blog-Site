@@ -7,57 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 30 Aug 2023 16:47:03 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 16:47:03 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>15 Most used Vscode Jupyter Notebooks Keyboard Shortcuts</title>
       <link>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</link>
       <pubDate>Wed, 30 Aug 2023 16:47:03 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/vscode-jupyter-notebooks-keyboard-shortcuts/</guid>
-      <description>In the realm of data science, Jupyter Notebooks have long been a staple for interactive coding and analysis. Their seamless integration with Visual Studio Code (VS Code) has only added to their allure, providing a potent combination of code development, visualization, and documentation.
-To further enhance your productivity, mastering keyboard shortcuts is essential.
-In this guide, we&amp;rsquo;ll delve into some of the most valuable keyboard shortcuts for working with Jupyter Notebooks in VS Code (.</description>
+      <description>In the realm of data science, Jupyter Notebooks have long been a staple for interactive coding and analysis. Their seamless integration with Visual Studio Code (VS Code) has only added to their allure, providing a potent combination of code development, visualization, and documentation.&#xA;To further enhance your productivity, mastering keyboard shortcuts is essential.&#xA;In this guide, we&amp;rsquo;ll delve into some of the most valuable keyboard shortcuts for working with Jupyter Notebooks in VS Code (.</description>
     </item>
-    
     <item>
       <title>How to Add Relative Line Numbers in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</link>
       <pubDate>Sun, 20 Aug 2023 10:05:02 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</guid>
-      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.
-Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
+      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.&#xA;Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
     </item>
-    
     <item>
       <title>How to Automatically Change the Matching Closing Tag in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</link>
       <pubDate>Sun, 20 Aug 2023 09:32:48 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-automatically-change-the-matching-closing-tag-in-vscode/</guid>
-      <description>IntroductionWhen you are writing HTML code in VSCode, you might have noticed that the closing tag is not changed automatically when you change the starting tag. This is because VSCode does not have this feature turned on by default. But you can enable this feature by installing an extension.
-But if you don&amp;rsquo;t want to install any extension you can do in it one of the following ways.
-1. User Settings Open user settings by pressing Cmd + , on Mac or Ctrl + , on Windows and Linux.</description>
+      <description>IntroductionWhen you are writing HTML code in VSCode, you might have noticed that the closing tag is not changed automatically when you change the starting tag. This is because VSCode does not have this feature turned on by default. But you can enable this feature by installing an extension.&#xA;But if you don&amp;rsquo;t want to install any extension you can do in it one of the following ways.&#xA;1. User Settings Open user settings by pressing Cmd + , on Mac or Ctrl + , on Windows and Linux.</description>
     </item>
-    
     <item>
       <title>Change VS Code Terminal Position to Right Side for a Neat Workspace</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</link>
       <pubDate>Thu, 03 Aug 2023 16:43:54 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-change-vscode-terminal-position-to-right-pane/</guid>
-      <description>IntroductionVisual Studio Code is a great editor for developers. It has a lot of features and extensions that make it a great choice for developers. One of the features that I like the most is the integrated terminal. It is very useful for running commands and scripts without leaving the editor.
-But the default position of the terminal is at the bottom of the editor. This is not a good position for the terminal as it takes up a lot of space and makes the editor look cluttered.</description>
+      <description>IntroductionVisual Studio Code is a great editor for developers. It has a lot of features and extensions that make it a great choice for developers. One of the features that I like the most is the integrated terminal. It is very useful for running commands and scripts without leaving the editor.&#xA;But the default position of the terminal is at the bottom of the editor. This is not a good position for the terminal as it takes up a lot of space and makes the editor look cluttered.</description>
     </item>
-    
     <item>
       <title>The Neovim vs Vscode Conundrum Why I Switched Back to Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</link>
       <pubDate>Mon, 15 May 2023 12:34:35 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/the-neovim-vs-vscode-conundrum-why-i-switched-back-to-neovim/</guid>
       <description>I&amp;rsquo;ve been always obsessed with efficiency and getting things done faster. Right about when I was getting started with coding in my 2nd semester I discovered Vim. Ever since then, I knew, in spite of the steep learning curve, I had to learn it to make my coding experience more efficient. I&amp;rsquo;ve been a loyal Vim user for about 8 months, in which I switched to Neovim and customized it with plugins and scripts to my liking and I was pretty satisfied with my editor.</description>
     </item>
-    
   </channel>
 </rss>

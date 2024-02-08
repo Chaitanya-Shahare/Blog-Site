@@ -7,42 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stream Your Media Content with Ease: How to Install Jellyfin on Ubuntu 22.04</title>
       <link>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/jellyfin-installation/</guid>
-      <description>Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.
-Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&amp;rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl + Alt + T or by searching for the terminal in the applications menu.</description>
+      <description>Jellyfin is a free and open-source media server that allows you to stream your media content like music, videos, and images to various devices. It supports multiple operating systems, including Ubuntu 22.04. In this guide, we will walk you through the process of installing Jellyfin on Ubuntu 22.04.&#xA;Step 1: Update the SystemBefore installing any new software on your Ubuntu system, it&amp;rsquo;s essential to ensure that your system is up-to-date. To update your Ubuntu system, open the terminal by pressing Ctrl + Alt + T or by searching for the terminal in the applications menu.</description>
     </item>
-    
     <item>
       <title>Installing Nerd Font in Termux: A Step-by-Step Guide</title>
       <link>https://blog.chaitanyashahare.com/posts/nerd-font-termux/</link>
       <pubDate>Mon, 06 Feb 2023 22:50:14 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/nerd-font-termux/</guid>
-      <description>Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.
-Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.</description>
+      <description>Termux is a popular terminal emulator app for Android devices that allows users to run a variety of Linux tools on their mobile devices. However, by default, Termux uses a plain font, which can be less visually appealing.&#xA;Enter Nerd Fonts, a collection of specially designed fonts that adds extra characters and symbols to the standard font. Nerd Fonts are ideal for developers and power users who want to make their terminal experience more visually appealing and easier to use.</description>
     </item>
-    
     <item>
       <title>How to Install Apps Using Terminal in Ubuntu 22.10</title>
       <link>https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/</link>
       <pubDate>Sun, 27 Nov 2022 04:38:36 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/10-how-to-install-apps-using-terminal-in-ubuntu-22.10/</guid>
-      <description>Using terminal is the easiest way to install apps in linux
-Installing appsTo install apps use the following command:
-$ sudo apt install packageName Replace packageName with the name of the package
-Uninstalling appsUsing removeTo uninstall apps use the following command:
-$ sudo apt remove packageNamudo/ Replace packageName with the name of the package
-or
-Using purge$ sudo apt purge packageName Replace packageName with the name of the package
-Difference between remove &amp;amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched.</description>
+      <description>Using terminal is the easiest way to install apps in linux&#xA;Installing appsTo install apps use the following command:&#xA;$ sudo apt install packageName Replace packageName with the name of the package&#xA;Uninstalling appsUsing removeTo uninstall apps use the following command:&#xA;$ sudo apt remove packageNamudo/ Replace packageName with the name of the package&#xA;or&#xA;Using purge$ sudo apt purge packageName Replace packageName with the name of the package&#xA;Difference between remove &amp;amp; purgeThe primary difference being ‘remove‘ and ‘purge‘ is that ‘remove‘ only gets rid of the package leaving any configuration files untouched.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,39 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/utility/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/categories/utility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delete All Node Modules on Your System</title>
       <link>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</link>
       <pubDate>Tue, 16 Jan 2024 20:48:09 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/delete-all-node-modules-on-your-system/</guid>
-      <description>Use the following command to get the list of all node_modules folders on your system.
-$ npx npkill You can also use the following command to delete all node_modules folders on your system.
-$ npx npkill -D </description>
+      <description>Use the following command to get the list of all node_modules folders on your system.&#xA;$ npx npkill You can also use the following command to delete all node_modules folders on your system.&#xA;$ npx npkill -D </description>
     </item>
-    
     <item>
       <title>Open Control Center on Mac With a Keyboard Shortcut</title>
       <link>https://blog.chaitanyashahare.com/posts/open-control-center-with-a-keyboard-shortcut/</link>
       <pubDate>Sat, 21 Oct 2023 10:50:52 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/open-control-center-with-a-keyboard-shortcut/</guid>
-      <description>Looking to boost your Mac&amp;rsquo;s functionality with a quick shortcut? I&amp;rsquo;ve got you covered! Learn how to open Control Center in macOS effortlessly by using Fn + C. It&amp;rsquo;s a time-saving trick that grants you instant access to key settings and features. Here&amp;rsquo;s how:
-Locate the &amp;lsquo;Fn&amp;rsquo; Key: Find the &amp;lsquo;Fn&amp;rsquo; key on your Mac&amp;rsquo;s keyboard. It&amp;rsquo;s usually in the lower-left corner.
-Press &amp;lsquo;Fn + C&amp;rsquo;: With your &amp;lsquo;Fn&amp;rsquo; key identified, simply press it simultaneously with the &amp;lsquo;C&amp;rsquo; key.</description>
+      <description>Looking to boost your Mac&amp;rsquo;s functionality with a quick shortcut? I&amp;rsquo;ve got you covered! Learn how to open Control Center in macOS effortlessly by using Fn + C. It&amp;rsquo;s a time-saving trick that grants you instant access to key settings and features. Here&amp;rsquo;s how:&#xA;Locate the &amp;lsquo;Fn&amp;rsquo; Key: Find the &amp;lsquo;Fn&amp;rsquo; key on your Mac&amp;rsquo;s keyboard. It&amp;rsquo;s usually in the lower-left corner.&#xA;Press &amp;lsquo;Fn + C&amp;rsquo;: With your &amp;lsquo;Fn&amp;rsquo; key identified, simply press it simultaneously with the &amp;lsquo;C&amp;rsquo; key.</description>
     </item>
-    
     <item>
       <title>How to write Lua Script in Neovim init.vim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</link>
       <pubDate>Mon, 24 Apr 2023 13:44:25 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</guid>
-      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF
-For example;
-lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
+      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF&#xA;For example;&#xA;lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
     </item>
-    
   </channel>
 </rss>

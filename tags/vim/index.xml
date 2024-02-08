@@ -7,115 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elevate Your Youtube Music Experience: Navigating YouTube Music with Vim-Like Keybindings</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</link>
       <pubDate>Sat, 21 Oct 2023 11:00:08 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</guid>
-      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!
-Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:
-Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
+      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!&#xA;Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:&#xA;Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
     </item>
-    
     <item>
       <title>Effortless Case-Insensitive Searching in Vim and Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</link>
       <pubDate>Thu, 19 Oct 2023 21:41:45 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</guid>
-      <description>IntroductionVim and Neovim are powerful text editors, and efficient searching is a crucial skill for every user. In this blog post, we&amp;rsquo;ll dive straight into the valuable world of case-insensitive searching, allowing you to find text without worrying about letter case. Whether you use Vim or Neovim, this tip is for you.
-Enabling Case-Insensitive Search1. Ignoring CaseTo enable case-insensitive searching in Vim or Neovim, type the following command:
-:set ignorecase Now Vim or Neovim will search without considering letter case.</description>
+      <description>IntroductionVim and Neovim are powerful text editors, and efficient searching is a crucial skill for every user. In this blog post, we&amp;rsquo;ll dive straight into the valuable world of case-insensitive searching, allowing you to find text without worrying about letter case. Whether you use Vim or Neovim, this tip is for you.&#xA;Enabling Case-Insensitive Search1. Ignoring CaseTo enable case-insensitive searching in Vim or Neovim, type the following command:&#xA;:set ignorecase Now Vim or Neovim will search without considering letter case.</description>
     </item>
-    
     <item>
       <title>How to Add Relative Line Numbers in Vscode</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</link>
       <pubDate>Sun, 20 Aug 2023 10:05:02 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-add-relative-line-numbers-in-vscode/</guid>
-      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.
-Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
+      <description>IntroductionIf you are a vim user switching to VSCode for some reason you might want the line numbers to be relative. This is a simple guide to do that.&#xA;Steps Open the command palette by pressing Ctrl+Shift+P or Cmd+Shift+P on Mac. Type settings.json and select Preferences: Open Settings (JSON). Add the following line to the file: &amp;#34;editor.lineNumbers&amp;#34;: &amp;#34;relative&amp;#34; Save the file and you are done. ConclusionThis is a simple guide to add relative line numbers in vscode.</description>
     </item>
-    
     <item>
       <title>How to Copy and Paste From System Clipboard in Vim and Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</link>
       <pubDate>Thu, 03 Aug 2023 20:48:58 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-copy-and-paste-from-system-clipboard-in-vim-and-neovim/</guid>
-      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:
-set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.
-set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
+      <description>CommandTo copy and paste from system clipboard in Vim and Neovim, you can use the following command:&#xA;set clipboard=unnamedplus You can write in the ~/.vimrc for Vim or ~/.config/nvim/init.vim for Neovim file to make it permanent.&#xA;set clipboard=unnamedplus Usage Copied text on your system clipboard can be pasted in Vim or Neovim using p or P command. Text can be copied from Vim or Neovim using y command and pasted in any other application with ctrl + v or cmd + v.</description>
     </item>
-    
     <item>
       <title>How to Install Colorschemes in Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</link>
       <pubDate>Mon, 19 Jun 2023 21:34:01 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-install-colorschemes-in-neovim/</guid>
-      <description>InstallationColorschemes / themes in Neovim / Vim need to be installed like any other plugin.
-You can find them by doing just a google search or on vimcolorschemes.com.
-You can use a plugin manager like VimPlug or Packer to install these colorschemes.
-If you don&amp;rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug here.
-Setting ColorschemeAfter installation, you can use the colorscheme by using the following command in the command mode in neovim</description>
+      <description>InstallationColorschemes / themes in Neovim / Vim need to be installed like any other plugin.&#xA;You can find them by doing just a google search or on vimcolorschemes.com.&#xA;You can use a plugin manager like VimPlug or Packer to install these colorschemes.&#xA;If you don&amp;rsquo;t know how to install plugins in neovim you can checkout my post for installing plugins using VimPlug here.&#xA;Setting ColorschemeAfter installation, you can use the colorscheme by using the following command in the command mode in neovim</description>
     </item>
-    
     <item>
       <title>How to write Lua Script in Neovim init.vim</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</link>
       <pubDate>Mon, 24 Apr 2023 13:44:25 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-write-lua-script-in-neovim-init-vim/</guid>
-      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF
-For example;
-lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
+      <description>lua in init.vimTo include lua script in neovim&amp;rsquo;s init.vim, enclose it in lua &amp;lt;&amp;lt; EOF &amp;amp; EOF&#xA;For example;&#xA;lua &amp;lt;&amp;lt; EOF vim.opt.termguicolors = true vim.opt.colorcolumn = &amp;#34;80&amp;#34; EOF </description>
     </item>
-    
     <item>
       <title>How to Make Neovim Backround Transparent</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</link>
       <pubDate>Sat, 18 Feb 2023 15:40:21 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</guid>
-      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim
-highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.</description>
+      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim&#xA;highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.</description>
     </item>
-    
     <item>
       <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing</title>
       <link>https://blog.chaitanyashahare.com/posts/vim-folding/</link>
       <pubDate>Mon, 30 Jan 2023 10:33:15 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/vim-folding/</guid>
       <description>Vim is a highly efficient and versatile text editor that has been around for decades. One of its key features is folding, which allows users to collapse and expand sections of text. Folding makes it easier to navigate and edit large files, and can greatly improve your productivity. In this blog post, we&amp;rsquo;ll explore the basics of Vim folding and how you can use it to streamline your text editing process.</description>
     </item>
-    
     <item>
       <title>Vscode Like Live Server for Terminal</title>
       <link>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</link>
       <pubDate>Tue, 15 Nov 2022 10:38:55 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</guid>
-      <description>What is Live Server?Live Server lets the user to see the real time changes done in .html files in a browser.
-Live Server in VS CodeIn Visual Studio Code, there&amp;rsquo;s a plugin &amp;lsquo;Live Server&amp;rsquo; which let&amp;rsquo;s the user host a local live server to see the changes in there html project.
-live-serverlive-server is an npm package which basically sets up a live server.
-RequirementsMust have node &amp;amp; npm installed.
-InstallationRun the following command in the terminal.</description>
+      <description>What is Live Server?Live Server lets the user to see the real time changes done in .html files in a browser.&#xA;Live Server in VS CodeIn Visual Studio Code, there&amp;rsquo;s a plugin &amp;lsquo;Live Server&amp;rsquo; which let&amp;rsquo;s the user host a local live server to see the changes in there html project.&#xA;live-serverlive-server is an npm package which basically sets up a live server.&#xA;RequirementsMust have node &amp;amp; npm installed.&#xA;InstallationRun the following command in the terminal.</description>
     </item>
-    
     <item>
       <title>Why Vim Is Just Better</title>
       <link>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</link>
       <pubDate>Sun, 13 Nov 2022 12:40:47 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/03-why-vim-is-just-better/</guid>
-      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.
-Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
+      <description>What is Vim?According to the Vim&amp;rsquo;s official website, Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. Also it is free &amp;amp; opensource.&#xA;Vim features Its memory footprint is very low and is a terminal app. It is command centric. You can perform complex text related task with few commands.</description>
     </item>
-    
   </channel>
 </rss>

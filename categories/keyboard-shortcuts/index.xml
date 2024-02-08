@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/categories/keyboard-shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/categories/keyboard-shortcuts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elevate Your Youtube Music Experience: Navigating YouTube Music with Vim-Like Keybindings</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</link>
       <pubDate>Sat, 21 Oct 2023 11:00:08 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</guid>
-      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!
-Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:
-Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
+      <description>IntroductionYouTube Music is a fantastic platform for discovering and enjoying your favorite tunes. However, did you know that you can navigate YouTube Music like a pro using Vim-like keybindings? In this blog post, I&amp;rsquo;ll explore various shortcuts that will take your music exploration to the next level. Let&amp;rsquo;s get started!&#xA;Playback ControlLet&amp;rsquo;s start with the shortcuts that give you command over playback:&#xA;Play/Pause: SPACE or ; - Toggle between playing and pausing a song.</description>
     </item>
-    
   </channel>
 </rss>

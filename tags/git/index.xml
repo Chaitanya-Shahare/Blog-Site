@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 13 Jun 2023 08:55:58 +0530</lastBuildDate><atom:link href="https://blog.chaitanyashahare.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jun 2023 08:55:58 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unlocking the Power of Multiple GitHub Accounts: Mastering Terminal Configuration</title>
       <link>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</link>
       <pubDate>Tue, 13 Jun 2023 08:55:58 +0530</pubDate>
-      
       <guid>https://blog.chaitanyashahare.com/posts/manage-multiple-github-accounts-in-terminal/</guid>
       <description>Introduction:Using multiple GitHub accounts is a common scenario for developers who work on personal and professional projects simultaneously. However, managing these accounts within your terminal can be a bit tricky. In this guide, I will walk you through the process of adding multiple GitHub accounts to your terminal and configuring them correctly, ensuring a seamless experience when working on different projects. So let&amp;rsquo;s dive in and learn how to manage multiple GitHub accounts effortlessly.</description>
     </item>
-    
   </channel>
 </rss>
