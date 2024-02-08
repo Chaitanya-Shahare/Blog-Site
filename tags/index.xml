@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 16 Jan 2024 20:48:09 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2024 10:41:36 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>goals</title>
+      <link>https://blog.chaitanyashahare.com/tags/goals/</link>
+      <pubDate>Thu, 08 Feb 2024 10:41:36 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/goals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>self-improvement</title>
+      <link>https://blog.chaitanyashahare.com/tags/self-improvement/</link>
+      <pubDate>Thu, 08 Feb 2024 10:41:36 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/self-improvement/</guid>
+      <description></description>
+    </item>
     <item>
       <title>node_modules</title>
       <link>https://blog.chaitanyashahare.com/tags/node_modules/</link>
