@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 04 May 2024 21:49:34 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 00:13:59 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essential GitHub CLI Commands for Efficiency</title>
+      <link>https://blog.chaitanyashahare.com/posts/github-cli-command/</link>
+      <pubDate>Sat, 11 May 2024 00:13:59 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/github-cli-command/</guid>
+      <description>GitHub, the cornerstone of collaborative software development, offers an extensive ecosystem of tools. Among them, the GitHub CLI (Command Line Interface) stands out as a powerful ally in streamlining your development workflow. Whether you&amp;rsquo;re a seasoned developer or a beginner, mastering the GitHub CLI can drastically speed up your operations, from repository management to issue tracking. This blog post will guide you through the most useful GitHub CLI commands to enhance your productivity.</description>
+    </item>
     <item>
       <title>Understanding Git Merge vs. Git Rebase: A Guide for Beginners and Beyond</title>
       <link>https://blog.chaitanyashahare.com/posts/git-merge-vs-rebase/</link>

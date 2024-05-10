@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/cli/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/github-cli-command/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/git/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/github/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
     <lastmod>2024-05-04T21:49:34+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-05-04T21:49:34+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/git/</loc>
-    <lastmod>2024-05-04T21:49:34+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/git/</loc>
-    <lastmod>2024-05-04T21:49:34+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-05-04T21:49:34+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2024-05-04T21:49:34+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/git-merge-vs-rebase/</loc>
