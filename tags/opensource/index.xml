@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opensource on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/opensource/</link>
+    <description>Recent content in opensource on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2024 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Thu, 02 May 2024 20:25:59 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Got Accepted in Google Summer of Code (GSoC) 2024!!!</title>
+      <link>https://blog.chaitanyashahare.com/posts/i-got-accepted-in-google-summer-of-code-gsoc/</link>
+      <pubDate>Thu, 02 May 2024 20:25:59 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/i-got-accepted-in-google-summer-of-code-gsoc/</guid>
+      <description>I am very delighted to announce that I have been accepted into Google Summer of Code 2024! It&amp;rsquo;s an incredible opportunity, and I&amp;rsquo;m beyond excited to be a part of this enriching experience. For those who may not be familiar, Google Summer of Code (GSoC) is a global program that connects students with open source software organizations to work on a summer programming project under the guidance of experienced mentors.</description>
+    </item>
+  </channel>
+</rss>
