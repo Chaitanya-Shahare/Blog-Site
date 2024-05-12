@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 12 May 2024 09:59:59 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 May 2024 11:25:18 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 1 at Google Summer of Code @LLVM.org: Kicking Off the Community Bonding Period</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-1-gsoc/</link>
+      <pubDate>Sun, 12 May 2024 11:25:18 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-1-gsoc/</guid>
+      <description>Hello, everyone!&#xA;It’s been an exhilarating first week at Google Summer of Code 2024, where I’ve begun my journey to revamp the LLVM.org website. As I dive into the world of open-source development at such a large scale, everything feels new and exciting. Here’s a breakdown of my first week, the progress I&amp;rsquo;ve made, and what I’ve learned along the way.&#xA;Diving InThe week started with an orientation session where I got to meet other GSoC participants from around the world.</description>
+    </item>
     <item>
       <title>LLVM.org Website Redesign GSoC Project Introduction</title>
       <link>https://blog.chaitanyashahare.com/posts/llvm-org-website-redesign-gsoc-project-introduction/</link>
