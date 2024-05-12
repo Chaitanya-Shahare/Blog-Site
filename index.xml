@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 11 May 2024 00:13:59 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 May 2024 09:59:59 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLVM.org Website Redesign GSoC Project Introduction</title>
+      <link>https://blog.chaitanyashahare.com/posts/llvm-org-website-redesign-gsoc-project-introduction/</link>
+      <pubDate>Sun, 12 May 2024 09:59:59 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/llvm-org-website-redesign-gsoc-project-introduction/</guid>
+      <description>IntroductionI’m Chaitanya Shahare, a passionate full-stack web developer and a pre-final-year Mechanical Engineering student at the National Institute of Technology Srinagar, India. This summer, I&amp;rsquo;m delighted to embark on an exciting journey with LLVM as Google Summer of Code 2024 contributor, where I&amp;rsquo;ll be contributing to the LLVM project by improving the look and feel of its central hub, the LLVM.org website.&#xA;Mentors: Tanya Lattner and Vassil Vassilev&#xA;Why I Chose LLVM.</description>
+    </item>
     <item>
       <title>Essential GitHub CLI Commands for Efficiency</title>
       <link>https://blog.chaitanyashahare.com/posts/github-cli-command/</link>

@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/llvm-org-website-redesign-gsoc-project-introduction/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/web-development/</loc>
+    <lastmod>2024-05-12T09:59:59+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/cli/</loc>
     <lastmod>2024-05-11T00:13:59+05:30</lastmod>
@@ -17,12 +41,6 @@
     <loc>https://blog.chaitanyashahare.com/tags/github/</loc>
     <lastmod>2024-05-11T00:13:59+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
-    <lastmod>2024-05-11T00:13:59+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/</loc>
     <lastmod>2024-05-04T21:49:34+05:30</lastmod>
   </url><url>
@@ -32,22 +50,10 @@
     <loc>https://blog.chaitanyashahare.com/posts/git-merge-vs-rebase/</loc>
     <lastmod>2024-05-04T21:49:34+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
-    <lastmod>2024-05-02T20:25:59+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
-    <lastmod>2024-05-02T20:25:59+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/i-got-accepted-in-google-summer-of-code-gsoc/</loc>
     <lastmod>2024-05-02T20:25:59+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
-    <lastmod>2024-05-02T20:25:59+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
-    <lastmod>2024-05-02T20:25:59+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/</loc>
     <lastmod>2024-05-02T20:25:59+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/goals/</loc>
@@ -363,9 +369,6 @@
     <lastmod>2022-11-20T10:52:27+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/04-vscode-like-live-server-for-terminal/</loc>
-    <lastmod>2022-11-15T10:38:55+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/web-development/</loc>
     <lastmod>2022-11-15T10:38:55+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/text-editor/</loc>
