@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cli on Chaitanya&#39;s blog</title>
-    <link>https://blog.chaitanyashahare.com/tags/cli/</link>
-    <description>Recent content in cli on Chaitanya&#39;s blog</description>
+    <title>gitlab on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/gitlab/</link>
+    <description>Recent content in gitlab on Chaitanya&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
     <lastBuildDate>Sun, 19 May 2024 22:16:28 +0530</lastBuildDate>
-    <atom:link href="https://blog.chaitanyashahare.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.chaitanyashahare.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Essential GitLab CLI Commands for Efficiency</title>
       <link>https://blog.chaitanyashahare.com/posts/gitlab-cli-command/</link>
       <pubDate>Sun, 19 May 2024 22:16:28 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/posts/gitlab-cli-command/</guid>
       <description>GitLab, a popular platform for collaborative software development, offers a robust suite of tools to manage your repositories, CI/CD pipelines, and more. Among these tools, the GitLab CLI (Command Line Interface), known as glab, is a powerful asset that can streamline your workflow. Whether you’re an experienced developer or a newcomer, mastering glab can significantly boost your productivity. This blog post will guide you through the most useful glab commands to enhance your development process.</description>
-    </item>
-    <item>
-      <title>Essential GitHub CLI Commands for Efficiency</title>
-      <link>https://blog.chaitanyashahare.com/posts/github-cli-command/</link>
-      <pubDate>Sat, 11 May 2024 00:13:59 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/posts/github-cli-command/</guid>
-      <description>GitHub, the cornerstone of collaborative software development, offers an extensive ecosystem of tools. Among them, the GitHub CLI (Command Line Interface) stands out as a powerful ally in streamlining your development workflow. Whether you&amp;rsquo;re a seasoned developer or a beginner, mastering the GitHub CLI can drastically speed up your operations, from repository management to issue tracking. This blog post will guide you through the most useful GitHub CLI commands to enhance your productivity.</description>
     </item>
   </channel>
 </rss>
