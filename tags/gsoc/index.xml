@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 12 May 2024 11:25:18 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 21:38:12 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 2 at Google Summer of Code @LLVM.org: Progress and Presentations</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-2-gsoc/</link>
+      <pubDate>Sun, 19 May 2024 21:38:12 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-2-gsoc/</guid>
+      <description>Hello, everyone!&#xA;Week 2 of my Google Summer of Code journey at LLVM.org has been both productive and engaging. Here’s a quick recap of the progress made and key activities from this week.&#xA;Advancing the ProjectThis week, I focused on completing the first drafts of the Request for Comments (RFC) and the community survey. These documents are crucial for conducting a preliminary content audit and gathering community feedback on the LLVM.</description>
+    </item>
     <item>
       <title>Week 1 at Google Summer of Code @LLVM.org: Kicking Off the Community Bonding Period</title>
       <link>https://blog.chaitanyashahare.com/posts/week-1-gsoc/</link>
