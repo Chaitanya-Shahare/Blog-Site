@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nvim on Chaitanya&#39;s blog</title>
-    <link>https://blog.chaitanyashahare.com/tags/nvim/</link>
-    <description>Recent content in nvim on Chaitanya&#39;s blog</description>
+    <title>vimwiki on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/vimwiki/</link>
+    <description>Recent content in vimwiki on Chaitanya&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
     <lastBuildDate>Tue, 28 May 2024 22:21:44 +0530</lastBuildDate>
-    <atom:link href="https://blog.chaitanyashahare.com/tags/nvim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.chaitanyashahare.com/tags/vimwiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Friendship Broken with Vimwiki, Now Obsidian.nvim is My New Best Friend</title>
       <link>https://blog.chaitanyashahare.com/posts/vimwiki-to-obsidian/</link>

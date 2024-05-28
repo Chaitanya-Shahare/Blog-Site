@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-05-28T21:44:30+05:30</lastmod>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/vimwiki-to-obsidian/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/markdown/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/nvim/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/obsidian/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/vimwiki/</loc>
+    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
     <lastmod>2024-05-28T21:44:30+05:30</lastmod>
@@ -17,13 +41,7 @@
     <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
     <lastmod>2024-05-28T21:44:30+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-05-28T21:44:30+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/series/</loc>
-    <lastmod>2024-05-28T21:44:30+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2024-05-28T21:44:30+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/week-3-gsoc/</loc>
@@ -141,9 +159,6 @@
     <lastmod>2023-10-19T22:07:26+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</loc>
-    <lastmod>2023-10-19T21:41:45+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
     <lastmod>2023-10-19T21:41:45+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/neovim/</loc>

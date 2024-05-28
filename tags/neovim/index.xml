@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 19 Oct 2023 21:41:45 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 22:21:44 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Friendship Broken with Vimwiki, Now Obsidian.nvim is My New Best Friend</title>
+      <link>https://blog.chaitanyashahare.com/posts/vimwiki-to-obsidian/</link>
+      <pubDate>Tue, 28 May 2024 22:21:44 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/vimwiki-to-obsidian/</guid>
+      <description>In the search for the perfect note-taking tool, we often stumble upon a solution that works great for a while, only to find ourselves needing something more later on. That was my journey with Vimwiki. It was a reliable tool, but as my needs evolved, I found myself struggling with its limitations. That’s when I discovered Obsidian.nvim, and it quickly became my new favorite.&#xA;Why I Needed a Change1. Filetype IssuesOne of the main problems I faced with Vimwiki was that all my Markdown files were being assigned the Vimwiki filetype.</description>
+    </item>
     <item>
       <title>Effortless Case-Insensitive Searching in Vim and Neovim</title>
       <link>https://blog.chaitanyashahare.com/posts/case-insensitive-searching-in-vim-neovim/</link>
