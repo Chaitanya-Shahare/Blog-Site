@@ -11,25 +11,26 @@
     
   
 
-  <title>Essential GitLab CLI Commands for Efficiency | Chaitanya&#39;s blog</title>
+  <title>Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="GitLab, a popular platform for collaborative software development, offers a robust suite of tools to manage your repositories, CI/CD pipelines, and more. Among these tools, the GitLab CLI (Command Line Interface), known as glab, is a powerful asset that can streamline your workflow. Whether you’re an experienced developer or a newcomer, mastering glab can significantly boost your productivity. This blog post will guide you through the most useful glab commands to enhance your development process.">
+  <meta name="description" content="This week&#39;s update on my Google Summer of Code project at LLVM.org includes releasing the RFC, finalizing the community survey, and enhancing the blog. Read on to learn more about these milestones and the progress made towards the LLVM.org website redesign.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta name="twitter:title" content="Essential GitLab CLI Commands for Efficiency"/>
-<meta name="twitter:description" content="GitLab, a popular platform for collaborative software development, offers a robust suite of tools to manage your repositories, CI/CD pipelines, and more. Among these tools, the GitLab CLI (Command Line Interface), known as glab, is a powerful asset that can streamline your workflow. Whether you’re an experienced developer or a newcomer, mastering glab can significantly boost your productivity. This blog post will guide you through the most useful glab commands to enhance your development process."/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey"/>
+<meta name="twitter:description" content="This week&#39;s update on my Google Summer of Code project at LLVM.org includes releasing the RFC, finalizing the community survey, and enhancing the blog. Read on to learn more about these milestones and the progress made towards the LLVM.org website redesign."/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Essential GitLab CLI Commands for Efficiency" />
-<meta property="og:description" content="GitLab, a popular platform for collaborative software development, offers a robust suite of tools to manage your repositories, CI/CD pipelines, and more. Among these tools, the GitLab CLI (Command Line Interface), known as glab, is a powerful asset that can streamline your workflow. Whether you’re an experienced developer or a newcomer, mastering glab can significantly boost your productivity. This blog post will guide you through the most useful glab commands to enhance your development process." />
+  <meta property="og:title" content="Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey" />
+<meta property="og:description" content="This week&#39;s update on my Google Summer of Code project at LLVM.org includes releasing the RFC, finalizing the community survey, and enhancing the blog. Read on to learn more about these milestones and the progress made towards the LLVM.org website redesign." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/gitlab-cli-command/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-05-19T22:16:28+05:30" />
-<meta property="article:modified_time" content="2024-05-19T22:16:28+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-3-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-28T21:44:30+05:30" />
+<meta property="article:modified_time" content="2024-05-28T21:44:30+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-2-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-1-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/llvm-org-website-redesign-gsoc-project-introduction/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/i-got-accepted-in-google-summer-of-code-gsoc/" />
 
 
 
@@ -190,7 +191,7 @@
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/black-background.jpg');
+    background-image: url('/images/posts/gsoc/banner.png');
   }
 </style>
 
@@ -203,18 +204,18 @@
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/gitlab/" title="gitlab">gitlab</a>
+            <a class="tag" href="/tags/gsoc/" title="gsoc">gsoc</a>
             
-            <a class="tag" href="/tags/cli/" title="cli">cli</a>
+            <a class="tag" href="/tags/llvm/" title="llvm">llvm</a>
             
-            <a class="tag" href="/tags/git/" title="git">git</a>
+            <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Essential GitLab CLI Commands for Efficiency</h1>
+          <h1>Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Sun, May 19, 2024
+            on Tue, May 28, 2024
           </span>
         </div>
       </div>
@@ -235,85 +236,64 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>GitLab, a popular platform for collaborative software development, offers a
-robust suite of tools to manage your repositories, CI/CD pipelines, and more.
-Among these tools, the GitLab CLI (Command Line Interface), known as <code>glab</code>, is
-a powerful asset that can streamline your workflow. Whether you’re an
-experienced developer or a newcomer, mastering <code>glab</code> can significantly boost
-your productivity. This blog post will guide you through the most useful <code>glab</code>
-commands to enhance your development process.</p>
-<h2 id="what-is-gitlab-cli-glab">What is GitLab CLI (glab)?<a class="anchorjs-link" href="#what-is-gitlab-cli-glab"></a></h2><p>GitLab CLI (<code>glab</code>) is a command-line tool that allows you to interact with
-GitLab directly from your terminal. It extends GitLab’s web functionalities to
-your local environment, enabling you to manage repositories, issues, merge
-requests, and more without leaving the command line. This seamless integration
-enhances speed and efficiency, making it a valuable tool for command-line
-enthusiasts.</p>
-<h2 id="setting-up-gitlab-cli">Setting Up GitLab CLI<a class="anchorjs-link" href="#setting-up-gitlab-cli"></a></h2><p>Before diving into the commands, ensure you have <code>glab</code> installed. You can
-download it from the <a href="https://gitlab.com/gitlab-org/cli/-/blob/main/README.md#installation" target="_blank">GitLab CLI repository</a>
-and install it according to your operating system’s instructions.</p>
-<p>Once installed, authenticate your session with:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab auth login
-</span></span></code></pre></div><p>This command will prompt you to authenticate, setting the stage for seamless
-GitLab operations.</p>
-<h2 id="essential-gitlab-cli-commands">Essential GitLab CLI Commands<a class="anchorjs-link" href="#essential-gitlab-cli-commands"></a></h2><h3 id="1-clone-a-repository">1. Clone a Repository<a class="anchorjs-link" href="#1-clone-a-repository"></a></h3><p>Start by cloning an existing repository:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab repo clone &lt;repository-name&gt;
-</span></span></code></pre></div><p>Replace <code>&lt;repository-name&gt;</code> with the desired repository path. This command
-integrates smoothly with other CLI workflows, saving you time.</p>
-<h3 id="2-create-a-new-repository">2. Create a New Repository<a class="anchorjs-link" href="#2-create-a-new-repository"></a></h3><p>Kickstart new projects without leaving the terminal:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab repo create &lt;new-repo-name&gt;
-</span></span></code></pre></div><p>This command can also initialize your local directory as a GitLab repository
-with appropriate remote links.</p>
-<h3 id="3-list-and-check-out-merge-requests">3. List and Check Out Merge Requests<a class="anchorjs-link" href="#3-list-and-check-out-merge-requests"></a></h3><p>View all open merge requests for your current repository:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab mr list
-</span></span></code></pre></div><p>To check out a specific merge request into a new branch:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab mr checkout &lt;mr-id&gt;
-</span></span></code></pre></div><p>This feature is particularly useful for reviewing code and managing merge
-requests directly from the command line.</p>
-<h3 id="4-create-a-merge-request">4. Create a Merge Request<a class="anchorjs-link" href="#4-create-a-merge-request"></a></h3><p>After making your changes and pushing your branch, you can easily create a
-merge request:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab mr create --source &lt;your-branch&gt; --target &lt;target-branch&gt;
-</span></span></code></pre></div><p>Customize your merge request by adding titles, body text, reviewers, labels,
-and more right from your command prompt.</p>
-<h3 id="5-manage-issues">5. Manage Issues<a class="anchorjs-link" href="#5-manage-issues"></a></h3><p>Create a new issue with:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab issue create
-</span></span></code></pre></div><p>This will prompt you to add a title, body, assignees, labels, and projects.
-Similarly, you can list and filter issues with:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>glab issue list --label <span style="color:#f1fa8c">&#34;bug&#34;</span> --assignee &lt;username&gt;
-</span></span></code></pre></div><p>These commands enable rapid issue management, fostering better and quicker team
-communication.</p>
-<h2 id="tips-for-maximizing-efficiency-with-gitlab-cli">Tips for Maximizing Efficiency with GitLab CLI<a class="anchorjs-link" href="#tips-for-maximizing-efficiency-with-gitlab-cli"></a></h2><ul>
-<li><strong>Combine Commands</strong>: <code>glab</code> supports piping and combining commands with
-other Unix-like command-line tools. For example, use <code>grep</code> to filter list
-outputs.</li>
-<li><strong>Scripting</strong>: Automate repetitive tasks by scripting sequences of <code>glab</code>
-commands.</li>
+        <p>Hello, everyone!</p>
+<p>Week 3 of my Google Summer of Code journey with LLVM.org has been
+both productive and pivotal. Here’s an update on my progress,
+including releasing the RFC, finalizing the community survey, and
+enhancing the LLVM.org blog.</p>
+<h2 id="releasing-the-rfc">Releasing the RFC<a class="anchorjs-link" href="#releasing-the-rfc"></a></h2><p>One of the significant milestones this week was
+releasing the Request for Comments (RFC) on the LLVM discourse forum.
+The RFC outlines the proposed redesign of the LLVM.org website,
+detailing the goals, changes, and expected outcomes. This step is
+crucial as it opens up the discussion to the broader community,
+inviting feedback and suggestions. You can check out the RFC
+<a href="https://discourse.llvm.org/t/rfc-llvm-org-website-redesign/79117" target="_blank">here</a>.</p>
+<h2 id="finalizing-the-survey">Finalizing the Survey<a class="anchorjs-link" href="#finalizing-the-survey"></a></h2><p>After drafting the community survey to gather
+insights and preferences about the LLVM.org website redesign, I
+finalized it and submitted it for my mentors’ feedback. This survey
+is essential for understanding the community&rsquo;s needs and ensuring the
+redesign aligns with their expectations.</p>
+<h2 id="enhancing-the-compiler-research-blog">Enhancing the Compiler Research Blog<a class="anchorjs-link" href="#enhancing-the-compiler-research-blog"></a></h2><p>I also worked on improving the compiler-research.org blog by
+adding tags to blog posts. This enhancement will help categorize
+content better, making it easier for users to find relevant
+information. You can view the pull request for this update
+<a href="https://github.com/compiler-research/compiler-research.github.io/pull/199" target="_blank">here</a>.</p>
+<h2 id="contributions-made">Contributions Made<a class="anchorjs-link" href="#contributions-made"></a></h2><h3 id="repo-compiler-researchcompiler-researchgithubiohttpsgithubcomcompiler-researchcompiler-researchgithubio">Repo: <a href="https://github.com/compiler-research/compiler-research.github.io" target="_blank">compiler-research/compiler-research.github.io</a><a class="anchorjs-link" href="#repo-compiler-researchcompiler-researchgithubiohttpsgithubcomcompiler-researchcompiler-researchgithubio"></a></h3><ul>
+<li><strong>Pull Requests Raised:</strong>
+<ul>
+<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/199" target="_blank"><strong>PR #199:</strong></a> Add Tags to blog posts</li>
 </ul>
-<h3 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h3><p>GitLab CLI (<code>glab</code>) is a versatile tool that, when used effectively, can
-substantially enhance your productivity. By integrating these commands into
-your daily routine, you can reduce the overhead of common tasks, allowing you
-to focus more on coding and less on navigation. Whether it’s through quicker
-merge request reviews or streamlined issue management, <code>glab</code> is indispensable
-for a fast-paced development environment. Embrace these commands, and watch
-your GitLab workflow transform!</p>
+</li>
+</ul>
+<h2 id="challenges-and-learnings">Challenges and Learnings<a class="anchorjs-link" href="#challenges-and-learnings"></a></h2><p>This week, the main challenge was ensuring
+the survey questions were comprehensive yet concise, capturing all
+necessary information without overwhelming the respondents. Balancing
+thoroughness with simplicity required careful crafting and review.</p>
+<h2 id="next-steps-looking-ahead">Next Steps Looking ahead<a class="anchorjs-link" href="#next-steps-looking-ahead"></a></h2><p>I will focus on incorporating the feedback
+from the RFC and survey into the design process. The development
+phase is set to begin soon, where I will start designing the new layout
+and ensuring it integrates smoothly with the existing content.
+Continuous engagement with the community will remain a priority to
+gather ongoing insights and suggestions.</p>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>Week 3 has been a blend of critical milestones and
+collaborative efforts. Releasing the RFC and finalizing the survey
+mark significant steps forward in the LLVM.org website redesign
+project. Thank you for following my journey, and stay tuned for more
+updates!</p>
+<p>Feel free to reach out if you have any thoughts or questions about
+the project!</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/week-2-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 2 at Google Summer of Code @LLVM.org: Progress and Presentations">
+            <a href="/posts/gitlab-cli-command/" data-toggle="tooltip" data-placement="top" title="Essential GitLab CLI Commands for Efficiency">
               Previous<br>
-              <span>Week 2 at Google Summer of Code @LLVM.org: Progress and Presentations</span>
+              <span>Essential GitLab CLI Commands for Efficiency</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/week-3-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey">
-              Next<br>
-              <span>Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
