@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Tue, 28 May 2024 21:44:30 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2024 21:37:12 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 3 at Google Summer of Code @LLVM.org: Getting a few responses on survey</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-4-gsoc/</link>
+      <pubDate>Wed, 05 Jun 2024 21:37:12 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-4-gsoc/</guid>
+      <description>Week 4 of my Google Summer of Code journey with LLVM.org has been pretty exciting. Here&amp;rsquo;s an update on my progress.&#xA;Survey Responses 📊This week I got some responses on the survey I had sent out last week. 43 to be exact. That&amp;rsquo;s not a lot but it&amp;rsquo;s a good start.&#xA;The RFC and the survey was discussed in the LLVM Weekly meeting and newsletter, so I&amp;rsquo;m expecting a lot more responses in the coming few weeks.</description>
+    </item>
     <item>
       <title>Week 3 at Google Summer of Code @LLVM.org: Releasing the RFC and Finalizing the Survey</title>
       <link>https://blog.chaitanyashahare.com/posts/week-3-gsoc/</link>
