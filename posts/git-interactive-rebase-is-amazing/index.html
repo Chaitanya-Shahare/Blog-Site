@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+    
+  
+
+  <title>Git Interactive Rebase Is Amazing | Chaitanya&#39;s blog</title>
+
+  
+  <meta name="author" content="Chaitanya Shahare">
+  
+  <meta name="description" content="In this article I demonstrate where and how to use git interactive rebase, and how to change the order of commits and squash commits.">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/git/opengraph.png" /><meta name="twitter:title" content="Git Interactive Rebase Is Amazing"/>
+<meta name="twitter:description" content="In this article I demonstrate where and how to use git interactive rebase, and how to change the order of commits and squash commits."/>
+<meta name="twitter:site" content="@ChaiitanyaS"/>
+
+  <meta property="og:title" content="Git Interactive Rebase Is Amazing" />
+<meta property="og:description" content="In this article I demonstrate where and how to use git interactive rebase, and how to change the order of commits and squash commits." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/git-interactive-rebase-is-amazing/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/git/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-08T20:27:44+05:30" />
+<meta property="article:modified_time" content="2024-06-08T20:27:44+05:30" />
+
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://blog.chaitanyashahare.com/">Chaitanya&#39;s blog</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/gsoc/" title="GSoC">GSoC</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('/images/posts/git/banner.png');
+  }
+</style>
+
+<header class="intro-header ">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+            <a class="tag" href="/tags/git/" title="git">git</a>
+            
+            <a class="tag" href="/tags/rebase/" title="rebase">rebase</a>
+            
+          </div>
+          <h1>Git Interactive Rebase Is Amazing</h1>
+          <h2 class="subheading">Beginner&#39;s guide to Git Interactive Rebase</h2>
+          <span class="meta">
+            Posted by  Chaitanya Shahare 
+            on Sat, Jun 8, 2024
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <p>If you are like me and just at the start of your coding journey,
+<code>git rebase --interactive</code> might be a scary command. I feared that if
+anything went wrong I would lose a lot of my code and have to do that work all
+over again.</p>
+<p>But that was the point of using a version control system like git, <strong>to not
+worry about changing your code</strong>. Git is here to save our code not to destroy it.</p>
+<p>That said Git Interactive Rebase is a powerful command, if not used right
+it can cause some problems you wish you didn&rsquo;t have.</p>
+<p>Although, most such problems can be fixed by <code>git rebase --abort</code>,
+frankly, it&rsquo;s my favorite git-rebase command. XD</p>
+<p>This blog post is not about what git rebase is, what are its use cases, etc.
+This article will focus on successfully using interactive rebase when
+you need to. I recently had to do it and it was my first time rebasing in such
+a large codebase, it was quite intimidating, so I&rsquo;m writing this blog
+post. To help my future self and others in the same situation.</p>
+<h2 id="when-to-use-interactive-rebase">When to use interactive rebase<a class="anchorjs-link" href="#when-to-use-interactive-rebase"></a></h2><p>When you want to</p>
+<ul>
+<li>change the order of commits</li>
+<li>squash commits</li>
+<li>delete (drop/remove) commits</li>
+<li>edit files in commits</li>
+<li>fixup</li>
+<li>exec</li>
+</ul>
+<p>but we are just going to cover</p>
+<ul>
+<li>changing the order of commits</li>
+<li>squashing commits</li>
+</ul>
+<h2 id="how-to-use-interactive-rebase">How to use interactive rebase<a class="anchorjs-link" href="#how-to-use-interactive-rebase"></a></h2><p>Let&rsquo;s assume the following git history:</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/1.png" data-action="zoom" alt="1st"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>let&rsquo;s visualize this the <code>git log --oneline --decorate --graph</code> command</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/2.png" data-action="zoom" alt="2nd"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>Here, <strong>1.1</strong>, <strong>1.2</strong> are commits on the <code>main</code> branch and <strong>2.1</strong>, <strong>2.3</strong>,
+<strong>2.2</strong> are commits on the <code>feature-2</code> branch.</p>
+<h3 id="issues-to-fix">Issues to fix<a class="anchorjs-link" href="#issues-to-fix"></a></h3><ol>
+<li>
+<p>Here the commit messages on the <code>feature-2</code> branch are out of order <code>2.1</code>,
+<code>2.2</code>, <code>2.3</code> is the correct order of the commits.</p>
+</li>
+<li>
+<p>We want to squash <code>2.3</code> and <code>2.2</code> commits together with the commit message <code>2.2</code></p>
+</li>
+</ol>
+<h3 id="lets-fix-the-order-of-the-commits">Let&rsquo;s fix the order of the commits<a class="anchorjs-link" href="#lets-fix-the-order-of-the-commits"></a></h3><p>We can use the following command to rebase the last 3 commits interactively</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase --interactive HEAD~3
+</span></span></code></pre></div><p>alternatively, use <code>-i</code> flag</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase -i HEAD~3
+</span></span></code></pre></div><p>here, <code>HEAD~3</code> means the last 3 commits.</p>
+<p>The above command will open your default editor, usually <code>vi</code> by default with a
+file like in the image below.</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/3.png" data-action="zoom" alt="3rd"  class="lazyload">
+  </a>
+  
+</figure></p>
+<blockquote>
+<p><strong>Note</strong>: Here the commits are in chronological order from top to bottom
+(latest at the bottom). unlike the <code>git log</code> command where the commits are in
+descending order (latest first).</p>
+</blockquote>
+<p>As described in this file we can edit the word to the left of the commit hashes,
+which is <code>pick</code> by default to other words like <code>squash</code> or <code>reword</code> to perform
+specific operations on a commit.</p>
+<p>But we want to fix the order of the commits in this rebase.</p>
+<p>We can swap the positions of the commits <code>2.2</code> &amp; <code>2.3</code>, that is swap
+line no. 2 &amp; 3, which will look something like this,</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/4.png" data-action="zoom" alt="4th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>Now, save and quit the file, if you are in Vim press the following keys
+<code>escape</code> key, <code>:wq</code> then <code>enter</code> key.</p>
+<p>You&rsquo;ll get a message like the following,</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/5.png" data-action="zoom" alt="5th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>Now our git history looks like the following diagram</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/6.png" data-action="zoom" alt="6th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/7.png" data-action="zoom" alt="7th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>Now our first issue is resolved using git interactive rebase! 🥳</p>
+<h3 id="lets-squash-commits">Let&rsquo;s Squash Commits<a class="anchorjs-link" href="#lets-squash-commits"></a></h3><p>We can use the same command as before to start another interactive rebase on the
+last 3 commits</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase -i HEAD~3
+</span></span></code></pre></div><p>We again get a similar file with the commits in the following order</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/4.png" data-action="zoom" alt="4th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>now we want to squash <code>2.3</code> into <code>2.2</code>, for this we will edit the word before
+the commit <code>2.3</code> from <code>pick</code> to <code>s</code> or <code>squash</code></p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/8.png" data-action="zoom" alt="8th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>Save and quit the file.</p>
+<p>Git will open another file similar to the following</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/9.png" data-action="zoom" alt="9th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>You have to decide which commit message to keep the first or the second.
+For this demo, we will keep the commit message <code>2.2</code>. So we can either
+delete the <code>2.2</code> or add a <strong>#</strong> before it to ignore that message, like so</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/10.png" data-action="zoom" alt="10th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>Save and quit the file.</p>
+<p>Now our git history looks like the following diagram</p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/11.png" data-action="zoom" alt="11th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p><figure>
+  <a class="paragraph-image">
+    <img data-src="/images/posts/git-interactive-rebase/12.png" data-action="zoom" alt="12th"  class="lazyload">
+  </a>
+  
+</figure></p>
+<p>You&rsquo;ve successfully squashed a commit using git interactive rebase! 🥳</p>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>Git Interactive Rebase is a helpful tool that should be in the pocket of
+every software engineer. It gives us a way to edit the git history. Remember
+to only rebase personal or unpublished branches, we should never change history
+of a public branch on which other people might be working on, as a rebase changes
+the hashes and they are essentially new commits with the information from the old
+commits.</p>
+<p>I hope you found this article helpful.</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/posts/week-4-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 4 at GSoC @ LLVM: Getting a few responses on survey">
+              Previous<br>
+              <span>Week 4 at GSoC @ LLVM: Getting a few responses on survey</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+<div class="giscus" id="comments"></div>
+<script src="https://giscus.app/client.js" 
+  data-repo="Chaitanya-Shahare/blog-site-comments" 
+  data-repo-id="R_kgDOIa6SGg"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOIa6SGs4CSgt4"
+  data-mapping="pathname"
+  data-strict="0" 
+  data-reactions-enabled="1" 
+  data-emit-metadata="0" 
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+  </script>
+
+
+
+
+      </div>
+
+      
+      
+      
+      <div class="
+              col-lg-2 col-lg-offset-0
+              visible-lg-block
+              sidebar-container
+              catalog-container">
+        <div class="side-catalog">
+          <hr class="hidden-sm hidden-xs">
+          <h5>
+            <a class="catalog-toggle" href="#">CATALOG</a>
+          </h5>
+          <ul class="catalog-body"></ul>
+        </div>
+      </div>
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/bash/">bash</a>
+    
+    <a href="/tags/cli/">cli</a>
+    
+    <a href="/tags/editor/">editor</a>
+    
+    <a href="/tags/front-end/">front end</a>
+    
+    <a href="/tags/git/">git</a>
+    
+    <a href="/tags/github/">github</a>
+    
+    <a href="/tags/gitlab/">gitlab</a>
+    
+    <a href="/tags/goals/">goals</a>
+    
+    <a href="/tags/gsoc/">gsoc</a>
+    
+    <a href="/tags/html/">html</a>
+    
+    <a href="/tags/iterm2/">iterm2</a>
+    
+    <a href="/tags/jupyter/">jupyter</a>
+    
+    <a href="/tags/keybindings/">keybindings</a>
+    
+    <a href="/tags/keyboard-shortcut/">keyboard-shortcut</a>
+    
+    <a href="/tags/keyboard-shortcuts/">keyboard-shortcuts</a>
+    
+    <a href="/tags/linux/">linux</a>
+    
+    <a href="/tags/llvm/">llvm</a>
+    
+    <a href="/tags/mac/">mac</a>
+    
+    <a href="/tags/macos/">macos</a>
+    
+    <a href="/tags/markdown/">markdown</a>
+    
+    <a href="/tags/mongodb/">mongodb</a>
+    
+    <a href="/tags/music/">music</a>
+    
+    <a href="/tags/mysql/">mysql</a>
+    
+    <a href="/tags/neovim/">neovim</a>
+    
+    <a href="/tags/node_modules/">node_modules</a>
+    
+    <a href="/tags/nodejs/">nodejs</a>
+    
+    <a href="/tags/nvim/">nvim</a>
+    
+    <a href="/tags/obsidian/">obsidian</a>
+    
+    <a href="/tags/opensource/">opensource</a>
+    
+    <a href="/tags/productivity/">productivity</a>
+    
+    <a href="/tags/python/">python</a>
+    
+    <a href="/tags/react/">react</a>
+    
+    <a href="/tags/rebase/">rebase</a>
+    
+    <a href="/tags/safari/">safari</a>
+    
+    <a href="/tags/searching/">searching</a>
+    
+    <a href="/tags/self-improvement/">self-improvement</a>
+    
+    <a href="/tags/shortcuts/">shortcuts</a>
+    
+    <a href="/tags/ssh/">ssh</a>
+    
+    <a href="/tags/terminal/">terminal</a>
+    
+    <a href="/tags/termux/">termux</a>
+    
+    <a href="/tags/text-editor/">text-editor</a>
+    
+    <a href="/tags/ubuntu/">ubuntu</a>
+    
+    <a href="/tags/utility/">utility</a>
+    
+    <a href="/tags/vim/">vim</a>
+    
+    <a href="/tags/vimwiki/">vimwiki</a>
+    
+    <a href="/tags/virtualenv/">virtualenv</a>
+    
+    <a href="/tags/vscode/">vscode</a>
+    
+    <a href="/tags/web-development/">web development</a>
+    
+    <a href="/tags/workflow/">workflow</a>
+    
+    <a href="/tags/youtube/">youtube</a>
+    
+    <a href="/tags/zsh/">zsh</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				
+				
+
+
+<ul class="list-inline text-center">
+	
+
+		
+		<li>
+			<a target="_blank" href="https://github.com/Chaitanya-Shahare">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a target="_blank" href="https://www.linkedin.com/in/cs03/">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://twitter.com/ChaiitanyaS">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://instagram.com/chaitanya_shahare_">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="mailto:shaharechaitanya3@gmail.com">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+
+		
+
+		
+
+		
+		<li>
+			<a href=/index.xml>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+	</ul>
+
+				<p class="copyright text-muted">
+					2024 | Chaitanya Shahare
+					<br>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+	function generateCatalog(selector) {
+		_containerSelector = 'div.post-container'
+		
+		var P = $(_containerSelector), a, n, t, l, i, c;
+		a = P.find('h1,h2,h3,h4');
+		
+		$(selector).html('')
+		
+		a.each(function () {
+			n = $(this).prop('tagName').toLowerCase();
+			i = "#" + $(this).prop('id');
+			t = $(this).text();
+			c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+			l = $('<li class="' + n + '_nav"></li>').append(c);
+			$(selector).append(l);
+		});
+		return true;
+	}
+
+	generateCatalog(".catalog-body");
+
+	
+	$(".catalog-toggle").click((function (e) {
+		e.preventDefault();
+		$('.side-catalog').toggleClass("fold")
+	}))
+</script>
+
+
+<script type="text/javascript" src='/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js'></script>
+<script>
+	$(document).ready(function () {
+		$('.catalog-body').onePageNav({
+			currentClass: "active",
+			changeHash: !1,
+			easing: "swing",
+			filter: "",
+			scrollSpeed: 700,
+			scrollOffset: 0,
+			scrollThreshold: .2,
+			begin: null,
+			end: null,
+			scrollChange: null,
+			padding: 80
+		});
+	});
+</script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERBHSP8QM4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ERBHSP8QM4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>

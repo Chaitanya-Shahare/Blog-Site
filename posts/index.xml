@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 05 Jun 2024 21:37:12 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 20:27:44 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Interactive Rebase Is Amazing</title>
+      <link>https://blog.chaitanyashahare.com/posts/git-interactive-rebase-is-amazing/</link>
+      <pubDate>Sat, 08 Jun 2024 20:27:44 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/git-interactive-rebase-is-amazing/</guid>
+      <description>If you are like me and just at the start of your coding journey, git rebase --interactive might be a scary command. I feared that if anything went wrong I would lose a lot of my code and have to do that work all over again.&#xA;But that was the point of using a version control system like git, to not worry about changing your code. Git is here to save our code not to destroy it.</description>
+    </item>
     <item>
       <title>Week 4 at GSoC @ LLVM: Getting a few responses on survey</title>
       <link>https://blog.chaitanyashahare.com/posts/week-4-gsoc/</link>
