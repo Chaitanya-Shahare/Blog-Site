@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 20:27:44 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 22:30:08 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gsoc</title>
+      <link>https://blog.chaitanyashahare.com/tags/gsoc/</link>
+      <pubDate>Wed, 12 Jun 2024 22:30:08 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/gsoc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>llvm</title>
+      <link>https://blog.chaitanyashahare.com/tags/llvm/</link>
+      <pubDate>Wed, 12 Jun 2024 22:30:08 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/llvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>opensource</title>
+      <link>https://blog.chaitanyashahare.com/tags/opensource/</link>
+      <pubDate>Wed, 12 Jun 2024 22:30:08 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/opensource/</guid>
+      <description></description>
+    </item>
     <item>
       <title>git</title>
       <link>https://blog.chaitanyashahare.com/tags/git/</link>
@@ -21,27 +42,6 @@
       <link>https://blog.chaitanyashahare.com/tags/rebase/</link>
       <pubDate>Sat, 08 Jun 2024 20:27:44 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/tags/rebase/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>gsoc</title>
-      <link>https://blog.chaitanyashahare.com/tags/gsoc/</link>
-      <pubDate>Wed, 05 Jun 2024 21:37:12 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/tags/gsoc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>llvm</title>
-      <link>https://blog.chaitanyashahare.com/tags/llvm/</link>
-      <pubDate>Wed, 05 Jun 2024 21:37:12 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/tags/llvm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>opensource</title>
-      <link>https://blog.chaitanyashahare.com/tags/opensource/</link>
-      <pubDate>Wed, 05 Jun 2024 21:37:12 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/tags/opensource/</guid>
       <description></description>
     </item>
     <item>

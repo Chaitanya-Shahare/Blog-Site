@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-06-08T20:27:44+05:30</lastmod>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/week-5-gsoc/</loc>
+    <lastmod>2024-06-12T22:30:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/git/</loc>
     <lastmod>2024-06-08T20:27:44+05:30</lastmod>
@@ -11,29 +35,8 @@
     <loc>https://blog.chaitanyashahare.com/posts/git-interactive-rebase-is-amazing/</loc>
     <lastmod>2024-06-08T20:27:44+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-06-08T20:27:44+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/rebase/</loc>
     <lastmod>2024-06-08T20:27:44+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
-    <lastmod>2024-06-08T20:27:44+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
-    <lastmod>2024-06-05T21:37:12+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
-    <lastmod>2024-06-05T21:37:12+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
-    <lastmod>2024-06-05T21:37:12+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
-    <lastmod>2024-06-05T21:37:12+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/</loc>
-    <lastmod>2024-06-05T21:37:12+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/week-4-gsoc/</loc>
     <lastmod>2024-06-05T21:37:12+05:30</lastmod>

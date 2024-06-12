@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 20:27:44 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 22:30:08 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 5 at GSoC @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-5-gsoc/</link>
+      <pubDate>Wed, 12 Jun 2024 22:30:08 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-5-gsoc/</guid>
+      <description>Week 5 of my Google Summer of Code journey redesigning the LLVM webite has been pretty slow but did some work on the Compiler Research website. Here&amp;rsquo;s an update on my progress.&#xA;Survey Responses 📊I didn&amp;rsquo;t get any more responses on the survey this week. I discussed with my mentor regarding this and he suggested that we move on to the further steps without waiting for any more responses.&#xA;Designing Mockups 🎨I haven&amp;rsquo;t made any progress on the design mockups this week.</description>
+    </item>
     <item>
       <title>Git Interactive Rebase Is Amazing</title>
       <link>https://blog.chaitanyashahare.com/posts/git-interactive-rebase-is-amazing/</link>
