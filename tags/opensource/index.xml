@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 12 Jun 2024 22:30:08 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 19:18:57 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 6 of Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-6-gsoc/</link>
+      <pubDate>Wed, 19 Jun 2024 19:18:57 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-6-gsoc/</guid>
+      <description>Week 6 of my Google Summer of Code was focused on desiging mockups for the LLVM website. Here&amp;rsquo;s an update on my progress.&#xA;Designing Mockups 🎨I spent most of my time this week designing mockups for the LLVM website. I created mockups for the homepage with 2 different designs. 1 is inspired from the Rust website and the other is inspired from the the MLIR website which is a part of the LLVM ecosystem so there are a high chance that the LLVM community likes it.</description>
+    </item>
     <item>
       <title>Week 5 at GSoC @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-5-gsoc/</link>
