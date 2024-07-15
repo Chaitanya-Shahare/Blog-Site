@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 19:18:57 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 18:38:23 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 7 &amp; 8 of Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-7-8-gsoc/</link>
+      <pubDate>Mon, 15 Jul 2024 18:38:23 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-7-8-gsoc/</guid>
+      <description>Week 7 and 8 of my Google Summer of Code clashed with my End Semester Examinations of 6th Semester.&#xA;I had to take a break from my GSoC work to focus on my exams.</description>
+    </item>
     <item>
       <title>Week 6 of Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-6-gsoc/</link>
