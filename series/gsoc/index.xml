@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 18:38:23 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 18:41:01 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/series/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 9 of Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-9-gsoc/</link>
+      <pubDate>Mon, 15 Jul 2024 18:41:01 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-9-gsoc/</guid>
+      <description>This week I created the 3rd design mockup of the LLVM website. I also worked on the implementation of the design using HTML and CSS. Here&amp;rsquo;s an update on my progress.&#xA;Designing Mockups 🎨I created the 3rd design mockup of the LLVM website. This design is inspired by the Swift website.&#xA;Also created the dark mode version of the design.&#xA;Here are the links to that design:&#xA;Light Mode: Design Mockup Dark Mode: Design Mockup Feedback and Improvements 🚀Drafted a feedback form for the design mockups focused on the following aspects:</description>
+    </item>
     <item>
       <title>Week 7 &amp; 8 of Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-7-8-gsoc/</link>
