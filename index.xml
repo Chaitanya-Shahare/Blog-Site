@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 18:41:01 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:50:59 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 10 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-10-gsoc/</link>
+      <pubDate>Thu, 25 Jul 2024 22:50:59 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-10-gsoc/</guid>
+      <description>This week I worked on enhancing the design mockup inspired by the Swift website. I also created a feedback form for the current design mockup. Here&amp;rsquo;s an update on my progress.&#xA;Design Enhancements 🎨I made some enhancements to the design mockup inspired by the Swift website. The changes include:&#xA;Improved the color scheme and styling. Added a new section for the latest news and updates. Consistent typography across the website.</description>
+    </item>
     <item>
       <title>Week 9 of Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-9-gsoc/</link>
