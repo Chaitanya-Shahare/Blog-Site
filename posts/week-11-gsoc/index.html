@@ -11,26 +11,29 @@
     
   
 
-  <title>Week 5 at GSoC @ LLVM | Chaitanya&#39;s blog</title>
+  <title>Week 11 Gsoc | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Week 5 of my Google Summer of Code journey redesigning the LLVM webite has been pretty slow but did some work on the Compiler Research website. Here&#39;s an update on my progress.">
+  <meta name="description" content="This week I presented the project in LLVM&rsquo;s GSoC mini-conference. I also started working on making padding consistent on the Compiler Research website. I&rsquo;m waiting on Tanya for the review of the feedback form.
+Presentation 🎤I presented the LLVM.org website redesign project in the LLVM&rsquo;s GSoC mini-conference. The presentation included the progress made so far, the design mockup, and the feedback form for the design mockup. The presentation went well, but I couldn&rsquo;t get any feedback on my work as there was limited time and we were just given 3 - 5 minutes to present our project.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 5 at GSoC @ LLVM"/>
-<meta name="twitter:description" content="Week 5 of my Google Summer of Code journey redesigning the LLVM webite has been pretty slow but did some work on the Compiler Research website. Here&#39;s an update on my progress."/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 11 Gsoc"/>
+<meta name="twitter:description" content="This week I presented the project in LLVM&rsquo;s GSoC mini-conference. I also started working on making padding consistent on the Compiler Research website. I&rsquo;m waiting on Tanya for the review of the feedback form.
+Presentation 🎤I presented the LLVM.org website redesign project in the LLVM&rsquo;s GSoC mini-conference. The presentation included the progress made so far, the design mockup, and the feedback form for the design mockup. The presentation went well, but I couldn&rsquo;t get any feedback on my work as there was limited time and we were just given 3 - 5 minutes to present our project."/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Week 5 at GSoC @ LLVM" />
-<meta property="og:description" content="Week 5 of my Google Summer of Code journey redesigning the LLVM webite has been pretty slow but did some work on the Compiler Research website. Here&#39;s an update on my progress." />
+  <meta property="og:title" content="Week 11 Gsoc" />
+<meta property="og:description" content="This week I presented the project in LLVM&rsquo;s GSoC mini-conference. I also started working on making padding consistent on the Compiler Research website. I&rsquo;m waiting on Tanya for the review of the feedback form.
+Presentation 🎤I presented the LLVM.org website redesign project in the LLVM&rsquo;s GSoC mini-conference. The presentation included the progress made so far, the design mockup, and the feedback form for the design mockup. The presentation went well, but I couldn&rsquo;t get any feedback on my work as there was limited time and we were just given 3 - 5 minutes to present our project." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-5-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-06-12T22:30:08+05:30" />
-<meta property="article:modified_time" content="2024-06-12T22:30:08+05:30" />
-<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-11-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-10-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-9-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-7-8-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-6-gsoc/" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-11-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-25T22:58:41+05:30" />
+<meta property="article:modified_time" content="2024-07-25T22:58:41+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-10-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-9-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-7-8-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-6-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-5-gsoc/" />
 
 
 
@@ -211,11 +214,11 @@
             <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Week 5 at GSoC @ LLVM</h1>
+          <h1>Week 11 Gsoc</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, Jun 12, 2024
+            on Thu, Jul 25, 2024
           </span>
         </div>
       </div>
@@ -236,56 +239,46 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Week 5 of my Google Summer of Code journey redesigning the LLVM webite
-has been pretty slow but did some work on the <a href="https://compiler-research.org" target="_blank">Compiler
-Research</a> website. Here&rsquo;s an update on my
-progress.</p>
-<h2 id="survey-responses-">Survey Responses 📊<a class="anchorjs-link" href="#survey-responses-"></a></h2><p>I didn&rsquo;t get any more responses on the survey this week. I discussed with my mentor
-regarding this and he suggested that we move on to the further steps without
-waiting for any more responses.</p>
-<h2 id="designing-mockups-">Designing Mockups 🎨<a class="anchorjs-link" href="#designing-mockups-"></a></h2><p>I haven&rsquo;t made any progress on the design mockups this week.</p>
-<h2 id="contributions-made-">Contributions Made 🚀<a class="anchorjs-link" href="#contributions-made-"></a></h2><h3 id="repo-compiler-researchcompiler-researchgithubiogithubcomcompiler-researchcompiler-researchgithubio">Repo: <a href="/github.com/compiler-research/compiler-research.github.io">compiler-research/compiler-research.github.io</a><a class="anchorjs-link" href="#repo-compiler-researchcompiler-researchgithubiogithubcomcompiler-researchcompiler-researchgithubio"></a></h3><ul>
-<li>
-<p><strong>Issues:</strong></p>
+        <!-- Presented the project in LLVMs GSoC mini conference, started working on making padding consistent on the Compiler Research website. Waiting on Tanya for review of the feedback form.
+
+### Presentation
+![[llvm-website-redesign-chaitanya-shahare-23-07-2024.key]] -->
+<p>This week I presented the project in LLVM&rsquo;s GSoC mini-conference. I also started working on making padding consistent on the Compiler Research website. I&rsquo;m waiting on Tanya for the review of the feedback form.</p>
+<h2 id="presentation-">Presentation 🎤<a class="anchorjs-link" href="#presentation-"></a></h2><p>I presented the LLVM.org website redesign project in the LLVM&rsquo;s GSoC
+mini-conference. The presentation included the progress made so far, the design
+mockup, and the feedback form for the design mockup. The presentation went well, but I couldn&rsquo;t get any feedback on my work as there was limited time and we were just given 3 - 5 minutes to present our project.</p>
+<h2 id="compiler-research-website-">Compiler Research Website 🖥<a class="anchorjs-link" href="#compiler-research-website-"></a></h2><p>I fixed️ a few padding issues on the Compiler Research website specifically on
+blogs landing page. I made the padding consistent across the website.</p>
+<h2 id="contribution-made-">Contribution Made 🚀<a class="anchorjs-link" href="#contribution-made-"></a></h2><h3 id="repo-compiler-researchcompiler-researchgithubiogithubcomcompiler-researchcompiler-researchgithubio">Repo: <a href="/github.com/compiler-research/compiler-research.github.io">compiler-research/compiler-research.github.io</a><a class="anchorjs-link" href="#repo-compiler-researchcompiler-researchgithubiogithubcomcompiler-researchcompiler-researchgithubio"></a></h3><ul>
+<li><strong>Issues:</strong>
 <ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/issues/213" target="_blank"><strong>Issue #213:</strong></a> The blog team member images are resized badly #213</li>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/issues/216" target="_blank"><strong>Issue #216:</strong></a> Create publication landing pages</li>
+<li><a href="https://github.com/compiler-research/compiler-research.github.io/issues/231" target="_blank"><strong>Issue #231:</strong></a></li>
 </ul>
 </li>
-<li>
-<p><strong>Pull Requests Raised:</strong></p>
+<li><strong>Pull Requests Raised:</strong>
 <ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/217" target="_blank"><strong>PR #217:</strong></a> Fix: Author image aspect ratio</li>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/220" target="_blank"><strong>PR #220:</strong></a> Feat: Add publication landing page</li>
+<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/235" target="_blank"><strong>PR #235:</strong></a></li>
 </ul>
 </li>
-<li>
-<p><strong>Pull Requests Merged:</strong></p>
+<li><strong>Pull Requests Merged:</strong>
 <ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/217" target="_blank"><strong>PR #217:</strong></a> Fix: Author image aspect ratio</li>
+<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/235" target="_blank"><strong>PR #235:</strong></a></li>
 </ul>
 </li>
 </ul>
-<p>That&rsquo;s all for this week. Looking forward to the next one! 🚀</p>
+<h2 id="conclusion-">Conclusion 🏁<a class="anchorjs-link" href="#conclusion-"></a></h2><p>That&rsquo;s all for this week. Looking forward to the next one! 🚀</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/git-interactive-rebase-is-amazing/" data-toggle="tooltip" data-placement="top" title="Git Interactive Rebase Is Amazing">
+            <a href="/posts/week-10-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 10 Google Summer of Code @ LLVM">
               Previous<br>
-              <span>Git Interactive Rebase Is Amazing</span>
+              <span>Week 10 Google Summer of Code @ LLVM</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/week-6-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 6 of Google Summer of Code @ LLVM">
-              Next<br>
-              <span>Week 6 of Google Summer of Code @ LLVM</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

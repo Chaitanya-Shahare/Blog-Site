@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 25 Jul 2024 22:50:59 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:58:41 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 11 Gsoc</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-11-gsoc/</link>
+      <pubDate>Thu, 25 Jul 2024 22:58:41 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-11-gsoc/</guid>
+      <description>This week I presented the project in LLVM&amp;rsquo;s GSoC mini-conference. I also started working on making padding consistent on the Compiler Research website. I&amp;rsquo;m waiting on Tanya for the review of the feedback form.&#xA;Presentation 🎤I presented the LLVM.org website redesign project in the LLVM&amp;rsquo;s GSoC mini-conference. The presentation included the progress made so far, the design mockup, and the feedback form for the design mockup. The presentation went well, but I couldn&amp;rsquo;t get any feedback on my work as there was limited time and we were just given 3 - 5 minutes to present our project.</description>
+    </item>
     <item>
       <title>Week 10 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-10-gsoc/</link>
