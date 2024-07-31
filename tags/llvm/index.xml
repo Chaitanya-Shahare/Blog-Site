@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 25 Jul 2024 22:58:41 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2024 22:38:48 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 12 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-12-gsoc/</link>
+      <pubDate>Wed, 31 Jul 2024 22:38:48 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-12-gsoc/</guid>
+      <description>This week I iterated on the feedback form for design mockups and circulated it in the community. I also prepared the midterm progress presentation.&#xA;Feedback Form 📝I iterated on the feedback form for design mockups based on the feedback received from my mentors. I made the form more detailed and focused on the layout of the website.&#xA;Here&amp;rsquo;s the link to the feedback form: LLVM Website Redesign Feedback Form</description>
+    </item>
     <item>
       <title>Week 11 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-11-gsoc/</link>
