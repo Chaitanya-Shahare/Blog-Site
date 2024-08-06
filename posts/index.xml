@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 31 Jul 2024 22:38:48 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2024 20:15:03 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer</title>
+      <link>https://blog.chaitanyashahare.com/posts/yabai-skhd-macos-workflow/</link>
+      <pubDate>Tue, 06 Aug 2024 20:15:03 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/yabai-skhd-macos-workflow/</guid>
+      <description>IntroductionYabai and Skhd are two tools that can be used to improve your MacOS workflow. Yabai is a tiling window manager for macOS that allows you to manage your windows more efficiently. Skhd is a hotkey daemon that will enable you to define custom shortcuts for various actions on your Mac. In this blog post, I will show you how I use Yabai and Skhd to improve my workflow as a software engineer.</description>
+    </item>
     <item>
       <title>Week 12 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-12-gsoc/</link>

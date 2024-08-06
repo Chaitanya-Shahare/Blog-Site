@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+    
+  
+
+  <title>How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer | Chaitanya&#39;s blog</title>
+
+  
+  <meta name="author" content="Chaitanya Shahare">
+  
+  <meta name="description" content="IntroductionYabai and Skhd are two tools that can be used to improve your MacOS workflow. Yabai is a tiling window manager for macOS that allows you to manage your windows more efficiently. Skhd is a hotkey daemon that will enable you to define custom shortcuts for various actions on your Mac. In this blog post, I will show you how I use Yabai and Skhd to improve my workflow as a software engineer.">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta name="twitter:title" content="How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer"/>
+<meta name="twitter:description" content="IntroductionYabai and Skhd are two tools that can be used to improve your MacOS workflow. Yabai is a tiling window manager for macOS that allows you to manage your windows more efficiently. Skhd is a hotkey daemon that will enable you to define custom shortcuts for various actions on your Mac. In this blog post, I will show you how I use Yabai and Skhd to improve my workflow as a software engineer."/>
+<meta name="twitter:site" content="@ChaiitanyaS"/>
+
+  <meta property="og:title" content="How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer" />
+<meta property="og:description" content="IntroductionYabai and Skhd are two tools that can be used to improve your MacOS workflow. Yabai is a tiling window manager for macOS that allows you to manage your windows more efficiently. Skhd is a hotkey daemon that will enable you to define custom shortcuts for various actions on your Mac. In this blog post, I will show you how I use Yabai and Skhd to improve my workflow as a software engineer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/yabai-skhd-macos-workflow/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-06T20:15:03+05:30" />
+<meta property="article:modified_time" content="2024-08-06T20:15:03+05:30" />
+
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://blog.chaitanyashahare.com/">Chaitanya&#39;s blog</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/gsoc/" title="GSoC">GSoC</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('/black-background.jpg');
+  }
+</style>
+
+<header class="intro-header ">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+          </div>
+          <h1>How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer</h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  Chaitanya Shahare 
+            on Tue, Aug 6, 2024
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <!-- potential titles of the blog
+
+1.How I use yabai & skhd to improve my macos workflow as a software engineer 
+2. Yabai & Skhd: The ultimate macos workflow for software engineers
+3. How I use yabai & skhd to improve my productivity as a software engineer
+4. Setting up yabai & skhd for a better macos workflow
+5. How yabai & skhd changed my macos workflow as a software engineer
+
+-->
+<h2 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h2><p>Yabai and Skhd are two tools that can be used to improve your MacOS workflow. Yabai is a tiling window manager for macOS that allows you to manage your windows more efficiently. Skhd is a hotkey daemon that will enable you to define custom shortcuts for various actions on your Mac. In this blog post, I will show you how I use Yabai and Skhd to improve my workflow as a software engineer.</p>
+<p>This guide is not a tutorial on how to set these things up, I&rsquo;ll write another blog post on how to replicate this setup.</p>
+<h2 id="what-is-a-tiling-window-manager">What is a tiling window manager?<a class="anchorjs-link" href="#what-is-a-tiling-window-manager"></a></h2><p>A tiling window manager is a type of window manager that arranges windows in a non-overlapping way. This means that windows do not overlap each other, and they are placed in a grid-like pattern. Tiling window managers are designed to be fast and efficient, and they can help you to work more productively by allowing you to organize your windows more logically.</p>
+<p>Essentially, they give each window on the screen the maximum size available.</p>
+<h2 id="what-is-yabai">What is Yabai?<a class="anchorjs-link" href="#what-is-yabai"></a></h2><p>Yabai is a tiling window manager for macOS that allows you to manage your windows more efficiently. It is inspired by the i3 window manager for Linux and is designed to be fast and easy to use. Yabai allows you to organize your windows into different layouts, move them around, and resize them with keyboard shortcuts. This can help you to work more efficiently and stay focused on your tasks.</p>
+<h2 id="what-is-skhd">What is Skhd?<a class="anchorjs-link" href="#what-is-skhd"></a></h2><p>Skhd is a hotkey daemon for macOS that allows you to define custom shortcuts for various actions on your Mac. You can use Skhd to define shortcuts for launching applications, switching between windows, and performing other tasks. Skhd is highly customizable, and you can define your shortcuts using a simple configuration file.</p>
+<p>Skhd is required as Yabai doesn&rsquo;t provide a keymapping feature in itself, the creator of both Yabai wanted it to be used in conjunction with Skhd.</p>
+<h2 id="navigating-between-desktops-spaces">Navigating between Desktops (Spaces)<a class="anchorjs-link" href="#navigating-between-desktops-spaces"></a></h2><p><strong>Desktops</strong> are spaces in macOS which can contain windows of applications. We can change up the order of desktops and switch between different desktops using <strong>Mission Control</strong> or swiping three fingers on the trackpad.</p>
+<p>I have the following keymaps for desktop navigation</p>
+<ul>
+<li><code>Option + 1</code>: Desktop 1</li>
+<li><code>Option + 2</code>: Desktop 2</li>
+<li><code>Option + 3</code>: Desktop 3</li>
+<li><code>Option + 4</code>: Desktop 4</li>
+<li><code>Option + 5</code>: Desktop 5</li>
+<li><code>Option + 6</code>: Desktop 6</li>
+<li><code>Option + 7</code>: Desktop 7</li>
+<li><code>Option + 8</code>: Desktop 8</li>
+<li><code>Option + 9</code>: Desktop 9</li>
+</ul>
+<h2 id="how-i-use-yabai-and-skhd-to-improve-my-workflow">How I use Yabai and Skhd to improve my workflow<a class="anchorjs-link" href="#how-i-use-yabai-and-skhd-to-improve-my-workflow"></a></h2><h3 id="keymaps">KeyMaps<a class="anchorjs-link" href="#keymaps"></a></h3><h4 id="focus-window">Focus window<a class="anchorjs-link" href="#focus-window"></a></h4><ul>
+<li><code>Option + h</code>: Focus the window to the left of the current window or focus on the left monitor</li>
+<li><code>Option + j</code>: Focus the window below the current window</li>
+<li><code>Option + k</code>: Focus the window above the current window</li>
+<li><code>Option + l</code>: Focus the window to the left of the current window or focus on the left monitor</li>
+</ul>
+<p>By current window, I mean window currently focused.</p>
+<h4 id="swap-window">Swap window<a class="anchorjs-link" href="#swap-window"></a></h4><ul>
+<li><code>Option + Shift + h</code>: Swap the currently focused window with the window to the left.</li>
+<li><code>Option + Shift + j</code>: Swap the currently focused window with the window below.</li>
+<li><code>Option + Shift + k</code>: Swap the currently focused window with the window above.</li>
+<li><code>Option + Shift + l</code>: Swap the currently focused window with the window to the right.</li>
+</ul>
+<h4 id="moving-windows-through-desktops">Moving windows through desktops<a class="anchorjs-link" href="#moving-windows-through-desktops"></a></h4><ul>
+<li><code>Option + Shift + 1</code>: Move currently focused window to <strong>Desktop 1</strong>.</li>
+<li><code>Option + Shift + 2</code>: Move currently focused window to <strong>Desktop 2</strong>.</li>
+<li><code>Option + Shift + 3</code>: Move currently focused window to <strong>Desktop 3</strong>.</li>
+<li><code>Option + Shift + 4</code>: Move currently focused window to <strong>Desktop 4</strong>.</li>
+<li><code>Option + Shift + 5</code>: Move currently focused window to <strong>Desktop 5</strong>.</li>
+<li><code>Option + Shift + 6</code>: Move currently focused window to <strong>Desktop 6</strong>.</li>
+<li><code>Option + Shift + 7</code>: Move currently focused window to <strong>Desktop 7</strong>.</li>
+<li><code>Option + Shift + 8</code>: Move currently focused window to <strong>Desktop 8</strong>.</li>
+<li><code>Option + Shift + 9</code>: Move currently focused window to <strong>Desktop 9</strong>.</li>
+</ul>
+<h4 id="resizing-windows">Resizing windows<a class="anchorjs-link" href="#resizing-windows"></a></h4><ul>
+<li><code>Control + Option + h</code> or <code>Control + Option + left</code>: If the window is on the right, increase the width by increasing the left edge, or if the window is on the left, decrease the width by reducing the right edge.</li>
+<li><code>Control + Option + j</code> or <code>Control + Option + Down</code>: If the window is on the top, increase the height by increasing the bottom edge, or if the window is on the bottom, decrease the height by reducing the top edge.</li>
+<li><code>Control + Option + k</code> or <code>Control + Option + up</code>: If the window is on the bottom, increase the height by increasing the top edge, or if the window is on the top, decrease the height by reducing the bottom edge.</li>
+<li><code>Control + Option + l</code> or <code>Control + Option + Right</code>: If the window is on the left, increase the width by increasing the right edge, or if the window is on the right, decrease the width by reducing the left edge.</li>
+</ul>
+<h4 id="navigating-between-two-displays">Navigating between two displays<a class="anchorjs-link" href="#navigating-between-two-displays"></a></h4><ul>
+<li><code>Option + Shift + n</code>: Move currently focused window to <strong>Next Display</strong>.</li>
+<li><code>Option + Shift + p</code>: Move currently focused window to <strong>Previous Display</strong>.</li>
+</ul>
+<h4 id="miscellaneous">Miscellaneous<a class="anchorjs-link" href="#miscellaneous"></a></h4><ul>
+<li><code>Option + r</code>: Rotate windows in a clockwise direction</li>
+<li><code>Option + e</code>: Change the layout of the tiles</li>
+<li><code>Option + t</code>: Toggle between flow and tiling mode</li>
+<li><code>Option + f</code>: Toggle fullscreen (this is not native full screen)</li>
+<li><code>Option + Shift + 0</code>: To reset the tiles</li>
+</ul>
+<h3 id="rules-to-keep-in-mind">Rules to keep in mind<a class="anchorjs-link" href="#rules-to-keep-in-mind"></a></h3><p>I have each desktop reserved for a specific app. So I know which desktop to go to for a specific application and don&rsquo;t have to use the <code>Option + Tab</code> shortcut and keep an eye out for the right application icon.</p>
+<ul>
+<li><code>Desktop 1</code>: Notes (Obsidian)</li>
+<li><code>Desktop 2</code>: Browser (Firefox Developer Edition)</li>
+<li><code>Desktop 3</code>: Code (iTerm2 with a tmux session running Neovim)</li>
+<li><code>Desktop 4</code>: Development Browser window, if I&rsquo;m working on the frontend &amp; Postman if I&rsquo;m working on the backend</li>
+<li><code>Desktop 5</code>: Discord</li>
+<li><code>Desktop 6</code>: Whatsapp</li>
+<li><code>Desktop 7</code>: Miscellaneous (first desktop of the second display)</li>
+<li><code>Desktop 8</code>: Spotify &amp; clock (for Pomodoro timer)</li>
+<li><code>Desktop 9</code>: Miscellaneous</li>
+</ul>
+<p>In this way whenever I think of something I want to not down I just press <code>Option + 1</code> on the keyboard and then I&rsquo;m in Obsidian my note-taking app of choice.  If I want to search for something I press <code>Option + 2</code> and it opens my browser and so on &hellip;</p>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>These shortcuts may feel like overkill and maybe it is but they make me feel productive and I use most of these keyboard shortcuts daily, I didn&rsquo;t anticipate that when I configured this setup initially.</p>
+<p>This has made me spend less time arranging windows to my liking and just made the entire process more seamless and keyboard-driven which I always preferred. As you can tell <strong>I use neovim btw ;)</strong>.</p>
+<p>I hope this blog post gave you some insights on how you can customize your workflow to be more keyboard-driven and efficient.</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/posts/week-12-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 12 Google Summer of Code @ LLVM">
+              Previous<br>
+              <span>Week 12 Google Summer of Code @ LLVM</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+<div class="giscus" id="comments"></div>
+<script src="https://giscus.app/client.js" 
+  data-repo="Chaitanya-Shahare/blog-site-comments" 
+  data-repo-id="R_kgDOIa6SGg"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOIa6SGs4CSgt4"
+  data-mapping="pathname"
+  data-strict="0" 
+  data-reactions-enabled="1" 
+  data-emit-metadata="0" 
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+  </script>
+
+
+
+
+      </div>
+
+      
+      
+      
+      <div class="
+              col-lg-2 col-lg-offset-0
+              visible-lg-block
+              sidebar-container
+              catalog-container">
+        <div class="side-catalog">
+          <hr class="hidden-sm hidden-xs">
+          <h5>
+            <a class="catalog-toggle" href="#">CATALOG</a>
+          </h5>
+          <ul class="catalog-body"></ul>
+        </div>
+      </div>
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/bash/">bash</a>
+    
+    <a href="/tags/cli/">cli</a>
+    
+    <a href="/tags/editor/">editor</a>
+    
+    <a href="/tags/front-end/">front end</a>
+    
+    <a href="/tags/git/">git</a>
+    
+    <a href="/tags/github/">github</a>
+    
+    <a href="/tags/gitlab/">gitlab</a>
+    
+    <a href="/tags/goals/">goals</a>
+    
+    <a href="/tags/gsoc/">gsoc</a>
+    
+    <a href="/tags/html/">html</a>
+    
+    <a href="/tags/iterm2/">iterm2</a>
+    
+    <a href="/tags/jupyter/">jupyter</a>
+    
+    <a href="/tags/keybindings/">keybindings</a>
+    
+    <a href="/tags/keyboard-shortcut/">keyboard-shortcut</a>
+    
+    <a href="/tags/keyboard-shortcuts/">keyboard-shortcuts</a>
+    
+    <a href="/tags/linux/">linux</a>
+    
+    <a href="/tags/llvm/">llvm</a>
+    
+    <a href="/tags/mac/">mac</a>
+    
+    <a href="/tags/macos/">macos</a>
+    
+    <a href="/tags/markdown/">markdown</a>
+    
+    <a href="/tags/mongodb/">mongodb</a>
+    
+    <a href="/tags/music/">music</a>
+    
+    <a href="/tags/mysql/">mysql</a>
+    
+    <a href="/tags/neovim/">neovim</a>
+    
+    <a href="/tags/node_modules/">node_modules</a>
+    
+    <a href="/tags/nodejs/">nodejs</a>
+    
+    <a href="/tags/nvim/">nvim</a>
+    
+    <a href="/tags/obsidian/">obsidian</a>
+    
+    <a href="/tags/opensource/">opensource</a>
+    
+    <a href="/tags/productivity/">productivity</a>
+    
+    <a href="/tags/python/">python</a>
+    
+    <a href="/tags/react/">react</a>
+    
+    <a href="/tags/rebase/">rebase</a>
+    
+    <a href="/tags/safari/">safari</a>
+    
+    <a href="/tags/searching/">searching</a>
+    
+    <a href="/tags/self-improvement/">self-improvement</a>
+    
+    <a href="/tags/shortcuts/">shortcuts</a>
+    
+    <a href="/tags/ssh/">ssh</a>
+    
+    <a href="/tags/terminal/">terminal</a>
+    
+    <a href="/tags/termux/">termux</a>
+    
+    <a href="/tags/text-editor/">text-editor</a>
+    
+    <a href="/tags/ubuntu/">ubuntu</a>
+    
+    <a href="/tags/utility/">utility</a>
+    
+    <a href="/tags/vim/">vim</a>
+    
+    <a href="/tags/vimwiki/">vimwiki</a>
+    
+    <a href="/tags/virtualenv/">virtualenv</a>
+    
+    <a href="/tags/vscode/">vscode</a>
+    
+    <a href="/tags/web-development/">web development</a>
+    
+    <a href="/tags/workflow/">workflow</a>
+    
+    <a href="/tags/youtube/">youtube</a>
+    
+    <a href="/tags/zsh/">zsh</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				
+				
+
+
+<ul class="list-inline text-center">
+	
+
+		
+		<li>
+			<a target="_blank" href="https://github.com/Chaitanya-Shahare">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a target="_blank" href="https://www.linkedin.com/in/cs03/">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://twitter.com/ChaiitanyaS">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://instagram.com/chaitanya_shahare_">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="mailto:shaharechaitanya3@gmail.com">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+
+		
+
+		
+
+		
+		<li>
+			<a href=/index.xml>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+	</ul>
+
+				<p class="copyright text-muted">
+					2024 | Chaitanya Shahare
+					<br>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+	function generateCatalog(selector) {
+		_containerSelector = 'div.post-container'
+		
+		var P = $(_containerSelector), a, n, t, l, i, c;
+		a = P.find('h1,h2,h3,h4');
+		
+		$(selector).html('')
+		
+		a.each(function () {
+			n = $(this).prop('tagName').toLowerCase();
+			i = "#" + $(this).prop('id');
+			t = $(this).text();
+			c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+			l = $('<li class="' + n + '_nav"></li>').append(c);
+			$(selector).append(l);
+		});
+		return true;
+	}
+
+	generateCatalog(".catalog-body");
+
+	
+	$(".catalog-toggle").click((function (e) {
+		e.preventDefault();
+		$('.side-catalog').toggleClass("fold")
+	}))
+</script>
+
+
+<script type="text/javascript" src='/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js'></script>
+<script>
+	$(document).ready(function () {
+		$('.catalog-body').onePageNav({
+			currentClass: "active",
+			changeHash: !1,
+			easing: "swing",
+			filter: "",
+			scrollSpeed: 700,
+			scrollOffset: 0,
+			scrollThreshold: .2,
+			begin: null,
+			end: null,
+			scrollChange: null,
+			padding: 80
+		});
+	});
+</script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERBHSP8QM4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ERBHSP8QM4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>
