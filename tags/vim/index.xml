@@ -63,7 +63,7 @@
       <link>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</link>
       <pubDate>Sat, 18 Feb 2023 15:40:21 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/posts/how-to-make-nvim-backround-transparent/</guid>
-      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim&#xA;highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none This should make your Vim / Neovim background transparent.</description>
+      <description>Add the following lines to your .vimrc for Vim and init.vim for Neovim:&#xA;Vimscript (for Vim and Neovim with init.vim)highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none Lua (for Neovim with init.lua)vim.cmd [[ highlight Normal guibg=none highlight NonText guibg=none highlight Normal ctermbg=none highlight NonText ctermbg=none ]] This should make your Vim / Neovim background transparent.</description>
     </item>
     <item>
       <title>Vim Folding: An Essential Feature for Streamlining Your Text Editing</title>
