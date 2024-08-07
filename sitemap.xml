@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
+    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
+    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
+    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/what-is-the-leader-key-in-neovim/</loc>
+    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
     <lastmod>2024-08-07T22:39:23+05:30</lastmod>
@@ -17,13 +32,7 @@
     <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
     <lastmod>2024-08-07T22:39:23+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/series/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2024-08-07T22:39:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/week-13-gsoc/</loc>
@@ -69,9 +78,6 @@
     <lastmod>2024-05-28T22:21:44+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/markdown/</loc>
-    <lastmod>2024-05-28T22:21:44+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
     <lastmod>2024-05-28T22:21:44+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/nvim/</loc>
@@ -168,9 +174,6 @@
     <lastmod>2023-10-21T11:00:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/shortcuts/</loc>
-    <lastmod>2023-10-21T11:00:08+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
     <lastmod>2023-10-21T11:00:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/youtube/</loc>

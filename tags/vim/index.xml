@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 21 Oct 2023 11:00:08 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 22:52:57 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is the Leader Key in Neovim?</title>
+      <link>https://blog.chaitanyashahare.com/posts/what-is-the-leader-key-in-neovim/</link>
+      <pubDate>Wed, 07 Aug 2024 22:52:57 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/what-is-the-leader-key-in-neovim/</guid>
+      <description>If you&amp;rsquo;re a Neovim user, you&amp;rsquo;ve likely heard about the &amp;ldquo;Leader key.&amp;rdquo; But what exactly is it, and why is it so important?&#xA;Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key that you can use as a prefix to create custom shortcuts, known as mappings. This allows you to perform complex commands with just a few keystrokes. By default, the Leader key is set to the backslash (\), but many users change it to a more convenient key, like the space ( ) or the comma (,).</description>
+    </item>
     <item>
       <title>Elevate Your Youtube Music Experience: Navigating YouTube Music with Vim-Like Keybindings</title>
       <link>https://blog.chaitanyashahare.com/posts/youtube-music-vim-keybindings/</link>
