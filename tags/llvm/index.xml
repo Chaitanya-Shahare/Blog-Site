@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 21 Aug 2024 12:25:10 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 12:29:48 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 15 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-15-gsoc/</link>
+      <pubDate>Wed, 21 Aug 2024 12:29:48 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-15-gsoc/</guid>
+      <description>This week I completed the theme switcher and made the website responsive. I am now working on adding a navbar menu to the website.&#xA;Theme Switcher 🌈I completed the theme switcher this week. The theme switcher allows users to switch between light and dark themes on the website. Users can now choose the theme they prefer for the website.&#xA;It also detects the user&amp;rsquo;s system preference for light or dark mode and sets the theme accordingly.</description>
+    </item>
     <item>
       <title>Week 14 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-14-gsoc/</link>
