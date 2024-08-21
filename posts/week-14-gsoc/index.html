@@ -11,26 +11,32 @@
     
   
 
-  <title>Week 4 at GSoC @ LLVM: Getting a few responses on survey | Chaitanya&#39;s blog</title>
+  <title>Week 14 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Week 4 of my Google Summer of Code journey with The LLVM Compiler Infrastructure has been pretty exciting. Here&#39;s an update on my progress.">
+  <meta name="description" content="This week I implemented the home page design and am now focusing on mobile responsiveness and adding a theme switcher.
+I had a doubt I wanted to discuss with my mentors about the GitHub repository where I can raise a pull request.
+Home Page Design 🏠I completed the home page design this week. The design includes the layout of the home page with the sections and the content to be displayed on the home page.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 4 at GSoC @ LLVM: Getting a few responses on survey"/>
-<meta name="twitter:description" content="Week 4 of my Google Summer of Code journey with The LLVM Compiler Infrastructure has been pretty exciting. Here&#39;s an update on my progress."/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 14 Google Summer of Code @ LLVM"/>
+<meta name="twitter:description" content="This week I implemented the home page design and am now focusing on mobile responsiveness and adding a theme switcher.
+I had a doubt I wanted to discuss with my mentors about the GitHub repository where I can raise a pull request.
+Home Page Design 🏠I completed the home page design this week. The design includes the layout of the home page with the sections and the content to be displayed on the home page."/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Week 4 at GSoC @ LLVM: Getting a few responses on survey" />
-<meta property="og:description" content="Week 4 of my Google Summer of Code journey with The LLVM Compiler Infrastructure has been pretty exciting. Here&#39;s an update on my progress." />
+  <meta property="og:title" content="Week 14 Google Summer of Code @ LLVM" />
+<meta property="og:description" content="This week I implemented the home page design and am now focusing on mobile responsiveness and adding a theme switcher.
+I had a doubt I wanted to discuss with my mentors about the GitHub repository where I can raise a pull request.
+Home Page Design 🏠I completed the home page design this week. The design includes the layout of the home page with the sections and the content to be displayed on the home page." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-4-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-06-05T21:37:12+05:30" />
-<meta property="article:modified_time" content="2024-06-05T21:37:12+05:30" />
-<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-14-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-13-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-12-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-11-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-10-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-9-gsoc/" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-14-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-21T12:25:10+05:30" />
+<meta property="article:modified_time" content="2024-08-21T12:25:10+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-13-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-12-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-11-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-10-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-9-gsoc/" />
 
 
 
@@ -211,11 +217,11 @@
             <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Week 4 at GSoC @ LLVM: Getting a few responses on survey</h1>
+          <h1>Week 14 Google Summer of Code @ LLVM</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, Jun 5, 2024
+            on Wed, Aug 21, 2024
           </span>
         </div>
       </div>
@@ -236,37 +242,21 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Week 4 of my Google Summer of Code journey with LLVM.org has been pretty exciting.
-Here&rsquo;s an update on my progress.</p>
-<h2 id="survey-responses-">Survey Responses 📊<a class="anchorjs-link" href="#survey-responses-"></a></h2><p>This week I got some responses on the survey I had sent out last week.
-43 to be exact. That&rsquo;s not a lot but it&rsquo;s a good start.</p>
-<p>The RFC and the survey was discussed in the LLVM Weekly meeting and
-newsletter, so I&rsquo;m expecting a lot more responses in the coming few weeks.</p>
-<h2 id="designing-mockups-">Designing Mockups 🎨<a class="anchorjs-link" href="#designing-mockups-"></a></h2><p>I&rsquo;d started working on the design mockups of the new website.
-I&rsquo;ve been using Figma for this and it&rsquo;s been a great tool so far.
-I also learn&rsquo;t a lot about design principles and accessibility while doing this.
-And hope to learn more as I progress and this is just the beginning.</p>
-<h2 id="contributions-made-">Contributions Made 🚀<a class="anchorjs-link" href="#contributions-made-"></a></h2><h3 id="repo-compiler-researchcompiler-researchgithubiogithubcomcompiler-researchcompiler-researchgithubio">Repo: <a href="/github.com/compiler-research/compiler-research.github.io">compiler-research/compiler-research.github.io</a><a class="anchorjs-link" href="#repo-compiler-researchcompiler-researchgithubiogithubcomcompiler-researchcompiler-researchgithubio"></a></h3><ul>
-<li>
-<p><strong>Issues closed:</strong></p>
-<ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/issues/196" target="_blank"><strong>Issue #196:</strong></a> Enhancement: Blog landing page</li>
-</ul>
-</li>
-<li>
-<p><strong>Pull Requests Raised:</strong></p>
-<ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/209" target="_blank"><strong>PR #209:</strong></a> Add thumbnail and banner to blog posts</li>
-</ul>
-</li>
-<li>
-<p><strong>Pull Requests Merged:</strong></p>
-<ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/199" target="_blank"><strong>PR #199:</strong></a> Add Tags to blog posts</li>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/209" target="_blank"><strong>PR #209:</strong></a> Add thumbnail and banner to blog posts</li>
-</ul>
-</li>
-</ul>
+        <!-- Implemented the home page design and am now focusing on mobile responsiveness and adding a theme switcher.
+
+
+I had a doubt I wanted to discuss,
+
+- Is there anything I need to be doing for getting the github repository where I can raise a pull request?
+
+**Updates:**
+- Completed the home page design
+- Working on adding theme switcher -->
+<p>This week I implemented the home page design and am now focusing on mobile responsiveness and adding a theme switcher.</p>
+<p>I had a doubt I wanted to discuss with my mentors about the GitHub repository where I can raise a pull request.</p>
+<h3 id="home-page-design-">Home Page Design 🏠<a class="anchorjs-link" href="#home-page-design-"></a></h3><p>I completed the home page design this week. The design includes the layout of the home page with the sections and the content to be displayed on the home page.</p>
+<h3 id="mobile-responsiveness-">Mobile Responsiveness 📱<a class="anchorjs-link" href="#mobile-responsiveness-"></a></h3><p>I am now focusing on making the website mobile responsive. I am working on making the website layout responsive to different screen sizes.</p>
+<h3 id="theme-switcher-">Theme Switcher 🌈<a class="anchorjs-link" href="#theme-switcher-"></a></h3><p>I am also working on adding a theme switcher to the website. The theme switcher will allow users to switch between light and dark themes on the website.</p>
 <p>That&rsquo;s all for this week. Looking forward to the next one! 🚀</p>
 
 
@@ -274,19 +264,12 @@ And hope to learn more as I progress and this is just the beginning.</p>
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/vimwiki-to-obsidian/" data-toggle="tooltip" data-placement="top" title="Friendship Broken with Vimwiki, Now Obsidian.nvim is My New Best Friend">
+            <a href="/posts/how-to-publish-a-bash-script-to-homebrew/" data-toggle="tooltip" data-placement="top" title="How to Publish a Bash Script to Homebrew">
               Previous<br>
-              <span>Friendship Broken with Vimwiki, Now Obsidian.nvim is My New Best Friend</span>
+              <span>How to Publish a Bash Script to Homebrew</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/git-interactive-rebase-is-amazing/" data-toggle="tooltip" data-placement="top" title="Git Interactive Rebase Is Amazing">
-              Next<br>
-              <span>Git Interactive Rebase Is Amazing</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

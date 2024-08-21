@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.chaitanyashahare.com/tags/bash/</loc>
-    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/week-14-gsoc/</loc>
+    <lastmod>2024-08-21T12:25:10+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/bash/</loc>
     <lastmod>2024-08-21T12:06:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/homebrew/</loc>
@@ -20,12 +44,6 @@
     <loc>https://blog.chaitanyashahare.com/tags/package-manager/</loc>
     <lastmod>2024-08-21T12:06:23+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
-    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
     <lastmod>2024-08-07T22:52:57+05:30</lastmod>
   </url><url>
@@ -34,21 +52,6 @@
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/what-is-the-leader-key-in-neovim/</loc>
     <lastmod>2024-08-07T22:52:57+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/</loc>
-    <lastmod>2024-08-07T22:39:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/week-13-gsoc/</loc>
     <lastmod>2024-08-07T22:39:23+05:30</lastmod>

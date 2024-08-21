@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 07 Aug 2024 22:39:23 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 12:25:10 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 14 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-14-gsoc/</link>
+      <pubDate>Wed, 21 Aug 2024 12:25:10 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-14-gsoc/</guid>
+      <description>This week I implemented the home page design and am now focusing on mobile responsiveness and adding a theme switcher.&#xA;I had a doubt I wanted to discuss with my mentors about the GitHub repository where I can raise a pull request.&#xA;Home Page Design 🏠I completed the home page design this week. The design includes the layout of the home page with the sections and the content to be displayed on the home page.</description>
+    </item>
     <item>
       <title>Week 13 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-13-gsoc/</link>
