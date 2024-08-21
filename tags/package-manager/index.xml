@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bash on Chaitanya&#39;s blog</title>
-    <link>https://blog.chaitanyashahare.com/tags/bash/</link>
-    <description>Recent content in bash on Chaitanya&#39;s blog</description>
+    <title>package-manager on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/package-manager/</link>
+    <description>Recent content in package-manager on Chaitanya&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
     <lastBuildDate>Wed, 21 Aug 2024 12:06:23 +0530</lastBuildDate>
-    <atom:link href="https://blog.chaitanyashahare.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.chaitanyashahare.com/tags/package-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Publish a Bash Script to Homebrew</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-publish-a-bash-script-to-homebrew/</link>
       <pubDate>Wed, 21 Aug 2024 12:06:23 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/posts/how-to-publish-a-bash-script-to-homebrew/</guid>
       <description>Homebrew is a popular package manager for macOS (and Linux) that allows you to distribute scripts and tools easily. In this guide, we&amp;rsquo;ll walk through how to publish a bash script to Homebrew so that others can install it via brew install.&#xA;1. Create the Repository for Your ScriptThe first step is to create a GitHub repository for your script.&#xA;Go to GitHub and create a new repository. Name it something relevant to your script (e.</description>
-    </item>
-    <item>
-      <title>How to Make a Bash Script Executable</title>
-      <link>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</link>
-      <pubDate>Tue, 22 Nov 2022 12:31:37 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</guid>
-      <description>Bash scripts can be used to automate bash shell commands, they have the extention .sh. I personally use these to do some repetitive tasks like deploying a new post to this site.&#xA;To run a bash script you need to use the following command syntax in the command line:&#xA;sh ./address/scriptName.sh But the script is not executable by itself, to make it executable follow the following steps&#xA;1. Add approriate shebangFor bash add the following shebang at the top of the script</description>
     </item>
   </channel>
 </rss>

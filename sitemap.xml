@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+    <loc>https://blog.chaitanyashahare.com/tags/bash/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
-    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+    <loc>https://blog.chaitanyashahare.com/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/homebrew/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-publish-a-bash-script-to-homebrew/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/macos/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/package-manager/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-08-07T22:52:57+05:30</lastmod>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-08-21T12:06:23+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/neovim/</loc>
     <lastmod>2024-08-07T22:52:57+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/vim/</loc>
@@ -213,9 +228,6 @@
     <lastmod>2023-09-13T20:32:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/iterm2/</loc>
-    <lastmod>2023-09-13T20:32:25+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/macos/</loc>
     <lastmod>2023-09-13T20:32:25+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/categories/macos/</loc>
@@ -427,9 +439,6 @@
   </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/zsh/</loc>
     <lastmod>2022-11-24T18:36:29+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/bash/</loc>
-    <lastmod>2022-11-22T12:31:37+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/08-how-to-make-a-bash-script-executable/</loc>
     <lastmod>2022-11-22T12:31:37+05:30</lastmod>

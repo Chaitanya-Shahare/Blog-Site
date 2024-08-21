@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+    
+  
+
+  <title>How to Publish a Bash Script to Homebrew | Chaitanya&#39;s blog</title>
+
+  
+  <meta name="author" content="Chaitanya Shahare">
+  
+  <meta name="description" content="Homebrew is a popular package manager for macOS (and Linux) that allows you to distribute scripts and tools easily. In this guide, we&rsquo;ll walk through how to publish a bash script to Homebrew so that others can install it via brew install.
+1. Create the Repository for Your ScriptThe first step is to create a GitHub repository for your script.
+Go to GitHub and create a new repository. Name it something relevant to your script (e.">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta name="twitter:title" content="How to Publish a Bash Script to Homebrew"/>
+<meta name="twitter:description" content="Homebrew is a popular package manager for macOS (and Linux) that allows you to distribute scripts and tools easily. In this guide, we&rsquo;ll walk through how to publish a bash script to Homebrew so that others can install it via brew install.
+1. Create the Repository for Your ScriptThe first step is to create a GitHub repository for your script.
+Go to GitHub and create a new repository. Name it something relevant to your script (e."/>
+<meta name="twitter:site" content="@ChaiitanyaS"/>
+
+  <meta property="og:title" content="How to Publish a Bash Script to Homebrew" />
+<meta property="og:description" content="Homebrew is a popular package manager for macOS (and Linux) that allows you to distribute scripts and tools easily. In this guide, we&rsquo;ll walk through how to publish a bash script to Homebrew so that others can install it via brew install.
+1. Create the Repository for Your ScriptThe first step is to create a GitHub repository for your script.
+Go to GitHub and create a new repository. Name it something relevant to your script (e." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-publish-a-bash-script-to-homebrew/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-21T12:06:23+05:30" />
+<meta property="article:modified_time" content="2024-08-21T12:06:23+05:30" />
+
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+
+</head>
+
+
+
+<body ontouchstart="">
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top ">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://blog.chaitanyashahare.com/">Chaitanya&#39;s blog</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/series/gsoc/" title="GSoC">GSoC</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('/black-background.jpg');
+  }
+</style>
+
+<header class="intro-header ">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+            <a class="tag" href="/tags/bash/" title="bash">bash</a>
+            
+            <a class="tag" href="/tags/homebrew/" title="homebrew">homebrew</a>
+            
+            <a class="tag" href="/tags/macos/" title="macos">macos</a>
+            
+            <a class="tag" href="/tags/package-manager/" title="package-manager">package-manager</a>
+            
+          </div>
+          <h1>How to Publish a Bash Script to Homebrew</h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  Chaitanya Shahare 
+            on Wed, Aug 21, 2024
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <p>Homebrew is a popular package manager for macOS (and Linux) that allows you to distribute scripts and tools easily. In this guide, we&rsquo;ll walk through how to publish a bash script to Homebrew so that others can install it via <code>brew install</code>.</p>
+<h2 id="1-create-the-repository-for-your-script">1. Create the Repository for Your Script<a class="anchorjs-link" href="#1-create-the-repository-for-your-script"></a></h2><p>The first step is to create a GitHub repository for your script.</p>
+<ol>
+<li>Go to <a href="https://github.com" target="_blank">GitHub</a> and create a new repository. Name it something relevant to your script (e.g., <code>block-site</code>).</li>
+<li>Clone the repository to your local machine:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/yourusername/block-site.git
+</span></span></code></pre></div></li>
+<li>Inside the repository, add your bash script (e.g., <code>block_site.sh</code>).</li>
+<li>Commit and push the script:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add block_site.sh
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#f1fa8c">&#34;Add block site script&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin main
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="2-create-a-release-for-the-repository">2. Create a Release for the Repository<a class="anchorjs-link" href="#2-create-a-release-for-the-repository"></a></h2><p>Once your script is in the repository, you&rsquo;ll need to create a versioned release. This is essential for Homebrew to fetch your script.</p>
+<ol>
+<li>Go to the &ldquo;Releases&rdquo; tab in your repository and click &ldquo;Create a new release.&rdquo;</li>
+<li>Tag the release with a version (e.g., <code>v1.0.0</code>) and give it a title and description.</li>
+<li>Publish the release. The release will generate a downloadable <code>.tar.gz</code> file, which Homebrew uses.</li>
+</ol>
+<h2 id="3-create-another-repository-homebrew-formulae">3. Create Another Repository <code>homebrew-formulae</code><a class="anchorjs-link" href="#3-create-another-repository-homebrew-formulae"></a></h2><p>Next, you need to create a separate repository to host your Homebrew formula.</p>
+<ol>
+<li>Create a new repository called <code>homebrew-formulae</code> on GitHub.</li>
+<li>Clone this repository to your local machine:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/yourusername/homebrew-formulae.git
+</span></span></code></pre></div></li>
+<li>This repository will store the Ruby formula that Homebrew will use to install your script.</li>
+</ol>
+<h2 id="4-add-a-formula-to-usernamehomebrew-formulae">4. Add a Formula to <code>username/homebrew-formulae</code><a class="anchorjs-link" href="#4-add-a-formula-to-usernamehomebrew-formulae"></a></h2><p>Now, let&rsquo;s create a formula that Homebrew will use to install your bash script. Inside the <code>homebrew-formulae</code> repository, create a Ruby file (e.g., <code>block-site.rb</code>) with the following content:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rb" data-lang="rb"><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">BlockSite</span> <span style="color:#ff79c6">&lt;</span> Formula
+</span></span><span style="display:flex;"><span>  desc <span style="color:#f1fa8c">&#34;Script to block and unblock websites by modifying /etc/hosts&#34;</span>
+</span></span><span style="display:flex;"><span>  homepage <span style="color:#f1fa8c">&#34;https://github.com/yourusername/block-site&#34;</span>
+</span></span><span style="display:flex;"><span>  url <span style="color:#f1fa8c">&#34;https://github.com/yourusername/block-site/archive/v1.0.0.tar.gz&#34;</span>
+</span></span><span style="display:flex;"><span>  sha256 <span style="color:#f1fa8c">&#34;522bb30562f3d5b5a8b15ac4e5f8b2392544f64908e1ec20c7ac456c03574e0a&#34;</span>
+</span></span><span style="display:flex;"><span>  version <span style="color:#f1fa8c">&#34;1.0.0&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">install</span>
+</span></span><span style="display:flex;"><span>    bin<span style="color:#ff79c6">.</span>install <span style="color:#f1fa8c">&#34;block_site.sh&#34;</span> <span style="color:#ff79c6">=&gt;</span> <span style="color:#f1fa8c">&#34;block-site&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">caveats</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;&lt;~</span>EOS
+</span></span><span style="display:flex;"><span>      This script requires sudo privileges to modify the <span style="color:#f1fa8c">/etc/</span>hosts file<span style="color:#ff79c6">.</span>
+</span></span><span style="display:flex;"><span>      Use it as <span style="color:#f1fa8c">follows</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">-</span> Block a <span style="color:#f1fa8c">site</span>: block<span style="color:#ff79c6">-</span>site <span style="color:#ff79c6">--</span>block domain<span style="color:#ff79c6">.</span>com
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">-</span> Unblock a <span style="color:#f1fa8c">site</span>: block<span style="color:#ff79c6">-</span>site <span style="color:#ff79c6">--</span>unblock domain<span style="color:#ff79c6">.</span>com
+</span></span><span style="display:flex;"><span>    EOS
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">end</span>
+</span></span></code></pre></div><h3 id="explanation-of-the-formula">Explanation of the Formula<a class="anchorjs-link" href="#explanation-of-the-formula"></a></h3><ul>
+<li><strong>desc</strong>: A brief description of what your script does.</li>
+<li><strong>homepage</strong>: The URL of your GitHub repository.</li>
+<li><strong>url</strong>: The URL to the <code>.tar.gz</code> file generated by the release. Update this with your actual repository URL.</li>
+<li><strong>sha256</strong>: The SHA-256 checksum of the <code>.tar.gz</code> file. This ensures that the file hasn’t been tampered with.</li>
+<li><strong>version</strong>: The version of your script, matching the release tag.</li>
+<li><strong>install</strong>: This tells Homebrew how to install your script. The <code>bin.install</code> command installs your bash script as an executable named <code>block-site</code>.</li>
+<li><strong>caveats</strong>: Any special instructions or notes for the user.</li>
+</ul>
+<h3 id="generating-the-sha256-hash">Generating the <code>sha256</code> Hash<a class="anchorjs-link" href="#generating-the-sha256-hash"></a></h3><p>To get the SHA-256 checksum, download the <code>.tar.gz</code> file from the GitHub release and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>shasum -a <span style="color:#bd93f9">256</span> v1.0.0.tar.gz
+</span></span></code></pre></div><p>Copy the resulting hash and paste it into the <code>sha256</code> field in the formula.</p>
+<h2 id="5-tapping--installing">5. Tapping &amp; Installing<a class="anchorjs-link" href="#5-tapping--installing"></a></h2><p>To make the formula available for Homebrew users, they&rsquo;ll need to &ldquo;tap&rdquo; your repository and install your script.</p>
+<ol>
+<li>
+<p>Push your formula to the <code>homebrew-formulae</code> repository:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add block-site.rb
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#f1fa8c">&#34;Add block-site formula&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin main
+</span></span></code></pre></div></li>
+<li>
+<p>Users can now tap your repository by running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew tap yourusername/formulae
+</span></span></code></pre></div></li>
+<li>
+<p>Once the repository is tapped, they can install your script with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install block-site
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="final-notes">Final Notes<a class="anchorjs-link" href="#final-notes"></a></h3><p>Your bash script is now packaged and distributed via Homebrew! Users can easily install it with a single command, making your tool more accessible. As you update your script, simply create new releases and update the formula accordingly.</p>
+<p>Happy scripting!</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/posts/what-is-the-leader-key-in-neovim/" data-toggle="tooltip" data-placement="top" title="What is the Leader Key in Neovim?">
+              Previous<br>
+              <span>What is the Leader Key in Neovim?</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+<div class="giscus" id="comments"></div>
+<script src="https://giscus.app/client.js" 
+  data-repo="Chaitanya-Shahare/blog-site-comments" 
+  data-repo-id="R_kgDOIa6SGg"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOIa6SGs4CSgt4"
+  data-mapping="pathname"
+  data-strict="0" 
+  data-reactions-enabled="1" 
+  data-emit-metadata="0" 
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="en"
+  crossorigin="anonymous"
+  async>
+  </script>
+
+
+
+
+      </div>
+
+      
+      
+      
+      <div class="
+              col-lg-2 col-lg-offset-0
+              visible-lg-block
+              sidebar-container
+              catalog-container">
+        <div class="side-catalog">
+          <hr class="hidden-sm hidden-xs">
+          <h5>
+            <a class="catalog-toggle" href="#">CATALOG</a>
+          </h5>
+          <ul class="catalog-body"></ul>
+        </div>
+      </div>
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/bash/">bash</a>
+    
+    <a href="/tags/cli/">cli</a>
+    
+    <a href="/tags/editor/">editor</a>
+    
+    <a href="/tags/front-end/">front end</a>
+    
+    <a href="/tags/git/">git</a>
+    
+    <a href="/tags/github/">github</a>
+    
+    <a href="/tags/gitlab/">gitlab</a>
+    
+    <a href="/tags/goals/">goals</a>
+    
+    <a href="/tags/gsoc/">gsoc</a>
+    
+    <a href="/tags/homebrew/">homebrew</a>
+    
+    <a href="/tags/html/">html</a>
+    
+    <a href="/tags/iterm2/">iterm2</a>
+    
+    <a href="/tags/jupyter/">jupyter</a>
+    
+    <a href="/tags/keybindings/">keybindings</a>
+    
+    <a href="/tags/keyboard-shortcut/">keyboard-shortcut</a>
+    
+    <a href="/tags/keyboard-shortcuts/">keyboard-shortcuts</a>
+    
+    <a href="/tags/linux/">linux</a>
+    
+    <a href="/tags/llvm/">llvm</a>
+    
+    <a href="/tags/mac/">mac</a>
+    
+    <a href="/tags/macos/">macos</a>
+    
+    <a href="/tags/markdown/">markdown</a>
+    
+    <a href="/tags/mongodb/">mongodb</a>
+    
+    <a href="/tags/music/">music</a>
+    
+    <a href="/tags/mysql/">mysql</a>
+    
+    <a href="/tags/neovim/">neovim</a>
+    
+    <a href="/tags/node_modules/">node_modules</a>
+    
+    <a href="/tags/nodejs/">nodejs</a>
+    
+    <a href="/tags/nvim/">nvim</a>
+    
+    <a href="/tags/obsidian/">obsidian</a>
+    
+    <a href="/tags/opensource/">opensource</a>
+    
+    <a href="/tags/package-manager/">package-manager</a>
+    
+    <a href="/tags/productivity/">productivity</a>
+    
+    <a href="/tags/python/">python</a>
+    
+    <a href="/tags/react/">react</a>
+    
+    <a href="/tags/rebase/">rebase</a>
+    
+    <a href="/tags/safari/">safari</a>
+    
+    <a href="/tags/searching/">searching</a>
+    
+    <a href="/tags/self-improvement/">self-improvement</a>
+    
+    <a href="/tags/shortcuts/">shortcuts</a>
+    
+    <a href="/tags/ssh/">ssh</a>
+    
+    <a href="/tags/terminal/">terminal</a>
+    
+    <a href="/tags/termux/">termux</a>
+    
+    <a href="/tags/text-editor/">text-editor</a>
+    
+    <a href="/tags/ubuntu/">ubuntu</a>
+    
+    <a href="/tags/utility/">utility</a>
+    
+    <a href="/tags/vim/">vim</a>
+    
+    <a href="/tags/vimwiki/">vimwiki</a>
+    
+    <a href="/tags/virtualenv/">virtualenv</a>
+    
+    <a href="/tags/vscode/">vscode</a>
+    
+    <a href="/tags/web-development/">web development</a>
+    
+    <a href="/tags/workflow/">workflow</a>
+    
+    <a href="/tags/youtube/">youtube</a>
+    
+    <a href="/tags/zsh/">zsh</a>
+    
+  </div>
+</section>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				
+				
+
+
+<ul class="list-inline text-center">
+	
+
+		
+		<li>
+			<a target="_blank" href="https://github.com/Chaitanya-Shahare">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a target="_blank" href="https://www.linkedin.com/in/cs03/">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://twitter.com/ChaiitanyaS">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="https://instagram.com/chaitanya_shahare_">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+		<li>
+			<a href="mailto:shaharechaitanya3@gmail.com">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+		
+
+		
+
+		
+
+		
+		<li>
+			<a href=/index.xml>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		</li>
+		
+
+	</ul>
+
+				<p class="copyright text-muted">
+					2024 | Chaitanya Shahare
+					<br>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+	function generateCatalog(selector) {
+		_containerSelector = 'div.post-container'
+		
+		var P = $(_containerSelector), a, n, t, l, i, c;
+		a = P.find('h1,h2,h3,h4');
+		
+		$(selector).html('')
+		
+		a.each(function () {
+			n = $(this).prop('tagName').toLowerCase();
+			i = "#" + $(this).prop('id');
+			t = $(this).text();
+			c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+			l = $('<li class="' + n + '_nav"></li>').append(c);
+			$(selector).append(l);
+		});
+		return true;
+	}
+
+	generateCatalog(".catalog-body");
+
+	
+	$(".catalog-toggle").click((function (e) {
+		e.preventDefault();
+		$('.side-catalog').toggleClass("fold")
+	}))
+</script>
+
+
+<script type="text/javascript" src='/js/jquery.nav.min.ade6bde8f9fcc6a4b40852cb892e9f5912340ab8fe1305149d917fdd16fffd8d.js'></script>
+<script>
+	$(document).ready(function () {
+		$('.catalog-body').onePageNav({
+			currentClass: "active",
+			changeHash: !1,
+			easing: "swing",
+			filter: "",
+			scrollSpeed: 700,
+			scrollOffset: 0,
+			scrollThreshold: .2,
+			begin: null,
+			end: null,
+			scrollChange: null,
+			padding: 80
+		});
+	});
+</script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERBHSP8QM4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ERBHSP8QM4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>

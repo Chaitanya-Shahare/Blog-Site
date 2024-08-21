@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 13 Sep 2023 20:32:25 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 12:06:23 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Publish a Bash Script to Homebrew</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-publish-a-bash-script-to-homebrew/</link>
+      <pubDate>Wed, 21 Aug 2024 12:06:23 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-publish-a-bash-script-to-homebrew/</guid>
+      <description>Homebrew is a popular package manager for macOS (and Linux) that allows you to distribute scripts and tools easily. In this guide, we&amp;rsquo;ll walk through how to publish a bash script to Homebrew so that others can install it via brew install.&#xA;1. Create the Repository for Your ScriptThe first step is to create a GitHub repository for your script.&#xA;Go to GitHub and create a new repository. Name it something relevant to your script (e.</description>
+    </item>
     <item>
       <title>How to Remove Title Bar in Iterm2</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-remove-title-bar-in-iterm2/</link>
