@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Thu, 29 Aug 2024 10:02:45 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 11:21:59 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 17 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-17-gsoc/</link>
+      <pubDate>Fri, 06 Sep 2024 11:21:59 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-17-gsoc/</guid>
+      <description>This week I deployed a website created using the theme developed, on GitHub pages. The website&amp;rsquo;s home page at my domain for testing here https://chaitanyashahare.com/testing-llvm-www-template.&#xA;Working on making the footer configurable as it&amp;rsquo;ll vary a lot across websites. The footer will be configurable from the hugo.yml configuration file.</description>
+    </item>
     <item>
       <title>Week 16 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-16-gsoc/</link>
