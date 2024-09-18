@@ -11,32 +11,29 @@
     
   
 
-  <title>Week 12 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
+  <title>Week 18 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="This week I iterated on the feedback form for design mockups and circulated it in the community. I also prepared the midterm progress presentation.
-Feedback Form 📝I iterated on the feedback form for design mockups based on the feedback received from my mentors. I made the form more detailed and focused on the layout of the website.
-Here&rsquo;s the link to the feedback form: LLVM Website Redesign Feedback Form">
+  <meta name="description" content="This week I set up a website in a new repository using the theme developed. I fixed some UI bugs and made the hero section links configurable. I also wrote documentation for the theme and set up a workflow for deploying using GitHub Pages.
+The website is live at https://chaitanyashahare.com/testing-llvm-www-template for now. We are in the process of hosting it on the llvm.org test sub-domain.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 12 Google Summer of Code @ LLVM"/>
-<meta name="twitter:description" content="This week I iterated on the feedback form for design mockups and circulated it in the community. I also prepared the midterm progress presentation.
-Feedback Form 📝I iterated on the feedback form for design mockups based on the feedback received from my mentors. I made the form more detailed and focused on the layout of the website.
-Here&rsquo;s the link to the feedback form: LLVM Website Redesign Feedback Form"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 18 Google Summer of Code @ LLVM"/>
+<meta name="twitter:description" content="This week I set up a website in a new repository using the theme developed. I fixed some UI bugs and made the hero section links configurable. I also wrote documentation for the theme and set up a workflow for deploying using GitHub Pages.
+The website is live at https://chaitanyashahare.com/testing-llvm-www-template for now. We are in the process of hosting it on the llvm.org test sub-domain."/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Week 12 Google Summer of Code @ LLVM" />
-<meta property="og:description" content="This week I iterated on the feedback form for design mockups and circulated it in the community. I also prepared the midterm progress presentation.
-Feedback Form 📝I iterated on the feedback form for design mockups based on the feedback received from my mentors. I made the form more detailed and focused on the layout of the website.
-Here&rsquo;s the link to the feedback form: LLVM Website Redesign Feedback Form" />
+  <meta property="og:title" content="Week 18 Google Summer of Code @ LLVM" />
+<meta property="og:description" content="This week I set up a website in a new repository using the theme developed. I fixed some UI bugs and made the hero section links configurable. I also wrote documentation for the theme and set up a workflow for deploying using GitHub Pages.
+The website is live at https://chaitanyashahare.com/testing-llvm-www-template for now. We are in the process of hosting it on the llvm.org test sub-domain." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-12-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-07-31T22:38:48+05:30" />
-<meta property="article:modified_time" content="2024-07-31T22:38:48+05:30" />
-<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-18-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-17-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-16-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-15-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-14-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-13-gsoc/" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-18-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-09-18T11:02:38+05:30" />
+<meta property="article:modified_time" content="2024-09-18T11:02:38+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-17-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-16-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-15-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-14-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-13-gsoc/" />
 
 
 
@@ -217,11 +214,11 @@ Here&rsquo;s the link to the feedback form: LLVM Website Redesign Feedback Form"
             <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Week 12 Google Summer of Code @ LLVM</h1>
+          <h1>Week 18 Google Summer of Code @ LLVM</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, Jul 31, 2024
+            on Wed, Sep 18, 2024
           </span>
         </div>
       </div>
@@ -242,39 +239,21 @@ Here&rsquo;s the link to the feedback form: LLVM Website Redesign Feedback Form"
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <!-- Iterated on feedback form for design mockups & circulated it in the community, prepared the midterm progress presentation. -->
-<p>This week I iterated on the feedback form for design mockups and circulated it in the community. I also prepared the midterm progress presentation.</p>
-<h2 id="feedback-form-">Feedback Form 📝<a class="anchorjs-link" href="#feedback-form-"></a></h2><p>I iterated on the feedback form for design mockups based on the feedback
-received from my mentors. I made the form more detailed and focused on the
-layout of the website.</p>
-<p>Here&rsquo;s the link to the feedback form: <a href="https://docs.google.com/forms/d/1t1kkPwNehYOnE8w4R3y6FCrfZNN8_tA73t8ZqkV8xvE/viewform?edit_requested=true" target="_blank">LLVM Website Redesign Feedback Form</a></p>
-<p>Feel free to provide your feedback on the design mockup. It will help me
-improve the design further.</p>
-<p>Circulated the feedback form in the community discord &amp; discourse forum to get feedback on the design</p>
-<h2 id="midterm-progress-presentation-">Midterm Progress Presentation 📊<a class="anchorjs-link" href="#midterm-progress-presentation-"></a></h2><p>I prepared the midterm progress presentation for the LLVM&rsquo;s GSoC program. The
-presentation includes the progress made so far, the design mockup, and the
-feedback form for the design mockup.</p>
-<p>Here&rsquo;s the link to the presentation: <a href="/assets/docs/llvm-website-redesign-midterm-progress-31-07-2024.pdf">LLVM Website Redesign Midterm Progress Presentation</a></p>
-<h2 id="conclusion-">Conclusion 🏁<a class="anchorjs-link" href="#conclusion-"></a></h2><p>That&rsquo;s all for this week. Looking forward to the next one! 🚀</p>
+        <!-- Set up website in new repository using the theme, fixed some UI bugs, made hero section links configurable, write documentation for theme, set up workflow for deploying using GitHub Pages. -->
+<p>This week I set up a website in a new repository using the theme developed. I fixed some UI bugs and made the hero section links configurable. I also wrote documentation for the theme and set up a workflow for deploying using GitHub Pages.</p>
+<p>The website is live at <a href="https://chaitanyashahare.com/testing-llvm-www-template" target="_blank">https://chaitanyashahare.com/testing-llvm-www-template</a> for now. We are in the process of hosting it on the llvm.org test sub-domain.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/week-11-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 11 Google Summer of Code @ LLVM">
+            <a href="/posts/week-17-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 17 Google Summer of Code @ LLVM">
               Previous<br>
-              <span>Week 11 Google Summer of Code @ LLVM</span>
+              <span>Week 17 Google Summer of Code @ LLVM</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/yabai-skhd-macos-workflow/" data-toggle="tooltip" data-placement="top" title="How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer">
-              Next<br>
-              <span>How Yabai &amp; Skhd Changed My macOS Workflow as a Software Engineer</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
