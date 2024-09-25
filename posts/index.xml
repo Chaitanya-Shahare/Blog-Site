@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 18 Sep 2024 11:02:38 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 22:07:24 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 19 &amp; 20 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/</link>
+      <pubDate>Wed, 25 Sep 2024 22:07:24 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/</guid>
+      <description>These couple of weeks have been very hectic as my college has started and campus placements have started as well so I have been busy with that as well.&#xA;Progress Added submenu for navbar which is configurable. Created table of contents component. Created /gsoc-projects page using yaml data file. Created a custom shortcode for creating new pages using data files. Wrote stylesheet for standard markdown pages. Wrote some documentation for creating new pages in the website using datamap.</description>
+    </item>
     <item>
       <title>Week 18 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-18-gsoc/</link>
