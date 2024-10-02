@@ -11,26 +11,29 @@
     
   
 
-  <title>Week 1 at Google Summer of Code @LLVM.org: Kicking Off the Community Bonding Period | Chaitanya&#39;s blog</title>
+  <title>Week 21 Gsoc | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Discover the highlights of my first week in Google Summer of Code 2024, where I began redesigning the LLVM.org website. I&#39;ll share insights into my initial setup, first contributions, and what I&#39;ve learned along the way.">
+  <meta name="description" content="I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.
+Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 1 at Google Summer of Code @LLVM.org: Kicking Off the Community Bonding Period"/>
-<meta name="twitter:description" content="Discover the highlights of my first week in Google Summer of Code 2024, where I began redesigning the LLVM.org website. I&#39;ll share insights into my initial setup, first contributions, and what I&#39;ve learned along the way."/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 21 Gsoc"/>
+<meta name="twitter:description" content="I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.
+Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?"/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Week 1 at Google Summer of Code @LLVM.org: Kicking Off the Community Bonding Period" />
-<meta property="og:description" content="Discover the highlights of my first week in Google Summer of Code 2024, where I began redesigning the LLVM.org website. I&#39;ll share insights into my initial setup, first contributions, and what I&#39;ve learned along the way." />
+  <meta property="og:title" content="Week 21 Gsoc" />
+<meta property="og:description" content="I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.
+Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-1-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-05-12T11:25:18+05:30" />
-<meta property="article:modified_time" content="2024-05-12T11:25:18+05:30" />
-<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-21-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-18-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-17-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-16-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-15-gsoc/" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-21-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-02T21:16:17+05:30" />
+<meta property="article:modified_time" content="2024-10-02T21:16:17+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-18-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-17-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-16-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-15-gsoc/" />
 
 
 
@@ -211,11 +214,11 @@
             <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Week 1 at Google Summer of Code @LLVM.org: Kicking Off the Community Bonding Period</h1>
+          <h1>Week 21 Gsoc</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Sun, May 12, 2024
+            on Wed, Oct 2, 2024
           </span>
         </div>
       </div>
@@ -236,79 +239,48 @@
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Hello, everyone!</p>
-<p>It’s been an exhilarating first week at Google Summer of Code 2024, where I’ve
-begun my journey to revamp the LLVM.org website. As I dive into the world of
-open-source development at such a large scale, everything feels new and
-exciting. Here’s a breakdown of my first week, the progress I&rsquo;ve made, and what
-I’ve learned along the way.</p>
-<h2 id="diving-in">Diving In<a class="anchorjs-link" href="#diving-in"></a></h2><p>The week started with an orientation session where I got to meet
-other GSoC participants from around the world. It was inspiring to see so many
-talented individuals geared up to contribute to their respective projects. My
-mentors, Tanya Lattner and Vassil Vassilev, provided a comprehensive overview
-of the project expectations and the roadmap for the coming weeks. Their
-guidance is proving invaluable as I navigate these initial stages.</p>
-<h2 id="setting-the-foundation">Setting the Foundation<a class="anchorjs-link" href="#setting-the-foundation"></a></h2><p>My primary focus this week was to draft a survey and RFC
-to conduct a preliminary content audit of the LLVM.org
-website. This involved reviewing the current site structure and content to
-identify areas that need improvement or updating. The goal is to ensure that
-the redesign enhances the site’s usability and overall user experience.</p>
-<h2 id="learning-and-challenges">Learning and Challenges<a class="anchorjs-link" href="#learning-and-challenges"></a></h2><p>Adjusting to the scale of LLVM’s codebase and
-community operations is a bit daunting. I’ve been spending time
-familiarizing myself with the project’s &amp; the community&rsquo;s workflow and conventions, which are
-crucial for making meaningful contributions.</p>
-<h2 id="contributions-made">Contributions Made<a class="anchorjs-link" href="#contributions-made"></a></h2><h3 id="repo--compiler-researchcompiler-researchgithubio-httpsgithubcomcompiler-researchcompiler-researchgithubio">Repo: <a href="https://github.com/compiler-research/compiler-research.github.io" target="_blank"> compiler-research/compiler-research.github.io </a><a class="anchorjs-link" href="#repo--compiler-researchcompiler-researchgithubio-httpsgithubcomcompiler-researchcompiler-researchgithubio"></a></h3><ul>
-<li>
-<p><strong>Issues Opened:</strong></p>
+        <p>I made quite a bit of progress during this week. The development version of the new
+llvm website is live at <a href="https://www-new.llvm.org" target="_blank">www-new.llvm.org</a>.</p>
+<h2 id="progress">Progress<a class="anchorjs-link" href="#progress"></a></h2><ul>
+<li><input checked="" disabled="" type="checkbox"> Deploy the website</li>
+<li><input checked="" disabled="" type="checkbox"> Fix the table of contents bug using the other hugo themes</li>
+<li><input checked="" disabled="" type="checkbox"> Documentation for creating new pages in the website</li>
+<li><input checked="" disabled="" type="checkbox"> Make the footer configurable</li>
+<li><input checked="" disabled="" type="checkbox"> Create new website for clang for demonstration of usability</li>
+<li><input checked="" disabled="" type="checkbox"> Make logo configurable</li>
+<li><input checked="" disabled="" type="checkbox"> Figure out how to make the site home page configurable</li>
+<li><input checked="" disabled="" type="checkbox"> Add some content to the clang website</li>
+<li><input checked="" disabled="" type="checkbox"> Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?</li>
+<li><input checked="" disabled="" type="checkbox"> Work towards other things based on the feedback</li>
+<li><input checked="" disabled="" type="checkbox"> Make some changes to the www-new to have it redeployed</li>
+<li><input checked="" disabled="" type="checkbox"> Respond on the <strong>RFC</strong> with the live link</li>
+</ul>
+<h2 id="next-steps">Next Steps<a class="anchorjs-link" href="#next-steps"></a></h2><ul>
+<li><input disabled="" type="checkbox"> Documentation
 <ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/issues/190" target="_blank"> <strong>Issue #190</strong>: </a> Author name missing in blog posts</li>
+<li><input disabled="" type="checkbox"> Creating a new website</li>
+<li><input disabled="" type="checkbox"> Creating a new page</li>
+<li><input disabled="" type="checkbox"> Creating a new shortcode (UI component using data files)</li>
 </ul>
 </li>
-<li>
-<p><strong>Pull Requests Raised:</strong></p>
-<ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/189" target="_blank"> <strong>PR #189:</strong> </a> Add LLVM.org website redesign project introduction blog post</li>
+<li><input disabled="" type="checkbox"> Add content and pages to the entire website.</li>
 </ul>
-</li>
-<li>
-<p><strong>Pull Requests Merged:</strong></p>
-<ul>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/172" target="_blank"> <strong>PR #172:</strong> </a> Add Chaitanya Shahare to Contributors list</li>
-<li><a href="https://github.com/compiler-research/compiler-research.github.io/pull/191" target="_blank"> <strong>PR #191:</strong> </a> Add authors to all blog posts</li>
-</ul>
-</li>
-</ul>
-<h2 id="looking-ahead">Looking Ahead<a class="anchorjs-link" href="#looking-ahead"></a></h2><p>As I move into the next week, I’ll be focusing more on
-designing the new layout and addressing the feedback received from the
-community on my initial changes. I am excited to start more dynamic
-interactions with community members and gather their insights, which are vital
-for the project&rsquo;s success.</p>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>My first week at GSoC has been a whirlwind of learning, coding,
-and collaborating. It&rsquo;s thrilling to be part of something that will impact so
-many developers and researchers worldwide. I’m looking forward to each
-challenge and wins that lies ahead, and I can’t wait to share more of my
-journey with you all.</p>
-<p>Stay tuned for more updates, and feel free to reach out if you have any
-thoughts or questions about the project!</p>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>As the Google Summer of Code is coming to an end &amp; with me having left with just
+3 more weeks more or less to complete the project. I am excited to see the final
+website and how it will look. I am also excited to see how the community will react
+to the new website once it is hosted on the llvm.org.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/llvm-org-website-redesign-gsoc-project-introduction/" data-toggle="tooltip" data-placement="top" title="LLVM.org Website Redesign GSoC Project Introduction">
+            <a href="/posts/week-19-20-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 19 &amp; 20 Google Summer of Code @ LLVM">
               Previous<br>
-              <span>LLVM.org Website Redesign GSoC Project Introduction</span>
+              <span>Week 19 &amp; 20 Google Summer of Code @ LLVM</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/week-2-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 2 at Google Summer of Code @LLVM.org: Progress and Presentations">
-              Next<br>
-              <span>Week 2 at Google Summer of Code @LLVM.org: Progress and Presentations</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />

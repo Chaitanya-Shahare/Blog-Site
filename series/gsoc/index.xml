@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 22:07:24 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 21:16:17 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/series/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 21 Gsoc</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-21-gsoc/</link>
+      <pubDate>Wed, 02 Oct 2024 21:16:17 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-21-gsoc/</guid>
+      <description>I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.&#xA;Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp;amp; Vassil &amp;amp; ask if that&amp;rsquo;s what they wanted?</description>
+    </item>
     <item>
       <title>Week 19 &amp; 20 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/</link>
