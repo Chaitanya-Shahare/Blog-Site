@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-10-02T21:16:17+05:30</lastmod>
+    <lastmod>2024-10-05T19:55:03+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/how-to-use-react-toastify-with-next-js/</loc>
+    <lastmod>2024-10-05T19:55:03+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/nextjs/</loc>
+    <lastmod>2024-10-05T19:55:03+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-10-05T19:55:03+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/react/</loc>
+    <lastmod>2024-10-05T19:55:03+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-10-05T19:55:03+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
     <lastmod>2024-10-02T21:16:17+05:30</lastmod>
@@ -17,13 +32,7 @@
     <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
     <lastmod>2024-10-02T21:16:17+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-10-02T21:16:17+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/series/</loc>
-    <lastmod>2024-10-02T21:16:17+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
     <lastmod>2024-10-02T21:16:17+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/week-21-gsoc/</loc>
@@ -423,9 +432,6 @@
     <lastmod>2023-01-02T07:22:11+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/new-react-project/</loc>
-    <lastmod>2023-01-01T22:42:47+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/react/</loc>
     <lastmod>2023-01-01T22:42:47+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/how-to-make-macos-terminal-beautiful-with-background-image/</loc>

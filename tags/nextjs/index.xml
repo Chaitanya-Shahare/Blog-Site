@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>react on Chaitanya&#39;s blog</title>
-    <link>https://blog.chaitanyashahare.com/tags/react/</link>
-    <description>Recent content in react on Chaitanya&#39;s blog</description>
+    <title>nextjs on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/nextjs/</link>
+    <description>Recent content in nextjs on Chaitanya&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
     <lastBuildDate>Sat, 05 Oct 2024 19:55:03 +0530</lastBuildDate>
-    <atom:link href="https://blog.chaitanyashahare.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.chaitanyashahare.com/tags/nextjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Use React Toastify With NextJS</title>
       <link>https://blog.chaitanyashahare.com/posts/how-to-use-react-toastify-with-next-js/</link>
       <pubDate>Sat, 05 Oct 2024 19:55:03 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/posts/how-to-use-react-toastify-with-next-js/</guid>
       <description>React Toastify is a popular library for showing toasts in React applications. It&amp;rsquo;s easy to use and has a lot of customization options. In this post, we will see how to use React Toastify with NextJS.&#xA;1. Installationnpm install --save react-toastify 2. Import CSSapp/layout.tsx&#xA;import &amp;#34;react-toastify/dist/ReactToastify.css&amp;#34;; 3. New component for ToastContainerapp/components/next-toast-container.tsx&#xA;&amp;#34;use client&amp;#34;; export { ToastContainer } from &amp;#34;react-toastify&amp;#34;; We are doing this because, by default all the components in NextJS are server-side rendered, but we want to use the ToastContainer on the client-side only.</description>
-    </item>
-    <item>
-      <title>How to make a new React Project</title>
-      <link>https://blog.chaitanyashahare.com/posts/new-react-project/</link>
-      <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/posts/new-react-project/</guid>
-      <description>Prerequisitesnodejs &amp;amp; npm must be installed&#xA;create-react-appUse the following command in the terminal&#xA;$ npx create-react-app dirName This creates a directory with the name &amp;lsquo;dirName&amp;rsquo;, which has all the necessary files for a react project.</description>
     </item>
   </channel>
 </rss>

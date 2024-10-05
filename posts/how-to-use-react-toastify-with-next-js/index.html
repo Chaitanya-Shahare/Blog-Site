@@ -11,28 +11,34 @@
     
   
 
-  <title>What is the Leader Key in Neovim? | Chaitanya&#39;s blog</title>
+  <title>How to Use React Toastify With NextJS | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="If you&rsquo;re a Neovim user, you&rsquo;ve likely heard about the &ldquo;Leader key.&rdquo; But what exactly is it, and why is it so important?
-Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key that you can use as a prefix to create custom shortcuts, known as mappings. This allows you to perform complex commands with just a few keystrokes. By default, the Leader key is set to the backslash (\), but many users change it to a more convenient key, like the space ( ) or the comma (,).">
+  <meta name="description" content="React Toastify is a popular library for showing toasts in React applications. It&rsquo;s easy to use and has a lot of customization options. In this post, we will see how to use React Toastify with NextJS.
+1. Installationnpm install --save react-toastify 2. Import CSSapp/layout.tsx
+import &#34;react-toastify/dist/ReactToastify.css&#34;; 3. New component for ToastContainerapp/components/next-toast-container.tsx
+&#34;use client&#34;; export { ToastContainer } from &#34;react-toastify&#34;; We are doing this because, by default all the components in NextJS are server-side rendered, but we want to use the ToastContainer on the client-side only.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png" /><meta name="twitter:title" content="What is the Leader Key in Neovim?"/>
-<meta name="twitter:description" content="If you&rsquo;re a Neovim user, you&rsquo;ve likely heard about the &ldquo;Leader key.&rdquo; But what exactly is it, and why is it so important?
-Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key that you can use as a prefix to create custom shortcuts, known as mappings. This allows you to perform complex commands with just a few keystrokes. By default, the Leader key is set to the backslash (\), but many users change it to a more convenient key, like the space ( ) or the comma (,)."/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta name="twitter:title" content="How to Use React Toastify With NextJS"/>
+<meta name="twitter:description" content="React Toastify is a popular library for showing toasts in React applications. It&rsquo;s easy to use and has a lot of customization options. In this post, we will see how to use React Toastify with NextJS.
+1. Installationnpm install --save react-toastify 2. Import CSSapp/layout.tsx
+import &#34;react-toastify/dist/ReactToastify.css&#34;; 3. New component for ToastContainerapp/components/next-toast-container.tsx
+&#34;use client&#34;; export { ToastContainer } from &#34;react-toastify&#34;; We are doing this because, by default all the components in NextJS are server-side rendered, but we want to use the ToastContainer on the client-side only."/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="What is the Leader Key in Neovim?" />
-<meta property="og:description" content="If you&rsquo;re a Neovim user, you&rsquo;ve likely heard about the &ldquo;Leader key.&rdquo; But what exactly is it, and why is it so important?
-Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key that you can use as a prefix to create custom shortcuts, known as mappings. This allows you to perform complex commands with just a few keystrokes. By default, the Leader key is set to the backslash (\), but many users change it to a more convenient key, like the space ( ) or the comma (,)." />
+  <meta property="og:title" content="How to Use React Toastify With NextJS" />
+<meta property="og:description" content="React Toastify is a popular library for showing toasts in React applications. It&rsquo;s easy to use and has a lot of customization options. In this post, we will see how to use React Toastify with NextJS.
+1. Installationnpm install --save react-toastify 2. Import CSSapp/layout.tsx
+import &#34;react-toastify/dist/ReactToastify.css&#34;; 3. New component for ToastContainerapp/components/next-toast-container.tsx
+&#34;use client&#34;; export { ToastContainer } from &#34;react-toastify&#34;; We are doing this because, by default all the components in NextJS are server-side rendered, but we want to use the ToastContainer on the client-side only." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/what-is-the-leader-key-in-neovim/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/neovim/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-08-07T22:52:57+05:30" />
-<meta property="article:modified_time" content="2024-08-07T22:52:57+05:30" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/how-to-use-react-toastify-with-next-js/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/default_opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-05T19:55:03+05:30" />
+<meta property="article:modified_time" content="2024-10-05T19:55:03+05:30" />
 
 
 
@@ -193,7 +199,7 @@ Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key 
 <style type="text/css">
   header.intro-header {
     position: relative;
-    background-image: url('/images/posts/neovim/banner.png');
+    background-image: url('/black-background.jpg');
   }
 </style>
 
@@ -206,16 +212,16 @@ Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key 
         <div class="post-heading">
           <div class="tags">
             
-            <a class="tag" href="/tags/neovim/" title="neovim">neovim</a>
+            <a class="tag" href="/tags/nextjs/" title="nextjs">nextjs</a>
             
-            <a class="tag" href="/tags/vim/" title="vim">vim</a>
+            <a class="tag" href="/tags/react/" title="react">react</a>
             
           </div>
-          <h1>What is the Leader Key in Neovim?</h1>
+          <h1>How to Use React Toastify With NextJS</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, Aug 7, 2024
+            on Sat, Oct 5, 2024
           </span>
         </div>
       </div>
@@ -236,64 +242,77 @@ Understanding the Leader KeyThe Leader key in Neovim (and Vim) is a special key 
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>If you&rsquo;re a Neovim user, you&rsquo;ve likely heard about the &ldquo;Leader key.&rdquo; But what
-exactly is it, and why is it so important?</p>
-<h2 id="understanding-the-leader-key">Understanding the Leader Key<a class="anchorjs-link" href="#understanding-the-leader-key"></a></h2><p>The Leader key in Neovim (and Vim) is a special key that you can use as a
-prefix to create custom shortcuts, known as mappings. This allows you to
-perform complex commands with just a few keystrokes. By default, the Leader key
-is set to the backslash (<code>\</code>), but many users change it to a more convenient
-key, like the space (<code> </code>) or the comma (<code>,</code>).</p>
-<h2 id="why-use-the-leader-key">Why Use the Leader Key?<a class="anchorjs-link" href="#why-use-the-leader-key"></a></h2><p>The primary reason to use the Leader key is to make your workflow more
-efficient. Instead of typing out long commands, you can create simple shortcuts
-that save you time and effort. For example, instead of typing <code>:w</code> to save a
-file, you could map it to <code>\w</code> or <code>,w</code>.</p>
-<h2 id="how-to-set-up-the-leader-key">How to Set Up the Leader Key<a class="anchorjs-link" href="#how-to-set-up-the-leader-key"></a></h2><p>Setting up the Leader key is straightforward. You can customize it in your
-<code>init.vim</code> (or <code>init.lua</code> if you&rsquo;re using Lua). Here’s how you can do it:</p>
-<h3 id="in-initvim">In <code>init.vim</code>:<a class="anchorjs-link" href="#in-initvim"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#6272a4">&#34; Set the Leader key to comma</span>
-</span></span><span style="display:flex;"><span><span style="color:#ff79c6">let</span> mapleader = <span style="color:#f1fa8c">&#34;,&#34;</span>
-</span></span></code></pre></div><h3 id="in-initlua">In <code>init.lua</code>:<a class="anchorjs-link" href="#in-initlua"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#6272a4">-- Set the Leader key to comma</span>
-</span></span><span style="display:flex;"><span>vim.g.mapleader <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;,&#34;</span>
-</span></span></code></pre></div><h2 id="creating-mappings-with-the-leader-key">Creating Mappings with the Leader Key<a class="anchorjs-link" href="#creating-mappings-with-the-leader-key"></a></h2><p>Once you&rsquo;ve set your Leader key, you can create custom mappings. Here are a few examples:</p>
-<h3 id="in-initvim-1">In <code>init.vim</code>:<a class="anchorjs-link" href="#in-initvim-1"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#6272a4">&#34; Save file with Leader key</span>
-</span></span><span style="display:flex;"><span>nnoremap &lt;Leader&gt;w :w&lt;CR&gt;
-</span></span><span style="display:flex;"><span><span style="color:#6272a4">
-</span></span></span><span style="display:flex;"><span><span style="color:#6272a4">&#34; Quit Neovim with Leader key</span>
-</span></span><span style="display:flex;"><span>nnoremap &lt;Leader&gt;q :q&lt;CR&gt;
-</span></span><span style="display:flex;"><span><span style="color:#6272a4">
-</span></span></span><span style="display:flex;"><span><span style="color:#6272a4">&#34; Open file explorer with Leader key</span>
-</span></span><span style="display:flex;"><span>nnoremap &lt;Leader&gt;e :Ex&lt;CR&gt;
-</span></span></code></pre></div><h3 id="in-initlua-1">In <code>init.lua</code>:<a class="anchorjs-link" href="#in-initlua-1"></a></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#6272a4">-- Save file with Leader key</span>
-</span></span><span style="display:flex;"><span>vim.api.nvim_set_keymap(<span style="color:#f1fa8c">&#39;n&#39;</span>, <span style="color:#f1fa8c">&#39;&lt;Leader&gt;w&#39;</span>, <span style="color:#f1fa8c">&#39;:w&lt;CR&gt;&#39;</span>, { noremap <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">true</span>, silent <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">true</span> })
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#6272a4">-- Quit Neovim with Leader key</span>
-</span></span><span style="display:flex;"><span>vim.api.nvim_set_keymap(<span style="color:#f1fa8c">&#39;n&#39;</span>, <span style="color:#f1fa8c">&#39;&lt;Leader&gt;q&#39;</span>, <span style="color:#f1fa8c">&#39;:q&lt;CR&gt;&#39;</span>, { noremap <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">true</span>, silent <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">true</span> })
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#6272a4">-- Open file explorer with Leader key</span>
-</span></span><span style="display:flex;"><span>vim.api.nvim_set_keymap(<span style="color:#f1fa8c">&#39;n&#39;</span>, <span style="color:#f1fa8c">&#39;&lt;Leader&gt;e&#39;</span>, <span style="color:#f1fa8c">&#39;:Ex&lt;CR&gt;&#39;</span>, { noremap <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">true</span>, silent <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">true</span> })
-</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>The Leader key is a powerful feature in Neovim that can significantly enhance
-your productivity. By setting it to a convenient key and creating custom
-mappings, you can streamline your workflow and perform commands quickly and
-easily. Give it a try, and see how it transforms your Neovim experience!</p>
-<iframe src="https://chaitanyashahare.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+        <p>React Toastify is a popular library for showing toasts in React applications.
+It&rsquo;s easy to use and has a lot of customization options. In this post, we will
+see how to use React Toastify with NextJS.</p>
+<h2 id="1-installation">1. Installation<a class="anchorjs-link" href="#1-installation"></a></h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>npm install --save react-toastify
+</span></span></code></pre></div><h2 id="2-import-css">2. Import CSS<a class="anchorjs-link" href="#2-import-css"></a></h2><p><code>app/layout.tsx</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> <span style="color:#f1fa8c">&#34;react-toastify/dist/ReactToastify.css&#34;</span>;
+</span></span></code></pre></div><h2 id="3-new-component-for-toastcontainer">3. New component for ToastContainer<a class="anchorjs-link" href="#3-new-component-for-toastcontainer"></a></h2><p><code>app/components/next-toast-container.tsx</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#f1fa8c">&#34;use client&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">export</span> { ToastContainer } from <span style="color:#f1fa8c">&#34;react-toastify&#34;</span>;
+</span></span></code></pre></div><p>We are doing this because, by default all the components in NextJS are server-side rendered, but we want to use the ToastContainer on the client-side only.
+If we make the <code>app/layout.tsx</code> component client-side rendered, then the whole app will be client-side rendered, which is not what we want.</p>
+<p>That&rsquo;s why we are essentially creating a new component that will be client-side rendered &amp; just exports the <code>ToastContainer</code> from <code>react-toastify</code>.</p>
+<h2 id="4-import-toast-container">4. Import Toast container<a class="anchorjs-link" href="#4-import-toast-container"></a></h2><p><code>app/layout.tsx</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> { ToastContainer } from <span style="color:#f1fa8c">&#34;@/components/next-toast-container&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">import</span> { Bounce } from <span style="color:#f1fa8c">&#34;react-toastify&#34;</span>;
+</span></span></code></pre></div><h2 id="5-use-toast-container">5. Use Toast container<a class="anchorjs-link" href="#5-use-toast-container"></a></h2><p><code>app/layout.tsx</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tsx" data-lang="tsx"><span style="display:flex;"><span><span style="color:#ff79c6">export</span> <span style="color:#ff79c6">default</span> <span style="color:#8be9fd;font-style:italic">function</span> RootLayout({
+</span></span><span style="display:flex;"><span>  children,
+</span></span><span style="display:flex;"><span>}<span style="color:#ff79c6">:</span> Readonly<span style="color:#ff79c6">&lt;</span>{
+</span></span><span style="display:flex;"><span>  children: <span style="color:#8be9fd">React.ReactNode</span>;
+</span></span><span style="display:flex;"><span>}<span style="color:#ff79c6">&gt;</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#ff79c6">html</span> <span style="color:#50fa7b">lang</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#ff79c6">body</span> <span style="color:#50fa7b">className</span><span style="color:#ff79c6">=</span>{inter.className}&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">className</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;max-w-md mx-auto min-h-screen relative&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            {children}
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#ff79c6">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#ff79c6">ToastContainer</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">position</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;top-right&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">autoClose</span><span style="color:#ff79c6">=</span>{<span style="color:#bd93f9">5000</span>}
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">hideProgressBar</span><span style="color:#ff79c6">=</span>{<span style="color:#ff79c6">false</span>}
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">newestOnTop</span><span style="color:#ff79c6">=</span>{<span style="color:#ff79c6">false</span>}
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">closeOnClick</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">rtl</span><span style="color:#ff79c6">=</span>{<span style="color:#ff79c6">false</span>}
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">pauseOnFocusLoss</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">draggable</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">pauseOnHover</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">theme</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;colored&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#50fa7b">transition</span><span style="color:#ff79c6">=</span>{Bounce}
+</span></span><span style="display:flex;"><span>        /&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#ff79c6">body</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#ff79c6">html</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="6-use-toast-anywhere-in-the-app">6. Use toast anywhere in the app<a class="anchorjs-link" href="#6-use-toast-anywhere-in-the-app"></a></h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tsx" data-lang="tsx"><span style="display:flex;"><span>toast(<span style="color:#f1fa8c">&#39;🦄 Wow so easy!&#39;</span>, {
+</span></span><span style="display:flex;"><span>position<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#34;top-right&#34;</span>,
+</span></span><span style="display:flex;"><span>autoClose: <span style="color:#8be9fd">5000</span>,
+</span></span><span style="display:flex;"><span>hideProgressBar: <span style="color:#8be9fd">false</span>,
+</span></span><span style="display:flex;"><span>closeOnClick: <span style="color:#8be9fd">true</span>,
+</span></span><span style="display:flex;"><span>pauseOnHover: <span style="color:#8be9fd">true</span>,
+</span></span><span style="display:flex;"><span>draggable: <span style="color:#8be9fd">true</span>,
+</span></span><span style="display:flex;"><span>progress: <span style="color:#8be9fd">undefined</span>,
+</span></span><span style="display:flex;"><span>theme<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#34;light&#34;</span>,
+</span></span><span style="display:flex;"><span>transition: <span style="color:#8be9fd">Bounce</span>,
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>This is how you can use React Toastify with NextJS. It&rsquo;s a simple and easy to use library for showing toasts in your app.</p>
+<h2 id="resources">Resources<a class="anchorjs-link" href="#resources"></a></h2><ul>
+<li><a href="https://fkhadra.github.io/react-toastify/introduction" target="_blank">React Toastify Docs</a></li>
+</ul>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/week-13-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 13 Google Summer of Code @ LLVM">
+            <a href="/posts/week-21-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 21 Google Summer of Code @ LLVM">
               Previous<br>
-              <span>Week 13 Google Summer of Code @ LLVM</span>
+              <span>Week 21 Google Summer of Code @ LLVM</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/how-to-publish-a-bash-script-to-homebrew/" data-toggle="tooltip" data-placement="top" title="How to Publish a Bash Script to Homebrew">
-              Next<br>
-              <span>How to Publish a Bash Script to Homebrew</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
