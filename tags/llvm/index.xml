@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 02 Oct 2024 21:16:17 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 10:21:13 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 22 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-22-gsoc/</link>
+      <pubDate>Sun, 13 Oct 2024 10:21:13 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-22-gsoc/</guid>
+      <description>Wrote documentation for configurations options, creating new website, creating new pages, creating new shortcodes &amp;amp; using data files. Minor enhancements.&#xA;Progress Documentation Configurations options Creating new website Creating new pages Creating new shortcodes Using data files Next Steps Adding pages to the website Adding content to the website ConclusionAs the Google Summer of Code is coming to an end &amp;amp; with me having left with just 2 more weeks more or less to complete the project.</description>
+    </item>
     <item>
       <title>Week 21 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-21-gsoc/</link>
