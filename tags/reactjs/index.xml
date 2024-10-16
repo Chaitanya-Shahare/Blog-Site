@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reactjs on Chaitanya&#39;s blog</title>
+    <link>https://blog.chaitanyashahare.com/tags/reactjs/</link>
+    <description>Recent content in reactjs on Chaitanya&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2024 | Chaitanya Shahare</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 20:21:32 +0530</lastBuildDate>
+    <atom:link href="https://blog.chaitanyashahare.com/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Context API With Custom Hook React</title>
+      <link>https://blog.chaitanyashahare.com/posts/context-api-with-custom-hook-react/</link>
+      <pubDate>Wed, 16 Oct 2024 20:21:32 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/context-api-with-custom-hook-react/</guid>
+      <description>Context API is a way to pass data through the component tree without having to pass props down manually at every level. It is a way to share values like these between components without having to explicitly pass a prop through every level of the tree.&#xA;In this article, we will see how to use Context API with a custom hook in React to manage the color mode of the application.</description>
+    </item>
+    <item>
+      <title>How to Use React Toastify With NextJS</title>
+      <link>https://blog.chaitanyashahare.com/posts/how-to-use-react-toastify-with-next-js/</link>
+      <pubDate>Sat, 05 Oct 2024 19:55:03 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/how-to-use-react-toastify-with-next-js/</guid>
+      <description>React Toastify is a popular library for showing toasts in React applications. It&amp;rsquo;s easy to use and has a lot of customization options. In this post, we will see how to use React Toastify with NextJS.&#xA;1. Installationnpm install --save react-toastify 2. Import CSSapp/layout.tsx&#xA;import &amp;#34;react-toastify/dist/ReactToastify.css&amp;#34;; 3. New component for ToastContainerapp/components/next-toast-container.tsx&#xA;&amp;#34;use client&amp;#34;; export { ToastContainer } from &amp;#34;react-toastify&amp;#34;; We are doing this because, by default all the components in NextJS are server-side rendered, but we want to use the ToastContainer on the client-side only.</description>
+    </item>
+  </channel>
+</rss>

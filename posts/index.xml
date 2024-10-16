@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 20:16:13 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 20:21:32 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Context API With Custom Hook React</title>
+      <link>https://blog.chaitanyashahare.com/posts/context-api-with-custom-hook-react/</link>
+      <pubDate>Wed, 16 Oct 2024 20:21:32 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/context-api-with-custom-hook-react/</guid>
+      <description>Context API is a way to pass data through the component tree without having to pass props down manually at every level. It is a way to share values like these between components without having to explicitly pass a prop through every level of the tree.&#xA;In this article, we will see how to use Context API with a custom hook in React to manage the color mode of the application.</description>
+    </item>
     <item>
       <title>Week 23 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-23-gsoc/</link>

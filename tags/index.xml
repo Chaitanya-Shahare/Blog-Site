@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 20:16:13 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 20:21:32 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>reactjs</title>
+      <link>https://blog.chaitanyashahare.com/tags/reactjs/</link>
+      <pubDate>Wed, 16 Oct 2024 20:21:32 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/reactjs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>gsoc</title>
       <link>https://blog.chaitanyashahare.com/tags/gsoc/</link>
@@ -35,13 +42,6 @@
       <link>https://blog.chaitanyashahare.com/tags/nextjs/</link>
       <pubDate>Sat, 05 Oct 2024 19:55:03 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/tags/nextjs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>react</title>
-      <link>https://blog.chaitanyashahare.com/tags/react/</link>
-      <pubDate>Sat, 05 Oct 2024 19:55:03 +0530</pubDate>
-      <guid>https://blog.chaitanyashahare.com/tags/react/</guid>
       <description></description>
     </item>
     <item>
@@ -343,6 +343,13 @@
       <link>https://blog.chaitanyashahare.com/tags/mysql/</link>
       <pubDate>Tue, 03 Jan 2023 22:46:35 +0530</pubDate>
       <guid>https://blog.chaitanyashahare.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>react</title>
+      <link>https://blog.chaitanyashahare.com/tags/react/</link>
+      <pubDate>Sun, 01 Jan 2023 22:42:47 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/tags/react/</guid>
       <description></description>
     </item>
     <item>
