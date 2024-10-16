@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sun, 13 Oct 2024 10:21:13 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 20:16:13 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 23 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-23-gsoc/</link>
+      <pubDate>Wed, 16 Oct 2024 20:16:13 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-23-gsoc/</guid>
+      <description>Added feedback button to the site using a banner, created features, llvm projects pages, working on making all the links throughout the website usable.&#xA;Progress Add button for redirecting to a google form for feedback create google form here Create banner partial in www-template make the configurable content for the banner write the documentation for this banner partial create UI for the button in www-new repo using the hugo.toml config building new pages Features GSoC Projects LLVM Projects Publications Next Steps building new pages Publications Adding example content to these pages Making all the links throughout the website usable ConclusionThis week I&amp;rsquo;ll try to complete almost everything that I have planned for the website.</description>
+    </item>
     <item>
       <title>Week 22 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-22-gsoc/</link>
