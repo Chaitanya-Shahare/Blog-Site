@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 20:21:32 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 18:51:04 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 24 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-24-gsoc/</link>
+      <pubDate>Sat, 26 Oct 2024 18:51:04 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-24-gsoc/</guid>
+      <description>Add link to existing website, add all the subprojects, add data for /projects-with-llvm page, partially added data (only 2024 data) for /gsoc-projects, created /devmtg/2024-04 EuroLLVM devmeeting page with data. Fixed table of content links.&#xA;Progress Add link to the old website Connect with content creators whenever required e.g. Ask Tanya about which subprojects can be added to the new website Add more sub projects LLVM Projects page Link it to the quicklinks in hero section Fix table of contents links Add smooth scroll GSoC projects GSoC 24 projects content Link it from home page Add Events page 2024-04 Add data for talks Add slides map through data in &amp;ldquo;2024-04/_index.</description>
+    </item>
     <item>
       <title>How to use Context API With Custom Hook React</title>
       <link>https://blog.chaitanyashahare.com/posts/context-api-with-custom-hook-react/</link>

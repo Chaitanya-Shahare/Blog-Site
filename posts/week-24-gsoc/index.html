@@ -11,29 +11,29 @@
     
   
 
-  <title>Week 23 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
+  <title>Week 24 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="Added feedback button to the site using a banner, created features, llvm projects pages, working on making all the links throughout the website usable.
-Progress Add button for redirecting to a google form for feedback create google form here Create banner partial in www-template make the configurable content for the banner write the documentation for this banner partial create UI for the button in www-new repo using the hugo.toml config building new pages Features GSoC Projects LLVM Projects Publications Next Steps building new pages Publications Adding example content to these pages Making all the links throughout the website usable ConclusionThis week I&rsquo;ll try to complete almost everything that I have planned for the website.">
+  <meta name="description" content="Add link to existing website, add all the subprojects, add data for /projects-with-llvm page, partially added data (only 2024 data) for /gsoc-projects, created /devmtg/2024-04 EuroLLVM devmeeting page with data. Fixed table of content links.
+Progress Add link to the old website Connect with content creators whenever required e.g. Ask Tanya about which subprojects can be added to the new website Add more sub projects LLVM Projects page Link it to the quicklinks in hero section Fix table of contents links Add smooth scroll GSoC projects GSoC 24 projects content Link it from home page Add Events page 2024-04 Add data for talks Add slides map through data in &ldquo;2024-04/_index.">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 23 Google Summer of Code @ LLVM"/>
-<meta name="twitter:description" content="Added feedback button to the site using a banner, created features, llvm projects pages, working on making all the links throughout the website usable.
-Progress Add button for redirecting to a google form for feedback create google form here Create banner partial in www-template make the configurable content for the banner write the documentation for this banner partial create UI for the button in www-new repo using the hugo.toml config building new pages Features GSoC Projects LLVM Projects Publications Next Steps building new pages Publications Adding example content to these pages Making all the links throughout the website usable ConclusionThis week I&rsquo;ll try to complete almost everything that I have planned for the website."/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 24 Google Summer of Code @ LLVM"/>
+<meta name="twitter:description" content="Add link to existing website, add all the subprojects, add data for /projects-with-llvm page, partially added data (only 2024 data) for /gsoc-projects, created /devmtg/2024-04 EuroLLVM devmeeting page with data. Fixed table of content links.
+Progress Add link to the old website Connect with content creators whenever required e.g. Ask Tanya about which subprojects can be added to the new website Add more sub projects LLVM Projects page Link it to the quicklinks in hero section Fix table of contents links Add smooth scroll GSoC projects GSoC 24 projects content Link it from home page Add Events page 2024-04 Add data for talks Add slides map through data in &ldquo;2024-04/_index."/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Week 23 Google Summer of Code @ LLVM" />
-<meta property="og:description" content="Added feedback button to the site using a banner, created features, llvm projects pages, working on making all the links throughout the website usable.
-Progress Add button for redirecting to a google form for feedback create google form here Create banner partial in www-template make the configurable content for the banner write the documentation for this banner partial create UI for the button in www-new repo using the hugo.toml config building new pages Features GSoC Projects LLVM Projects Publications Next Steps building new pages Publications Adding example content to these pages Making all the links throughout the website usable ConclusionThis week I&rsquo;ll try to complete almost everything that I have planned for the website." />
+  <meta property="og:title" content="Week 24 Google Summer of Code @ LLVM" />
+<meta property="og:description" content="Add link to existing website, add all the subprojects, add data for /projects-with-llvm page, partially added data (only 2024 data) for /gsoc-projects, created /devmtg/2024-04 EuroLLVM devmeeting page with data. Fixed table of content links.
+Progress Add link to the old website Connect with content creators whenever required e.g. Ask Tanya about which subprojects can be added to the new website Add more sub projects LLVM Projects page Link it to the quicklinks in hero section Fix table of contents links Add smooth scroll GSoC projects GSoC 24 projects content Link it from home page Add Events page 2024-04 Add data for talks Add slides map through data in &ldquo;2024-04/_index." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-23-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-10-16T20:16:13+05:30" />
-<meta property="article:modified_time" content="2024-10-16T20:16:13+05:30" />
-<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-24-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-22-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-21-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-18-gsoc/" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-24-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-26T18:51:04+05:30" />
+<meta property="article:modified_time" content="2024-10-26T18:51:04+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-23-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-22-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-21-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-18-gsoc/" />
 
 
 
@@ -214,11 +214,11 @@ Progress Add button for redirecting to a google form for feedback create google 
             <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Week 23 Google Summer of Code @ LLVM</h1>
+          <h1>Week 24 Google Summer of Code @ LLVM</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, Oct 16, 2024
+            on Sat, Oct 26, 2024
           </span>
         </div>
       </div>
@@ -239,55 +239,68 @@ Progress Add button for redirecting to a google form for feedback create google 
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>Added feedback button to the site using a banner, created features, llvm projects pages, working on making all the links throughout the website usable.</p>
+        <p>Add link to existing website, add all the subprojects, add data for <a href="https://www-new.llvm.org/projects-with-llvm" target="_blank"><code>/projects-with-llvm</code></a> page, partially added data (only 2024 data) for <a href="https://www-new.llvm.org/gsoc-projects" target="_blank"><code>/gsoc-projects</code></a>, created <a href="https://www-new.llvm.org/devmtg/2024-04" target="_blank"> <code>/devmtg/2024-04</code>  </a> EuroLLVM devmeeting page with data. Fixed table of content links.</p>
 <h2 id="progress">Progress<a class="anchorjs-link" href="#progress"></a></h2><ul>
-<li><input checked="" disabled="" type="checkbox"> Add button for redirecting to a google form for feedback
+<li><input checked="" disabled="" type="checkbox"> Add link to the old website</li>
+<li><input checked="" disabled="" type="checkbox"> Connect with content creators whenever required
 <ul>
-<li><input checked="" disabled="" type="checkbox"> create google form <a href="https://docs.google.com/forms/d/1irmZ1vSHtYUqTFQIUqBxl2rjbW4mpaRdzrpBxsqxrsE/edit" target="_blank">here</a></li>
-<li><input checked="" disabled="" type="checkbox"> Create banner partial in www-template</li>
-<li><input checked="" disabled="" type="checkbox"> make the configurable content for the banner</li>
-<li><input checked="" disabled="" type="checkbox"> write the documentation for this banner partial</li>
-<li><input checked="" disabled="" type="checkbox"> create UI for the button in www-new repo using the hugo.toml config</li>
+<li><input checked="" disabled="" type="checkbox"> e.g. Ask Tanya about which subprojects can be added to the new website</li>
 </ul>
 </li>
-<li><input checked="" disabled="" type="checkbox"> building new pages
+<li><input checked="" disabled="" type="checkbox"> Add more sub projects</li>
+<li><input checked="" disabled="" type="checkbox"> LLVM Projects page
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Features</li>
-<li><input checked="" disabled="" type="checkbox"> GSoC Projects</li>
-<li><input checked="" disabled="" type="checkbox"> LLVM Projects</li>
-<li><input disabled="" type="checkbox"> Publications</li>
+<li><input checked="" disabled="" type="checkbox"> Link it to the quicklinks in hero section</li>
 </ul>
 </li>
+<li><input checked="" disabled="" type="checkbox"> Fix table of contents links
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Add smooth scroll</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> GSoC projects
+<ul>
+<li><input checked="" disabled="" type="checkbox"> GSoC 24 projects content
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Link it from home page</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> Add Events page
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 2024-04
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Add data for talks</li>
+<li><input checked="" disabled="" type="checkbox"> Add slides</li>
+<li><input checked="" disabled="" type="checkbox"> map through data in &ldquo;2024-04/_index.md:</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> !!! Remove date from single.html in www-template</li>
 </ul>
 <h2 id="next-steps">Next Steps<a class="anchorjs-link" href="#next-steps"></a></h2><ul>
-<li><input disabled="" type="checkbox"> building new pages
-<ul>
-<li><input disabled="" type="checkbox"> Publications</li>
+<li><input disabled="" type="checkbox"> Blog post on the blog.llvm.com</li>
+<li><input disabled="" type="checkbox"> Blog post on the compiler-research.org</li>
+<li><input disabled="" type="checkbox"> Final Submission</li>
+<li><input disabled="" type="checkbox"> Final Presentation</li>
 </ul>
-</li>
-<li><input disabled="" type="checkbox"> Adding example content to these pages</li>
-<li><input disabled="" type="checkbox"> Making all the links throughout the website usable</li>
-</ul>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>This week I&rsquo;ll try to complete almost everything that I have planned for the website. I am excited to see the final website and how it will look. I am also excited to see how the community will react to the new website in the LLVM Dev Meeting.</p>
+<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>This week I have added more data to the website, fixed some issues, and added
+new pages. I am excited to see the final website and how it will look. I am
+looking forward to the final submission and presentation.</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/week-22-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 22 Google Summer of Code @ LLVM">
-              Previous<br>
-              <span>Week 22 Google Summer of Code @ LLVM</span>
-            </a>
-          </li>
-          
-          
-          <li class="next">
             <a href="/posts/context-api-with-custom-hook-react/" data-toggle="tooltip" data-placement="top" title="How to use Context API With Custom Hook React">
-              Next<br>
+              Previous<br>
               <span>How to use Context API With Custom Hook React</span>
             </a>
           </li>
+          
           
         </ul>
         <hr style="visibility: hidden;" />

@@ -3,34 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.chaitanyashahare.com/</loc>
-    <lastmod>2024-10-16T20:21:32+05:30</lastmod>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/series/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/tags/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.chaitanyashahare.com/posts/week-24-gsoc/</loc>
+    <lastmod>2024-10-26T18:51:04+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/context-api-with-custom-hook-react/</loc>
     <lastmod>2024-10-16T20:21:32+05:30</lastmod>
   </url><url>
-    <loc>https://blog.chaitanyashahare.com/posts/</loc>
-    <lastmod>2024-10-16T20:21:32+05:30</lastmod>
-  </url><url>
     <loc>https://blog.chaitanyashahare.com/tags/reactjs/</loc>
     <lastmod>2024-10-16T20:21:32+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/</loc>
-    <lastmod>2024-10-16T20:21:32+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/gsoc/</loc>
-    <lastmod>2024-10-16T20:16:13+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/gsoc/</loc>
-    <lastmod>2024-10-16T20:16:13+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/llvm/</loc>
-    <lastmod>2024-10-16T20:16:13+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/tags/opensource/</loc>
-    <lastmod>2024-10-16T20:16:13+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.chaitanyashahare.com/series/</loc>
-    <lastmod>2024-10-16T20:16:13+05:30</lastmod>
   </url><url>
     <loc>https://blog.chaitanyashahare.com/posts/week-23-gsoc/</loc>
     <lastmod>2024-10-16T20:16:13+05:30</lastmod>
