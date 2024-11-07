@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2024 | Chaitanya Shahare</copyright>
-    <lastBuildDate>Sat, 26 Oct 2024 18:51:04 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 11:36:16 +0530</lastBuildDate>
     <atom:link href="https://blog.chaitanyashahare.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 24 Google Summer of Code @ LLVM</title>
+      <link>https://blog.chaitanyashahare.com/posts/week-25-gsoc/</link>
+      <pubDate>Thu, 07 Nov 2024 11:36:16 +0530</pubDate>
+      <guid>https://blog.chaitanyashahare.com/posts/week-25-gsoc/</guid>
+      <description>This week I added custom 404 page, moved all publications to the new website from llvm-www-pubs repo. GSoC blog posts for LLVM &amp;amp; CR blog, final submission, final presentation.&#xA;IntroductionHello! I’m Chaitanya, and as part of my Google Summer of Code (GSoC) 2024, I contributed to the LLVM project by redesigning the LLVM.org website. My project, titled Improving LLVM.org Website Look and Feel, focused on creating a modern, accessible, and efficient user experience for the LLVM community.</description>
+    </item>
     <item>
       <title>Week 24 Google Summer of Code @ LLVM</title>
       <link>https://blog.chaitanyashahare.com/posts/week-24-gsoc/</link>

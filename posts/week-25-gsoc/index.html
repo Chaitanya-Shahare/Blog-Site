@@ -11,29 +11,26 @@
     
   
 
-  <title>Week 21 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
+  <title>Week 24 Google Summer of Code @ LLVM | Chaitanya&#39;s blog</title>
 
   
   <meta name="author" content="Chaitanya Shahare">
   
-  <meta name="description" content="I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.
-Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?">
+  <meta name="description" content="Wrapping up GSoC 2024 at LLVM Compiler Infrastructure">
   <meta name="keywords" content="blog,developer,personal">
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 21 Google Summer of Code @ LLVM"/>
-<meta name="twitter:description" content="I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.
-Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?"/>
+<meta name="twitter:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta name="twitter:title" content="Week 24 Google Summer of Code @ LLVM"/>
+<meta name="twitter:description" content="Wrapping up GSoC 2024 at LLVM Compiler Infrastructure"/>
 <meta name="twitter:site" content="@ChaiitanyaS"/>
 
-  <meta property="og:title" content="Week 21 Google Summer of Code @ LLVM" />
-<meta property="og:description" content="I made quite a bit of progress during this week. The development version of the new llvm website is live at www-new.llvm.org.
-Progress Deploy the website Fix the table of contents bug using the other hugo themes Documentation for creating new pages in the website Make the footer configurable Create new website for clang for demonstration of usability Make logo configurable Figure out how to make the site home page configurable Add some content to the clang website Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?" />
+  <meta property="og:title" content="Week 24 Google Summer of Code @ LLVM" />
+<meta property="og:description" content="Wrapping up GSoC 2024 at LLVM Compiler Infrastructure" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-21-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-10-02T21:16:17+05:30" />
-<meta property="article:modified_time" content="2024-10-02T21:16:17+05:30" />
-<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-25-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-24-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-23-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-22-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/" />
+<meta property="og:url" content="https://blog.chaitanyashahare.com/posts/week-25-gsoc/" /><meta property="og:image" content="https://blog.chaitanyashahare.com/images/posts/gsoc/opengraph.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-11-07T11:36:16+05:30" />
+<meta property="article:modified_time" content="2024-11-07T11:36:16+05:30" />
+<meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-24-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-23-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-22-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-21-gsoc/" /><meta property="og:see_also" content="https://blog.chaitanyashahare.com/posts/week-19-20-gsoc/" />
 
 
 
@@ -214,11 +211,11 @@ Progress Deploy the website Fix the table of contents bug using the other hugo t
             <a class="tag" href="/tags/opensource/" title="opensource">opensource</a>
             
           </div>
-          <h1>Week 21 Google Summer of Code @ LLVM</h1>
+          <h1>Week 24 Google Summer of Code @ LLVM</h1>
           <h2 class="subheading"></h2>
           <span class="meta">
             Posted by  Chaitanya Shahare 
-            on Wed, Oct 2, 2024
+            on Thu, Nov 7, 2024
           </span>
         </div>
       </div>
@@ -239,55 +236,91 @@ Progress Deploy the website Fix the table of contents bug using the other hugo t
               col-lg-8 col-lg-offset-2
               col-md-10 col-md-offset-1
               post-container">
-        <p>I made quite a bit of progress during this week. The development version of the new
-llvm website is live at <a href="https://www-new.llvm.org" target="_blank">www-new.llvm.org</a>.</p>
-<h2 id="progress">Progress<a class="anchorjs-link" href="#progress"></a></h2><ul>
-<li><input checked="" disabled="" type="checkbox"> Deploy the website</li>
-<li><input checked="" disabled="" type="checkbox"> Fix the table of contents bug using the other hugo themes</li>
-<li><input checked="" disabled="" type="checkbox"> Documentation for creating new pages in the website</li>
-<li><input checked="" disabled="" type="checkbox"> Make the footer configurable</li>
-<li><input checked="" disabled="" type="checkbox"> Create new website for clang for demonstration of usability</li>
-<li><input checked="" disabled="" type="checkbox"> Make logo configurable</li>
-<li><input checked="" disabled="" type="checkbox"> Figure out how to make the site home page configurable</li>
-<li><input checked="" disabled="" type="checkbox"> Add some content to the clang website</li>
-<li><input checked="" disabled="" type="checkbox"> Share the clang website testing url with Tanya &amp; Vassil &amp; ask if that&rsquo;s what they wanted?</li>
-<li><input checked="" disabled="" type="checkbox"> Work towards other things based on the feedback</li>
-<li><input checked="" disabled="" type="checkbox"> Make some changes to the www-new to have it redeployed</li>
-<li><input checked="" disabled="" type="checkbox"> Respond on the <strong>RFC</strong> with the live link</li>
-</ul>
-<h2 id="next-steps">Next Steps<a class="anchorjs-link" href="#next-steps"></a></h2><ul>
-<li><input disabled="" type="checkbox"> Documentation
+        <p>This week I added custom 404 page, moved all publications to the new website from llvm-www-pubs repo. GSoC blog posts for LLVM &amp; CR blog, final submission, final presentation.</p>
+<h3 id="introduction">Introduction<a class="anchorjs-link" href="#introduction"></a></h3><p>Hello! I’m Chaitanya, and as part of my Google Summer of Code (GSoC) 2024, I contributed to the LLVM project by redesigning the LLVM.org website. My
+project, titled <em>Improving LLVM.org Website Look and Feel</em>, focused on creating
+a modern, accessible, and efficient user experience for the LLVM community.
+Working with Hugo as a static site generator, I aimed to streamline content
+organization, enhance site flexibility, and make the content management process
+more accessible for contributors.</p>
 <ul>
-<li><input disabled="" type="checkbox"> Creating a new website</li>
-<li><input disabled="" type="checkbox"> Creating a new page</li>
-<li><input disabled="" type="checkbox"> Creating a new shortcode (UI component using data files)</li>
+<li><strong>Contributor:</strong> <a href="https://github.com/Chaitanya-Shahare" target="_blank">Chaitanya Shahare</a></li>
+<li><strong>Mentors:</strong> <a href="https://github.com/tlattner" target="_blank">Tanya Lattner</a>, <a href="https://github.com/vgvassilev" target="_blank">Vassil Vassilev</a></li>
+<li><strong>Project:</strong> <a href="https://llvm.org/OpenProjects.html#llvm_www" target="_blank">Improve LLVM.org Website Look and Feel</a></li>
+</ul>
+<h3 id="project-overview">Project Overview<a class="anchorjs-link" href="#project-overview"></a></h3><p>As part of Google Summer of Code 2024, my project focused on revamping the LLVM.org website to deliver a modern, accessible, and user-friendly experience. The project aimed to address key areas for improvement, including a refreshed design, better content organization, and simplified maintainability for developers and contributors. Using the Hugo static site generator, this project established a new modular structure and enhanced configurability for the LLVM website.</p>
+<h3 id="project-goals">Project Goals<a class="anchorjs-link" href="#project-goals"></a></h3><p>The primary goals of this project included:</p>
+<ul>
+<li><strong>Creating a New Hugo-Based Theme</strong>: Building a modular, reusable theme with a responsive and accessible design.</li>
+<li><strong>Improving Content Organization</strong>: Streamlining the site’s structure to simplify navigation and information discovery.</li>
+<li><strong>Using Yaml Datafiles</strong>: Making the website’s content management accessible, using yaml data files. Separation of data &amp; styles.</li>
+</ul>
+<h3 id="key-achievements">Key Achievements<a class="anchorjs-link" href="#key-achievements"></a></h3><p>Over the summer, the following components were developed to create the new LLVM website:</p>
+<ol>
+<li>
+<p><strong>Custom Hugo Theme Development</strong></p>
+<ul>
+<li>Developed a reusable theme using Hugo with SCSS, focused on modularity and extendability.</li>
+<li>Built custom shortcodes for key website features, such as table of contents, project cards, and events, making page creation simple and uniform.</li>
 </ul>
 </li>
-<li><input disabled="" type="checkbox"> Add content and pages to the entire website.</li>
+<li>
+<p><strong>Dynamic Content Pages</strong></p>
+<ul>
+<li>Created dynamic, YAML-driven pages for subprojects, GSoC projects, Developer Meetings, and Publications. This setup allows for easy additions or updates directly from YAML files without editing HTML or markdown code.</li>
 </ul>
-<h2 id="conclusion">Conclusion<a class="anchorjs-link" href="#conclusion"></a></h2><p>As the Google Summer of Code is coming to an end &amp; with me having left with just
-3 more weeks more or less to complete the project. I am excited to see the final
-website and how it will look. I am also excited to see how the community will react
-to the new website once it is hosted on the llvm.org.</p>
+</li>
+<li>
+<p><strong>Comprehensive Documentation</strong></p>
+<ul>
+<li>Created extensive documentation for configuring, updating, and maintaining the site, making it easier for future contributors to onboard and extend.</li>
+<li>Set up and deployed a staging environment for thorough testing and community feedback.</li>
+</ul>
+</li>
+<li>
+<p><strong>Repository Structure and Configurability</strong></p>
+<ul>
+<li>Set up two repositories: one for the main website and another for the Hugo theme, making the theme reusable across other LLVM subprojects, such as Clang.</li>
+<li>Ensured the website’s key elements, such as the homepage, logo, and footer, are easily configurable via <code>hugo.yml</code> and markdown files.</li>
+</ul>
+</li>
+</ol>
+<h3 id="impact-on-the-community">Impact on the Community<a class="anchorjs-link" href="#impact-on-the-community"></a></h3><p>This project is an important step towards providing a more accessible and visually engaging website for the LLVM community. The modular approach with Hugo allows for rapid content updates and new page additions. The new website structure, with improved design and user experience, is expected to better serve LLVM’s diverse user base.</p>
+<h3 id="challenges-and-learning">Challenges and Learning<a class="anchorjs-link" href="#challenges-and-learning"></a></h3><p>Throughout the project, there were technical challenges, especially regarding implementing reusable components and ensuring the website remained modular. The learning process involved optimizing the Hugo theme for usability, maintaining code quality, and working with community feedback to refine the designs.</p>
+<h3 id="future-directions">Future Directions<a class="anchorjs-link" href="#future-directions"></a></h3><ul>
+<li><strong>Expanding Content</strong>: Incorporating more LLVM dev meetings pages.</li>
+<li><strong>Continuous Integration</strong>: Add CI for checking broken links, build status, assets&rsquo; sizes, etc.</li>
+<li><strong>Clang Website</strong>: Applying this reusable theme structure to create a website for Clang.</li>
+<li><strong>Community Contributions</strong>: Engaging with the community to ensure continuous content updates and feedback on the website’s evolving structure.</li>
+</ul>
+<h3 id="acknowledgements">Acknowledgements<a class="anchorjs-link" href="#acknowledgements"></a></h3><p>I am incredibly grateful to my mentors, the LLVM community &amp; the Compiler Research team for their guidance, feedback, and encouragement throughout this project. Their support was invaluable in shaping the project and addressing challenges along the way.</p>
+<h3 id="project-links">Project Links<a class="anchorjs-link" href="#project-links"></a></h3><ul>
+<li><strong>New Website Link:</strong> <a href="https://www-new.llvm.org/" target="_blank">www-new.llvm.org</a></li>
+<li><strong>GitHub Repositories:</strong>
+<ul>
+<li>Website Repo: <a href="https://github.com/llvm/www-new" target="_blank">llvm/www-new</a></li>
+<li>Hugo Theme Repo: <a href="https://github.com/llvm/www-template" target="_blank">llvm/www-template</a></li>
+</ul>
+</li>
+<li><strong>Personal GSoC Series for detailed logs</strong>: <a href="/series/gsoc/" target="_blank">Project Diary</a></li>
+<li><strong>Final Presentation for the project</strong>: <a href="/assets/docs/CaaS_Weekly_06_11_2024_Chaitanya_Shahare_llvm_org_website_redesign_final.pdf">Presentation</a></li>
+<li><strong>Final Submission to GSoC</strong>: <a href="https://gist.github.com/Chaitanya-Shahare/729343d0ff27e19c0486292ed6c3fcf8/" target="_blank">Submission</a></li>
+<li><strong>Blog at Compiler Research</strong>: <a href="https://compiler-research.org/blogs/gsoc24_chaitanya_shahare_introduction_final_blog/" target="_blank">Blog</a></li>
+<li><strong>Blog at LLVM</strong>: <a href="/">Blog</a></li>
+</ul>
+<p>This project has been a rewarding journey, and I look forward to seeing the LLVM website continue to evolve and grow with the community&rsquo;s needs. Thank you, Google Summer of Code, LLVM &amp; Compiler Research for this incredible experience!</p>
 
 
         <hr style="visibility: hidden;" />
         <ul class="pager">
           
           <li class="previous">
-            <a href="/posts/week-19-20-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 19 &amp; 20 Google Summer of Code @ LLVM">
+            <a href="/posts/week-24-gsoc/" data-toggle="tooltip" data-placement="top" title="Week 24 Google Summer of Code @ LLVM">
               Previous<br>
-              <span>Week 19 &amp; 20 Google Summer of Code @ LLVM</span>
+              <span>Week 24 Google Summer of Code @ LLVM</span>
             </a>
           </li>
           
-          
-          <li class="next">
-            <a href="/posts/how-to-use-react-toastify-with-next-js/" data-toggle="tooltip" data-placement="top" title="How to Use React Toastify With NextJS">
-              Next<br>
-              <span>How to Use React Toastify With NextJS</span>
-            </a>
-          </li>
           
         </ul>
         <hr style="visibility: hidden;" />
